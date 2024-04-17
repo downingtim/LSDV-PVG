@@ -1,0 +1,36 @@
+id: 'nf-core-pangenome-summary'
+description: ' - this information is collected when the pipeline is started.'
+section_name: 'nf-core/pangenome Workflow Summary'
+section_href: 'https://github.com/nf-core/pangenome'
+plot_type: 'html'
+data: |
+    <p style="font-size:110%"><b>Core Nextflow options</b></p>
+    <dl class="dl-horizontal">
+        <dt>revision</dt><dd><samp>master</samp></dd>
+        <dt>runName</dt><dd><samp>scruffy_euler</samp></dd>
+        <dt>launchDir</dt><dd><samp>/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST</samp></dd>
+        <dt>workDir</dt><dd><samp>/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST/work</samp></dd>
+        <dt>projectDir</dt><dd><samp>/mnt/lustre/RDS-live/downing/.nextflow/assets/nf-core/pangenome</samp></dd>
+        <dt>userName</dt><dd><samp>downing</samp></dd>
+        <dt>profile</dt><dd><samp>standard</samp></dd>
+        <dt>configFiles</dt><dd><samp><span style="color:#999999;">N/A</a></samp></dd>
+    </dl>
+    <p style="font-size:110%"><b>Input/output options</b></p>
+    <dl class="dl-horizontal">
+        <dt>input</dt><dd><samp>lumpy_2_skin_2_disease_2_virus_2_2_.fasta.gz</samp></dd>
+        <dt>n_haplotypes</dt><dd><samp>135</samp></dd>
+        <dt>outdir</dt><dd><samp>LSDV</samp></dd>
+    </dl>
+    <p style="font-size:110%"><b>Wfmash Options</b></p>
+    <dl class="dl-horizontal">
+        <dt>wfmash_map_pct_id</dt><dd><samp>90.0</samp></dd>
+        <dt>wfmash_segment_length</dt><dd><samp>1000</samp></dd>
+    </dl>
+    <p style="font-size:110%"><b>Seqwish Options</b></p>
+    <dl class="dl-horizontal">
+        <dt>seqwish_sparse_factor</dt><dd><samp>0.0</samp></dd>
+    </dl>
+    <p style="font-size:110%"><b>Community</b></p>
+    <dl class="dl-horizontal">
+        <dt>communities</dt><dd><samp>true</samp></dd>
+    </dl>

@@ -1,0 +1,119 @@
+[10:53:56] This is prokka 1.14.6
+[10:53:56] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[10:53:56] Homepage is https://github.com/tseemann/prokka
+[10:53:56] Local time is Mon Apr 15 10:53:56 2024
+[10:53:56] You are downing
+[10:53:56] Operating system is linux
+[10:53:56] You have BioPerl 1.7.8
+Argument "1.7.8" isn't numeric in numeric lt (<) at /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka line 259.
+[10:53:56] System has 64 cores.
+[10:53:56] Will use maximum of 8 cores.
+[10:53:56] Annotating as >>> Viruses <<<
+[10:53:56] Generating locus_tag from '../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000.fa' contents.
+[10:53:56] Setting --locustag LCHLHAEM from MD5 5c151ae6b5f7a4f6ed51d6bbda44c264
+[10:53:56] Re-using existing --outdir ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA
+[10:53:56] Using filename prefix: AY077835.1_Goatpox_virus_Pellor_2000.XXX
+[10:53:56] Setting HMMER_NCPU=1
+[10:53:56] Writing log to: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.log
+[10:53:56] Command: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka --kingdom Viruses --proteins KX894508.gb --gffver 3 --usegenus --outdir ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA --force --genus Capripoxvirus --prefix AY077835.1_Goatpox_virus_Pellor_2000 ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000.fa
+[10:53:56] Appending to PATH: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin
+[10:53:56] Looking for 'aragorn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/aragorn
+[10:53:56] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[10:53:56] Looking for 'barrnap' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/barrnap
+[10:53:56] Determined barrnap version is 000009 from 'barrnap 0.9'
+[10:53:56] Looking for 'blastp' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/blastp
+[10:53:57] Determined blastp version is 002013 from 'blastp: 2.13.0+'
+[10:53:57] Looking for 'cmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmpress
+[10:53:57] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[10:53:57] Looking for 'cmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmscan
+[10:53:57] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[10:53:57] Looking for 'egrep' - found /usr/bin/egrep
+[10:53:57] Looking for 'find' - found /usr/bin/find
+[10:53:57] Looking for 'grep' - found /usr/bin/grep
+[10:53:57] Looking for 'hmmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmpress
+[10:53:57] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[10:53:57] Looking for 'hmmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmscan
+[10:53:57] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[10:53:57] Looking for 'java' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/java
+[10:53:57] Looking for 'makeblastdb' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/makeblastdb
+[10:53:57] Determined makeblastdb version is 002013 from 'makeblastdb: 2.13.0+'
+[10:53:57] Looking for 'minced' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/minced
+[10:53:57] Determined minced version is 004002 from 'minced 0.4.2'
+[10:53:57] Looking for 'parallel' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/parallel
+[10:53:57] Determined parallel version is 20220922 from 'GNU parallel 20220922'
+[10:53:57] Looking for 'prodigal' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prodigal
+[10:53:57] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[10:53:57] Looking for 'prokka-genbank_to_fasta_db' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka-genbank_to_fasta_db
+[10:53:57] Looking for 'sed' - found /cm/shared/apps/mambaforge/envs/R.4.2.2/bin/sed
+[10:53:57] Looking for 'tbl2asn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/tbl2asn
+[10:53:57] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[10:53:57] Using genetic code table 1.
+[10:53:57] Loading and checking input file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000.fa
+[10:53:57] Wrote 1 contigs totalling 149599 bp.
+[10:53:57] Predicting tRNAs and tmRNAs
+[10:53:57] Running: aragorn -l -gc1  -w \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/AY077835\.1_Goatpox_virus_Pellor_2000_PROKKA\/AY077835\.1_Goatpox_virus_Pellor_2000\.fna
+[10:53:57] Found 0 tRNAs
+[10:53:57] Disabling rRNA search: --kingdom=Viruses or --norrna=0
+[10:53:57] Skipping ncRNA search, enable with --rfam if desired.
+[10:53:57] Total of 0 tRNA + rRNA features
+[10:53:57] Searching for CRISPR repeats
+[10:53:57] Found 0 CRISPRs
+[10:53:57] Predicting coding sequences
+[10:53:57] Contigs total 149599 bp, so using single mode
+[10:53:57] Running: prodigal -i \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/AY077835\.1_Goatpox_virus_Pellor_2000_PROKKA\/AY077835\.1_Goatpox_virus_Pellor_2000\.fna -c -m -g 1 -p single -f sco -q
+[10:53:57] Found 149 CDS
+[10:53:57] Connecting features back to sequences
+[10:53:57] Skipping genus-specific proteins as can't see /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/db/Capripoxvirus
+[10:53:57] Annotating CDS, please be patient.
+[10:53:57] Will use 8 CPUs for similarity searching.
+[10:53:57] There are still 149 unannotated CDS left (started with 149)
+[10:53:57] Will use blast to search against /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/db/kingdom/Viruses/sprot with 8 CPUs
+[10:53:57] Running: cat \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/AY077835\.1_Goatpox_virus_Pellor_2000_PROKKA\/AY077835\.1_Goatpox_virus_Pellor_2000\.sprot\.tmp\.1751979\.faa | parallel --gnu --plain -j 8 --block 2927 --recstart '>' --pipe blastp -query - -db /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/db/kingdom/Viruses/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/AY077835\.1_Goatpox_virus_Pellor_2000_PROKKA\/AY077835\.1_Goatpox_virus_Pellor_2000\.sprot\.tmp\.1751979\.blast 2> /dev/null
+[10:53:59] Modify product: Protein J1 homolog => Protein J1 
+[10:53:59] Modify product: Probable dual specificity protein phosphatase H1 homolog => putative dual specificity protein phosphatase H1 
+[10:53:59] Modify product: Viral interleukin-10 homolog => Viral interleukin-10 
+[10:53:59] Modify product: Probable FAD-linked sulfhydryl oxidase E10 => putative FAD-linked sulfhydryl oxidase E10
+[10:53:59] Cleaned 4 /product names
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.sprot.tmp.1751979.faa
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.sprot.tmp.1751979.blast
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/proteins.psq
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/proteins.phr
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/proteins.pin
+[10:53:59] Labelling remaining 49 proteins as 'hypothetical protein'
+[10:53:59] Possible /pseudo 'Ankyrin repeat domain-containing protein M-T5' at AY077835.1_Goatpox_virus_Pellor_2000 position 141206
+[10:53:59] Found 34 unique /gene codes.
+[10:53:59] Fixed 2 duplicate /gene - KBTB1_1 KBTB1_2
+[10:53:59] Fixed 1 colliding /gene names.
+[10:53:59] Adding /locus_tag identifiers
+[10:53:59] Assigned 149 locus_tags to CDS and RNA features.
+[10:53:59] Writing outputs to ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/
+[10:53:59] Generating annotation statistics file
+[10:53:59] Generating Genbank and Sequin files
+[10:53:59] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/AY077835\.1_Goatpox_virus_Pellor_2000_PROKKA\/AY077835\.1_Goatpox_virus_Pellor_2000\.err -i \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/AY077835\.1_Goatpox_virus_Pellor_2000_PROKKA\/AY077835\.1_Goatpox_virus_Pellor_2000\.fsa 2> /dev/null
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/errorsummary.val
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.dr
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.fixedproducts
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.ecn
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.val
+[10:53:59] Repairing broken .GBK output that tbl2asn produces...
+[10:53:59] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/AY077835\.1_Goatpox_virus_Pellor_2000_PROKKA\/AY077835\.1_Goatpox_virus_Pellor_2000\.gbf > \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/AY077835\.1_Goatpox_virus_Pellor_2000_PROKKA\/AY077835\.1_Goatpox_virus_Pellor_2000\.gbk
+[10:53:59] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.gbf
+[10:53:59] Output files:
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.tbl
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.gff
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.err
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.faa
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.tsv
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.fsa
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.log
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.txt
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.gbk
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.sqn
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.fna
+[10:53:59] ../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000.ffn
+[10:53:59] Annotation finished successfully.
+[10:53:59] Walltime used: 0.05 minutes
+[10:53:59] If you use this result please cite the Prokka paper:
+[10:53:59] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[10:53:59] Type 'prokka --citation' for more details.
+[10:53:59] Share and enjoy!

@@ -1,0 +1,2 @@
+oriented_parent_nodes	oriented_child_nodes	prefix_length	prefix
+>8	>9,>11,>12,>10,>13	43	ATTAGTTCTTATACTAAAGATTTTAGGATTTGTGATATATGCA

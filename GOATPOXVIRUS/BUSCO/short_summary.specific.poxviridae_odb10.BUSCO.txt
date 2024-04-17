@@ -1,0 +1,30 @@
+# BUSCO version is: 5.5.0 
+# The lineage dataset is: poxviridae_odb10 (Creation date: 2024-01-08, number of genomes: 39, number of BUSCOs: 18)
+# Summarized benchmarking in BUSCO notation for file /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/goatpox_2_virus_2_2_.fasta
+# BUSCO was run in mode: prok_genome
+# Gene predictor used: prodigal
+
+	***** Results: *****
+
+	C:100.0%[S:0.0%,D:100.0%],F:0.0%,M:0.0%,n:18	   
+	18	Complete BUSCOs (C)			   
+	0	Complete and single-copy BUSCOs (S)	   
+	18	Complete and duplicated BUSCOs (D)	   
+	0	Fragmented BUSCOs (F)			   
+	0	Missing BUSCOs (M)			   
+	18	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	13	Number of scaffolds
+	13	Number of contigs
+	1947701	Total length
+	1.336%	Percent gaps
+	150 KB	Scaffold N50
+	148 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.3
+	bbtools: 39.01
+	prodigal: 2.6.3
+	busco: 5.5.0

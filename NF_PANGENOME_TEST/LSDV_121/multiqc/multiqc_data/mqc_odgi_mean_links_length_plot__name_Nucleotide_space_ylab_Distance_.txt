@@ -1,0 +1,2 @@
+Sample	Mean links length: nucleotide space
+LSDV_genomes	1.36886

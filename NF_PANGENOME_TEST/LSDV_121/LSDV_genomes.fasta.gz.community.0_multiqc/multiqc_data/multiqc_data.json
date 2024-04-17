@@ -1,0 +1,197 @@
+{
+    "report_data_sources": {
+        "ODGI": {
+            "all_sections": {
+                "LSDV_genomes": "/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST/work/9d/797f3d485fb2a0513c1a82511b8f94/2/LSDV_genomes.fasta.gz.community.0.gfaffix.og.stats.yaml",
+                "seqwish": "/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST/work/9d/797f3d485fb2a0513c1a82511b8f94/1/LSDV_genomes.fasta.gz.community.0.seqwish.og.stats.yaml"
+            }
+        }
+    },
+    "report_general_stats_data": [],
+    "report_general_stats_headers": [],
+    "report_multiqc_command": "/mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/multiqc --force --outdir LSDV_genomes.fasta.gz.community.0_multiqc --config multiqc_config.yml .",
+    "report_plot_data": {
+        "odgi_sum_of_path_nodes_distances_plot-1": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "LSDV_genomes",
+                    "seqwish"
+                ],
+                [
+                    "LSDV_genomes",
+                    "seqwish"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Sum of distances: node space",
+                        "data": [
+                            1.41732,
+                            16.5985
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Sum of distances: nucleotide space",
+                        "data": [
+                            1.00007,
+                            11.5607
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "odgi_sum_of_path_nodes_distances_plot-1",
+                "title": "ODGI: Sum of path node distances",
+                "ylab": "Distance",
+                "yDecimals": false,
+                "cpswitch": false,
+                "logswitch": true,
+                "logswitch_active": true,
+                "data_labels": [
+                    {
+                        "name": "Node space",
+                        "ylab": "Distance"
+                    },
+                    {
+                        "name": "Nucleotide space",
+                        "ylab": "Distance"
+                    }
+                ],
+                "reversedStacks": true
+            }
+        },
+        "odgi_mean_links_length_plot-1": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "LSDV_genomes",
+                    "seqwish"
+                ],
+                [
+                    "LSDV_genomes",
+                    "seqwish"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Mean links length: node space",
+                        "data": [
+                            0.434426,
+                            8.12879
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Mean links length: nucleotide space",
+                        "data": [
+                            0.45082,
+                            27901.1
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "odgi_mean_links_length_plot-1",
+                "title": "ODGI: Mean links length",
+                "ylab": "Distance",
+                "yDecimals": false,
+                "cpswitch": false,
+                "logswitch": true,
+                "logswitch_active": true,
+                "data_labels": [
+                    {
+                        "name": "Node space",
+                        "ylab": "Distance"
+                    },
+                    {
+                        "name": "Nucleotide space",
+                        "ylab": "Distance"
+                    }
+                ],
+                "reversedStacks": true
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_odgi_stats": {
+            "LSDV_genomes": {
+                "length": 150784.0,
+                "nodes": 36.0,
+                "edges": 49.0,
+                "paths": 5.0,
+                "components": 1.0,
+                "A": 56542.0,
+                "C": 19091.0,
+                "T": 54751.0,
+                "G": 19799.0,
+                "N": 601.0,
+                "total": 0.0,
+                "unique": 0.0,
+                "mean_links_length_path": "all_paths",
+                "mean_links_length_in_node_space": 0.434426,
+                "mean_links_length_in_nucleotide_space": 0.45082,
+                "mean_links_length_num_links_considered": 122,
+                "mean_links_length_num_gap_links_not_penalized": 0,
+                "sum_of_path_nodes_distances_path": "all_paths",
+                "sum_of_path_nodes_distances_in_node_space": 1.41732,
+                "sum_of_path_nodes_distances_in_nucleotide_space": 1.00007,
+                "sum_of_path_nodes_distances_nodes": 127,
+                "sum_of_path_nodes_distances_nucleotides": 753865,
+                "sum_of_path_nodes_distances_num_penalties": 0,
+                "sum_of_path_nodes_distances_num_penalties_different_orientation": 0,
+                "pct_gc": 25.791861205432937,
+                "pct_n": 0.3985834040747029
+            },
+            "seqwish": {
+                "length": 153476.0,
+                "nodes": 46.0,
+                "edges": 59.0,
+                "paths": 5.0,
+                "components": 1.0,
+                "A": 56598.0,
+                "C": 19159.0,
+                "T": 54859.0,
+                "G": 19855.0,
+                "N": 3005.0,
+                "total": 0.0,
+                "unique": 0.0,
+                "mean_links_length_path": "all_paths",
+                "mean_links_length_in_node_space": 8.12879,
+                "mean_links_length_in_nucleotide_space": 27901.1,
+                "mean_links_length_num_links_considered": 132,
+                "mean_links_length_num_gap_links_not_penalized": 0,
+                "sum_of_path_nodes_distances_path": "all_paths",
+                "sum_of_path_nodes_distances_in_node_space": 16.5985,
+                "sum_of_path_nodes_distances_in_nucleotide_space": 11.5607,
+                "sum_of_path_nodes_distances_nodes": 137,
+                "sum_of_path_nodes_distances_nucleotides": 753865,
+                "sum_of_path_nodes_distances_num_penalties": 25,
+                "sum_of_path_nodes_distances_num_penalties_different_orientation": 0,
+                "pct_gc": 25.420261148322865,
+                "pct_n": 1.9579608538142772
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST/work/9d/797f3d485fb2a0513c1a82511b8f94"
+    ],
+    "config_analysis_dir": [
+        "."
+    ],
+    "config_creation_date": "2024-04-04, 12:05 BST",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": "This report has been generated by the <a href=\"https://github.com/nf-core/pangenome/releases/tag/1.1.2\" target=\"_blank\">nf-core/pangenome</a> analysis pipeline. For information about how to interpret these results, please see the <a href=\"https://nf-co.re/pangenome/1.1.2/docs/output\" target=\"_blank\">documentation</a>.\n",
+    "config_report_header_info": null,
+    "config_script_path": "/mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/lib/python3.7/site-packages/multiqc/utils",
+    "config_short_version": "1.14",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.14"
+}

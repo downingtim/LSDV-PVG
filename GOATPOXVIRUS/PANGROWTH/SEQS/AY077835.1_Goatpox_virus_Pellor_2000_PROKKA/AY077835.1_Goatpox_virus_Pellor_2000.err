@@ -1,0 +1,982 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:149 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 149 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:149 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	use protein instead of gene as appropriate
+		2 features contains 'gene'
+DISC_FLATFILE_FIND_ONCALLER:149 objects contain haem
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:6 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:150 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::149 proteins have invalid IDs.
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 170)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 231)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 355)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 275)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 162)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 381)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 211)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 96)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 108)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 49)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 192)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 196)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 155)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 660)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 167)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 904)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 300)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 44)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 2007)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 90)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 641)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 240)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 149 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000 (length 149599, 2001 gap)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::149 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c1888-1166	LCHLHAEM_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Viral interleukin-10	AY077835.1_Goatpox_virus_Pellor_2000:2165-2677	LCHLHAEM_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c3383-2688	LCHLHAEM_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c4472-3405	LCHLHAEM_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Soluble interferon gamma receptor B8	AY077835.1_Goatpox_virus_Pellor_2000:c5362-4535	LCHLHAEM_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c6463-5975	LCHLHAEM_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c7658-6513	LCHLHAEM_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c8394-7759	LCHLHAEM_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein K3	AY077835.1_Goatpox_virus_Pellor_2000:c9735-9466	LCHLHAEM_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c10207-9722	LCHLHAEM_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c10515-10225	LCHLHAEM_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c11036-10506	LCHLHAEM_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	AY077835.1_Goatpox_virus_Pellor_2000:c11515-11075	LCHLHAEM_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Kelch repeat protein F3	AY077835.1_Goatpox_virus_Pellor_2000:c13246-11558	LCHLHAEM_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Ribonucleoside-diphosphate reductase small chain	AY077835.1_Goatpox_virus_Pellor_2000:c14276-13311	LCHLHAEM_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c14410-14312	LCHLHAEM_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c14946-14620	LCHLHAEM_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c15366-15148	LCHLHAEM_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein F9	AY077835.1_Goatpox_virus_Pellor_2000:c16097-15447	LCHLHAEM_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Serine/threonine-protein kinase 2	AY077835.1_Goatpox_virus_Pellor_2000:c17418-16075	LCHLHAEM_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c17692-17564	LCHLHAEM_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c18311-18162	LCHLHAEM_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein F12	AY077835.1_Goatpox_virus_Pellor_2000:c20261-18342	LCHLHAEM_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Envelope phospholipase F13	AY077835.1_Goatpox_virus_Pellor_2000:c21380-20268	LCHLHAEM_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c21553-21407	LCHLHAEM_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c22019-21582	LCHLHAEM_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c22751-22092	LCHLHAEM_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Phosphoprotein F17	AY077835.1_Goatpox_virus_Pellor_2000:22826-23140	LCHLHAEM_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Poly(A) polymerase catalytic subunit	AY077835.1_Goatpox_virus_Pellor_2000:c24568-23144	LCHLHAEM_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E2	AY077835.1_Goatpox_virus_Pellor_2000:c26772-24565	LCHLHAEM_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E3	AY077835.1_Goatpox_virus_Pellor_2000:c27362-26784	LCHLHAEM_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c27982-27377	LCHLHAEM_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:28065-29198	LCHLHAEM_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E6	AY077835.1_Goatpox_virus_Pellor_2000:29208-30908	LCHLHAEM_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E8	AY077835.1_Goatpox_virus_Pellor_2000:30918-31715	LCHLHAEM_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA polymerase	AY077835.1_Goatpox_virus_Pellor_2000:c34744-31712	LCHLHAEM_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	putative FAD-linked sulfhydryl oxidase E10	AY077835.1_Goatpox_virus_Pellor_2000:34778-35065	LCHLHAEM_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E11	AY077835.1_Goatpox_virus_Pellor_2000:c35454-35062	LCHLHAEM_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c37495-35441	LCHLHAEM_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Telomere-binding protein I1	AY077835.1_Goatpox_virus_Pellor_2000:c38545-37601	LCHLHAEM_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c38767-38552	LCHLHAEM_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein I3	AY077835.1_Goatpox_virus_Pellor_2000:c39598-38768	LCHLHAEM_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein I5	AY077835.1_Goatpox_virus_Pellor_2000:c39881-39645	LCHLHAEM_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Telomere-binding protein I6	AY077835.1_Goatpox_virus_Pellor_2000:c41083-39899	LCHLHAEM_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Core protease I7	AY077835.1_Goatpox_virus_Pellor_2000:c42377-41076	LCHLHAEM_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	RNA helicase NPH-II	AY077835.1_Goatpox_virus_Pellor_2000:42383-44413	LCHLHAEM_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Metalloendopeptidase G1	AY077835.1_Goatpox_virus_Pellor_2000:c46197-44410	LCHLHAEM_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein G3	AY077835.1_Goatpox_virus_Pellor_2000:c46439-46194	LCHLHAEM_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Late transcription elongation factor G2	AY077835.1_Goatpox_virus_Pellor_2000:46520-47188	LCHLHAEM_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Glutaredoxin-2	AY077835.1_Goatpox_virus_Pellor_2000:c47532-47152	LCHLHAEM_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Putative nuclease G5	AY077835.1_Goatpox_virus_Pellor_2000:47535-48848	LCHLHAEM_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 7 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:48849-49040	LCHLHAEM_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:49040-49564	LCHLHAEM_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Assembly protein G7	AY077835.1_Goatpox_virus_Pellor_2000:c50699-49578	LCHLHAEM_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Late transcription factor 1	AY077835.1_Goatpox_virus_Pellor_2000:50730-51512	LCHLHAEM_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Myristoylated protein G9	AY077835.1_Goatpox_virus_Pellor_2000:51539-52549	LCHLHAEM_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein L1	AY077835.1_Goatpox_virus_Pellor_2000:52550-53287	LCHLHAEM_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein L2	AY077835.1_Goatpox_virus_Pellor_2000:53316-53594	LCHLHAEM_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein L3	AY077835.1_Goatpox_virus_Pellor_2000:c54560-53604	LCHLHAEM_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Core protein VP8	AY077835.1_Goatpox_virus_Pellor_2000:54585-55346	LCHLHAEM_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein L5	AY077835.1_Goatpox_virus_Pellor_2000:55362-55757	LCHLHAEM_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein J1	AY077835.1_Goatpox_virus_Pellor_2000:55714-56157	LCHLHAEM_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Thymidine kinase	AY077835.1_Goatpox_virus_Pellor_2000:56185-56718	LCHLHAEM_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:56791-57381	LCHLHAEM_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	AY077835.1_Goatpox_virus_Pellor_2000:57440-58441	LCHLHAEM_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein J5	AY077835.1_Goatpox_virus_Pellor_2000:c59320-58919	LCHLHAEM_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:59406-63263	LCHLHAEM_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	putative dual specificity protein phosphatase H1	AY077835.1_Goatpox_virus_Pellor_2000:c63782-63267	LCHLHAEM_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein H2	AY077835.1_Goatpox_virus_Pellor_2000:63798-64370	LCHLHAEM_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Envelope protein H3	AY077835.1_Goatpox_virus_Pellor_2000:c65335-64367	LCHLHAEM_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	RNA polymerase-associated transcription-specificity factor RAP94	AY077835.1_Goatpox_virus_Pellor_2000:c67761-65365	LCHLHAEM_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Late transcription elongation factor H5	AY077835.1_Goatpox_virus_Pellor_2000:67903-68625	LCHLHAEM_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA topoisomerase 1B	AY077835.1_Goatpox_virus_Pellor_2000:68667-69620	LCHLHAEM_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Late protein H7	AY077835.1_Goatpox_virus_Pellor_2000:69640-70083	LCHLHAEM_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	mRNA-capping enzyme catalytic subunit	AY077835.1_Goatpox_virus_Pellor_2000:70111-72639	LCHLHAEM_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Core protein D4	AY077835.1_Goatpox_virus_Pellor_2000:c73068-72601	LCHLHAEM_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	27 kDa core protein	AY077835.1_Goatpox_virus_Pellor_2000:73070-73807	LCHLHAEM_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Uracil-DNA glycosylase	AY077835.1_Goatpox_virus_Pellor_2000:73804-74460	LCHLHAEM_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Primase D5	AY077835.1_Goatpox_virus_Pellor_2000:74503-76863	LCHLHAEM_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Early transcription factor 70 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:76860-78767	LCHLHAEM_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 18 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:78792-79283	LCHLHAEM_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	mRNA-decapping protein D9	AY077835.1_Goatpox_virus_Pellor_2000:79324-79965	LCHLHAEM_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	mRNA-decapping protein D10	AY077835.1_Goatpox_virus_Pellor_2000:79965-80726	LCHLHAEM_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Nucleoside triphosphatase I	AY077835.1_Goatpox_virus_Pellor_2000:c82639-80732	LCHLHAEM_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	mRNA-capping enzyme regulatory subunit	AY077835.1_Goatpox_virus_Pellor_2000:c83527-82664	LCHLHAEM_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Scaffold protein D13	AY077835.1_Goatpox_virus_Pellor_2000:c85216-83567	LCHLHAEM_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Viral late gene transcription factor 2	AY077835.1_Goatpox_virus_Pellor_2000:c85695-85243	LCHLHAEM_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Viral late gene transcription factor 3	AY077835.1_Goatpox_virus_Pellor_2000:c86408-85725	LCHLHAEM_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A2.5	AY077835.1_Goatpox_virus_Pellor_2000:c86647-86420	LCHLHAEM_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Major core protein 4b	AY077835.1_Goatpox_virus_Pellor_2000:c88638-86656	LCHLHAEM_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c89199-88714	LCHLHAEM_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 19 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:89240-89743	LCHLHAEM_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A6	AY077835.1_Goatpox_virus_Pellor_2000:c90867-89740	LCHLHAEM_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Early transcription factor 82 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:c93032-90888	LCHLHAEM_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Intermediate transcription factor 3 small subunit	AY077835.1_Goatpox_virus_Pellor_2000:93089-93961	LCHLHAEM_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Virion membrane protein A9	AY077835.1_Goatpox_virus_Pellor_2000:c94206-93970	LCHLHAEM_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Major core protein 4a precursor	AY077835.1_Goatpox_virus_Pellor_2000:c96921-94207	LCHLHAEM_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A11	AY077835.1_Goatpox_virus_Pellor_2000:96936-97889	LCHLHAEM_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	25 kDa core protein A12L	AY077835.1_Goatpox_virus_Pellor_2000:c98458-97886	LCHLHAEM_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c98721-98518	LCHLHAEM_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Virion membrane protein A14	AY077835.1_Goatpox_virus_Pellor_2000:c99090-98803	LCHLHAEM_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Core protein A15	AY077835.1_Goatpox_virus_Pellor_2000:c99545-99258	LCHLHAEM_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Virion membrane protein A16	AY077835.1_Goatpox_virus_Pellor_2000:c100662-99529	LCHLHAEM_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Virion membrane protein A17 precursor	AY077835.1_Goatpox_virus_Pellor_2000:c101262-100678	LCHLHAEM_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Transcript termination protein A18	AY077835.1_Goatpox_virus_Pellor_2000:101277-102719	LCHLHAEM_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A19	AY077835.1_Goatpox_virus_Pellor_2000:c102924-102700	LCHLHAEM_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c103083-102925	LCHLHAEM_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA polymerase processivity factor component A20	AY077835.1_Goatpox_virus_Pellor_2000:103271-104563	LCHLHAEM_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Resolvase A22	AY077835.1_Goatpox_virus_Pellor_2000:104532-105071	LCHLHAEM_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Intermediate transcription factor 3 large subunit	AY077835.1_Goatpox_virus_Pellor_2000:105064-106221	LCHLHAEM_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	AY077835.1_Goatpox_virus_Pellor_2000:106252-109722	LCHLHAEM_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c110182-109736	LCHLHAEM_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Envelope protein A28	AY077835.1_Goatpox_virus_Pellor_2000:c110605-110183	LCHLHAEM_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 35 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:c111517-110606	LCHLHAEM_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c111710-111486	LCHLHAEM_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c111864-111739	LCHLHAEM_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A32	AY077835.1_Goatpox_virus_Pellor_2000:c112654-111890	LCHLHAEM_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A33	AY077835.1_Goatpox_virus_Pellor_2000:112788-113381	LCHLHAEM_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A34	AY077835.1_Goatpox_virus_Pellor_2000:113411-113926	LCHLHAEM_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A35	AY077835.1_Goatpox_virus_Pellor_2000:113955-114530	LCHLHAEM_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:114567-115433	LCHLHAEM_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:115493-116011	LCHLHAEM_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:116022-116843	LCHLHAEM_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c117749-116847	LCHLHAEM_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:117846-118196	LCHLHAEM_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:118266-118511	LCHLHAEM_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:118567-119052	LCHLHAEM_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:119444-119578	LCHLHAEM_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA ligase	AY077835.1_Goatpox_virus_Pellor_2000:119614-121287	LCHLHAEM_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:121407-127430	LCHLHAEM_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Soluble interferon alpha/beta receptor B18	AY077835.1_Goatpox_virus_Pellor_2000:127500-128582	LCHLHAEM_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:128626-128898	LCHLHAEM_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:129145-130152	LCHLHAEM_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:130182-130742	LCHLHAEM_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	B1 kinase	AY077835.1_Goatpox_virus_Pellor_2000:130781-131698	LCHLHAEM_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:131728-132450	LCHLHAEM_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:132499-133176	LCHLHAEM_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:133178-133585	LCHLHAEM_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:133622-134530	LCHLHAEM_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Kelch repeat and BTB domain-containing protein A55	AY077835.1_Goatpox_virus_Pellor_2000:134652-136295	LCHLHAEM_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:136322-138247	LCHLHAEM_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Envelope phospholipase F13	AY077835.1_Goatpox_virus_Pellor_2000:138370-139608	LCHLHAEM_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Ankyrin repeat domain-containing protein M-T5	AY077835.1_Goatpox_virus_Pellor_2000:139663-141159	LCHLHAEM_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Ankyrin repeat domain-containing protein M-T5	AY077835.1_Goatpox_virus_Pellor_2000:141206-142549	LCHLHAEM_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Serine proteinase inhibitor 2	AY077835.1_Goatpox_virus_Pellor_2000:142571-143584	LCHLHAEM_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:143623-144108	LCHLHAEM_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Kelch repeat and BTB domain-containing protein A55	AY077835.1_Goatpox_virus_Pellor_2000:144149-145807	LCHLHAEM_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Ankyrin repeat domain-containing protein M-T5	AY077835.1_Goatpox_virus_Pellor_2000:145877-147238	LCHLHAEM_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:147712-148434	LCHLHAEM_00149
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	AY077835.1_Goatpox_virus_Pellor_2000:106252-109722	LCHLHAEM_00111
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains 'gene'
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Viral late gene transcription factor 2	AY077835.1_Goatpox_virus_Pellor_2000:c85695-85243	LCHLHAEM_00087
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Viral late gene transcription factor 3	AY077835.1_Goatpox_virus_Pellor_2000:c86408-85725	LCHLHAEM_00088
+
+DiscRep_ALL:DISC_FLATFILE_FIND_ONCALLER::149 objects contain haem
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c1888-1166	LCHLHAEM_00001
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Viral interleukin-10	AY077835.1_Goatpox_virus_Pellor_2000:2165-2677	LCHLHAEM_00002
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c3383-2688	LCHLHAEM_00003
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c4472-3405	LCHLHAEM_00004
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Soluble interferon gamma receptor B8	AY077835.1_Goatpox_virus_Pellor_2000:c5362-4535	LCHLHAEM_00005
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c6463-5975	LCHLHAEM_00006
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c7658-6513	LCHLHAEM_00007
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c8394-7759	LCHLHAEM_00008
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein K3	AY077835.1_Goatpox_virus_Pellor_2000:c9735-9466	LCHLHAEM_00009
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c10207-9722	LCHLHAEM_00010
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c10515-10225	LCHLHAEM_00011
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c11036-10506	LCHLHAEM_00012
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	AY077835.1_Goatpox_virus_Pellor_2000:c11515-11075	LCHLHAEM_00013
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Kelch repeat protein F3	AY077835.1_Goatpox_virus_Pellor_2000:c13246-11558	LCHLHAEM_00014
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Ribonucleoside-diphosphate reductase small chain	AY077835.1_Goatpox_virus_Pellor_2000:c14276-13311	LCHLHAEM_00015
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c14410-14312	LCHLHAEM_00016
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c14946-14620	LCHLHAEM_00017
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c15366-15148	LCHLHAEM_00018
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein F9	AY077835.1_Goatpox_virus_Pellor_2000:c16097-15447	LCHLHAEM_00019
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Serine/threonine-protein kinase 2	AY077835.1_Goatpox_virus_Pellor_2000:c17418-16075	LCHLHAEM_00020
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c17692-17564	LCHLHAEM_00021
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c18311-18162	LCHLHAEM_00022
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein F12	AY077835.1_Goatpox_virus_Pellor_2000:c20261-18342	LCHLHAEM_00023
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Envelope phospholipase F13	AY077835.1_Goatpox_virus_Pellor_2000:c21380-20268	LCHLHAEM_00024
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c21553-21407	LCHLHAEM_00025
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c22019-21582	LCHLHAEM_00026
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c22751-22092	LCHLHAEM_00027
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Phosphoprotein F17	AY077835.1_Goatpox_virus_Pellor_2000:22826-23140	LCHLHAEM_00028
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Poly(A) polymerase catalytic subunit	AY077835.1_Goatpox_virus_Pellor_2000:c24568-23144	LCHLHAEM_00029
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E2	AY077835.1_Goatpox_virus_Pellor_2000:c26772-24565	LCHLHAEM_00030
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E3	AY077835.1_Goatpox_virus_Pellor_2000:c27362-26784	LCHLHAEM_00031
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c27982-27377	LCHLHAEM_00032
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:28065-29198	LCHLHAEM_00033
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E6	AY077835.1_Goatpox_virus_Pellor_2000:29208-30908	LCHLHAEM_00034
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E8	AY077835.1_Goatpox_virus_Pellor_2000:30918-31715	LCHLHAEM_00035
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA polymerase	AY077835.1_Goatpox_virus_Pellor_2000:c34744-31712	LCHLHAEM_00036
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	putative FAD-linked sulfhydryl oxidase E10	AY077835.1_Goatpox_virus_Pellor_2000:34778-35065	LCHLHAEM_00037
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein E11	AY077835.1_Goatpox_virus_Pellor_2000:c35454-35062	LCHLHAEM_00038
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c37495-35441	LCHLHAEM_00039
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Telomere-binding protein I1	AY077835.1_Goatpox_virus_Pellor_2000:c38545-37601	LCHLHAEM_00040
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c38767-38552	LCHLHAEM_00041
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein I3	AY077835.1_Goatpox_virus_Pellor_2000:c39598-38768	LCHLHAEM_00042
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein I5	AY077835.1_Goatpox_virus_Pellor_2000:c39881-39645	LCHLHAEM_00043
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Telomere-binding protein I6	AY077835.1_Goatpox_virus_Pellor_2000:c41083-39899	LCHLHAEM_00044
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Core protease I7	AY077835.1_Goatpox_virus_Pellor_2000:c42377-41076	LCHLHAEM_00045
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	RNA helicase NPH-II	AY077835.1_Goatpox_virus_Pellor_2000:42383-44413	LCHLHAEM_00046
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Metalloendopeptidase G1	AY077835.1_Goatpox_virus_Pellor_2000:c46197-44410	LCHLHAEM_00047
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein G3	AY077835.1_Goatpox_virus_Pellor_2000:c46439-46194	LCHLHAEM_00048
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Late transcription elongation factor G2	AY077835.1_Goatpox_virus_Pellor_2000:46520-47188	LCHLHAEM_00049
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Glutaredoxin-2	AY077835.1_Goatpox_virus_Pellor_2000:c47532-47152	LCHLHAEM_00050
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Putative nuclease G5	AY077835.1_Goatpox_virus_Pellor_2000:47535-48848	LCHLHAEM_00051
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 7 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:48849-49040	LCHLHAEM_00052
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:49040-49564	LCHLHAEM_00053
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Assembly protein G7	AY077835.1_Goatpox_virus_Pellor_2000:c50699-49578	LCHLHAEM_00054
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Late transcription factor 1	AY077835.1_Goatpox_virus_Pellor_2000:50730-51512	LCHLHAEM_00055
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Myristoylated protein G9	AY077835.1_Goatpox_virus_Pellor_2000:51539-52549	LCHLHAEM_00056
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein L1	AY077835.1_Goatpox_virus_Pellor_2000:52550-53287	LCHLHAEM_00057
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein L2	AY077835.1_Goatpox_virus_Pellor_2000:53316-53594	LCHLHAEM_00058
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein L3	AY077835.1_Goatpox_virus_Pellor_2000:c54560-53604	LCHLHAEM_00059
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Core protein VP8	AY077835.1_Goatpox_virus_Pellor_2000:54585-55346	LCHLHAEM_00060
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein L5	AY077835.1_Goatpox_virus_Pellor_2000:55362-55757	LCHLHAEM_00061
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein J1	AY077835.1_Goatpox_virus_Pellor_2000:55714-56157	LCHLHAEM_00062
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Thymidine kinase	AY077835.1_Goatpox_virus_Pellor_2000:56185-56718	LCHLHAEM_00063
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:56791-57381	LCHLHAEM_00064
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	AY077835.1_Goatpox_virus_Pellor_2000:57440-58441	LCHLHAEM_00065
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein J5	AY077835.1_Goatpox_virus_Pellor_2000:c59320-58919	LCHLHAEM_00066
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:59406-63263	LCHLHAEM_00067
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	putative dual specificity protein phosphatase H1	AY077835.1_Goatpox_virus_Pellor_2000:c63782-63267	LCHLHAEM_00068
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein H2	AY077835.1_Goatpox_virus_Pellor_2000:63798-64370	LCHLHAEM_00069
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Envelope protein H3	AY077835.1_Goatpox_virus_Pellor_2000:c65335-64367	LCHLHAEM_00070
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	RNA polymerase-associated transcription-specificity factor RAP94	AY077835.1_Goatpox_virus_Pellor_2000:c67761-65365	LCHLHAEM_00071
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Late transcription elongation factor H5	AY077835.1_Goatpox_virus_Pellor_2000:67903-68625	LCHLHAEM_00072
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA topoisomerase 1B	AY077835.1_Goatpox_virus_Pellor_2000:68667-69620	LCHLHAEM_00073
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Late protein H7	AY077835.1_Goatpox_virus_Pellor_2000:69640-70083	LCHLHAEM_00074
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	mRNA-capping enzyme catalytic subunit	AY077835.1_Goatpox_virus_Pellor_2000:70111-72639	LCHLHAEM_00075
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Core protein D4	AY077835.1_Goatpox_virus_Pellor_2000:c73068-72601	LCHLHAEM_00076
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	27 kDa core protein	AY077835.1_Goatpox_virus_Pellor_2000:73070-73807	LCHLHAEM_00077
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Uracil-DNA glycosylase	AY077835.1_Goatpox_virus_Pellor_2000:73804-74460	LCHLHAEM_00078
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Primase D5	AY077835.1_Goatpox_virus_Pellor_2000:74503-76863	LCHLHAEM_00079
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Early transcription factor 70 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:76860-78767	LCHLHAEM_00080
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 18 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:78792-79283	LCHLHAEM_00081
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	mRNA-decapping protein D9	AY077835.1_Goatpox_virus_Pellor_2000:79324-79965	LCHLHAEM_00082
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	mRNA-decapping protein D10	AY077835.1_Goatpox_virus_Pellor_2000:79965-80726	LCHLHAEM_00083
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Nucleoside triphosphatase I	AY077835.1_Goatpox_virus_Pellor_2000:c82639-80732	LCHLHAEM_00084
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	mRNA-capping enzyme regulatory subunit	AY077835.1_Goatpox_virus_Pellor_2000:c83527-82664	LCHLHAEM_00085
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Scaffold protein D13	AY077835.1_Goatpox_virus_Pellor_2000:c85216-83567	LCHLHAEM_00086
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Viral late gene transcription factor 2	AY077835.1_Goatpox_virus_Pellor_2000:c85695-85243	LCHLHAEM_00087
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Viral late gene transcription factor 3	AY077835.1_Goatpox_virus_Pellor_2000:c86408-85725	LCHLHAEM_00088
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A2.5	AY077835.1_Goatpox_virus_Pellor_2000:c86647-86420	LCHLHAEM_00089
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Major core protein 4b	AY077835.1_Goatpox_virus_Pellor_2000:c88638-86656	LCHLHAEM_00090
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c89199-88714	LCHLHAEM_00091
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 19 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:89240-89743	LCHLHAEM_00092
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A6	AY077835.1_Goatpox_virus_Pellor_2000:c90867-89740	LCHLHAEM_00093
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Early transcription factor 82 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:c93032-90888	LCHLHAEM_00094
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Intermediate transcription factor 3 small subunit	AY077835.1_Goatpox_virus_Pellor_2000:93089-93961	LCHLHAEM_00095
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Virion membrane protein A9	AY077835.1_Goatpox_virus_Pellor_2000:c94206-93970	LCHLHAEM_00096
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Major core protein 4a precursor	AY077835.1_Goatpox_virus_Pellor_2000:c96921-94207	LCHLHAEM_00097
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A11	AY077835.1_Goatpox_virus_Pellor_2000:96936-97889	LCHLHAEM_00098
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	25 kDa core protein A12L	AY077835.1_Goatpox_virus_Pellor_2000:c98458-97886	LCHLHAEM_00099
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c98721-98518	LCHLHAEM_00100
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Virion membrane protein A14	AY077835.1_Goatpox_virus_Pellor_2000:c99090-98803	LCHLHAEM_00101
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Core protein A15	AY077835.1_Goatpox_virus_Pellor_2000:c99545-99258	LCHLHAEM_00102
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Virion membrane protein A16	AY077835.1_Goatpox_virus_Pellor_2000:c100662-99529	LCHLHAEM_00103
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Virion membrane protein A17 precursor	AY077835.1_Goatpox_virus_Pellor_2000:c101262-100678	LCHLHAEM_00104
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Transcript termination protein A18	AY077835.1_Goatpox_virus_Pellor_2000:101277-102719	LCHLHAEM_00105
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A19	AY077835.1_Goatpox_virus_Pellor_2000:c102924-102700	LCHLHAEM_00106
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c103083-102925	LCHLHAEM_00107
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA polymerase processivity factor component A20	AY077835.1_Goatpox_virus_Pellor_2000:103271-104563	LCHLHAEM_00108
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Resolvase A22	AY077835.1_Goatpox_virus_Pellor_2000:104532-105071	LCHLHAEM_00109
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Intermediate transcription factor 3 large subunit	AY077835.1_Goatpox_virus_Pellor_2000:105064-106221	LCHLHAEM_00110
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	AY077835.1_Goatpox_virus_Pellor_2000:106252-109722	LCHLHAEM_00111
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c110182-109736	LCHLHAEM_00112
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Envelope protein A28	AY077835.1_Goatpox_virus_Pellor_2000:c110605-110183	LCHLHAEM_00113
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA-directed RNA polymerase 35 kDa subunit	AY077835.1_Goatpox_virus_Pellor_2000:c111517-110606	LCHLHAEM_00114
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c111710-111486	LCHLHAEM_00115
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c111864-111739	LCHLHAEM_00116
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A32	AY077835.1_Goatpox_virus_Pellor_2000:c112654-111890	LCHLHAEM_00117
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A33	AY077835.1_Goatpox_virus_Pellor_2000:112788-113381	LCHLHAEM_00118
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A34	AY077835.1_Goatpox_virus_Pellor_2000:113411-113926	LCHLHAEM_00119
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Protein A35	AY077835.1_Goatpox_virus_Pellor_2000:113955-114530	LCHLHAEM_00120
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:114567-115433	LCHLHAEM_00121
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:115493-116011	LCHLHAEM_00122
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:116022-116843	LCHLHAEM_00123
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:c117749-116847	LCHLHAEM_00124
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:117846-118196	LCHLHAEM_00125
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:118266-118511	LCHLHAEM_00126
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:118567-119052	LCHLHAEM_00127
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:119444-119578	LCHLHAEM_00128
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	DNA ligase	AY077835.1_Goatpox_virus_Pellor_2000:119614-121287	LCHLHAEM_00129
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:121407-127430	LCHLHAEM_00130
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Soluble interferon alpha/beta receptor B18	AY077835.1_Goatpox_virus_Pellor_2000:127500-128582	LCHLHAEM_00131
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:128626-128898	LCHLHAEM_00132
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:129145-130152	LCHLHAEM_00133
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:130182-130742	LCHLHAEM_00134
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	B1 kinase	AY077835.1_Goatpox_virus_Pellor_2000:130781-131698	LCHLHAEM_00135
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:131728-132450	LCHLHAEM_00136
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:132499-133176	LCHLHAEM_00137
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:133178-133585	LCHLHAEM_00138
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:133622-134530	LCHLHAEM_00139
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Kelch repeat and BTB domain-containing protein A55	AY077835.1_Goatpox_virus_Pellor_2000:134652-136295	LCHLHAEM_00140
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:136322-138247	LCHLHAEM_00141
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Envelope phospholipase F13	AY077835.1_Goatpox_virus_Pellor_2000:138370-139608	LCHLHAEM_00142
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Ankyrin repeat domain-containing protein M-T5	AY077835.1_Goatpox_virus_Pellor_2000:139663-141159	LCHLHAEM_00143
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Ankyrin repeat domain-containing protein M-T5	AY077835.1_Goatpox_virus_Pellor_2000:141206-142549	LCHLHAEM_00144
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Serine proteinase inhibitor 2	AY077835.1_Goatpox_virus_Pellor_2000:142571-143584	LCHLHAEM_00145
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:143623-144108	LCHLHAEM_00146
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Kelch repeat and BTB domain-containing protein A55	AY077835.1_Goatpox_virus_Pellor_2000:144149-145807	LCHLHAEM_00147
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	Ankyrin repeat domain-containing protein M-T5	AY077835.1_Goatpox_virus_Pellor_2000:145877-147238	LCHLHAEM_00148
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:CDS	hypothetical protein	AY077835.1_Goatpox_virus_Pellor_2000:147712-148434	LCHLHAEM_00149
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::6 protein sequences are shorter than 50 aa.
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 49)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 44)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000 (length 149599, 2001 gap)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000 (length 149599, 2001 gap)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000 (length 149599, 2001 gap)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000 (length 149599, 2001 gap)
+
+DiscRep_ALL:MISSING_PROJECT::150 sequences do not include project.
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000 (length 149599, 2001 gap)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 170)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 231)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 355)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 275)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 162)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 381)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 211)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 96)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 108)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 49)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 192)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 196)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 155)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 660)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 167)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 904)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 300)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 44)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 2007)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 90)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 641)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000> (length 240)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000 (length 149599, 2001 gap)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+../../../CURRENT/PANGROWTH/SEQS/AY077835.1_Goatpox_virus_Pellor_2000_PROKKA/AY077835.1_Goatpox_virus_Pellor_2000:AY077835.1_Goatpox_virus_Pellor_2000 (length 149599, 2001 gap)
+

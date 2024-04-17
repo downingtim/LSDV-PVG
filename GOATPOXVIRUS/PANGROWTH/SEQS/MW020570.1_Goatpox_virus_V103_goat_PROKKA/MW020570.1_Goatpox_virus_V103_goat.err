@@ -1,0 +1,835 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:150 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 150 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:150 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	use protein instead of gene as appropriate
+		2 features contains 'gene'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:6 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:151 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::150 proteins have invalid IDs.
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_2 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_3 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_4 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_5 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_6 (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_7 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_8 (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_9 (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_10 (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_11 (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_12 (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_13 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_14 (length 101)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_15 (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_16 (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_17 (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_18 (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_19 (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_20 (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_21 (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_22 (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_23 (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_24 (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_25 (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_26 (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_27 (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_28 (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_29 (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_30 (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_31 (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_32 (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_33 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_34 (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_35 (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_36 (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_37 (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_38 (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_39 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_40 (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_41 (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_42 (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_43 (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_44 (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_45 (length 60)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_46 (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_47 (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_48 (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_49 (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_50 (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_51 (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_52 (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_53 (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_54 (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_55 (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_56 (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_57 (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_58 (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_59 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_60 (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_61 (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_62 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_63 (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_64 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_65 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_66 (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_67 (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_68 (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_69 (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_70 (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_71 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_72 (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_73 (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_74 (length 229)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_75 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_76 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_77 (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_78 (length 156)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_79 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_80 (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_81 (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_82 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_83 (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_84 (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_85 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_86 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_87 (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_88 (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_89 (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_90 (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_91 (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_92 (length 660)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_93 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_94 (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_95 (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_96 (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_97 (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_98 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_99 (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 558)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 1968)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 240)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 150 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat (length 150578, 2001 gap)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::150 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c2231-1509	BOHMNAMF_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Viral interleukin-10	MW020570.1_Goatpox_virus_V103_goat:2508-3020	BOHMNAMF_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c3726-3031	BOHMNAMF_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c4815-3748	BOHMNAMF_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Soluble interferon gamma receptor B8	MW020570.1_Goatpox_virus_V103_goat:c5728-4901	BOHMNAMF_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c6102-5974	BOHMNAMF_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c6927-6439	BOHMNAMF_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	G-protein coupled receptor US28	MW020570.1_Goatpox_virus_V103_goat:c8099-6975	BOHMNAMF_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c8838-8203	BOHMNAMF_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c9153-9043	BOHMNAMF_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c9562-9404	BOHMNAMF_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein K3	MW020570.1_Goatpox_virus_V103_goat:c10200-9931	BOHMNAMF_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c10672-10187	BOHMNAMF_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c10982-10677	BOHMNAMF_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c11503-10973	BOHMNAMF_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	MW020570.1_Goatpox_virus_V103_goat:c11983-11543	BOHMNAMF_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Kelch repeat protein F3	MW020570.1_Goatpox_virus_V103_goat:c13717-12029	BOHMNAMF_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Ribonucleoside-diphosphate reductase small chain	MW020570.1_Goatpox_virus_V103_goat:c14747-13782	BOHMNAMF_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c14881-14783	BOHMNAMF_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c15412-15092	BOHMNAMF_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c15834-15616	BOHMNAMF_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein F9	MW020570.1_Goatpox_virus_V103_goat:c16562-15912	BOHMNAMF_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Serine/threonine-protein kinase 2	MW020570.1_Goatpox_virus_V103_goat:c17883-16540	BOHMNAMF_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c18153-18025	BOHMNAMF_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein F12	MW020570.1_Goatpox_virus_V103_goat:c20751-18832	BOHMNAMF_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Envelope phospholipase F13	MW020570.1_Goatpox_virus_V103_goat:c21870-20758	BOHMNAMF_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c22043-21897	BOHMNAMF_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c22509-22072	BOHMNAMF_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c23242-22583	BOHMNAMF_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Phosphoprotein F17	MW020570.1_Goatpox_virus_V103_goat:23318-23632	BOHMNAMF_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Poly(A) polymerase catalytic subunit	MW020570.1_Goatpox_virus_V103_goat:c25060-23636	BOHMNAMF_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein E2	MW020570.1_Goatpox_virus_V103_goat:c27264-25057	BOHMNAMF_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein E3	MW020570.1_Goatpox_virus_V103_goat:c27809-27276	BOHMNAMF_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c28477-27872	BOHMNAMF_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:28559-29692	BOHMNAMF_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein E6	MW020570.1_Goatpox_virus_V103_goat:29702-31402	BOHMNAMF_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein E8	MW020570.1_Goatpox_virus_V103_goat:31412-32209	BOHMNAMF_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA polymerase	MW020570.1_Goatpox_virus_V103_goat:c35238-32206	BOHMNAMF_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	putative FAD-linked sulfhydryl oxidase E10	MW020570.1_Goatpox_virus_V103_goat:35272-35559	BOHMNAMF_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein E11	MW020570.1_Goatpox_virus_V103_goat:c35948-35556	BOHMNAMF_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c37989-35935	BOHMNAMF_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Telomere-binding protein I1	MW020570.1_Goatpox_virus_V103_goat:c39039-38095	BOHMNAMF_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c39261-39046	BOHMNAMF_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein I3	MW020570.1_Goatpox_virus_V103_goat:c40092-39262	BOHMNAMF_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:40198-40380	BOHMNAMF_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Telomere-binding protein I6	MW020570.1_Goatpox_virus_V103_goat:c41580-40396	BOHMNAMF_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Core protease I7	MW020570.1_Goatpox_virus_V103_goat:c42874-41573	BOHMNAMF_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	RNA helicase NPH-II	MW020570.1_Goatpox_virus_V103_goat:42880-44910	BOHMNAMF_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Metalloendopeptidase G1	MW020570.1_Goatpox_virus_V103_goat:c46694-44907	BOHMNAMF_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein G3	MW020570.1_Goatpox_virus_V103_goat:c46936-46691	BOHMNAMF_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Late transcription elongation factor G2	MW020570.1_Goatpox_virus_V103_goat:47017-47685	BOHMNAMF_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Glutaredoxin-2	MW020570.1_Goatpox_virus_V103_goat:c48029-47649	BOHMNAMF_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Putative nuclease G5	MW020570.1_Goatpox_virus_V103_goat:48032-49345	BOHMNAMF_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA-directed RNA polymerase 7 kDa subunit	MW020570.1_Goatpox_virus_V103_goat:49346-49537	BOHMNAMF_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:49537-50061	BOHMNAMF_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Assembly protein G7	MW020570.1_Goatpox_virus_V103_goat:c51196-50075	BOHMNAMF_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Late transcription factor 1	MW020570.1_Goatpox_virus_V103_goat:51227-52009	BOHMNAMF_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Myristoylated protein G9	MW020570.1_Goatpox_virus_V103_goat:52036-53046	BOHMNAMF_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein L1	MW020570.1_Goatpox_virus_V103_goat:53047-53784	BOHMNAMF_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein L2	MW020570.1_Goatpox_virus_V103_goat:53824-54102	BOHMNAMF_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein L3	MW020570.1_Goatpox_virus_V103_goat:c55069-54113	BOHMNAMF_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Core protein VP8	MW020570.1_Goatpox_virus_V103_goat:55094-55855	BOHMNAMF_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein L5	MW020570.1_Goatpox_virus_V103_goat:55871-56266	BOHMNAMF_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein J1	MW020570.1_Goatpox_virus_V103_goat:56223-56666	BOHMNAMF_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Thymidine kinase	MW020570.1_Goatpox_virus_V103_goat:56694-57227	BOHMNAMF_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:57301-57894	BOHMNAMF_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	MW020570.1_Goatpox_virus_V103_goat:57954-58955	BOHMNAMF_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein J5	MW020570.1_Goatpox_virus_V103_goat:c59834-59433	BOHMNAMF_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:59921-63778	BOHMNAMF_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	putative dual specificity protein phosphatase H1	MW020570.1_Goatpox_virus_V103_goat:c64297-63782	BOHMNAMF_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein H2	MW020570.1_Goatpox_virus_V103_goat:64313-64885	BOHMNAMF_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Envelope protein H3	MW020570.1_Goatpox_virus_V103_goat:c65850-64882	BOHMNAMF_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	RNA polymerase-associated transcription-specificity factor RAP94	MW020570.1_Goatpox_virus_V103_goat:c68276-65880	BOHMNAMF_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Late transcription elongation factor H5	MW020570.1_Goatpox_virus_V103_goat:68419-69108	BOHMNAMF_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA topoisomerase 1B	MW020570.1_Goatpox_virus_V103_goat:69150-70103	BOHMNAMF_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Late protein H7	MW020570.1_Goatpox_virus_V103_goat:70123-70566	BOHMNAMF_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	mRNA-capping enzyme catalytic subunit	MW020570.1_Goatpox_virus_V103_goat:70594-73122	BOHMNAMF_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Core protein D4	MW020570.1_Goatpox_virus_V103_goat:c73554-73084	BOHMNAMF_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	27 kDa core protein	MW020570.1_Goatpox_virus_V103_goat:73556-74293	BOHMNAMF_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Uracil-DNA glycosylase	MW020570.1_Goatpox_virus_V103_goat:74290-74946	BOHMNAMF_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Primase D5	MW020570.1_Goatpox_virus_V103_goat:74989-77349	BOHMNAMF_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Early transcription factor 70 kDa subunit	MW020570.1_Goatpox_virus_V103_goat:77346-79253	BOHMNAMF_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA-directed RNA polymerase 18 kDa subunit	MW020570.1_Goatpox_virus_V103_goat:79278-79769	BOHMNAMF_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	mRNA-decapping protein D9	MW020570.1_Goatpox_virus_V103_goat:79810-80451	BOHMNAMF_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	mRNA-decapping protein D10	MW020570.1_Goatpox_virus_V103_goat:80451-81212	BOHMNAMF_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Nucleoside triphosphatase I	MW020570.1_Goatpox_virus_V103_goat:c83125-81218	BOHMNAMF_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	mRNA-capping enzyme regulatory subunit	MW020570.1_Goatpox_virus_V103_goat:c84013-83150	BOHMNAMF_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Scaffold protein D13	MW020570.1_Goatpox_virus_V103_goat:c85702-84053	BOHMNAMF_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Viral late gene transcription factor 2	MW020570.1_Goatpox_virus_V103_goat:c86181-85729	BOHMNAMF_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Viral late gene transcription factor 3	MW020570.1_Goatpox_virus_V103_goat:c86894-86211	BOHMNAMF_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein A2.5	MW020570.1_Goatpox_virus_V103_goat:c87133-86906	BOHMNAMF_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Major core protein 4b	MW020570.1_Goatpox_virus_V103_goat:c89124-87142	BOHMNAMF_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c89685-89200	BOHMNAMF_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA-directed RNA polymerase 19 kDa subunit	MW020570.1_Goatpox_virus_V103_goat:89726-90232	BOHMNAMF_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein A6	MW020570.1_Goatpox_virus_V103_goat:c91356-90229	BOHMNAMF_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Early transcription factor 82 kDa subunit	MW020570.1_Goatpox_virus_V103_goat:c93521-91377	BOHMNAMF_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Intermediate transcription factor 3 small subunit	MW020570.1_Goatpox_virus_V103_goat:93578-94450	BOHMNAMF_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Virion membrane protein A9	MW020570.1_Goatpox_virus_V103_goat:c94695-94459	BOHMNAMF_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Major core protein 4a precursor	MW020570.1_Goatpox_virus_V103_goat:c97410-94696	BOHMNAMF_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein A11	MW020570.1_Goatpox_virus_V103_goat:97425-98378	BOHMNAMF_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	25 kDa core protein A12L	MW020570.1_Goatpox_virus_V103_goat:c98947-98375	BOHMNAMF_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c99210-99007	BOHMNAMF_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Virion membrane protein A14	MW020570.1_Goatpox_virus_V103_goat:c99578-99291	BOHMNAMF_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Core protein A15	MW020570.1_Goatpox_virus_V103_goat:c100033-99746	BOHMNAMF_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Virion membrane protein A16	MW020570.1_Goatpox_virus_V103_goat:c101150-100017	BOHMNAMF_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Virion membrane protein A17 precursor	MW020570.1_Goatpox_virus_V103_goat:c101750-101166	BOHMNAMF_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Transcript termination protein A18	MW020570.1_Goatpox_virus_V103_goat:101765-103207	BOHMNAMF_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein A19	MW020570.1_Goatpox_virus_V103_goat:c103412-103188	BOHMNAMF_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c103571-103413	BOHMNAMF_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA polymerase processivity factor component A20	MW020570.1_Goatpox_virus_V103_goat:103759-105051	BOHMNAMF_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Resolvase A22	MW020570.1_Goatpox_virus_V103_goat:105020-105559	BOHMNAMF_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Intermediate transcription factor 3 large subunit	MW020570.1_Goatpox_virus_V103_goat:105552-106709	BOHMNAMF_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MW020570.1_Goatpox_virus_V103_goat:106740-110210	BOHMNAMF_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c110670-110224	BOHMNAMF_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Envelope protein A28	MW020570.1_Goatpox_virus_V103_goat:c111093-110671	BOHMNAMF_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA-directed RNA polymerase 35 kDa subunit	MW020570.1_Goatpox_virus_V103_goat:c112005-111094	BOHMNAMF_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c112198-111974	BOHMNAMF_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c112352-112227	BOHMNAMF_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein A32	MW020570.1_Goatpox_virus_V103_goat:c113143-112379	BOHMNAMF_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein A33	MW020570.1_Goatpox_virus_V103_goat:113275-113868	BOHMNAMF_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein A34	MW020570.1_Goatpox_virus_V103_goat:113898-114413	BOHMNAMF_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein A35	MW020570.1_Goatpox_virus_V103_goat:114442-115017	BOHMNAMF_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:115054-115920	BOHMNAMF_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:115981-116499	BOHMNAMF_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:116510-117331	BOHMNAMF_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:c118240-117335	BOHMNAMF_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:118337-118687	BOHMNAMF_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:118768-119013	BOHMNAMF_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:119069-119554	BOHMNAMF_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA ligase	MW020570.1_Goatpox_virus_V103_goat:120121-121797	BOHMNAMF_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:122034-127940	BOHMNAMF_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Soluble interferon alpha/beta receptor B18	MW020570.1_Goatpox_virus_V103_goat:128067-129149	BOHMNAMF_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:129193-129654	BOHMNAMF_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:129719-130726	BOHMNAMF_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:130756-131316	BOHMNAMF_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	B1 kinase	MW020570.1_Goatpox_virus_V103_goat:131355-132272	BOHMNAMF_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:132302-133024	BOHMNAMF_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Protein B5	MW020570.1_Goatpox_virus_V103_goat:133073-133750	BOHMNAMF_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:133752-134159	BOHMNAMF_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:134196-135104	BOHMNAMF_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MW020570.1_Goatpox_virus_V103_goat:135265-136908	BOHMNAMF_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:136955-138859	BOHMNAMF_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Envelope phospholipase F13	MW020570.1_Goatpox_virus_V103_goat:138980-140218	BOHMNAMF_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MW020570.1_Goatpox_virus_V103_goat:140276-141772	BOHMNAMF_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MW020570.1_Goatpox_virus_V103_goat:141820-143163	BOHMNAMF_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Serine proteinase inhibitor 2	MW020570.1_Goatpox_virus_V103_goat:143184-144197	BOHMNAMF_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:144235-144720	BOHMNAMF_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MW020570.1_Goatpox_virus_V103_goat:144761-146419	BOHMNAMF_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MW020570.1_Goatpox_virus_V103_goat:146484-147845	BOHMNAMF_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	hypothetical protein	MW020570.1_Goatpox_virus_V103_goat:148329-149051	BOHMNAMF_00150
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MW020570.1_Goatpox_virus_V103_goat:106740-110210	BOHMNAMF_00113
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains 'gene'
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Viral late gene transcription factor 2	MW020570.1_Goatpox_virus_V103_goat:c86181-85729	BOHMNAMF_00089
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:CDS	Viral late gene transcription factor 3	MW020570.1_Goatpox_virus_V103_goat:c86894-86211	BOHMNAMF_00090
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::6 protein sequences are shorter than 50 aa.
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_6 (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_10 (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_19 (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_24 (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_27 (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 41)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat (length 150578, 2001 gap)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat (length 150578, 2001 gap)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat (length 150578, 2001 gap)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat (length 150578, 2001 gap)
+
+DiscRep_ALL:MISSING_PROJECT::151 sequences do not include project.
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat (length 150578, 2001 gap)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_2 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_3 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_4 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_5 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_6 (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_7 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_8 (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_9 (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_10 (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_11 (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_12 (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_13 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_14 (length 101)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_15 (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_16 (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_17 (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_18 (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_19 (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_20 (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_21 (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_22 (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_23 (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_24 (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_25 (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_26 (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_27 (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_28 (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_29 (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_30 (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_31 (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_32 (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_33 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_34 (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_35 (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_36 (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_37 (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_38 (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_39 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_40 (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_41 (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_42 (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_43 (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_44 (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_45 (length 60)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_46 (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_47 (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_48 (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_49 (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_50 (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_51 (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_52 (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_53 (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_54 (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_55 (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_56 (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_57 (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_58 (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_59 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_60 (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_61 (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_62 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_63 (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_64 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_65 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_66 (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_67 (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_68 (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_69 (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_70 (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_71 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_72 (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_73 (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_74 (length 229)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_75 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_76 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_77 (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_78 (length 156)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_79 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_80 (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_81 (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_82 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_83 (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_84 (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_85 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_86 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_87 (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_88 (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_89 (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_90 (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_91 (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_92 (length 660)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_93 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_94 (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_95 (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_96 (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_97 (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_98 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_99 (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 558)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 1968)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat_1> (length 240)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat (length 150578, 2001 gap)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+../../../CURRENT/PANGROWTH/SEQS/MW020570.1_Goatpox_virus_V103_goat_PROKKA/MW020570.1_Goatpox_virus_V103_goat:MW020570.1_Goatpox_virus_V103_goat (length 150578, 2001 gap)
+

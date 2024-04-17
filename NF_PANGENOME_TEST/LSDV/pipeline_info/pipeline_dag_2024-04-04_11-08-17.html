@@ -1,0 +1,102 @@
+<!--
+  ~ Copyright 2013-2023, Seqera Labs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<pre class="mermaid" style="text-align: center;">
+flowchart TB
+    subgraph " "
+    v14["Channel.of"]
+    v15["Channel.of"]
+    v17["Channel.fromPath"]
+    v26["fasta"]
+    v30["query_self"]
+    v31["fasta_query_list"]
+    v46[" "]
+    v69["query_self"]
+    v70["fasta_query_list"]
+    end
+    subgraph " "
+    v18["ch_multiqc_config"]
+    v44[" "]
+    v48[" "]
+    v51["ch_versions"]
+    v73["ch_versions"]
+    v75["ch_seqwish_input"]
+    end
+    subgraph NFCORE_PANGENOME
+    subgraph PANGENOME
+    subgraph COMMUNITY
+    v32([WFMASH_MAP_COMMUNITY])
+    v34([PAF2NET])
+    v36([NET2COMMUNITIES])
+    v41([EXTRACT_COMMUNITIES])
+    v43([TABIX_BGZIP])
+    v47([SAMTOOLS_FAIDX])
+    v16(( ))
+    v27(( ))
+    v38(( ))
+    v52(( ))
+    end
+    subgraph PGGB
+    v71([WFMASH_MAP_ALIGN])
+    v72(( ))
+    end
+    end
+    end
+    v14 --> v27
+    v15 --> v27
+    v17 --> v18
+    v26 --> v27
+    v26 --> v38
+    v30 --> v32
+    v31 --> v32
+    v27 --> v32
+    v32 --> v34
+    v32 --> v16
+    v34 --> v36
+    v34 --> v16
+    v36 --> v16
+    v36 --> v38
+    v38 --> v41
+    v41 --> v43
+    v41 --> v16
+    v43 --> v47
+    v43 --> v44
+    v43 --> v16
+    v43 --> v52
+    v46 --> v47
+    v47 --> v48
+    v47 --> v16
+    v47 --> v52
+    v16 --> v51
+    v69 --> v71
+    v70 --> v71
+    v52 --> v71
+    v71 --> v52
+    v71 --> v72
+    v72 --> v73
+    v52 --> v75
+
+</pre>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+</body>
+</html>

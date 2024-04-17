@@ -1,0 +1,834 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:150 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 150 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:150 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	use protein instead of gene as appropriate
+		2 features contains 'gene'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:5 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:151 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::150 proteins have invalid IDs.
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 51)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 100)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 569)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 103)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 45)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 640)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 372)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 132)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 328)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 323)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 226)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 226)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 661)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 167)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 903)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 149)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 256)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 196)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 267)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 77)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 1986)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 180)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 226)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 475)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 243)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 371)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 410)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 178)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 484)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 240)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 150 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep (length 150211, 2001 gap)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::150 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c2207-1485	ILJDMEPN_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Viral interleukin-10	MW020571.1_Sheeppox_virus_V104_sheep:2490-2996	ILJDMEPN_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c3702-3007	ILJDMEPN_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c4792-3725	ILJDMEPN_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Soluble interferon gamma receptor B8	MW020571.1_Sheeppox_virus_V104_sheep:c5701-4874	ILJDMEPN_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c6330-6175	ILJDMEPN_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c6891-6403	ILJDMEPN_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c8063-6939	ILJDMEPN_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c8802-8167	ILJDMEPN_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein K3	MW020571.1_Sheeppox_virus_V104_sheep:c10166-9897	ILJDMEPN_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c10638-10153	ILJDMEPN_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c10946-10644	ILJDMEPN_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c11467-10937	ILJDMEPN_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	MW020571.1_Sheeppox_virus_V104_sheep:c11949-11509	ILJDMEPN_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Kelch repeat protein F3	MW020571.1_Sheeppox_virus_V104_sheep:c13703-11994	ILJDMEPN_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Ribonucleoside-diphosphate reductase small chain	MW020571.1_Sheeppox_virus_V104_sheep:c14737-13772	ILJDMEPN_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c14872-14777	ILJDMEPN_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c15397-15086	ILJDMEPN_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c15807-15589	ILJDMEPN_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein F9	MW020571.1_Sheeppox_virus_V104_sheep:c16536-15886	ILJDMEPN_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Serine/threonine-protein kinase 2	MW020571.1_Sheeppox_virus_V104_sheep:c17857-16514	ILJDMEPN_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c18704-18567	ILJDMEPN_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein F12	MW020571.1_Sheeppox_virus_V104_sheep:c20642-18720	ILJDMEPN_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Envelope phospholipase F13	MW020571.1_Sheeppox_virus_V104_sheep:c21761-20649	ILJDMEPN_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c21934-21788	ILJDMEPN_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c22400-21963	ILJDMEPN_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c23133-22474	ILJDMEPN_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Phosphoprotein F17	MW020571.1_Sheeppox_virus_V104_sheep:23205-23519	ILJDMEPN_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Poly(A) polymerase catalytic subunit	MW020571.1_Sheeppox_virus_V104_sheep:c24947-23523	ILJDMEPN_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein E2	MW020571.1_Sheeppox_virus_V104_sheep:c27151-24944	ILJDMEPN_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein E3	MW020571.1_Sheeppox_virus_V104_sheep:c27696-27163	ILJDMEPN_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c28339-27755	ILJDMEPN_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:28424-29557	ILJDMEPN_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein E6	MW020571.1_Sheeppox_virus_V104_sheep:29567-31267	ILJDMEPN_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein E8	MW020571.1_Sheeppox_virus_V104_sheep:31277-32074	ILJDMEPN_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA polymerase	MW020571.1_Sheeppox_virus_V104_sheep:c35103-32071	ILJDMEPN_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	putative FAD-linked sulfhydryl oxidase E10	MW020571.1_Sheeppox_virus_V104_sheep:35137-35424	ILJDMEPN_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein E11	MW020571.1_Sheeppox_virus_V104_sheep:c35813-35421	ILJDMEPN_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c37854-35800	ILJDMEPN_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Telomere-binding protein I1	MW020571.1_Sheeppox_virus_V104_sheep:c38904-37960	ILJDMEPN_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c39126-38911	ILJDMEPN_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein I3	MW020571.1_Sheeppox_virus_V104_sheep:c39957-39127	ILJDMEPN_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein I5	MW020571.1_Sheeppox_virus_V104_sheep:c40254-40018	ILJDMEPN_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Telomere-binding protein I6	MW020571.1_Sheeppox_virus_V104_sheep:c41456-40272	ILJDMEPN_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Core protease I7	MW020571.1_Sheeppox_virus_V104_sheep:c42750-41449	ILJDMEPN_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	RNA helicase NPH-II	MW020571.1_Sheeppox_virus_V104_sheep:42756-44786	ILJDMEPN_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Metalloendopeptidase G1	MW020571.1_Sheeppox_virus_V104_sheep:c46570-44783	ILJDMEPN_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein G3	MW020571.1_Sheeppox_virus_V104_sheep:c46812-46567	ILJDMEPN_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Late transcription elongation factor G2	MW020571.1_Sheeppox_virus_V104_sheep:46893-47561	ILJDMEPN_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Glutaredoxin-2	MW020571.1_Sheeppox_virus_V104_sheep:c47905-47525	ILJDMEPN_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Putative nuclease G5	MW020571.1_Sheeppox_virus_V104_sheep:47908-49221	ILJDMEPN_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA-directed RNA polymerase 7 kDa subunit	MW020571.1_Sheeppox_virus_V104_sheep:49233-49424	ILJDMEPN_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:49424-49948	ILJDMEPN_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Assembly protein G7	MW020571.1_Sheeppox_virus_V104_sheep:c51081-49963	ILJDMEPN_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Late transcription factor 1	MW020571.1_Sheeppox_virus_V104_sheep:51115-51897	ILJDMEPN_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Myristoylated protein G9	MW020571.1_Sheeppox_virus_V104_sheep:51924-52937	ILJDMEPN_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein L1	MW020571.1_Sheeppox_virus_V104_sheep:52938-53675	ILJDMEPN_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein L2	MW020571.1_Sheeppox_virus_V104_sheep:53713-53991	ILJDMEPN_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein L3	MW020571.1_Sheeppox_virus_V104_sheep:c54964-54008	ILJDMEPN_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Core protein VP8	MW020571.1_Sheeppox_virus_V104_sheep:54989-55750	ILJDMEPN_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein L5	MW020571.1_Sheeppox_virus_V104_sheep:55766-56164	ILJDMEPN_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein J1	MW020571.1_Sheeppox_virus_V104_sheep:56118-56561	ILJDMEPN_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Thymidine kinase	MW020571.1_Sheeppox_virus_V104_sheep:56586-57119	ILJDMEPN_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:57192-57785	ILJDMEPN_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	MW020571.1_Sheeppox_virus_V104_sheep:57861-58847	ILJDMEPN_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein J5	MW020571.1_Sheeppox_virus_V104_sheep:c59726-59325	ILJDMEPN_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:59814-63671	ILJDMEPN_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	putative dual specificity protein phosphatase H1	MW020571.1_Sheeppox_virus_V104_sheep:c64191-63676	ILJDMEPN_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein H2	MW020571.1_Sheeppox_virus_V104_sheep:64207-64779	ILJDMEPN_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Envelope protein H3	MW020571.1_Sheeppox_virus_V104_sheep:c65747-64776	ILJDMEPN_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	RNA polymerase-associated transcription-specificity factor RAP94	MW020571.1_Sheeppox_virus_V104_sheep:c68174-65778	ILJDMEPN_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Late transcription elongation factor H5	MW020571.1_Sheeppox_virus_V104_sheep:68318-68998	ILJDMEPN_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA topoisomerase 1B	MW020571.1_Sheeppox_virus_V104_sheep:69040-69993	ILJDMEPN_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Late protein H7	MW020571.1_Sheeppox_virus_V104_sheep:70013-70456	ILJDMEPN_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	mRNA-capping enzyme catalytic subunit	MW020571.1_Sheeppox_virus_V104_sheep:70488-73016	ILJDMEPN_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Core protein D4	MW020571.1_Sheeppox_virus_V104_sheep:c73445-72978	ILJDMEPN_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	27 kDa core protein	MW020571.1_Sheeppox_virus_V104_sheep:73447-74184	ILJDMEPN_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Uracil-DNA glycosylase	MW020571.1_Sheeppox_virus_V104_sheep:74181-74837	ILJDMEPN_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Primase D5	MW020571.1_Sheeppox_virus_V104_sheep:74880-77240	ILJDMEPN_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Early transcription factor 70 kDa subunit	MW020571.1_Sheeppox_virus_V104_sheep:77237-79144	ILJDMEPN_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA-directed RNA polymerase 18 kDa subunit	MW020571.1_Sheeppox_virus_V104_sheep:79169-79660	ILJDMEPN_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	mRNA-decapping protein D9	MW020571.1_Sheeppox_virus_V104_sheep:79663-80343	ILJDMEPN_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	mRNA-decapping protein D10	MW020571.1_Sheeppox_virus_V104_sheep:80343-81104	ILJDMEPN_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Nucleoside triphosphatase I	MW020571.1_Sheeppox_virus_V104_sheep:c83018-81111	ILJDMEPN_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	mRNA-capping enzyme regulatory subunit	MW020571.1_Sheeppox_virus_V104_sheep:c83908-83045	ILJDMEPN_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Scaffold protein D13	MW020571.1_Sheeppox_virus_V104_sheep:c85598-83949	ILJDMEPN_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Viral late gene transcription factor 2	MW020571.1_Sheeppox_virus_V104_sheep:c86077-85625	ILJDMEPN_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Viral late gene transcription factor 3	MW020571.1_Sheeppox_virus_V104_sheep:c86790-86107	ILJDMEPN_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein A2.5	MW020571.1_Sheeppox_virus_V104_sheep:c87029-86802	ILJDMEPN_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Major core protein 4b	MW020571.1_Sheeppox_virus_V104_sheep:c89023-87038	ILJDMEPN_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c89584-89099	ILJDMEPN_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA-directed RNA polymerase 19 kDa subunit	MW020571.1_Sheeppox_virus_V104_sheep:89625-90128	ILJDMEPN_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein A6	MW020571.1_Sheeppox_virus_V104_sheep:c91252-90125	ILJDMEPN_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Early transcription factor 82 kDa subunit	MW020571.1_Sheeppox_virus_V104_sheep:c93417-91273	ILJDMEPN_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Intermediate transcription factor 3 small subunit	MW020571.1_Sheeppox_virus_V104_sheep:93473-94345	ILJDMEPN_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Virion membrane protein A9	MW020571.1_Sheeppox_virus_V104_sheep:c94597-94361	ILJDMEPN_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Major core protein 4a precursor	MW020571.1_Sheeppox_virus_V104_sheep:c97309-94598	ILJDMEPN_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein A11	MW020571.1_Sheeppox_virus_V104_sheep:97327-98280	ILJDMEPN_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	25 kDa core protein A12L	MW020571.1_Sheeppox_virus_V104_sheep:c98849-98277	ILJDMEPN_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c99105-98902	ILJDMEPN_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Virion membrane protein A14	MW020571.1_Sheeppox_virus_V104_sheep:c99476-99189	ILJDMEPN_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Core protein A15	MW020571.1_Sheeppox_virus_V104_sheep:c99931-99644	ILJDMEPN_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Virion membrane protein A16	MW020571.1_Sheeppox_virus_V104_sheep:c101048-99915	ILJDMEPN_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Virion membrane protein A17 precursor	MW020571.1_Sheeppox_virus_V104_sheep:c101648-101064	ILJDMEPN_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Transcript termination protein A18	MW020571.1_Sheeppox_virus_V104_sheep:101663-103105	ILJDMEPN_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein A19	MW020571.1_Sheeppox_virus_V104_sheep:c103310-103086	ILJDMEPN_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c103469-103311	ILJDMEPN_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA polymerase processivity factor component A20	MW020571.1_Sheeppox_virus_V104_sheep:103657-104949	ILJDMEPN_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Resolvase A22	MW020571.1_Sheeppox_virus_V104_sheep:104918-105424	ILJDMEPN_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Intermediate transcription factor 3 large subunit	MW020571.1_Sheeppox_virus_V104_sheep:105449-106606	ILJDMEPN_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MW020571.1_Sheeppox_virus_V104_sheep:106637-110107	ILJDMEPN_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c110698-110249	ILJDMEPN_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Envelope protein A28	MW020571.1_Sheeppox_virus_V104_sheep:c111121-110699	ILJDMEPN_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA-directed RNA polymerase 35 kDa subunit	MW020571.1_Sheeppox_virus_V104_sheep:c112033-111122	ILJDMEPN_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c112226-112002	ILJDMEPN_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c112380-112255	ILJDMEPN_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein A32	MW020571.1_Sheeppox_virus_V104_sheep:c113171-112401	ILJDMEPN_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein A33	MW020571.1_Sheeppox_virus_V104_sheep:113304-113894	ILJDMEPN_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein A34	MW020571.1_Sheeppox_virus_V104_sheep:113927-114442	ILJDMEPN_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein A35	MW020571.1_Sheeppox_virus_V104_sheep:114470-115045	ILJDMEPN_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:115082-115948	ILJDMEPN_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:116004-116522	ILJDMEPN_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:116551-117354	ILJDMEPN_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:c118263-117358	ILJDMEPN_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:118362-118682	ILJDMEPN_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:118669-118764	ILJDMEPN_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:118751-118984	ILJDMEPN_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:119050-119535	ILJDMEPN_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA ligase	MW020571.1_Sheeppox_virus_V104_sheep:120146-121819	ILJDMEPN_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:122058-128018	ILJDMEPN_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Soluble interferon alpha/beta receptor B18	MW020571.1_Sheeppox_virus_V104_sheep:128081-129163	ILJDMEPN_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:129723-130730	ILJDMEPN_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:130763-131305	ILJDMEPN_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	B1 kinase	MW020571.1_Sheeppox_virus_V104_sheep:131344-132261	ILJDMEPN_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:132292-133014	ILJDMEPN_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Protein B5	MW020571.1_Sheeppox_virus_V104_sheep:133063-133743	ILJDMEPN_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:133745-134152	ILJDMEPN_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:134189-135097	ILJDMEPN_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Kelch repeat and BTB domain-containing protein A55	MW020571.1_Sheeppox_virus_V104_sheep:135261-136688	ILJDMEPN_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:136693-137424	ILJDMEPN_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Ankyrin repeat domain-containing protein M-T5	MW020571.1_Sheeppox_virus_V104_sheep:137473-138588	ILJDMEPN_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Envelope phospholipase F13	MW020571.1_Sheeppox_virus_V104_sheep:138710-139942	ILJDMEPN_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Ankyrin repeat domain-containing protein M-T5	MW020571.1_Sheeppox_virus_V104_sheep:140007-141503	ILJDMEPN_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:141551-141901	ILJDMEPN_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:142359-142895	ILJDMEPN_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Serine proteinase inhibitor 2	MW020571.1_Sheeppox_virus_V104_sheep:142916-143929	ILJDMEPN_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:143969-144454	ILJDMEPN_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Kelch repeat and BTB domain-containing protein A55	MW020571.1_Sheeppox_virus_V104_sheep:144495-146153	ILJDMEPN_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Ankyrin repeat domain-containing protein M-T5	MW020571.1_Sheeppox_virus_V104_sheep:146224-147678	ILJDMEPN_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	hypothetical protein	MW020571.1_Sheeppox_virus_V104_sheep:148005-148727	ILJDMEPN_00150
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MW020571.1_Sheeppox_virus_V104_sheep:106637-110107	ILJDMEPN_00111
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains 'gene'
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Viral late gene transcription factor 2	MW020571.1_Sheeppox_virus_V104_sheep:c86077-85625	ILJDMEPN_00087
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:CDS	Viral late gene transcription factor 3	MW020571.1_Sheeppox_virus_V104_sheep:c86790-86107	ILJDMEPN_00088
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::5 protein sequences are shorter than 50 aa.
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 45)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 31)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep (length 150211, 2001 gap)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep (length 150211, 2001 gap)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep (length 150211, 2001 gap)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep (length 150211, 2001 gap)
+
+DiscRep_ALL:MISSING_PROJECT::151 sequences do not include project.
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep (length 150211, 2001 gap)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 51)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 100)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 569)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 103)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 45)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 640)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 372)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 132)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 328)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 323)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 226)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 226)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 661)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 167)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 903)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 149)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 256)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 196)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 267)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 77)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 1986)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 180)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 226)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 475)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 243)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 371)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 410)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 178)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 484)
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep> (length 240)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep (length 150211, 2001 gap)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+../../../CURRENT/PANGROWTH/SEQS/MW020571.1_Sheeppox_virus_V104_sheep_PROKKA/MW020571.1_Sheeppox_virus_V104_sheep:MW020571.1_Sheeppox_virus_V104_sheep (length 150211, 2001 gap)
+

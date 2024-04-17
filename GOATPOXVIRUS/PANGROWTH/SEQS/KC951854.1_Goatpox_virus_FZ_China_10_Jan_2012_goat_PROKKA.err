@@ -1,0 +1,53 @@
+[10:54:02] This is prokka 1.14.6
+[10:54:02] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[10:54:02] Homepage is https://github.com/tseemann/prokka
+[10:54:02] Local time is Mon Apr 15 10:54:02 2024
+[10:54:02] You are downing
+[10:54:02] Operating system is linux
+[10:54:02] You have BioPerl 1.7.8
+Argument "1.7.8" isn't numeric in numeric lt (<) at /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka line 259.
+[10:54:02] System has 64 cores.
+[10:54:02] Will use maximum of 8 cores.
+[10:54:02] Annotating as >>> Viruses <<<
+[10:54:02] Generating locus_tag from '../../../CURRENT/PANGROWTH/SEQS/KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat.fa' contents.
+[10:54:02] Setting --locustag FKJBEAFA from MD5 f43beafaa462e15ec960068ffe06c3ba
+[10:54:02] Re-using existing --outdir ../../../CURRENT/PANGROWTH/SEQS/KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat_PROKKA
+[10:54:02] Using filename prefix: KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat.XXX
+[10:54:02] Setting HMMER_NCPU=1
+[10:54:02] Writing log to: ../../../CURRENT/PANGROWTH/SEQS/KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat_PROKKA/KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat.log
+[10:54:02] Command: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka --kingdom Viruses --proteins KX894508.gb --gffver 3 --usegenus --outdir ../../../CURRENT/PANGROWTH/SEQS/KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat_PROKKA --force --genus Capripoxvirus --prefix KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat ../../../CURRENT/PANGROWTH/SEQS/KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat.fa
+[10:54:02] Appending to PATH: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin
+[10:54:02] Looking for 'aragorn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/aragorn
+[10:54:02] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[10:54:02] Looking for 'barrnap' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/barrnap
+[10:54:02] Determined barrnap version is 000009 from 'barrnap 0.9'
+[10:54:02] Looking for 'blastp' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/blastp
+[10:54:02] Determined blastp version is 002013 from 'blastp: 2.13.0+'
+[10:54:02] Looking for 'cmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmpress
+[10:54:02] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[10:54:02] Looking for 'cmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmscan
+[10:54:02] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[10:54:02] Looking for 'egrep' - found /usr/bin/egrep
+[10:54:02] Looking for 'find' - found /usr/bin/find
+[10:54:02] Looking for 'grep' - found /usr/bin/grep
+[10:54:02] Looking for 'hmmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmpress
+[10:54:02] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[10:54:02] Looking for 'hmmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmscan
+[10:54:02] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[10:54:02] Looking for 'java' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/java
+[10:54:02] Looking for 'makeblastdb' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/makeblastdb
+[10:54:02] Determined makeblastdb version is 002013 from 'makeblastdb: 2.13.0+'
+[10:54:02] Looking for 'minced' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/minced
+[10:54:02] Determined minced version is 004002 from 'minced 0.4.2'
+[10:54:02] Looking for 'parallel' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/parallel
+[10:54:02] Determined parallel version is 20220922 from 'GNU parallel 20220922'
+[10:54:02] Looking for 'prodigal' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prodigal
+[10:54:02] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[10:54:02] Looking for 'prokka-genbank_to_fasta_db' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka-genbank_to_fasta_db
+[10:54:02] Looking for 'sed' - found /cm/shared/apps/mambaforge/envs/R.4.2.2/bin/sed
+[10:54:02] Looking for 'tbl2asn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/tbl2asn
+[10:54:02] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[10:54:02] Using genetic code table 1.
+[10:54:02] Loading and checking input file: ../../../CURRENT/PANGROWTH/SEQS/KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat.fa
+[10:54:02] Contig ID must <= 37 chars long: KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat
+[10:54:02] Please rename your contigs OR try '--centre X --compliant' to generate clean contig names.

@@ -1,0 +1,2 @@
+Sample	Mean links length: node space
+goatpox_2_virus_2	0.533035

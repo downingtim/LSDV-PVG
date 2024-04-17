@@ -1,0 +1,197 @@
+{
+    "report_data_sources": {
+        "ODGI": {
+            "all_sections": {
+                "lumpy_2_skin_2_disease_2_virus_2_2": "/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST/work/2e/a5233b8c182d9f89df86f6df4b6fce/2/lumpy_2_skin_2_disease_2_virus_2_2_.fasta.gz.community.2.gfaffix.og.stats.yaml",
+                "seqwish": "/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST/work/2e/a5233b8c182d9f89df86f6df4b6fce/1/lumpy_2_skin_2_disease_2_virus_2_2_.fasta.gz.community.2.seqwish.og.stats.yaml"
+            }
+        }
+    },
+    "report_general_stats_data": [],
+    "report_general_stats_headers": [],
+    "report_multiqc_command": "/mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/multiqc --force --outdir lumpy_2_skin_2_disease_2_virus_2_2_.fasta.gz.community.2_multiqc --config multiqc_config.yml .",
+    "report_plot_data": {
+        "odgi_sum_of_path_nodes_distances_plot-1": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "lumpy_2_skin_2_disease_2_virus_2_2",
+                    "seqwish"
+                ],
+                [
+                    "lumpy_2_skin_2_disease_2_virus_2_2",
+                    "seqwish"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Sum of distances: node space",
+                        "data": [
+                            1.46525,
+                            169.507
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Sum of distances: nucleotide space",
+                        "data": [
+                            1.37402,
+                            148.578
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "odgi_sum_of_path_nodes_distances_plot-1",
+                "title": "ODGI: Sum of path node distances",
+                "ylab": "Distance",
+                "yDecimals": false,
+                "cpswitch": false,
+                "logswitch": true,
+                "logswitch_active": true,
+                "data_labels": [
+                    {
+                        "name": "Node space",
+                        "ylab": "Distance"
+                    },
+                    {
+                        "name": "Nucleotide space",
+                        "ylab": "Distance"
+                    }
+                ],
+                "reversedStacks": true
+            }
+        },
+        "odgi_mean_links_length_plot-1": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "lumpy_2_skin_2_disease_2_virus_2_2",
+                    "seqwish"
+                ],
+                [
+                    "lumpy_2_skin_2_disease_2_virus_2_2",
+                    "seqwish"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Mean links length: node space",
+                        "data": [
+                            0.465135,
+                            84.7265
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Mean links length: nucleotide space",
+                        "data": [
+                            126.959,
+                            22916.9
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "odgi_mean_links_length_plot-1",
+                "title": "ODGI: Mean links length",
+                "ylab": "Distance",
+                "yDecimals": false,
+                "cpswitch": false,
+                "logswitch": true,
+                "logswitch_active": true,
+                "data_labels": [
+                    {
+                        "name": "Node space",
+                        "ylab": "Distance"
+                    },
+                    {
+                        "name": "Nucleotide space",
+                        "ylab": "Distance"
+                    }
+                ],
+                "reversedStacks": true
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_odgi_stats": {
+            "lumpy_2_skin_2_disease_2_virus_2_2": {
+                "length": 139334.0,
+                "nodes": 448.0,
+                "edges": 668.0,
+                "paths": 4.0,
+                "components": 1.0,
+                "A": 50275.0,
+                "C": 16995.0,
+                "T": 48477.0,
+                "G": 17583.0,
+                "N": 6004.0,
+                "total": 0.0,
+                "unique": 0.0,
+                "mean_links_length_path": "all_paths",
+                "mean_links_length_in_node_space": 0.465135,
+                "mean_links_length_in_nucleotide_space": 126.959,
+                "mean_links_length_num_links_considered": 1219,
+                "mean_links_length_num_gap_links_not_penalized": 0,
+                "sum_of_path_nodes_distances_path": "all_paths",
+                "sum_of_path_nodes_distances_in_node_space": 1.46525,
+                "sum_of_path_nodes_distances_in_nucleotide_space": 1.37402,
+                "sum_of_path_nodes_distances_nodes": 1223,
+                "sum_of_path_nodes_distances_nucleotides": 400328,
+                "sum_of_path_nodes_distances_num_penalties": 1,
+                "sum_of_path_nodes_distances_num_penalties_different_orientation": 0,
+                "pct_gc": 24.816627671637935,
+                "pct_n": 4.309070291529705
+            },
+            "seqwish": {
+                "length": 143585.0,
+                "nodes": 454.0,
+                "edges": 661.0,
+                "paths": 4.0,
+                "components": 1.0,
+                "A": 51078.0,
+                "C": 17290.0,
+                "T": 49371.0,
+                "G": 17842.0,
+                "N": 8004.0,
+                "total": 15.0,
+                "unique": 15.0,
+                "mean_links_length_path": "all_paths",
+                "mean_links_length_in_node_space": 84.7265,
+                "mean_links_length_in_nucleotide_space": 22916.9,
+                "mean_links_length_num_links_considered": 1287,
+                "mean_links_length_num_gap_links_not_penalized": 0,
+                "sum_of_path_nodes_distances_path": "all_paths",
+                "sum_of_path_nodes_distances_in_node_space": 169.507,
+                "sum_of_path_nodes_distances_in_nucleotide_space": 148.578,
+                "sum_of_path_nodes_distances_nodes": 1291,
+                "sum_of_path_nodes_distances_nucleotides": 400328,
+                "sum_of_path_nodes_distances_num_penalties": 276,
+                "sum_of_path_nodes_distances_num_penalties_different_orientation": 0,
+                "pct_gc": 24.467736880593378,
+                "pct_n": 5.574398439948463
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST/work/2e/a5233b8c182d9f89df86f6df4b6fce"
+    ],
+    "config_analysis_dir": [
+        "."
+    ],
+    "config_creation_date": "2024-04-04, 12:10 BST",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": "This report has been generated by the <a href=\"https://github.com/nf-core/pangenome/releases/tag/1.1.2\" target=\"_blank\">nf-core/pangenome</a> analysis pipeline. For information about how to interpret these results, please see the <a href=\"https://nf-co.re/pangenome/1.1.2/docs/output\" target=\"_blank\">documentation</a>.\n",
+    "config_report_header_info": null,
+    "config_script_path": "/mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/lib/python3.7/site-packages/multiqc/utils",
+    "config_short_version": "1.14",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.14"
+}

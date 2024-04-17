@@ -1,0 +1,5 @@
+AY077835#1#AY077835.1_Goatpox_virus_Pellor_2000
+AY077836#1#AY077836.1_Goatpox_virus_G20_LKV_2000
+MN072622#1#MN072622.1_Goatpox_virus_Turkey_goat
+NC_004003#1#NC_004003.1_Goatpox_virus_Pellor_2000
+KX576657#1#KX576657.1_Goatpox_virus_Gorgan_Iran_1965_goat

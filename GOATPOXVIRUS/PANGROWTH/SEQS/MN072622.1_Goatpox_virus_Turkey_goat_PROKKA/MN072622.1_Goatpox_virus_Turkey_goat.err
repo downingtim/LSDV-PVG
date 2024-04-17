@@ -1,0 +1,825 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:148 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 148 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:148 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	use protein instead of gene as appropriate
+		2 features contains 'gene'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:6 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:149 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::148 proteins have invalid IDs.
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 381)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 100)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 49)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 192)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 235)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 660)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 167)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 300)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 44)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 2007)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 641)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 240)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 148 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat (length 149955, 2001 gap)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::148 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c2081-1359	ABACBCNL_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Viral interleukin-10	MN072622.1_Goatpox_virus_Turkey_goat:2358-2870	ABACBCNL_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c3576-2881	ABACBCNL_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c4665-3598	ABACBCNL_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Soluble interferon gamma receptor B8	MN072622.1_Goatpox_virus_Turkey_goat:c5555-4728	ABACBCNL_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c6658-6170	ABACBCNL_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c7853-6708	ABACBCNL_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c8590-7955	ABACBCNL_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein K3	MN072622.1_Goatpox_virus_Turkey_goat:c9931-9662	ABACBCNL_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c10403-9918	ABACBCNL_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c10710-10408	ABACBCNL_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c11231-10701	ABACBCNL_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	MN072622.1_Goatpox_virus_Turkey_goat:c11710-11270	ABACBCNL_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Kelch repeat protein F3	MN072622.1_Goatpox_virus_Turkey_goat:c13441-11753	ABACBCNL_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Ribonucleoside-diphosphate reductase small chain	MN072622.1_Goatpox_virus_Turkey_goat:c14471-13506	ABACBCNL_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c14605-14507	ABACBCNL_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c15135-14815	ABACBCNL_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein F9	MN072622.1_Goatpox_virus_Turkey_goat:c16283-15633	ABACBCNL_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Serine/threonine-protein kinase 2	MN072622.1_Goatpox_virus_Turkey_goat:c17604-16261	ABACBCNL_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c17874-17746	ABACBCNL_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c18491-18342	ABACBCNL_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein F12	MN072622.1_Goatpox_virus_Turkey_goat:c20441-18522	ABACBCNL_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Envelope phospholipase F13	MN072622.1_Goatpox_virus_Turkey_goat:c21560-20448	ABACBCNL_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c21733-21587	ABACBCNL_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c22199-21762	ABACBCNL_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c22931-22272	ABACBCNL_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Phosphoprotein F17	MN072622.1_Goatpox_virus_Turkey_goat:23003-23317	ABACBCNL_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Poly(A) polymerase catalytic subunit	MN072622.1_Goatpox_virus_Turkey_goat:c24745-23321	ABACBCNL_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein E2	MN072622.1_Goatpox_virus_Turkey_goat:c26949-24742	ABACBCNL_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein E3	MN072622.1_Goatpox_virus_Turkey_goat:c27540-26962	ABACBCNL_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c28160-27555	ABACBCNL_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:28243-29376	ABACBCNL_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein E6	MN072622.1_Goatpox_virus_Turkey_goat:29386-31086	ABACBCNL_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein E8	MN072622.1_Goatpox_virus_Turkey_goat:31096-31893	ABACBCNL_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA polymerase	MN072622.1_Goatpox_virus_Turkey_goat:c34922-31890	ABACBCNL_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	putative FAD-linked sulfhydryl oxidase E10	MN072622.1_Goatpox_virus_Turkey_goat:34956-35243	ABACBCNL_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein E11	MN072622.1_Goatpox_virus_Turkey_goat:c35632-35240	ABACBCNL_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c37673-35619	ABACBCNL_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Telomere-binding protein I1	MN072622.1_Goatpox_virus_Turkey_goat:c38723-37779	ABACBCNL_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c38945-38730	ABACBCNL_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein I3	MN072622.1_Goatpox_virus_Turkey_goat:c39776-38946	ABACBCNL_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein I5	MN072622.1_Goatpox_virus_Turkey_goat:c40059-39823	ABACBCNL_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Telomere-binding protein I6	MN072622.1_Goatpox_virus_Turkey_goat:c41261-40077	ABACBCNL_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Core protease I7	MN072622.1_Goatpox_virus_Turkey_goat:c42555-41254	ABACBCNL_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	RNA helicase NPH-II	MN072622.1_Goatpox_virus_Turkey_goat:42561-44591	ABACBCNL_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Metalloendopeptidase G1	MN072622.1_Goatpox_virus_Turkey_goat:c46375-44588	ABACBCNL_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein G3	MN072622.1_Goatpox_virus_Turkey_goat:c46617-46372	ABACBCNL_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Late transcription elongation factor G2	MN072622.1_Goatpox_virus_Turkey_goat:46698-47366	ABACBCNL_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Glutaredoxin-2	MN072622.1_Goatpox_virus_Turkey_goat:c47710-47330	ABACBCNL_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Putative nuclease G5	MN072622.1_Goatpox_virus_Turkey_goat:47713-49026	ABACBCNL_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA-directed RNA polymerase 7 kDa subunit	MN072622.1_Goatpox_virus_Turkey_goat:49027-49218	ABACBCNL_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:49218-49742	ABACBCNL_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Assembly protein G7	MN072622.1_Goatpox_virus_Turkey_goat:c50877-49756	ABACBCNL_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Late transcription factor 1	MN072622.1_Goatpox_virus_Turkey_goat:50908-51690	ABACBCNL_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Myristoylated protein G9	MN072622.1_Goatpox_virus_Turkey_goat:51717-52727	ABACBCNL_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein L1	MN072622.1_Goatpox_virus_Turkey_goat:52728-53465	ABACBCNL_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein L2	MN072622.1_Goatpox_virus_Turkey_goat:53493-53771	ABACBCNL_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein L3	MN072622.1_Goatpox_virus_Turkey_goat:c54737-53781	ABACBCNL_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Core protein VP8	MN072622.1_Goatpox_virus_Turkey_goat:54762-55523	ABACBCNL_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein L5	MN072622.1_Goatpox_virus_Turkey_goat:55539-55934	ABACBCNL_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein J1	MN072622.1_Goatpox_virus_Turkey_goat:55891-56334	ABACBCNL_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Thymidine kinase	MN072622.1_Goatpox_virus_Turkey_goat:56362-56895	ABACBCNL_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	putative host range protein 2-3	MN072622.1_Goatpox_virus_Turkey_goat:56967-57560	ABACBCNL_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	MN072622.1_Goatpox_virus_Turkey_goat:57619-58620	ABACBCNL_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein J5	MN072622.1_Goatpox_virus_Turkey_goat:c59499-59098	ABACBCNL_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:59586-63443	ABACBCNL_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	putative dual specificity protein phosphatase H1	MN072622.1_Goatpox_virus_Turkey_goat:c63962-63447	ABACBCNL_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein H2	MN072622.1_Goatpox_virus_Turkey_goat:63978-64550	ABACBCNL_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Envelope protein H3	MN072622.1_Goatpox_virus_Turkey_goat:c65515-64547	ABACBCNL_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	RNA polymerase-associated transcription-specificity factor RAP94	MN072622.1_Goatpox_virus_Turkey_goat:c67941-65545	ABACBCNL_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Late transcription elongation factor H5	MN072622.1_Goatpox_virus_Turkey_goat:68083-68790	ABACBCNL_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA topoisomerase 1B	MN072622.1_Goatpox_virus_Turkey_goat:68832-69785	ABACBCNL_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Late protein H7	MN072622.1_Goatpox_virus_Turkey_goat:69807-70250	ABACBCNL_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	mRNA-capping enzyme catalytic subunit	MN072622.1_Goatpox_virus_Turkey_goat:70279-72807	ABACBCNL_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Core protein D4	MN072622.1_Goatpox_virus_Turkey_goat:c73236-72769	ABACBCNL_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	27 kDa core protein	MN072622.1_Goatpox_virus_Turkey_goat:73238-73975	ABACBCNL_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Uracil-DNA glycosylase	MN072622.1_Goatpox_virus_Turkey_goat:73972-74628	ABACBCNL_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Primase D5	MN072622.1_Goatpox_virus_Turkey_goat:74671-77031	ABACBCNL_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Early transcription factor 70 kDa subunit	MN072622.1_Goatpox_virus_Turkey_goat:77028-78935	ABACBCNL_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA-directed RNA polymerase 18 kDa subunit	MN072622.1_Goatpox_virus_Turkey_goat:78960-79451	ABACBCNL_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	mRNA-decapping protein D9	MN072622.1_Goatpox_virus_Turkey_goat:79492-80133	ABACBCNL_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	mRNA-decapping protein D10	MN072622.1_Goatpox_virus_Turkey_goat:80133-80894	ABACBCNL_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Nucleoside triphosphatase I	MN072622.1_Goatpox_virus_Turkey_goat:c82807-80900	ABACBCNL_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	mRNA-capping enzyme regulatory subunit	MN072622.1_Goatpox_virus_Turkey_goat:c83695-82832	ABACBCNL_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Scaffold protein D13	MN072622.1_Goatpox_virus_Turkey_goat:c85384-83735	ABACBCNL_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Viral late gene transcription factor 2	MN072622.1_Goatpox_virus_Turkey_goat:c85863-85411	ABACBCNL_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Viral late gene transcription factor 3	MN072622.1_Goatpox_virus_Turkey_goat:c86576-85893	ABACBCNL_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein A2.5	MN072622.1_Goatpox_virus_Turkey_goat:c86815-86588	ABACBCNL_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Major core protein 4b	MN072622.1_Goatpox_virus_Turkey_goat:c88806-86824	ABACBCNL_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c89367-88882	ABACBCNL_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA-directed RNA polymerase 19 kDa subunit	MN072622.1_Goatpox_virus_Turkey_goat:89408-89911	ABACBCNL_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein A6	MN072622.1_Goatpox_virus_Turkey_goat:c91035-89908	ABACBCNL_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Early transcription factor 82 kDa subunit	MN072622.1_Goatpox_virus_Turkey_goat:c93200-91056	ABACBCNL_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Intermediate transcription factor 3 small subunit	MN072622.1_Goatpox_virus_Turkey_goat:93257-94129	ABACBCNL_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Virion membrane protein A9	MN072622.1_Goatpox_virus_Turkey_goat:c94374-94138	ABACBCNL_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Major core protein 4a precursor	MN072622.1_Goatpox_virus_Turkey_goat:c97089-94375	ABACBCNL_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein A11	MN072622.1_Goatpox_virus_Turkey_goat:97104-98057	ABACBCNL_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	25 kDa core protein A12L	MN072622.1_Goatpox_virus_Turkey_goat:c98626-98054	ABACBCNL_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c98889-98686	ABACBCNL_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Virion membrane protein A14	MN072622.1_Goatpox_virus_Turkey_goat:c99259-98972	ABACBCNL_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Core protein A15	MN072622.1_Goatpox_virus_Turkey_goat:c99714-99427	ABACBCNL_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Virion membrane protein A16	MN072622.1_Goatpox_virus_Turkey_goat:c100831-99698	ABACBCNL_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Virion membrane protein A17 precursor	MN072622.1_Goatpox_virus_Turkey_goat:c101431-100847	ABACBCNL_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Transcript termination protein A18	MN072622.1_Goatpox_virus_Turkey_goat:101446-102888	ABACBCNL_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein A19	MN072622.1_Goatpox_virus_Turkey_goat:c103093-102869	ABACBCNL_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c103252-103094	ABACBCNL_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA polymerase processivity factor component A20	MN072622.1_Goatpox_virus_Turkey_goat:103440-104732	ABACBCNL_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Resolvase A22	MN072622.1_Goatpox_virus_Turkey_goat:104701-105240	ABACBCNL_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Intermediate transcription factor 3 large subunit	MN072622.1_Goatpox_virus_Turkey_goat:105233-106390	ABACBCNL_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072622.1_Goatpox_virus_Turkey_goat:106421-109891	ABACBCNL_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c110351-109905	ABACBCNL_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Envelope protein A28	MN072622.1_Goatpox_virus_Turkey_goat:c110774-110352	ABACBCNL_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA-directed RNA polymerase 35 kDa subunit	MN072622.1_Goatpox_virus_Turkey_goat:c111686-110775	ABACBCNL_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c111879-111655	ABACBCNL_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c112033-111908	ABACBCNL_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein A32	MN072622.1_Goatpox_virus_Turkey_goat:c112823-112059	ABACBCNL_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein A33	MN072622.1_Goatpox_virus_Turkey_goat:112957-113550	ABACBCNL_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein A34	MN072622.1_Goatpox_virus_Turkey_goat:113580-114095	ABACBCNL_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Protein A35	MN072622.1_Goatpox_virus_Turkey_goat:114124-114699	ABACBCNL_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:114736-115602	ABACBCNL_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:115661-116179	ABACBCNL_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:116190-117011	ABACBCNL_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:c117917-117015	ABACBCNL_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:118013-118363	ABACBCNL_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:118433-118678	ABACBCNL_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:118734-119219	ABACBCNL_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:119610-119744	ABACBCNL_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA ligase	MN072622.1_Goatpox_virus_Turkey_goat:119780-121453	ABACBCNL_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:121573-127596	ABACBCNL_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Soluble interferon alpha/beta receptor B18	MN072622.1_Goatpox_virus_Turkey_goat:127666-128748	ABACBCNL_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:128792-129184	ABACBCNL_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:129311-130318	ABACBCNL_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:130348-130908	ABACBCNL_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	B1 kinase	MN072622.1_Goatpox_virus_Turkey_goat:130947-131864	ABACBCNL_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:131894-132616	ABACBCNL_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:132665-133342	ABACBCNL_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:133344-133751	ABACBCNL_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:133788-134696	ABACBCNL_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072622.1_Goatpox_virus_Turkey_goat:134818-136461	ABACBCNL_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:136488-138413	ABACBCNL_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Envelope phospholipase F13	MN072622.1_Goatpox_virus_Turkey_goat:138536-139774	ABACBCNL_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072622.1_Goatpox_virus_Turkey_goat:139829-141325	ABACBCNL_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072622.1_Goatpox_virus_Turkey_goat:141372-142715	ABACBCNL_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Serine proteinase inhibitor 2	MN072622.1_Goatpox_virus_Turkey_goat:142736-143749	ABACBCNL_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:143788-144273	ABACBCNL_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072622.1_Goatpox_virus_Turkey_goat:144314-145972	ABACBCNL_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072622.1_Goatpox_virus_Turkey_goat:146043-147404	ABACBCNL_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	hypothetical protein	MN072622.1_Goatpox_virus_Turkey_goat:147875-148597	ABACBCNL_00148
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072622.1_Goatpox_virus_Turkey_goat:106421-109891	ABACBCNL_00110
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains 'gene'
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Viral late gene transcription factor 2	MN072622.1_Goatpox_virus_Turkey_goat:c85863-85411	ABACBCNL_00086
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:CDS	Viral late gene transcription factor 3	MN072622.1_Goatpox_virus_Turkey_goat:c86576-85893	ABACBCNL_00087
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::6 protein sequences are shorter than 50 aa.
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 49)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 44)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat (length 149955, 2001 gap)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat (length 149955, 2001 gap)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat (length 149955, 2001 gap)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat (length 149955, 2001 gap)
+
+DiscRep_ALL:MISSING_PROJECT::149 sequences do not include project.
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat (length 149955, 2001 gap)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 381)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 100)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 49)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 192)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 235)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 660)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 167)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 300)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 44)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 2007)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 641)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat> (length 240)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat (length 149955, 2001 gap)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat:MN072622.1_Goatpox_virus_Turkey_goat (length 149955, 2001 gap)
+

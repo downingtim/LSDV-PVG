@@ -1,0 +1,4 @@
+MN072620#1#MN072620.1_Goatpox_virus_India_goat
+MN072621#1#MN072621.1_Goatpox_virus_Vietnam_goat
+KC951854#1#KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat
+MH381810#1#MH381810.1_Goatpox_virus_AV41_China_Jan_2018_goat

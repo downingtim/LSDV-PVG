@@ -1,0 +1,293 @@
+<!--
+  ~ Copyright 2013-2023, Seqera Labs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<pre class="mermaid" style="text-align: center;">
+flowchart TB
+    subgraph " "
+    v13["Channel.of"]
+    v14["Channel.of"]
+    v16["Channel.fromPath"]
+    v22["fasta"]
+    v26["query_self"]
+    v27["fasta_query_list"]
+    v42[" "]
+    v64["query_self"]
+    v65["fasta_query_list"]
+    v213["Channel.from"]
+    v223["Channel.of"]
+    v227["ch_workflow_summary"]
+    end
+    subgraph NFCORE_PANGENOME
+    subgraph PANGENOME
+    subgraph COMMUNITY
+    v28([WFMASH_MAP_COMMUNITY])
+    v30([PAF2NET])
+    v32([NET2COMMUNITIES])
+    v37([EXTRACT_COMMUNITIES])
+    v39([TABIX_BGZIP])
+    v43([SAMTOOLS_FAIDX])
+    v23(( ))
+    v34(( ))
+    end
+    subgraph PGGB
+    v66([WFMASH_MAP_ALIGN])
+    v69([SEQWISH])
+    v71([SMOOTHXG])
+    v74([GFAFFIX])
+    v80([ODGI_BUILD])
+    v84([ODGI_UNCHOP])
+    v86([ODGI_SORT])
+    v88([ODGI_VIEW])
+    subgraph ODGI_QC
+    v97([ODGI_STATS])
+    v101([ODGI_VIZ_COLOR])
+    v104([ODGI_VIZ_POS])
+    v107([ODGI_VIZ_DEPTH])
+    v110([ODGI_VIZ_INV])
+    v113([ODGI_VIZ_COMPR])
+    v116([ODGI_VIZ_UNCALLED])
+    v118([ODGI_LAYOUT])
+    v122([ODGI_DRAW_MULTIQC])
+    v125([ODGI_DRAW_HEIGHT])
+    v91(( ))
+    v121(( ))
+    v124(( ))
+    end
+    v47(( ))
+    v77(( ))
+    v82(( ))
+    v100(( ))
+    v103(( ))
+    v106(( ))
+    v109(( ))
+    v112(( ))
+    v115(( ))
+    v147(( ))
+    end
+    v149([ODGI_SQUEEZE])
+    subgraph ODGI_QC
+    v156([ODGI_STATS])
+    v160([ODGI_VIZ_COLOR])
+    v163([ODGI_VIZ_POS])
+    v166([ODGI_VIZ_DEPTH])
+    v169([ODGI_VIZ_INV])
+    v172([ODGI_VIZ_COMPR])
+    v175([ODGI_VIZ_UNCALLED])
+    v177([ODGI_LAYOUT])
+    v181([ODGI_DRAW_MULTIQC])
+    v184([ODGI_DRAW_HEIGHT])
+    end
+    v202([ODGI_VIEW])
+    v208([MULTIQC_COMMUNITY])
+    v217([VG_DECONSTRUCT])
+    v238([MULTIQC])
+    v15(( ))
+    v128(( ))
+    v150(( ))
+    v205(( ))
+    v206(( ))
+    v207(( ))
+    v214(( ))
+    v235(( ))
+    v236(( ))
+    v237(( ))
+    v242(( ))
+    end
+    end
+    subgraph " "
+    v40[" "]
+    v44[" "]
+    v72[" "]
+    v75[" "]
+    v89["gfa"]
+    v98[" "]
+    v119[" "]
+    v126[" "]
+    v157[" "]
+    v178[" "]
+    v185[" "]
+    v209[" "]
+    v210[" "]
+    v211[" "]
+    v212[" "]
+    v218[" "]
+    v239[" "]
+    v240[" "]
+    v241[" "]
+    v243["multiqc_report"]
+    v245["versions"]
+    end
+    v13 --> v23
+    v14 --> v23
+    v16 --> v205
+    v16 --> v235
+    v22 --> v23
+    v22 --> v34
+    v26 --> v28
+    v27 --> v28
+    v23 --> v28
+    v28 --> v30
+    v28 --> v15
+    v30 --> v32
+    v30 --> v15
+    v32 --> v15
+    v32 --> v34
+    v34 --> v37
+    v37 --> v39
+    v37 --> v15
+    v39 --> v43
+    v39 --> v40
+    v39 --> v15
+    v39 --> v47
+    v42 --> v43
+    v43 --> v44
+    v43 --> v15
+    v43 --> v47
+    v64 --> v66
+    v65 --> v66
+    v47 --> v66
+    v66 --> v15
+    v66 --> v47
+    v47 --> v69
+    v69 --> v71
+    v69 --> v15
+    v69 --> v77
+    v71 --> v74
+    v71 --> v72
+    v71 --> v15
+    v74 --> v75
+    v74 --> v15
+    v74 --> v77
+    v77 --> v80
+    v80 --> v15
+    v80 --> v82
+    v80 --> v91
+    v82 --> v84
+    v84 --> v86
+    v84 --> v15
+    v86 --> v88
+    v86 --> v118
+    v86 --> v15
+    v86 --> v91
+    v86 --> v100
+    v86 --> v103
+    v86 --> v106
+    v86 --> v109
+    v86 --> v112
+    v86 --> v115
+    v86 --> v121
+    v86 --> v124
+    v86 --> v147
+    v88 --> v89
+    v88 --> v15
+    v91 --> v97
+    v97 --> v98
+    v97 --> v15
+    v97 --> v128
+    v100 --> v101
+    v101 --> v15
+    v101 --> v128
+    v103 --> v104
+    v104 --> v15
+    v104 --> v128
+    v106 --> v107
+    v107 --> v15
+    v107 --> v128
+    v109 --> v110
+    v110 --> v15
+    v110 --> v128
+    v112 --> v113
+    v113 --> v15
+    v113 --> v128
+    v115 --> v116
+    v116 --> v15
+    v116 --> v128
+    v118 --> v119
+    v118 --> v15
+    v118 --> v121
+    v118 --> v124
+    v121 --> v122
+    v122 --> v15
+    v122 --> v128
+    v124 --> v125
+    v125 --> v126
+    v125 --> v15
+    v147 --> v149
+    v149 --> v15
+    v149 --> v150
+    v150 --> v156
+    v156 --> v157
+    v156 --> v15
+    v150 --> v160
+    v160 --> v15
+    v150 --> v163
+    v163 --> v15
+    v150 --> v166
+    v166 --> v15
+    v150 --> v169
+    v169 --> v15
+    v150 --> v172
+    v172 --> v15
+    v150 --> v175
+    v175 --> v15
+    v150 --> v177
+    v177 --> v178
+    v177 --> v15
+    v177 --> v150
+    v150 --> v181
+    v181 --> v15
+    v150 --> v184
+    v184 --> v185
+    v184 --> v15
+    v150 --> v202
+    v202 --> v15
+    v202 --> v214
+    v128 --> v208
+    v205 --> v208
+    v206 --> v208
+    v207 --> v208
+    v208 --> v212
+    v208 --> v211
+    v208 --> v210
+    v208 --> v209
+    v213 --> v214
+    v214 --> v217
+    v217 --> v218
+    v217 --> v15
+    v223 --> v15
+    v227 --> v15
+    v15 --> v238
+    v235 --> v238
+    v236 --> v238
+    v237 --> v238
+    v238 --> v241
+    v238 --> v240
+    v238 --> v239
+    v238 --> v242
+    v242 --> v243
+    v15 --> v245
+
+</pre>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+</body>
+</html>

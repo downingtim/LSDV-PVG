@@ -1,0 +1,8 @@
+AY077832#1#AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep
+MN072628#1#MN072628.1_Sheeppox_virus_Nigeria_sheep
+MN072629#1#MN072629.1_Sheeppox_virus_Pendik_sheep
+MW167071#1#MW167071.1_Sheeppox_virus_V293_Egypt_2018_sheep
+NC_004002#1#NC_004002.1_Sheeppox_virus_17077_99_1970_sheep
+OR239060#1#OR239060.1_Sheeppox_virus_V330_United_Arab_Emirates_2017_sheep
+MN072626#1#MN072626.1_Sheeppox_virus_Abu_Gharib_Iraq_sheep
+MN072627#1#MN072627.1_Sheeppox_virus_Saudi_Arabia_vaccine_sheep

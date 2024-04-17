@@ -1,0 +1,12 @@
+nextflow run nf-core/pangenome --input goatpox_2_virus_2_.fasta.gz --n_haplotypes 13 --outdir GOAT --communities \
+  --wfmash_segment_length 1000
+  # --vcf_spec "NC_004003.1_Goatpox_virus_Pellor_2000[:0][,NC_004003.1_Goatpox_virus_Pellor_2000[:0]]*"
+
+nextflow run nf-core/pangenome --input lumpy_2_skin_2_disease_2_virus_2_2_.fasta.gz --n_haplotypes 135 --outdir LSDV  \
+   --communities  --wfmash_segment_length 1000  
+#--vcf_spec "KX894508.1_155920_2012_Israel_19_Dec_2012_Bos_taurus[:0][,KX894508.1_155920_2012_Israel_19_Dec_2012_Bos_taurus[:0]]*"
+
+nextflow run nf-core/pangenome --input LSDV_genomes.fasta.gz --n_haplotypes 121 --outdir LSDV_GENOMES --communities \
+    --wfmash_segment_length 1000
+#    --vcf_spec "KX894508.1_155920_2012_Israel_19_Dec_2012[:0][,KX894508.1_155920_2012_Israel_19_Dec_2012[:0]]*"
+

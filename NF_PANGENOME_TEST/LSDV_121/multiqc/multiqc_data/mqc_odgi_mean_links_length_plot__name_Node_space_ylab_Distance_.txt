@@ -1,0 +1,2 @@
+Sample	Mean links length: node space
+LSDV_genomes	0.528649

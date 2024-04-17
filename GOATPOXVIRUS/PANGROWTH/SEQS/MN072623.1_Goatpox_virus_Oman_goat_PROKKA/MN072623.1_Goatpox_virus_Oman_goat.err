@@ -1,0 +1,823 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:148 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 148 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:148 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	use protein instead of gene as appropriate
+		2 features contains 'gene'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:4 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:149 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::148 proteins have invalid IDs.
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_2 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_3 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_4 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_5 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_6 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_7 (length 381)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_8 (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_9 (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_10 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_11 (length 93)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_12 (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_13 (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_14 (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_15 (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_16 (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_17 (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_18 (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_19 (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_20 (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_21 (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_22 (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_23 (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_24 (length 49)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_25 (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_26 (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_27 (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_28 (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_29 (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_30 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_31 (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_32 (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_33 (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_34 (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_35 (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_36 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_37 (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_38 (length 683)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_39 (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_40 (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_41 (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_42 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_43 (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_44 (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_45 (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_46 (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_47 (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_48 (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_49 (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_50 (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_51 (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_52 (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_53 (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_54 (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_55 (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_56 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_57 (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_58 (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_59 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_60 (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_61 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_62 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_63 (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_64 (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_65 (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_66 (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_67 (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_68 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_69 (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_70 (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_71 (length 230)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_72 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_73 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_74 (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_75 (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_76 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_77 (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_78 (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_79 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_80 (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_81 (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_82 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_83 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_84 (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_85 (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_86 (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_87 (length 232)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_88 (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_89 (length 661)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_90 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_91 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_92 (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_93 (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_94 (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_95 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_96 (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_97 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_98 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_99 (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 193)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 198)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 60)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 234)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 2024)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 361)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 205)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 448)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 240)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 148 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat (length 150404, 2001 gap)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::148 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c2115-1393	CDDLCACD_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Viral interleukin-10	MN072623.1_Goatpox_virus_Oman_goat:2391-2903	CDDLCACD_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c3609-2914	CDDLCACD_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c4698-3631	CDDLCACD_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Soluble interferon gamma receptor B8	MN072623.1_Goatpox_virus_Oman_goat:c5607-4780	CDDLCACD_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c6836-6348	CDDLCACD_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c8025-6880	CDDLCACD_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c8765-8130	CDDLCACD_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein K3	MN072623.1_Goatpox_virus_Oman_goat:c10149-9880	CDDLCACD_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c10621-10136	CDDLCACD_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c10927-10646	CDDLCACD_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c11448-10918	CDDLCACD_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	MN072623.1_Goatpox_virus_Oman_goat:c11927-11487	CDDLCACD_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Kelch repeat protein F3	MN072623.1_Goatpox_virus_Oman_goat:c13662-11974	CDDLCACD_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Ribonucleoside-diphosphate reductase small chain	MN072623.1_Goatpox_virus_Oman_goat:c14692-13727	CDDLCACD_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c14829-14734	CDDLCACD_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c15360-15040	CDDLCACD_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c15785-15567	CDDLCACD_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein F9	MN072623.1_Goatpox_virus_Oman_goat:c16515-15865	CDDLCACD_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Serine/threonine-protein kinase 2	MN072623.1_Goatpox_virus_Oman_goat:c17836-16493	CDDLCACD_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c17999-17871	CDDLCACD_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein F12	MN072623.1_Goatpox_virus_Oman_goat:c20591-18672	CDDLCACD_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Envelope phospholipase F13	MN072623.1_Goatpox_virus_Oman_goat:c21710-20598	CDDLCACD_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c21885-21736	CDDLCACD_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c22348-21911	CDDLCACD_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c23081-22422	CDDLCACD_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Phosphoprotein F17	MN072623.1_Goatpox_virus_Oman_goat:23155-23469	CDDLCACD_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Poly(A) polymerase catalytic subunit	MN072623.1_Goatpox_virus_Oman_goat:c24897-23473	CDDLCACD_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein E2	MN072623.1_Goatpox_virus_Oman_goat:c27101-24894	CDDLCACD_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein E3	MN072623.1_Goatpox_virus_Oman_goat:c27646-27113	CDDLCACD_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c28314-27709	CDDLCACD_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:28396-29529	CDDLCACD_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein E6	MN072623.1_Goatpox_virus_Oman_goat:29541-31241	CDDLCACD_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein E8	MN072623.1_Goatpox_virus_Oman_goat:31251-32048	CDDLCACD_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA polymerase	MN072623.1_Goatpox_virus_Oman_goat:c35077-32045	CDDLCACD_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	putative FAD-linked sulfhydryl oxidase E10	MN072623.1_Goatpox_virus_Oman_goat:35111-35398	CDDLCACD_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein E11	MN072623.1_Goatpox_virus_Oman_goat:c35787-35395	CDDLCACD_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c37825-35774	CDDLCACD_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Telomere-binding protein I1	MN072623.1_Goatpox_virus_Oman_goat:c38875-37931	CDDLCACD_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c39097-38882	CDDLCACD_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein I3	MN072623.1_Goatpox_virus_Oman_goat:c39928-39098	CDDLCACD_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein I5	MN072623.1_Goatpox_virus_Oman_goat:c40212-39976	CDDLCACD_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Telomere-binding protein I6	MN072623.1_Goatpox_virus_Oman_goat:c41414-40230	CDDLCACD_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Core protease I7	MN072623.1_Goatpox_virus_Oman_goat:c42708-41407	CDDLCACD_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	RNA helicase NPH-II	MN072623.1_Goatpox_virus_Oman_goat:42714-44744	CDDLCACD_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Metalloendopeptidase G1	MN072623.1_Goatpox_virus_Oman_goat:c46528-44741	CDDLCACD_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein G3	MN072623.1_Goatpox_virus_Oman_goat:c46770-46525	CDDLCACD_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Late transcription elongation factor G2	MN072623.1_Goatpox_virus_Oman_goat:46851-47519	CDDLCACD_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Glutaredoxin-2	MN072623.1_Goatpox_virus_Oman_goat:c47863-47483	CDDLCACD_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Putative nuclease G5	MN072623.1_Goatpox_virus_Oman_goat:47866-49179	CDDLCACD_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA-directed RNA polymerase 7 kDa subunit	MN072623.1_Goatpox_virus_Oman_goat:49180-49371	CDDLCACD_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:49371-49895	CDDLCACD_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Assembly protein G7	MN072623.1_Goatpox_virus_Oman_goat:c51030-49909	CDDLCACD_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Late transcription factor 1	MN072623.1_Goatpox_virus_Oman_goat:51061-51843	CDDLCACD_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Myristoylated protein G9	MN072623.1_Goatpox_virus_Oman_goat:51870-52880	CDDLCACD_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein L1	MN072623.1_Goatpox_virus_Oman_goat:52881-53618	CDDLCACD_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein L2	MN072623.1_Goatpox_virus_Oman_goat:53649-53927	CDDLCACD_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein L3	MN072623.1_Goatpox_virus_Oman_goat:c54893-53937	CDDLCACD_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Core protein VP8	MN072623.1_Goatpox_virus_Oman_goat:54918-55679	CDDLCACD_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein L5	MN072623.1_Goatpox_virus_Oman_goat:55695-56090	CDDLCACD_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein J1	MN072623.1_Goatpox_virus_Oman_goat:56047-56490	CDDLCACD_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Thymidine kinase	MN072623.1_Goatpox_virus_Oman_goat:56519-57052	CDDLCACD_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:57124-57717	CDDLCACD_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	MN072623.1_Goatpox_virus_Oman_goat:57777-58778	CDDLCACD_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein J5	MN072623.1_Goatpox_virus_Oman_goat:c59657-59256	CDDLCACD_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:59747-63604	CDDLCACD_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	putative dual specificity protein phosphatase H1	MN072623.1_Goatpox_virus_Oman_goat:c64124-63609	CDDLCACD_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein H2	MN072623.1_Goatpox_virus_Oman_goat:64140-64712	CDDLCACD_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Envelope protein H3	MN072623.1_Goatpox_virus_Oman_goat:c65677-64709	CDDLCACD_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	RNA polymerase-associated transcription-specificity factor RAP94	MN072623.1_Goatpox_virus_Oman_goat:c68103-65707	CDDLCACD_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Late transcription elongation factor H5	MN072623.1_Goatpox_virus_Oman_goat:68245-68937	CDDLCACD_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA topoisomerase 1B	MN072623.1_Goatpox_virus_Oman_goat:68979-69932	CDDLCACD_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Late protein H7	MN072623.1_Goatpox_virus_Oman_goat:69953-70396	CDDLCACD_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	mRNA-capping enzyme catalytic subunit	MN072623.1_Goatpox_virus_Oman_goat:70425-72953	CDDLCACD_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Core protein D4	MN072623.1_Goatpox_virus_Oman_goat:c73382-72915	CDDLCACD_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	27 kDa core protein	MN072623.1_Goatpox_virus_Oman_goat:73384-74121	CDDLCACD_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Uracil-DNA glycosylase	MN072623.1_Goatpox_virus_Oman_goat:74118-74774	CDDLCACD_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Primase D5	MN072623.1_Goatpox_virus_Oman_goat:74817-77177	CDDLCACD_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Early transcription factor 70 kDa subunit	MN072623.1_Goatpox_virus_Oman_goat:77174-79081	CDDLCACD_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA-directed RNA polymerase 18 kDa subunit	MN072623.1_Goatpox_virus_Oman_goat:79106-79597	CDDLCACD_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	mRNA-decapping protein D9	MN072623.1_Goatpox_virus_Oman_goat:79638-80279	CDDLCACD_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	mRNA-decapping protein D10	MN072623.1_Goatpox_virus_Oman_goat:80279-81040	CDDLCACD_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Nucleoside triphosphatase I	MN072623.1_Goatpox_virus_Oman_goat:c82953-81046	CDDLCACD_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	mRNA-capping enzyme regulatory subunit	MN072623.1_Goatpox_virus_Oman_goat:c83841-82978	CDDLCACD_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Scaffold protein D13	MN072623.1_Goatpox_virus_Oman_goat:c85530-83881	CDDLCACD_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Viral late gene transcription factor 2	MN072623.1_Goatpox_virus_Oman_goat:c86009-85557	CDDLCACD_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Viral late gene transcription factor 3	MN072623.1_Goatpox_virus_Oman_goat:c86737-86039	CDDLCACD_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein A2.5	MN072623.1_Goatpox_virus_Oman_goat:c86961-86734	CDDLCACD_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Major core protein 4b	MN072623.1_Goatpox_virus_Oman_goat:c88955-86970	CDDLCACD_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c89516-89031	CDDLCACD_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA-directed RNA polymerase 19 kDa subunit	MN072623.1_Goatpox_virus_Oman_goat:89557-90069	CDDLCACD_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein A6	MN072623.1_Goatpox_virus_Oman_goat:c91193-90066	CDDLCACD_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Early transcription factor 82 kDa subunit	MN072623.1_Goatpox_virus_Oman_goat:c93358-91214	CDDLCACD_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Intermediate transcription factor 3 small subunit	MN072623.1_Goatpox_virus_Oman_goat:93415-94287	CDDLCACD_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Virion membrane protein A9	MN072623.1_Goatpox_virus_Oman_goat:c94532-94296	CDDLCACD_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Major core protein 4a precursor	MN072623.1_Goatpox_virus_Oman_goat:c97247-94533	CDDLCACD_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein A11	MN072623.1_Goatpox_virus_Oman_goat:97262-98215	CDDLCACD_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	25 kDa core protein A12L	MN072623.1_Goatpox_virus_Oman_goat:c98784-98212	CDDLCACD_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c99049-98846	CDDLCACD_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Virion membrane protein A14	MN072623.1_Goatpox_virus_Oman_goat:c99418-99131	CDDLCACD_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Core protein A15	MN072623.1_Goatpox_virus_Oman_goat:c99873-99586	CDDLCACD_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Virion membrane protein A16	MN072623.1_Goatpox_virus_Oman_goat:c100990-99857	CDDLCACD_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Virion membrane protein A17 precursor	MN072623.1_Goatpox_virus_Oman_goat:c101587-101006	CDDLCACD_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Transcript termination protein A18	MN072623.1_Goatpox_virus_Oman_goat:101602-103044	CDDLCACD_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein A19	MN072623.1_Goatpox_virus_Oman_goat:c103249-103025	CDDLCACD_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c103408-103250	CDDLCACD_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA polymerase processivity factor component A20	MN072623.1_Goatpox_virus_Oman_goat:103596-104888	CDDLCACD_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Resolvase A22	MN072623.1_Goatpox_virus_Oman_goat:104857-105363	CDDLCACD_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Intermediate transcription factor 3 large subunit	MN072623.1_Goatpox_virus_Oman_goat:105388-106545	CDDLCACD_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072623.1_Goatpox_virus_Oman_goat:106576-110046	CDDLCACD_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c110506-110060	CDDLCACD_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Envelope protein A28	MN072623.1_Goatpox_virus_Oman_goat:c110929-110507	CDDLCACD_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA-directed RNA polymerase 35 kDa subunit	MN072623.1_Goatpox_virus_Oman_goat:c111841-110930	CDDLCACD_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c112034-111810	CDDLCACD_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c112188-112063	CDDLCACD_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein A32	MN072623.1_Goatpox_virus_Oman_goat:c112975-112214	CDDLCACD_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein A33	MN072623.1_Goatpox_virus_Oman_goat:113108-113704	CDDLCACD_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein A34	MN072623.1_Goatpox_virus_Oman_goat:113734-114249	CDDLCACD_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Protein A35	MN072623.1_Goatpox_virus_Oman_goat:114279-114854	CDDLCACD_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:114891-115757	CDDLCACD_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:115815-116333	CDDLCACD_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:116344-117165	CDDLCACD_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c117350-117168	CDDLCACD_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:c118075-117371	CDDLCACD_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:118175-118525	CDDLCACD_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:118598-118843	CDDLCACD_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:118899-119384	CDDLCACD_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA ligase	MN072623.1_Goatpox_virus_Oman_goat:119966-121639	CDDLCACD_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:121759-127833	CDDLCACD_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Soluble interferon alpha/beta receptor B18	MN072623.1_Goatpox_virus_Oman_goat:128026-129111	CDDLCACD_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:129155-129616	CDDLCACD_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:129682-130689	CDDLCACD_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:130670-131287	CDDLCACD_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	B1 kinase	MN072623.1_Goatpox_virus_Oman_goat:131326-132243	CDDLCACD_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:132273-132995	CDDLCACD_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:133044-133721	CDDLCACD_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:133723-134130	CDDLCACD_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:134167-135075	CDDLCACD_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072623.1_Goatpox_virus_Oman_goat:135227-136870	CDDLCACD_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:136917-138821	CDDLCACD_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Envelope phospholipase F13	MN072623.1_Goatpox_virus_Oman_goat:138945-140183	CDDLCACD_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072623.1_Goatpox_virus_Oman_goat:140240-141736	CDDLCACD_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072623.1_Goatpox_virus_Oman_goat:141784-143127	CDDLCACD_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Serine proteinase inhibitor 2	MN072623.1_Goatpox_virus_Oman_goat:143149-144162	CDDLCACD_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:144200-144685	CDDLCACD_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072623.1_Goatpox_virus_Oman_goat:144726-146384	CDDLCACD_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072623.1_Goatpox_virus_Oman_goat:146453-147799	CDDLCACD_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	hypothetical protein	MN072623.1_Goatpox_virus_Oman_goat:148290-149012	CDDLCACD_00148
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072623.1_Goatpox_virus_Oman_goat:106576-110046	CDDLCACD_00110
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains 'gene'
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Viral late gene transcription factor 2	MN072623.1_Goatpox_virus_Oman_goat:c86009-85557	CDDLCACD_00086
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:CDS	Viral late gene transcription factor 3	MN072623.1_Goatpox_virus_Oman_goat:c86737-86039	CDDLCACD_00087
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::4 protein sequences are shorter than 50 aa.
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_16 (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_21 (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_24 (length 49)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 41)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat (length 150404, 2001 gap)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat (length 150404, 2001 gap)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat (length 150404, 2001 gap)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat (length 150404, 2001 gap)
+
+DiscRep_ALL:MISSING_PROJECT::149 sequences do not include project.
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat (length 150404, 2001 gap)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_2 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_3 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_4 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_5 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_6 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_7 (length 381)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_8 (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_9 (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_10 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_11 (length 93)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_12 (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_13 (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_14 (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_15 (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_16 (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_17 (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_18 (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_19 (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_20 (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_21 (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_22 (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_23 (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_24 (length 49)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_25 (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_26 (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_27 (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_28 (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_29 (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_30 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_31 (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_32 (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_33 (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_34 (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_35 (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_36 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_37 (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_38 (length 683)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_39 (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_40 (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_41 (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_42 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_43 (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_44 (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_45 (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_46 (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_47 (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_48 (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_49 (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_50 (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_51 (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_52 (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_53 (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_54 (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_55 (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_56 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_57 (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_58 (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_59 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_60 (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_61 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_62 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_63 (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_64 (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_65 (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_66 (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_67 (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_68 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_69 (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_70 (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_71 (length 230)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_72 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_73 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_74 (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_75 (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_76 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_77 (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_78 (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_79 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_80 (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_81 (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_82 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_83 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_84 (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_85 (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_86 (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_87 (length 232)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_88 (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_89 (length 661)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_90 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_91 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_92 (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_93 (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_94 (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_95 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_96 (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_97 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_98 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_99 (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 193)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 198)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 60)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 234)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 2024)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 361)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 205)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 448)
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat_1> (length 240)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat (length 150404, 2001 gap)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+../../../CURRENT/PANGROWTH/SEQS/MN072623.1_Goatpox_virus_Oman_goat_PROKKA/MN072623.1_Goatpox_virus_Oman_goat:MN072623.1_Goatpox_virus_Oman_goat (length 150404, 2001 gap)
+

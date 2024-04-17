@@ -1,0 +1,13 @@
+NC_004003.1_Goatpox_virus_Pellor_2000	152093
+MW020570.1_Goatpox_virus_V103_goat	153088
+MN072625.1_Goatpox_virus_Yemen_goat	152966
+MN072624.1_Goatpox_virus_Sudan_goat	152853
+MN072623.1_Goatpox_virus_Oman_goat	152911
+MN072622.1_Goatpox_virus_Turkey_goat	152455
+MN072621.1_Goatpox_virus_Vietnam_goat	152864
+MN072620.1_Goatpox_virus_India_goat	152888
+MH381810.1_Goatpox_virus_AV41_China_Jan_2018_goat	150425
+KX576657.1_Goatpox_virus_Gorgan_Iran_1965_goat	150616
+KC951854.1_Goatpox_virus_FZ_China_10_Jan_2012_goat	152698
+AY077836.1_Goatpox_virus_G20_LKV_2000	152219
+AY077835.1_Goatpox_virus_Pellor_2000	152093

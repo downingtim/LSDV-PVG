@@ -1,0 +1,3 @@
+Sample	Mean links length: nucleotide space
+goatpox_2_virus_2	3.28103
+seqwish	21482.4

@@ -1,0 +1,2 @@
+oriented_parent_nodes	oriented_child_nodes	prefix_length	prefix
+>5	>6,>7	1	T

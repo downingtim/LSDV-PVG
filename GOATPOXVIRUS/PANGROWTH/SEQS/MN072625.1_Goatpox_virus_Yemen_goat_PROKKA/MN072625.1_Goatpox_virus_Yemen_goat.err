@@ -1,0 +1,838 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:151 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 151 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:151 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	use protein instead of gene as appropriate
+		2 features contains 'gene'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:4 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:152 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::151 proteins have invalid IDs.
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_2 (length 73)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_3 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_4 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_5 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_6 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_7 (length 82)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_8 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_9 (length 381)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 93)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 105)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 49)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 60)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 203)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 683)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 230)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 232)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 661)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 903)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 193)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 198)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 82)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 2008)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 361)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 448)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 73)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 240)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 151 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat (length 150458, 2001 gap)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::151 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c2112-1390	HGPECDLA_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c2321-2100	HGPECDLA_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Viral interleukin-10	MN072625.1_Goatpox_virus_Yemen_goat:2388-2900	HGPECDLA_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c3606-2911	HGPECDLA_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c4695-3628	HGPECDLA_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Soluble interferon gamma receptor B8	MN072625.1_Goatpox_virus_Yemen_goat:c5604-4777	HGPECDLA_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c6313-6065	HGPECDLA_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c6834-6346	HGPECDLA_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c8024-6879	HGPECDLA_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c8764-8129	HGPECDLA_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein K3	MN072625.1_Goatpox_virus_Yemen_goat:c10155-9886	HGPECDLA_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c10627-10142	HGPECDLA_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c10933-10652	HGPECDLA_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c11454-10924	HGPECDLA_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	MN072625.1_Goatpox_virus_Yemen_goat:c11933-11493	HGPECDLA_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Kelch repeat protein F3	MN072625.1_Goatpox_virus_Yemen_goat:c13666-11978	HGPECDLA_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Ribonucleoside-diphosphate reductase small chain	MN072625.1_Goatpox_virus_Yemen_goat:c14696-13731	HGPECDLA_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c14833-14738	HGPECDLA_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c15361-15044	HGPECDLA_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c15785-15567	HGPECDLA_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein F9	MN072625.1_Goatpox_virus_Yemen_goat:c16516-15866	HGPECDLA_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Serine/threonine-protein kinase 2	MN072625.1_Goatpox_virus_Yemen_goat:c17837-16494	HGPECDLA_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c18107-17958	HGPECDLA_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c18766-18584	HGPECDLA_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein F12	MN072625.1_Goatpox_virus_Yemen_goat:c20694-18775	HGPECDLA_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Envelope phospholipase F13	MN072625.1_Goatpox_virus_Yemen_goat:c21813-20701	HGPECDLA_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c21985-21839	HGPECDLA_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c22451-22014	HGPECDLA_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c23184-22525	HGPECDLA_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Phosphoprotein F17	MN072625.1_Goatpox_virus_Yemen_goat:23259-23573	HGPECDLA_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Poly(A) polymerase catalytic subunit	MN072625.1_Goatpox_virus_Yemen_goat:c25001-23577	HGPECDLA_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein E2	MN072625.1_Goatpox_virus_Yemen_goat:c27205-24998	HGPECDLA_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein E3	MN072625.1_Goatpox_virus_Yemen_goat:c27750-27217	HGPECDLA_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c28419-27808	HGPECDLA_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:28501-29634	HGPECDLA_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein E6	MN072625.1_Goatpox_virus_Yemen_goat:29646-31346	HGPECDLA_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein E8	MN072625.1_Goatpox_virus_Yemen_goat:31356-32153	HGPECDLA_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA polymerase	MN072625.1_Goatpox_virus_Yemen_goat:c35182-32150	HGPECDLA_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	putative FAD-linked sulfhydryl oxidase E10	MN072625.1_Goatpox_virus_Yemen_goat:35216-35503	HGPECDLA_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein E11	MN072625.1_Goatpox_virus_Yemen_goat:c35892-35500	HGPECDLA_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c37930-35879	HGPECDLA_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Telomere-binding protein I1	MN072625.1_Goatpox_virus_Yemen_goat:c38980-38036	HGPECDLA_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c39202-38987	HGPECDLA_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein I3	MN072625.1_Goatpox_virus_Yemen_goat:c40033-39203	HGPECDLA_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein I5	MN072625.1_Goatpox_virus_Yemen_goat:c40317-40081	HGPECDLA_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Telomere-binding protein I6	MN072625.1_Goatpox_virus_Yemen_goat:c41520-40336	HGPECDLA_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Core protease I7	MN072625.1_Goatpox_virus_Yemen_goat:c42814-41513	HGPECDLA_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	RNA helicase NPH-II	MN072625.1_Goatpox_virus_Yemen_goat:42820-44850	HGPECDLA_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Metalloendopeptidase G1	MN072625.1_Goatpox_virus_Yemen_goat:c46634-44847	HGPECDLA_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein G3	MN072625.1_Goatpox_virus_Yemen_goat:c46876-46631	HGPECDLA_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Late transcription elongation factor G2	MN072625.1_Goatpox_virus_Yemen_goat:46957-47625	HGPECDLA_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Glutaredoxin-2	MN072625.1_Goatpox_virus_Yemen_goat:c47969-47589	HGPECDLA_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Putative nuclease G5	MN072625.1_Goatpox_virus_Yemen_goat:47972-49285	HGPECDLA_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA-directed RNA polymerase 7 kDa subunit	MN072625.1_Goatpox_virus_Yemen_goat:49286-49477	HGPECDLA_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:49477-50001	HGPECDLA_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Assembly protein G7	MN072625.1_Goatpox_virus_Yemen_goat:c51136-50015	HGPECDLA_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Late transcription factor 1	MN072625.1_Goatpox_virus_Yemen_goat:51167-51949	HGPECDLA_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Myristoylated protein G9	MN072625.1_Goatpox_virus_Yemen_goat:51976-52986	HGPECDLA_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein L1	MN072625.1_Goatpox_virus_Yemen_goat:52987-53724	HGPECDLA_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein L2	MN072625.1_Goatpox_virus_Yemen_goat:53753-54031	HGPECDLA_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein L3	MN072625.1_Goatpox_virus_Yemen_goat:c54997-54041	HGPECDLA_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Core protein VP8	MN072625.1_Goatpox_virus_Yemen_goat:55022-55783	HGPECDLA_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein L5	MN072625.1_Goatpox_virus_Yemen_goat:55799-56194	HGPECDLA_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein J1	MN072625.1_Goatpox_virus_Yemen_goat:56151-56594	HGPECDLA_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Thymidine kinase	MN072625.1_Goatpox_virus_Yemen_goat:56620-57153	HGPECDLA_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:57225-57818	HGPECDLA_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	MN072625.1_Goatpox_virus_Yemen_goat:57878-58879	HGPECDLA_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein J5	MN072625.1_Goatpox_virus_Yemen_goat:c59758-59357	HGPECDLA_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:59849-63706	HGPECDLA_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	putative dual specificity protein phosphatase H1	MN072625.1_Goatpox_virus_Yemen_goat:c64226-63711	HGPECDLA_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein H2	MN072625.1_Goatpox_virus_Yemen_goat:64242-64814	HGPECDLA_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Envelope protein H3	MN072625.1_Goatpox_virus_Yemen_goat:c65779-64811	HGPECDLA_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	RNA polymerase-associated transcription-specificity factor RAP94	MN072625.1_Goatpox_virus_Yemen_goat:c68205-65809	HGPECDLA_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Late transcription elongation factor H5	MN072625.1_Goatpox_virus_Yemen_goat:68347-69039	HGPECDLA_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA topoisomerase 1B	MN072625.1_Goatpox_virus_Yemen_goat:69081-70034	HGPECDLA_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Late protein H7	MN072625.1_Goatpox_virus_Yemen_goat:70055-70498	HGPECDLA_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	mRNA-capping enzyme catalytic subunit	MN072625.1_Goatpox_virus_Yemen_goat:70527-73055	HGPECDLA_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Core protein D4	MN072625.1_Goatpox_virus_Yemen_goat:c73484-73017	HGPECDLA_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	27 kDa core protein	MN072625.1_Goatpox_virus_Yemen_goat:73486-74223	HGPECDLA_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Uracil-DNA glycosylase	MN072625.1_Goatpox_virus_Yemen_goat:74220-74876	HGPECDLA_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Primase D5	MN072625.1_Goatpox_virus_Yemen_goat:74919-77279	HGPECDLA_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Early transcription factor 70 kDa subunit	MN072625.1_Goatpox_virus_Yemen_goat:77276-79183	HGPECDLA_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA-directed RNA polymerase 18 kDa subunit	MN072625.1_Goatpox_virus_Yemen_goat:79208-79699	HGPECDLA_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	mRNA-decapping protein D9	MN072625.1_Goatpox_virus_Yemen_goat:79740-80381	HGPECDLA_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	mRNA-decapping protein D10	MN072625.1_Goatpox_virus_Yemen_goat:80381-81142	HGPECDLA_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Nucleoside triphosphatase I	MN072625.1_Goatpox_virus_Yemen_goat:c83055-81148	HGPECDLA_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	mRNA-capping enzyme regulatory subunit	MN072625.1_Goatpox_virus_Yemen_goat:c83943-83080	HGPECDLA_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Scaffold protein D13	MN072625.1_Goatpox_virus_Yemen_goat:c85632-83983	HGPECDLA_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Viral late gene transcription factor 2	MN072625.1_Goatpox_virus_Yemen_goat:c86111-85659	HGPECDLA_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Viral late gene transcription factor 3	MN072625.1_Goatpox_virus_Yemen_goat:c86839-86141	HGPECDLA_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein A2.5	MN072625.1_Goatpox_virus_Yemen_goat:c87063-86836	HGPECDLA_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Major core protein 4b	MN072625.1_Goatpox_virus_Yemen_goat:c89057-87072	HGPECDLA_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c89618-89133	HGPECDLA_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA-directed RNA polymerase 19 kDa subunit	MN072625.1_Goatpox_virus_Yemen_goat:89659-90171	HGPECDLA_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein A6	MN072625.1_Goatpox_virus_Yemen_goat:c91295-90168	HGPECDLA_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Early transcription factor 82 kDa subunit	MN072625.1_Goatpox_virus_Yemen_goat:c93460-91316	HGPECDLA_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Intermediate transcription factor 3 small subunit	MN072625.1_Goatpox_virus_Yemen_goat:93517-94389	HGPECDLA_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Virion membrane protein A9	MN072625.1_Goatpox_virus_Yemen_goat:c94634-94398	HGPECDLA_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Major core protein 4a precursor	MN072625.1_Goatpox_virus_Yemen_goat:c97346-94635	HGPECDLA_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein A11	MN072625.1_Goatpox_virus_Yemen_goat:97364-98317	HGPECDLA_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	25 kDa core protein A12L	MN072625.1_Goatpox_virus_Yemen_goat:c98886-98314	HGPECDLA_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c99150-98947	HGPECDLA_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Virion membrane protein A14	MN072625.1_Goatpox_virus_Yemen_goat:c99519-99232	HGPECDLA_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Core protein A15	MN072625.1_Goatpox_virus_Yemen_goat:c99974-99687	HGPECDLA_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Virion membrane protein A16	MN072625.1_Goatpox_virus_Yemen_goat:c101091-99958	HGPECDLA_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Virion membrane protein A17 precursor	MN072625.1_Goatpox_virus_Yemen_goat:c101688-101107	HGPECDLA_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Transcript termination protein A18	MN072625.1_Goatpox_virus_Yemen_goat:101703-103145	HGPECDLA_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein A19	MN072625.1_Goatpox_virus_Yemen_goat:c103350-103126	HGPECDLA_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c103509-103351	HGPECDLA_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA polymerase processivity factor component A20	MN072625.1_Goatpox_virus_Yemen_goat:103697-104989	HGPECDLA_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Resolvase A22	MN072625.1_Goatpox_virus_Yemen_goat:104958-105464	HGPECDLA_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Intermediate transcription factor 3 large subunit	MN072625.1_Goatpox_virus_Yemen_goat:105489-106646	HGPECDLA_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072625.1_Goatpox_virus_Yemen_goat:106677-110147	HGPECDLA_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c110607-110161	HGPECDLA_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Envelope protein A28	MN072625.1_Goatpox_virus_Yemen_goat:c111030-110608	HGPECDLA_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA-directed RNA polymerase 35 kDa subunit	MN072625.1_Goatpox_virus_Yemen_goat:c111942-111031	HGPECDLA_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c112135-111911	HGPECDLA_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c112289-112164	HGPECDLA_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein A32	MN072625.1_Goatpox_virus_Yemen_goat:c113076-112315	HGPECDLA_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein A33	MN072625.1_Goatpox_virus_Yemen_goat:113209-113805	HGPECDLA_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein A34	MN072625.1_Goatpox_virus_Yemen_goat:113835-114350	HGPECDLA_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Protein A35	MN072625.1_Goatpox_virus_Yemen_goat:114379-114954	HGPECDLA_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:114991-115857	HGPECDLA_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:115915-116433	HGPECDLA_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:116444-117265	HGPECDLA_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:c118173-117268	HGPECDLA_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:118273-118623	HGPECDLA_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:118696-118944	HGPECDLA_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:119000-119485	HGPECDLA_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA ligase	MN072625.1_Goatpox_virus_Yemen_goat:120067-121740	HGPECDLA_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:121860-127886	HGPECDLA_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Soluble interferon alpha/beta receptor B18	MN072625.1_Goatpox_virus_Yemen_goat:128081-129166	HGPECDLA_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:129210-129671	HGPECDLA_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:129737-130744	HGPECDLA_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:130781-131374	HGPECDLA_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	B1 kinase	MN072625.1_Goatpox_virus_Yemen_goat:131379-132296	HGPECDLA_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:132326-133048	HGPECDLA_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:133097-133774	HGPECDLA_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:133776-134183	HGPECDLA_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:134220-135128	HGPECDLA_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072625.1_Goatpox_virus_Yemen_goat:135278-136921	HGPECDLA_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:136968-138872	HGPECDLA_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Envelope phospholipase F13	MN072625.1_Goatpox_virus_Yemen_goat:138996-140234	HGPECDLA_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072625.1_Goatpox_virus_Yemen_goat:140291-141787	HGPECDLA_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072625.1_Goatpox_virus_Yemen_goat:141835-143178	HGPECDLA_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Serine proteinase inhibitor 2	MN072625.1_Goatpox_virus_Yemen_goat:143200-144213	HGPECDLA_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:144251-144736	HGPECDLA_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072625.1_Goatpox_virus_Yemen_goat:144777-146435	HGPECDLA_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072625.1_Goatpox_virus_Yemen_goat:146507-147853	HGPECDLA_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:148130-148351	HGPECDLA_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	hypothetical protein	MN072625.1_Goatpox_virus_Yemen_goat:148339-149061	HGPECDLA_00151
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072625.1_Goatpox_virus_Yemen_goat:106677-110147	HGPECDLA_00113
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains 'gene'
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Viral late gene transcription factor 2	MN072625.1_Goatpox_virus_Yemen_goat:c86111-85659	HGPECDLA_00089
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:CDS	Viral late gene transcription factor 3	MN072625.1_Goatpox_virus_Yemen_goat:c86839-86141	HGPECDLA_00090
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::4 protein sequences are shorter than 50 aa.
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 49)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 41)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat (length 150458, 2001 gap)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat (length 150458, 2001 gap)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat (length 150458, 2001 gap)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat (length 150458, 2001 gap)
+
+DiscRep_ALL:MISSING_PROJECT::152 sequences do not include project.
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat (length 150458, 2001 gap)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_2 (length 73)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_3 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_4 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_5 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_6 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_7 (length 82)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_8 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_9 (length 381)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 93)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 31)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 105)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 49)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 60)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 203)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 683)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 230)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 232)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 661)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 903)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 193)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 198)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 82)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 2008)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 361)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 448)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 73)
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat_> (length 240)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat (length 150458, 2001 gap)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+../../../CURRENT/PANGROWTH/SEQS/MN072625.1_Goatpox_virus_Yemen_goat_PROKKA/MN072625.1_Goatpox_virus_Yemen_goat:MN072625.1_Goatpox_virus_Yemen_goat (length 150458, 2001 gap)
+

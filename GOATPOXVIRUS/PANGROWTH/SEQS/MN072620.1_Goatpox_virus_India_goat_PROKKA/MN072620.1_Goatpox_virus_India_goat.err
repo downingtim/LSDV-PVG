@@ -1,0 +1,835 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:150 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 150 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:150 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	use protein instead of gene as appropriate
+		2 features contains 'gene'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:6 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:151 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::150 proteins have invalid IDs.
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_2 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_3 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_4 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_5 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_6 (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_7 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_8 (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_9 (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 101)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 229)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 156)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 660)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 903)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 558)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 1968)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 240)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 150 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat (length 150381, 2001 gap)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::150 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c2142-1420	FIFPKDEO_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Viral interleukin-10	MN072620.1_Goatpox_virus_India_goat:2419-2931	FIFPKDEO_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c3637-2942	FIFPKDEO_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c4726-3659	FIFPKDEO_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Soluble interferon gamma receptor B8	MN072620.1_Goatpox_virus_India_goat:c5639-4812	FIFPKDEO_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c5983-5885	FIFPKDEO_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c6838-6350	FIFPKDEO_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	G-protein coupled receptor US28	MN072620.1_Goatpox_virus_India_goat:c8010-6886	FIFPKDEO_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c8749-8114	FIFPKDEO_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c9064-8954	FIFPKDEO_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c9473-9315	FIFPKDEO_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein K3	MN072620.1_Goatpox_virus_India_goat:c10111-9842	FIFPKDEO_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c10583-10098	FIFPKDEO_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c10893-10588	FIFPKDEO_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c11414-10884	FIFPKDEO_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	MN072620.1_Goatpox_virus_India_goat:c11894-11454	FIFPKDEO_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Kelch repeat protein F3	MN072620.1_Goatpox_virus_India_goat:c13628-11940	FIFPKDEO_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Ribonucleoside-diphosphate reductase small chain	MN072620.1_Goatpox_virus_India_goat:c14658-13693	FIFPKDEO_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c14792-14694	FIFPKDEO_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c15323-15003	FIFPKDEO_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c15745-15527	FIFPKDEO_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein F9	MN072620.1_Goatpox_virus_India_goat:c16473-15823	FIFPKDEO_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Serine/threonine-protein kinase 2	MN072620.1_Goatpox_virus_India_goat:c17794-16451	FIFPKDEO_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c18064-17936	FIFPKDEO_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein F12	MN072620.1_Goatpox_virus_India_goat:c20662-18743	FIFPKDEO_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Envelope phospholipase F13	MN072620.1_Goatpox_virus_India_goat:c21781-20669	FIFPKDEO_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c21954-21808	FIFPKDEO_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c22420-21983	FIFPKDEO_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c23153-22494	FIFPKDEO_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Phosphoprotein F17	MN072620.1_Goatpox_virus_India_goat:23229-23543	FIFPKDEO_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Poly(A) polymerase catalytic subunit	MN072620.1_Goatpox_virus_India_goat:c24971-23547	FIFPKDEO_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein E2	MN072620.1_Goatpox_virus_India_goat:c27175-24968	FIFPKDEO_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein E3	MN072620.1_Goatpox_virus_India_goat:c27720-27187	FIFPKDEO_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c28388-27783	FIFPKDEO_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:28470-29603	FIFPKDEO_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein E6	MN072620.1_Goatpox_virus_India_goat:29613-31313	FIFPKDEO_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein E8	MN072620.1_Goatpox_virus_India_goat:31323-32120	FIFPKDEO_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA polymerase	MN072620.1_Goatpox_virus_India_goat:c35149-32117	FIFPKDEO_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	putative FAD-linked sulfhydryl oxidase E10	MN072620.1_Goatpox_virus_India_goat:35183-35470	FIFPKDEO_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein E11	MN072620.1_Goatpox_virus_India_goat:c35859-35467	FIFPKDEO_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c37900-35846	FIFPKDEO_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Telomere-binding protein I1	MN072620.1_Goatpox_virus_India_goat:c38950-38006	FIFPKDEO_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c39172-38957	FIFPKDEO_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein I3	MN072620.1_Goatpox_virus_India_goat:c40003-39173	FIFPKDEO_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein I5	MN072620.1_Goatpox_virus_India_goat:c40287-40051	FIFPKDEO_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Telomere-binding protein I6	MN072620.1_Goatpox_virus_India_goat:c41491-40307	FIFPKDEO_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Core protease I7	MN072620.1_Goatpox_virus_India_goat:c42785-41484	FIFPKDEO_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	RNA helicase NPH-II	MN072620.1_Goatpox_virus_India_goat:42791-44821	FIFPKDEO_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Metalloendopeptidase G1	MN072620.1_Goatpox_virus_India_goat:c46605-44818	FIFPKDEO_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein G3	MN072620.1_Goatpox_virus_India_goat:c46847-46602	FIFPKDEO_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Late transcription elongation factor G2	MN072620.1_Goatpox_virus_India_goat:46928-47596	FIFPKDEO_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Glutaredoxin-2	MN072620.1_Goatpox_virus_India_goat:c47940-47560	FIFPKDEO_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Putative nuclease G5	MN072620.1_Goatpox_virus_India_goat:47943-49256	FIFPKDEO_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA-directed RNA polymerase 7 kDa subunit	MN072620.1_Goatpox_virus_India_goat:49257-49448	FIFPKDEO_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:49448-49972	FIFPKDEO_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Assembly protein G7	MN072620.1_Goatpox_virus_India_goat:c51107-49986	FIFPKDEO_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Late transcription factor 1	MN072620.1_Goatpox_virus_India_goat:51138-51920	FIFPKDEO_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Myristoylated protein G9	MN072620.1_Goatpox_virus_India_goat:51947-52957	FIFPKDEO_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein L1	MN072620.1_Goatpox_virus_India_goat:52958-53695	FIFPKDEO_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein L2	MN072620.1_Goatpox_virus_India_goat:53735-54013	FIFPKDEO_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein L3	MN072620.1_Goatpox_virus_India_goat:c54980-54024	FIFPKDEO_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Core protein VP8	MN072620.1_Goatpox_virus_India_goat:55005-55766	FIFPKDEO_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein L5	MN072620.1_Goatpox_virus_India_goat:55782-56177	FIFPKDEO_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein J1	MN072620.1_Goatpox_virus_India_goat:56134-56577	FIFPKDEO_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Thymidine kinase	MN072620.1_Goatpox_virus_India_goat:56605-57138	FIFPKDEO_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:57212-57805	FIFPKDEO_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	MN072620.1_Goatpox_virus_India_goat:57865-58866	FIFPKDEO_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein J5	MN072620.1_Goatpox_virus_India_goat:c59745-59344	FIFPKDEO_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:59832-63689	FIFPKDEO_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	putative dual specificity protein phosphatase H1	MN072620.1_Goatpox_virus_India_goat:c64208-63693	FIFPKDEO_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein H2	MN072620.1_Goatpox_virus_India_goat:64224-64796	FIFPKDEO_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Envelope protein H3	MN072620.1_Goatpox_virus_India_goat:c65761-64793	FIFPKDEO_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	RNA polymerase-associated transcription-specificity factor RAP94	MN072620.1_Goatpox_virus_India_goat:c68187-65791	FIFPKDEO_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Late transcription elongation factor H5	MN072620.1_Goatpox_virus_India_goat:68330-69019	FIFPKDEO_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA topoisomerase 1B	MN072620.1_Goatpox_virus_India_goat:69061-70014	FIFPKDEO_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Late protein H7	MN072620.1_Goatpox_virus_India_goat:70034-70477	FIFPKDEO_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	mRNA-capping enzyme catalytic subunit	MN072620.1_Goatpox_virus_India_goat:70505-73033	FIFPKDEO_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Core protein D4	MN072620.1_Goatpox_virus_India_goat:c73465-72995	FIFPKDEO_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	27 kDa core protein	MN072620.1_Goatpox_virus_India_goat:73467-74204	FIFPKDEO_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Uracil-DNA glycosylase	MN072620.1_Goatpox_virus_India_goat:74201-74857	FIFPKDEO_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Primase D5	MN072620.1_Goatpox_virus_India_goat:74900-77260	FIFPKDEO_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Early transcription factor 70 kDa subunit	MN072620.1_Goatpox_virus_India_goat:77257-79164	FIFPKDEO_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA-directed RNA polymerase 18 kDa subunit	MN072620.1_Goatpox_virus_India_goat:79189-79680	FIFPKDEO_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	mRNA-decapping protein D9	MN072620.1_Goatpox_virus_India_goat:79721-80362	FIFPKDEO_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	mRNA-decapping protein D10	MN072620.1_Goatpox_virus_India_goat:80362-81123	FIFPKDEO_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Nucleoside triphosphatase I	MN072620.1_Goatpox_virus_India_goat:c83036-81129	FIFPKDEO_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	mRNA-capping enzyme regulatory subunit	MN072620.1_Goatpox_virus_India_goat:c83924-83061	FIFPKDEO_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Scaffold protein D13	MN072620.1_Goatpox_virus_India_goat:c85613-83964	FIFPKDEO_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Viral late gene transcription factor 2	MN072620.1_Goatpox_virus_India_goat:c86092-85640	FIFPKDEO_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Viral late gene transcription factor 3	MN072620.1_Goatpox_virus_India_goat:c86805-86122	FIFPKDEO_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein A2.5	MN072620.1_Goatpox_virus_India_goat:c87044-86817	FIFPKDEO_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Major core protein 4b	MN072620.1_Goatpox_virus_India_goat:c89035-87053	FIFPKDEO_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c89596-89111	FIFPKDEO_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA-directed RNA polymerase 19 kDa subunit	MN072620.1_Goatpox_virus_India_goat:89637-90143	FIFPKDEO_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein A6	MN072620.1_Goatpox_virus_India_goat:c91267-90140	FIFPKDEO_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Early transcription factor 82 kDa subunit	MN072620.1_Goatpox_virus_India_goat:c93432-91288	FIFPKDEO_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Intermediate transcription factor 3 small subunit	MN072620.1_Goatpox_virus_India_goat:93489-94361	FIFPKDEO_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Virion membrane protein A9	MN072620.1_Goatpox_virus_India_goat:c94606-94370	FIFPKDEO_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Major core protein 4a precursor	MN072620.1_Goatpox_virus_India_goat:c97318-94607	FIFPKDEO_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein A11	MN072620.1_Goatpox_virus_India_goat:97336-98289	FIFPKDEO_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	25 kDa core protein A12L	MN072620.1_Goatpox_virus_India_goat:c98858-98286	FIFPKDEO_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c99121-98918	FIFPKDEO_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Virion membrane protein A14	MN072620.1_Goatpox_virus_India_goat:c99489-99202	FIFPKDEO_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Core protein A15	MN072620.1_Goatpox_virus_India_goat:c99944-99657	FIFPKDEO_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Virion membrane protein A16	MN072620.1_Goatpox_virus_India_goat:c101061-99928	FIFPKDEO_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Virion membrane protein A17 precursor	MN072620.1_Goatpox_virus_India_goat:c101661-101077	FIFPKDEO_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Transcript termination protein A18	MN072620.1_Goatpox_virus_India_goat:101676-103118	FIFPKDEO_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein A19	MN072620.1_Goatpox_virus_India_goat:c103323-103099	FIFPKDEO_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c103482-103324	FIFPKDEO_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA polymerase processivity factor component A20	MN072620.1_Goatpox_virus_India_goat:103670-104962	FIFPKDEO_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Resolvase A22	MN072620.1_Goatpox_virus_India_goat:104931-105470	FIFPKDEO_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Intermediate transcription factor 3 large subunit	MN072620.1_Goatpox_virus_India_goat:105463-106620	FIFPKDEO_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072620.1_Goatpox_virus_India_goat:106651-110121	FIFPKDEO_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c110581-110135	FIFPKDEO_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Envelope protein A28	MN072620.1_Goatpox_virus_India_goat:c111004-110582	FIFPKDEO_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA-directed RNA polymerase 35 kDa subunit	MN072620.1_Goatpox_virus_India_goat:c111916-111005	FIFPKDEO_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c112109-111885	FIFPKDEO_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c112263-112138	FIFPKDEO_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein A32	MN072620.1_Goatpox_virus_India_goat:c113054-112290	FIFPKDEO_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein A33	MN072620.1_Goatpox_virus_India_goat:113186-113779	FIFPKDEO_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein A34	MN072620.1_Goatpox_virus_India_goat:113809-114324	FIFPKDEO_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein A35	MN072620.1_Goatpox_virus_India_goat:114353-114928	FIFPKDEO_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:114965-115831	FIFPKDEO_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:115892-116410	FIFPKDEO_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:116421-117242	FIFPKDEO_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:c118151-117246	FIFPKDEO_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:118248-118598	FIFPKDEO_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:118679-118924	FIFPKDEO_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:118980-119465	FIFPKDEO_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA ligase	MN072620.1_Goatpox_virus_India_goat:120032-121708	FIFPKDEO_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:121945-127851	FIFPKDEO_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Soluble interferon alpha/beta receptor B18	MN072620.1_Goatpox_virus_India_goat:127978-129060	FIFPKDEO_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:129104-129565	FIFPKDEO_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:129630-130637	FIFPKDEO_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:130667-131227	FIFPKDEO_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	B1 kinase	MN072620.1_Goatpox_virus_India_goat:131266-132183	FIFPKDEO_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:132213-132935	FIFPKDEO_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Protein B5	MN072620.1_Goatpox_virus_India_goat:132984-133661	FIFPKDEO_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:133663-134070	FIFPKDEO_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:134107-135015	FIFPKDEO_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072620.1_Goatpox_virus_India_goat:135176-136819	FIFPKDEO_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:136866-138770	FIFPKDEO_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Envelope phospholipase F13	MN072620.1_Goatpox_virus_India_goat:138891-140129	FIFPKDEO_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072620.1_Goatpox_virus_India_goat:140187-141683	FIFPKDEO_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072620.1_Goatpox_virus_India_goat:141731-143074	FIFPKDEO_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Serine proteinase inhibitor 2	MN072620.1_Goatpox_virus_India_goat:143095-144108	FIFPKDEO_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:144146-144631	FIFPKDEO_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072620.1_Goatpox_virus_India_goat:144672-146330	FIFPKDEO_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072620.1_Goatpox_virus_India_goat:146395-147756	FIFPKDEO_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	hypothetical protein	MN072620.1_Goatpox_virus_India_goat:148240-148962	FIFPKDEO_00150
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072620.1_Goatpox_virus_India_goat:106651-110121	FIFPKDEO_00113
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains 'gene'
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Viral late gene transcription factor 2	MN072620.1_Goatpox_virus_India_goat:c86092-85640	FIFPKDEO_00089
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:CDS	Viral late gene transcription factor 3	MN072620.1_Goatpox_virus_India_goat:c86805-86122	FIFPKDEO_00090
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::6 protein sequences are shorter than 50 aa.
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_6 (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 41)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat (length 150381, 2001 gap)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat (length 150381, 2001 gap)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat (length 150381, 2001 gap)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat (length 150381, 2001 gap)
+
+DiscRep_ALL:MISSING_PROJECT::151 sequences do not include project.
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat (length 150381, 2001 gap)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_2 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_3 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_4 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_5 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_6 (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_7 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_8 (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_9 (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 101)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 229)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 156)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 660)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 903)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 558)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 1968)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat_> (length 240)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat (length 150381, 2001 gap)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+../../../CURRENT/PANGROWTH/SEQS/MN072620.1_Goatpox_virus_India_goat_PROKKA/MN072620.1_Goatpox_virus_India_goat:MN072620.1_Goatpox_virus_India_goat (length 150381, 2001 gap)
+

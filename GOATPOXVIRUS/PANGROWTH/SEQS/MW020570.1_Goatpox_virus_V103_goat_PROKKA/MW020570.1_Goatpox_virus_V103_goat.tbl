@@ -1,0 +1,770 @@
+>Feature MW020570.1_Goatpox_virus_V103_goat
+2231	1509	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00001
+			product	hypothetical protein
+2508	3020	CDS
+			gene	BCRF1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03180
+			locus_tag	BOHMNAMF_00002
+			product	Viral interleukin-10 
+3726	3031	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00003
+			product	hypothetical protein
+4815	3748	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00004
+			product	hypothetical protein
+5728	4901	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24770
+			locus_tag	BOHMNAMF_00005
+			product	Soluble interferon gamma receptor B8
+6102	5974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00006
+			product	hypothetical protein
+6927	6439	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00007
+			product	hypothetical protein
+8099	6975	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69333
+			locus_tag	BOHMNAMF_00008
+			product	G-protein coupled receptor US28
+8838	8203	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00009
+			product	hypothetical protein
+9153	9043	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00010
+			product	hypothetical protein
+9562	9404	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00011
+			product	hypothetical protein
+10200	9931	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P18378
+			locus_tag	BOHMNAMF_00012
+			product	Protein K3
+10672	10187	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00013
+			product	hypothetical protein
+10982	10677	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00014
+			product	hypothetical protein
+11503	10973	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00015
+			product	hypothetical protein
+11983	11543	CDS
+			EC_number	3.6.1.23
+			gene	DUT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P17374
+			locus_tag	BOHMNAMF_00016
+			product	Deoxyuridine 5'-triphosphate nucleotidohydrolase
+13717	12029	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24357
+			locus_tag	BOHMNAMF_00017
+			product	Kelch repeat protein F3
+14747	13782	CDS
+			EC_number	1.17.4.1
+			gene	F4L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20493
+			locus_tag	BOHMNAMF_00018
+			product	Ribonucleoside-diphosphate reductase small chain
+14881	14783	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00019
+			product	hypothetical protein
+15412	15092	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00020
+			product	hypothetical protein
+15834	15616	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00021
+			product	hypothetical protein
+16562	15912	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24361
+			locus_tag	BOHMNAMF_00022
+			product	Protein F9
+17883	16540	CDS
+			EC_number	2.7.11.1
+			gene	VPK2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q89121
+			locus_tag	BOHMNAMF_00023
+			product	Serine/threonine-protein kinase 2
+18153	18025	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00024
+			product	hypothetical protein
+20751	18832	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q80HX6
+			locus_tag	BOHMNAMF_00025
+			product	Protein F12
+21870	20758	CDS
+			EC_number	3.1.1.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04021
+			locus_tag	BOHMNAMF_00026
+			product	Envelope phospholipase F13
+22043	21897	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00027
+			product	hypothetical protein
+22509	22072	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00028
+			product	hypothetical protein
+23242	22583	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00029
+			product	hypothetical protein
+23318	23632	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07396
+			locus_tag	BOHMNAMF_00030
+			product	Phosphoprotein F17
+25060	23636	CDS
+			EC_number	2.7.7.19
+			gene	PAPL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23371
+			locus_tag	BOHMNAMF_00031
+			product	Poly(A) polymerase catalytic subunit
+27264	25057	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21604
+			locus_tag	BOHMNAMF_00032
+			product	Protein E2
+27809	27276	CDS
+			gene	E3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21081
+			locus_tag	BOHMNAMF_00033
+			product	Protein E3
+28477	27872	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00034
+			product	hypothetical protein
+28559	29692	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00035
+			product	hypothetical protein
+29702	31402	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21607
+			locus_tag	BOHMNAMF_00036
+			product	Protein E6
+31412	32209	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23372
+			locus_tag	BOHMNAMF_00037
+			product	Protein E8
+35238	32206	CDS
+			EC_number	2.7.7.7
+			gene	POL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20509
+			locus_tag	BOHMNAMF_00038
+			product	DNA polymerase
+35272	35559	CDS
+			EC_number	1.8.3.2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21050
+			locus_tag	BOHMNAMF_00039
+			product	putative FAD-linked sulfhydryl oxidase E10
+35948	35556	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSU0
+			locus_tag	BOHMNAMF_00040
+			product	Protein E11
+37989	35935	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00041
+			product	hypothetical protein
+39039	38095	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16714
+			locus_tag	BOHMNAMF_00042
+			product	Telomere-binding protein I1
+39261	39046	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00043
+			product	hypothetical protein
+40092	39262	CDS
+			gene	I3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20499
+			locus_tag	BOHMNAMF_00044
+			product	Protein I3
+40198	40380	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00045
+			product	hypothetical protein
+41580	40396	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68462
+			locus_tag	BOHMNAMF_00046
+			product	Telomere-binding protein I6
+42874	41573	CDS
+			EC_number	3.4.22.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12926
+			locus_tag	BOHMNAMF_00047
+			product	Core protease I7
+42880	44910	CDS
+			EC_number	3.6.4.13
+			gene	NPH2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9Q927
+			locus_tag	BOHMNAMF_00048
+			product	RNA helicase NPH-II
+46694	44907	CDS
+			EC_number	3.4.24.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16713
+			locus_tag	BOHMNAMF_00049
+			product	Metalloendopeptidase G1
+46936	46691	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68458
+			locus_tag	BOHMNAMF_00050
+			product	Protein G3
+47017	47685	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68456
+			locus_tag	BOHMNAMF_00051
+			product	Late transcription elongation factor G2
+48029	47649	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68460
+			locus_tag	BOHMNAMF_00052
+			product	Glutaredoxin-2
+48032	49345	CDS
+			EC_number	3.1.-.-
+			gene	G5R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSS6
+			locus_tag	BOHMNAMF_00053
+			product	Putative nuclease G5
+49346	49537	CDS
+			EC_number	2.7.7.6
+			gene	RPO7
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9DHQ8
+			locus_tag	BOHMNAMF_00054
+			product	DNA-directed RNA polymerase 7 kDa subunit
+49537	50061	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00055
+			product	hypothetical protein
+51196	50075	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68716
+			locus_tag	BOHMNAMF_00056
+			product	Assembly protein G7
+51227	52009	CDS
+			gene	VLTF1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68613
+			locus_tag	BOHMNAMF_00057
+			product	Late transcription factor 1
+52036	53046	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07611
+			locus_tag	BOHMNAMF_00058
+			product	Myristoylated protein G9
+53047	53784	CDS
+			gene	L1R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOT8
+			locus_tag	BOHMNAMF_00059
+			product	Protein L1
+53824	54102	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07613
+			locus_tag	BOHMNAMF_00060
+			product	Protein L2
+55069	54113	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07614
+			locus_tag	BOHMNAMF_00061
+			product	Protein L3
+55094	55855	CDS
+			gene	L4R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20981
+			locus_tag	BOHMNAMF_00062
+			product	Core protein VP8
+55871	56266	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68623
+			locus_tag	BOHMNAMF_00063
+			product	Protein L5
+56223	56666	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P19746
+			locus_tag	BOHMNAMF_00064
+			product	Protein J1 
+56694	57227	CDS
+			EC_number	2.7.1.21
+			gene	TK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O57203
+			locus_tag	BOHMNAMF_00065
+			product	Thymidine kinase
+57301	57894	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00066
+			product	hypothetical protein
+57954	58955	CDS
+			EC_number	2.1.1.57
+			gene	PAPS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07617
+			locus_tag	BOHMNAMF_00067
+			product	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase
+59834	59433	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07618
+			locus_tag	BOHMNAMF_00068
+			product	Protein J5
+59921	63778	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00069
+			product	hypothetical protein
+64297	63782	CDS
+			EC_number	3.1.3.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q85297
+			locus_tag	BOHMNAMF_00070
+			product	putative dual specificity protein phosphatase H1 
+64313	64885	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08583
+			locus_tag	BOHMNAMF_00071
+			product	Protein H2
+65850	64882	CDS
+			gene	H3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20497
+			locus_tag	BOHMNAMF_00072
+			product	Envelope protein H3
+68276	65880	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68439
+			locus_tag	BOHMNAMF_00073
+			product	RNA polymerase-associated transcription-specificity factor RAP94
+68419	69108	CDS
+			gene	H5R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P33062
+			locus_tag	BOHMNAMF_00074
+			product	Late transcription elongation factor H5
+69150	70103	CDS
+			EC_number	5.6.2.1
+			gene	TOP1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68698
+			locus_tag	BOHMNAMF_00075
+			product	DNA topoisomerase 1B
+70123	70566	CDS
+			gene	H7R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DON8
+			locus_tag	BOHMNAMF_00076
+			product	Late protein H7
+70594	73122	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04298
+			locus_tag	BOHMNAMF_00077
+			product	mRNA-capping enzyme catalytic subunit
+73554	73084	CDS
+			gene	D4L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25951
+			locus_tag	BOHMNAMF_00078
+			product	Core protein D4
+73556	74293	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8V3L7
+			locus_tag	BOHMNAMF_00079
+			product	27 kDa core protein
+74290	74946	CDS
+			EC_number	3.2.2.27
+			gene	UNG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32941
+			locus_tag	BOHMNAMF_00080
+			product	Uracil-DNA glycosylase
+74989	77349	CDS
+			EC_number	3.6.4.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04305
+			locus_tag	BOHMNAMF_00081
+			product	Primase D5
+77346	79253	CDS
+			EC_number	3.6.4.-
+			gene	VETFS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04308
+			locus_tag	BOHMNAMF_00082
+			product	Early transcription factor 70 kDa subunit
+79278	79769	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSY0
+			locus_tag	BOHMNAMF_00083
+			product	DNA-directed RNA polymerase 18 kDa subunit
+79810	80451	CDS
+			EC_number	3.1.3.-
+			gene	D9R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32098
+			locus_tag	BOHMNAMF_00084
+			product	mRNA-decapping protein D9
+80451	81212	CDS
+			EC_number	3.1.3.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32097
+			locus_tag	BOHMNAMF_00085
+			product	mRNA-decapping protein D10
+83125	81218	CDS
+			EC_number	3.6.1.15
+			gene	NPH1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05807
+			locus_tag	BOHMNAMF_00086
+			product	Nucleoside triphosphatase I
+84013	83150	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04318
+			locus_tag	BOHMNAMF_00087
+			product	mRNA-capping enzyme regulatory subunit
+85702	84053	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68440
+			locus_tag	BOHMNAMF_00088
+			product	Scaffold protein D13
+86181	85729	CDS
+			gene	VLTF2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07610
+			locus_tag	BOHMNAMF_00089
+			product	Viral late gene transcription factor 2
+86894	86211	CDS
+			gene	VLTF3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOT6
+			locus_tag	BOHMNAMF_00090
+			product	Viral late gene transcription factor 3
+87133	86906	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0CK20
+			locus_tag	BOHMNAMF_00091
+			product	Protein A2.5
+89124	87142	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P06440
+			locus_tag	BOHMNAMF_00092
+			product	Major core protein 4b
+89685	89200	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00093
+			product	hypothetical protein
+89726	90232	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68611
+			locus_tag	BOHMNAMF_00094
+			product	DNA-directed RNA polymerase 19 kDa subunit
+91356	90229	CDS
+			gene	A6L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20985
+			locus_tag	BOHMNAMF_00095
+			product	Protein A6
+93521	91377	CDS
+			gene	VETFL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20636
+			locus_tag	BOHMNAMF_00096
+			product	Early transcription factor 82 kDa subunit
+93578	94450	CDS
+			gene	VITF3S
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSQ0
+			locus_tag	BOHMNAMF_00097
+			product	Intermediate transcription factor 3 small subunit
+94695	94459	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O57222
+			locus_tag	BOHMNAMF_00098
+			product	Virion membrane protein A9
+97410	94696	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16715
+			locus_tag	BOHMNAMF_00099
+			product	Major core protein 4a precursor
+97425	98378	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOQ8
+			locus_tag	BOHMNAMF_00100
+			product	Protein A11
+98947	98375	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOL0
+			locus_tag	BOHMNAMF_00101
+			product	25 kDa core protein A12L
+99210	99007	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00102
+			product	hypothetical protein
+99578	99291	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q76ZQ3
+			locus_tag	BOHMNAMF_00103
+			product	Virion membrane protein A14
+100033	99746	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68718
+			locus_tag	BOHMNAMF_00104
+			product	Core protein A15
+101150	100017	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O93122
+			locus_tag	BOHMNAMF_00105
+			product	Virion membrane protein A16
+101750	101166	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68593
+			locus_tag	BOHMNAMF_00106
+			product	Virion membrane protein A17 precursor
+101765	103207	CDS
+			EC_number	3.6.4.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16712
+			locus_tag	BOHMNAMF_00107
+			product	Transcript termination protein A18
+103412	103188	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68714
+			locus_tag	BOHMNAMF_00108
+			product	Protein A19
+103571	103413	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00109
+			product	hypothetical protein
+103759	105051	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68710
+			locus_tag	BOHMNAMF_00110
+			product	DNA polymerase processivity factor component A20
+105020	105559	CDS
+			EC_number	3.1.-.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q80HV3
+			locus_tag	BOHMNAMF_00111
+			product	Resolvase A22
+105552	106709	CDS
+			gene	VITF3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q80HV2
+			locus_tag	BOHMNAMF_00112
+			product	Intermediate transcription factor 3 large subunit
+106740	110210	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q76ZP7
+			locus_tag	BOHMNAMF_00113
+			product	DNA-directed RNA polymerase 133 kDa polypeptide
+110670	110224	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00114
+			product	hypothetical protein
+111093	110671	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68633
+			locus_tag	BOHMNAMF_00115
+			product	Envelope protein A28
+112005	111094	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24757
+			locus_tag	BOHMNAMF_00116
+			product	DNA-directed RNA polymerase 35 kDa subunit
+112198	111974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00117
+			product	hypothetical protein
+112352	112227	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00118
+			product	hypothetical protein
+113143	112379	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68615
+			locus_tag	BOHMNAMF_00119
+			product	Protein A32
+113275	113868	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DON2
+			locus_tag	BOHMNAMF_00120
+			product	Protein A33
+113898	114413	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24761
+			locus_tag	BOHMNAMF_00121
+			product	Protein A34
+114442	115017	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21058
+			locus_tag	BOHMNAMF_00122
+			product	Protein A35
+115054	115920	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00123
+			product	hypothetical protein
+115981	116499	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00124
+			product	hypothetical protein
+116510	117331	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00125
+			product	hypothetical protein
+118240	117335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00126
+			product	hypothetical protein
+118337	118687	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00127
+			product	hypothetical protein
+118768	119013	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00128
+			product	hypothetical protein
+119069	119554	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00129
+			product	hypothetical protein
+120121	121797	CDS
+			EC_number	6.5.1.1
+			gene	LIG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16272
+			locus_tag	BOHMNAMF_00130
+			product	DNA ligase
+122034	127940	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00131
+			product	hypothetical protein
+128067	129149	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25213
+			locus_tag	BOHMNAMF_00132
+			product	Soluble interferon alpha/beta receptor B18
+129193	129654	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00133
+			product	hypothetical protein
+129719	130726	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00134
+			product	hypothetical protein
+130756	131316	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00135
+			product	hypothetical protein
+131355	132272	CDS
+			EC_number	2.7.11.1
+			gene	VPK1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16913
+			locus_tag	BOHMNAMF_00136
+			product	B1 kinase
+132302	133024	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00137
+			product	hypothetical protein
+133073	133750	CDS
+			gene	PS/HR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q01227
+			locus_tag	BOHMNAMF_00138
+			product	Protein B5
+133752	134159	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00139
+			product	hypothetical protein
+134196	135104	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00140
+			product	hypothetical protein
+135265	136908	CDS
+			gene	KBTB1_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24768
+			locus_tag	BOHMNAMF_00141
+			product	Kelch repeat and BTB domain-containing protein A55
+136955	138859	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00142
+			product	hypothetical protein
+138980	140218	CDS
+			EC_number	3.1.1.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26653
+			locus_tag	BOHMNAMF_00143
+			product	Envelope phospholipase F13
+140276	141772	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83730
+			locus_tag	BOHMNAMF_00144
+			product	Ankyrin repeat domain-containing protein M-T5
+141820	143163	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83730
+			locus_tag	BOHMNAMF_00145
+			product	Ankyrin repeat domain-containing protein M-T5
+143184	144197	CDS
+			gene	SERP2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68565
+			locus_tag	BOHMNAMF_00146
+			product	Serine proteinase inhibitor 2
+144235	144720	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00147
+			product	hypothetical protein
+144761	146419	CDS
+			gene	KBTB1_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24768
+			locus_tag	BOHMNAMF_00148
+			product	Kelch repeat and BTB domain-containing protein A55
+146484	147845	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83730
+			locus_tag	BOHMNAMF_00149
+			product	Ankyrin repeat domain-containing protein M-T5
+148329	149051	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	BOHMNAMF_00150
+			product	hypothetical protein

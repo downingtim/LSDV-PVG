@@ -1,0 +1,2 @@
+Sample	Sum of distances: nucleotide space
+goatpox_2_virus_2	1.11061

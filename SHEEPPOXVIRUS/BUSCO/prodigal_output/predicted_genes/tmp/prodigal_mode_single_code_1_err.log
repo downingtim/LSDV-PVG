@@ -1,0 +1,39 @@
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]         
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.     
+-------------------------------------
+Request:  Single Genome, Phase:  Training
+Reading in the sequence(s) to train...3747020 bp seq created, 24.61 pct GC
+Locating all potential starts and stops...44484 nodes
+Looking for GC bias in different frames...frame bias scores: 2.64 0.28 0.08
+Building initial set of genes to train from...done!
+Creating coding model and scoring nodes...done!
+Examining upstream regions and training starts...done!
+-------------------------------------
+Request:  Single Genome, Phase:  Gene Finding
+Finding genes in sequence #1 (149661 bp)...done!
+Finding genes in sequence #2 (149660 bp)...done!
+Finding genes in sequence #3 (149662 bp)...done!
+Finding genes in sequence #4 (149662 bp)...done!
+Finding genes in sequence #5 (149659 bp)...done!
+Finding genes in sequence #6 (150491 bp)...done!
+Finding genes in sequence #7 (149955 bp)...done!
+Finding genes in sequence #8 (149641 bp)...done!
+Finding genes in sequence #9 (149640 bp)...done!
+Finding genes in sequence #10 (149829 bp)...done!
+Finding genes in sequence #11 (150103 bp)...done!
+Finding genes in sequence #12 (150478 bp)...done!
+Finding genes in sequence #13 (150369 bp)...done!
+Finding genes in sequence #14 (150211 bp)...done!
+Finding genes in sequence #15 (150172 bp)...done!
+Finding genes in sequence #16 (150166 bp)...done!
+Finding genes in sequence #17 (150046 bp)...done!
+Finding genes in sequence #18 (149956 bp)...done!
+Finding genes in sequence #19 (148707 bp)...done!
+Finding genes in sequence #20 (148584 bp)...done!
+Finding genes in sequence #21 (150194 bp)...done!
+Finding genes in sequence #22 (150200 bp)...done!
+Finding genes in sequence #23 (149955 bp)...done!
+Finding genes in sequence #24 (149662 bp)...done!
+Finding genes in sequence #25 (150057 bp)...done!

@@ -1,0 +1,151 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+BOHMNAMF_00001	CDS	723				hypothetical protein
+BOHMNAMF_00002	CDS	513	BCRF1			Viral interleukin-10 
+BOHMNAMF_00003	CDS	696				hypothetical protein
+BOHMNAMF_00004	CDS	1068				hypothetical protein
+BOHMNAMF_00005	CDS	828				Soluble interferon gamma receptor B8
+BOHMNAMF_00006	CDS	129				hypothetical protein
+BOHMNAMF_00007	CDS	489				hypothetical protein
+BOHMNAMF_00008	CDS	1125				G-protein coupled receptor US28
+BOHMNAMF_00009	CDS	636				hypothetical protein
+BOHMNAMF_00010	CDS	111				hypothetical protein
+BOHMNAMF_00011	CDS	159				hypothetical protein
+BOHMNAMF_00012	CDS	270				Protein K3
+BOHMNAMF_00013	CDS	486				hypothetical protein
+BOHMNAMF_00014	CDS	306				hypothetical protein
+BOHMNAMF_00015	CDS	531				hypothetical protein
+BOHMNAMF_00016	CDS	441	DUT	3.6.1.23		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+BOHMNAMF_00017	CDS	1689				Kelch repeat protein F3
+BOHMNAMF_00018	CDS	966	F4L	1.17.4.1		Ribonucleoside-diphosphate reductase small chain
+BOHMNAMF_00019	CDS	99				hypothetical protein
+BOHMNAMF_00020	CDS	321				hypothetical protein
+BOHMNAMF_00021	CDS	219				hypothetical protein
+BOHMNAMF_00022	CDS	651				Protein F9
+BOHMNAMF_00023	CDS	1344	VPK2	2.7.11.1		Serine/threonine-protein kinase 2
+BOHMNAMF_00024	CDS	129				hypothetical protein
+BOHMNAMF_00025	CDS	1920				Protein F12
+BOHMNAMF_00026	CDS	1113		3.1.1.-		Envelope phospholipase F13
+BOHMNAMF_00027	CDS	147				hypothetical protein
+BOHMNAMF_00028	CDS	438				hypothetical protein
+BOHMNAMF_00029	CDS	660				hypothetical protein
+BOHMNAMF_00030	CDS	315				Phosphoprotein F17
+BOHMNAMF_00031	CDS	1425	PAPL	2.7.7.19		Poly(A) polymerase catalytic subunit
+BOHMNAMF_00032	CDS	2208				Protein E2
+BOHMNAMF_00033	CDS	534	E3L			Protein E3
+BOHMNAMF_00034	CDS	606				hypothetical protein
+BOHMNAMF_00035	CDS	1134				hypothetical protein
+BOHMNAMF_00036	CDS	1701				Protein E6
+BOHMNAMF_00037	CDS	798				Protein E8
+BOHMNAMF_00038	CDS	3033	POL	2.7.7.7		DNA polymerase
+BOHMNAMF_00039	CDS	288		1.8.3.2		putative FAD-linked sulfhydryl oxidase E10
+BOHMNAMF_00040	CDS	393				Protein E11
+BOHMNAMF_00041	CDS	2055				hypothetical protein
+BOHMNAMF_00042	CDS	945				Telomere-binding protein I1
+BOHMNAMF_00043	CDS	216				hypothetical protein
+BOHMNAMF_00044	CDS	831	I3L			Protein I3
+BOHMNAMF_00045	CDS	183				hypothetical protein
+BOHMNAMF_00046	CDS	1185				Telomere-binding protein I6
+BOHMNAMF_00047	CDS	1302		3.4.22.-		Core protease I7
+BOHMNAMF_00048	CDS	2031	NPH2	3.6.4.13		RNA helicase NPH-II
+BOHMNAMF_00049	CDS	1788		3.4.24.-		Metalloendopeptidase G1
+BOHMNAMF_00050	CDS	246				Protein G3
+BOHMNAMF_00051	CDS	669				Late transcription elongation factor G2
+BOHMNAMF_00052	CDS	381				Glutaredoxin-2
+BOHMNAMF_00053	CDS	1314	G5R	3.1.-.-		Putative nuclease G5
+BOHMNAMF_00054	CDS	192	RPO7	2.7.7.6		DNA-directed RNA polymerase 7 kDa subunit
+BOHMNAMF_00055	CDS	525				hypothetical protein
+BOHMNAMF_00056	CDS	1122				Assembly protein G7
+BOHMNAMF_00057	CDS	783	VLTF1			Late transcription factor 1
+BOHMNAMF_00058	CDS	1011				Myristoylated protein G9
+BOHMNAMF_00059	CDS	738	L1R			Protein L1
+BOHMNAMF_00060	CDS	279				Protein L2
+BOHMNAMF_00061	CDS	957				Protein L3
+BOHMNAMF_00062	CDS	762	L4R			Core protein VP8
+BOHMNAMF_00063	CDS	396				Protein L5
+BOHMNAMF_00064	CDS	444				Protein J1 
+BOHMNAMF_00065	CDS	534	TK	2.7.1.21		Thymidine kinase
+BOHMNAMF_00066	CDS	594				hypothetical protein
+BOHMNAMF_00067	CDS	1002	PAPS	2.1.1.57		Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase
+BOHMNAMF_00068	CDS	402				Protein J5
+BOHMNAMF_00069	CDS	3858				hypothetical protein
+BOHMNAMF_00070	CDS	516		3.1.3.-		putative dual specificity protein phosphatase H1 
+BOHMNAMF_00071	CDS	573				Protein H2
+BOHMNAMF_00072	CDS	969	H3L			Envelope protein H3
+BOHMNAMF_00073	CDS	2397				RNA polymerase-associated transcription-specificity factor RAP94
+BOHMNAMF_00074	CDS	690	H5R			Late transcription elongation factor H5
+BOHMNAMF_00075	CDS	954	TOP1	5.6.2.1		DNA topoisomerase 1B
+BOHMNAMF_00076	CDS	444	H7R			Late protein H7
+BOHMNAMF_00077	CDS	2529				mRNA-capping enzyme catalytic subunit
+BOHMNAMF_00078	CDS	471	D4L			Core protein D4
+BOHMNAMF_00079	CDS	738				27 kDa core protein
+BOHMNAMF_00080	CDS	657	UNG	3.2.2.27		Uracil-DNA glycosylase
+BOHMNAMF_00081	CDS	2361		3.6.4.-		Primase D5
+BOHMNAMF_00082	CDS	1908	VETFS	3.6.4.-		Early transcription factor 70 kDa subunit
+BOHMNAMF_00083	CDS	492		2.7.7.6		DNA-directed RNA polymerase 18 kDa subunit
+BOHMNAMF_00084	CDS	642	D9R	3.1.3.-		mRNA-decapping protein D9
+BOHMNAMF_00085	CDS	762		3.1.3.-		mRNA-decapping protein D10
+BOHMNAMF_00086	CDS	1908	NPH1	3.6.1.15		Nucleoside triphosphatase I
+BOHMNAMF_00087	CDS	864				mRNA-capping enzyme regulatory subunit
+BOHMNAMF_00088	CDS	1650				Scaffold protein D13
+BOHMNAMF_00089	CDS	453	VLTF2			Viral late gene transcription factor 2
+BOHMNAMF_00090	CDS	684	VLTF3			Viral late gene transcription factor 3
+BOHMNAMF_00091	CDS	228				Protein A2.5
+BOHMNAMF_00092	CDS	1983				Major core protein 4b
+BOHMNAMF_00093	CDS	486				hypothetical protein
+BOHMNAMF_00094	CDS	507		2.7.7.6		DNA-directed RNA polymerase 19 kDa subunit
+BOHMNAMF_00095	CDS	1128	A6L			Protein A6
+BOHMNAMF_00096	CDS	2145	VETFL			Early transcription factor 82 kDa subunit
+BOHMNAMF_00097	CDS	873	VITF3S			Intermediate transcription factor 3 small subunit
+BOHMNAMF_00098	CDS	237				Virion membrane protein A9
+BOHMNAMF_00099	CDS	2715				Major core protein 4a precursor
+BOHMNAMF_00100	CDS	954				Protein A11
+BOHMNAMF_00101	CDS	573				25 kDa core protein A12L
+BOHMNAMF_00102	CDS	204				hypothetical protein
+BOHMNAMF_00103	CDS	288				Virion membrane protein A14
+BOHMNAMF_00104	CDS	288				Core protein A15
+BOHMNAMF_00105	CDS	1134				Virion membrane protein A16
+BOHMNAMF_00106	CDS	585				Virion membrane protein A17 precursor
+BOHMNAMF_00107	CDS	1443		3.6.4.-		Transcript termination protein A18
+BOHMNAMF_00108	CDS	225				Protein A19
+BOHMNAMF_00109	CDS	159				hypothetical protein
+BOHMNAMF_00110	CDS	1293				DNA polymerase processivity factor component A20
+BOHMNAMF_00111	CDS	540		3.1.-.-		Resolvase A22
+BOHMNAMF_00112	CDS	1158	VITF3L			Intermediate transcription factor 3 large subunit
+BOHMNAMF_00113	CDS	3471		2.7.7.6		DNA-directed RNA polymerase 133 kDa polypeptide
+BOHMNAMF_00114	CDS	447				hypothetical protein
+BOHMNAMF_00115	CDS	423				Envelope protein A28
+BOHMNAMF_00116	CDS	912		2.7.7.6		DNA-directed RNA polymerase 35 kDa subunit
+BOHMNAMF_00117	CDS	225				hypothetical protein
+BOHMNAMF_00118	CDS	126				hypothetical protein
+BOHMNAMF_00119	CDS	765				Protein A32
+BOHMNAMF_00120	CDS	594				Protein A33
+BOHMNAMF_00121	CDS	516				Protein A34
+BOHMNAMF_00122	CDS	576				Protein A35
+BOHMNAMF_00123	CDS	867				hypothetical protein
+BOHMNAMF_00124	CDS	519				hypothetical protein
+BOHMNAMF_00125	CDS	822				hypothetical protein
+BOHMNAMF_00126	CDS	906				hypothetical protein
+BOHMNAMF_00127	CDS	351				hypothetical protein
+BOHMNAMF_00128	CDS	246				hypothetical protein
+BOHMNAMF_00129	CDS	486				hypothetical protein
+BOHMNAMF_00130	CDS	1677	LIG	6.5.1.1		DNA ligase
+BOHMNAMF_00131	CDS	5907				hypothetical protein
+BOHMNAMF_00132	CDS	1083				Soluble interferon alpha/beta receptor B18
+BOHMNAMF_00133	CDS	462				hypothetical protein
+BOHMNAMF_00134	CDS	1008				hypothetical protein
+BOHMNAMF_00135	CDS	561				hypothetical protein
+BOHMNAMF_00136	CDS	918	VPK1	2.7.11.1		B1 kinase
+BOHMNAMF_00137	CDS	723				hypothetical protein
+BOHMNAMF_00138	CDS	678	PS/HR			Protein B5
+BOHMNAMF_00139	CDS	408				hypothetical protein
+BOHMNAMF_00140	CDS	909				hypothetical protein
+BOHMNAMF_00141	CDS	1644	KBTB1_1			Kelch repeat and BTB domain-containing protein A55
+BOHMNAMF_00142	CDS	1905				hypothetical protein
+BOHMNAMF_00143	CDS	1239		3.1.1.-		Envelope phospholipase F13
+BOHMNAMF_00144	CDS	1497				Ankyrin repeat domain-containing protein M-T5
+BOHMNAMF_00145	CDS	1344				Ankyrin repeat domain-containing protein M-T5
+BOHMNAMF_00146	CDS	1014	SERP2			Serine proteinase inhibitor 2
+BOHMNAMF_00147	CDS	486				hypothetical protein
+BOHMNAMF_00148	CDS	1659	KBTB1_2			Kelch repeat and BTB domain-containing protein A55
+BOHMNAMF_00149	CDS	1362				Ankyrin repeat domain-containing protein M-T5
+BOHMNAMF_00150	CDS	723				hypothetical protein

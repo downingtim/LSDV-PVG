@@ -1,0 +1,2 @@
+Sample	Sum of distances: node space
+LSDV_genomes	1.52851

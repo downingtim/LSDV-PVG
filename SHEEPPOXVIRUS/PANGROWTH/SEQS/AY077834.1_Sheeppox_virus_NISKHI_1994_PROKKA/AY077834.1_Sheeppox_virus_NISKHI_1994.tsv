@@ -1,0 +1,151 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+KGOPFGHK_00001	CDS	723				hypothetical protein
+KGOPFGHK_00002	CDS	507	BCRF1			Viral interleukin-10 
+KGOPFGHK_00003	CDS	696				hypothetical protein
+KGOPFGHK_00004	CDS	1068				hypothetical protein
+KGOPFGHK_00005	CDS	828				Soluble interferon gamma receptor B8
+KGOPFGHK_00006	CDS	156				hypothetical protein
+KGOPFGHK_00007	CDS	489				hypothetical protein
+KGOPFGHK_00008	CDS	1125				hypothetical protein
+KGOPFGHK_00009	CDS	636				hypothetical protein
+KGOPFGHK_00010	CDS	270				Protein K3
+KGOPFGHK_00011	CDS	486				hypothetical protein
+KGOPFGHK_00012	CDS	303				hypothetical protein
+KGOPFGHK_00013	CDS	531				hypothetical protein
+KGOPFGHK_00014	CDS	441	DUT	3.6.1.23		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+KGOPFGHK_00015	CDS	1710				Kelch repeat protein F3
+KGOPFGHK_00016	CDS	966	F4L	1.17.4.1		Ribonucleoside-diphosphate reductase small chain
+KGOPFGHK_00017	CDS	96				hypothetical protein
+KGOPFGHK_00018	CDS	312				hypothetical protein
+KGOPFGHK_00019	CDS	219				hypothetical protein
+KGOPFGHK_00020	CDS	651				Protein F9
+KGOPFGHK_00021	CDS	1344	VPK2	2.7.11.1		Serine/threonine-protein kinase 2
+KGOPFGHK_00022	CDS	138				hypothetical protein
+KGOPFGHK_00023	CDS	1923				Protein F12
+KGOPFGHK_00024	CDS	1113		3.1.1.-		Envelope phospholipase F13
+KGOPFGHK_00025	CDS	147				hypothetical protein
+KGOPFGHK_00026	CDS	438				hypothetical protein
+KGOPFGHK_00027	CDS	660				hypothetical protein
+KGOPFGHK_00028	CDS	315				Phosphoprotein F17
+KGOPFGHK_00029	CDS	1425	PAPL	2.7.7.19		Poly(A) polymerase catalytic subunit
+KGOPFGHK_00030	CDS	2208				Protein E2
+KGOPFGHK_00031	CDS	534	E3L			Protein E3
+KGOPFGHK_00032	CDS	585				hypothetical protein
+KGOPFGHK_00033	CDS	1134				hypothetical protein
+KGOPFGHK_00034	CDS	1701				Protein E6
+KGOPFGHK_00035	CDS	798				Protein E8
+KGOPFGHK_00036	CDS	3033	POL	2.7.7.7		DNA polymerase
+KGOPFGHK_00037	CDS	288		1.8.3.2		putative FAD-linked sulfhydryl oxidase E10
+KGOPFGHK_00038	CDS	393				Protein E11
+KGOPFGHK_00039	CDS	2055				hypothetical protein
+KGOPFGHK_00040	CDS	945				Telomere-binding protein I1
+KGOPFGHK_00041	CDS	216				hypothetical protein
+KGOPFGHK_00042	CDS	831	I3L			Protein I3
+KGOPFGHK_00043	CDS	237				Protein I5
+KGOPFGHK_00044	CDS	1185				Telomere-binding protein I6
+KGOPFGHK_00045	CDS	1302		3.4.22.-		Core protease I7
+KGOPFGHK_00046	CDS	2031	NPH2	3.6.4.13		RNA helicase NPH-II
+KGOPFGHK_00047	CDS	1788		3.4.24.-		Metalloendopeptidase G1
+KGOPFGHK_00048	CDS	246				Protein G3
+KGOPFGHK_00049	CDS	669				Late transcription elongation factor G2
+KGOPFGHK_00050	CDS	381				Glutaredoxin-2
+KGOPFGHK_00051	CDS	1314	G5R	3.1.-.-		Putative nuclease G5
+KGOPFGHK_00052	CDS	192	RPO7	2.7.7.6		DNA-directed RNA polymerase 7 kDa subunit
+KGOPFGHK_00053	CDS	525				hypothetical protein
+KGOPFGHK_00054	CDS	1119				Assembly protein G7
+KGOPFGHK_00055	CDS	783	VLTF1			Late transcription factor 1
+KGOPFGHK_00056	CDS	1014				Myristoylated protein G9
+KGOPFGHK_00057	CDS	738	L1R			Protein L1
+KGOPFGHK_00058	CDS	279				Protein L2
+KGOPFGHK_00059	CDS	957				Protein L3
+KGOPFGHK_00060	CDS	762	L4R			Core protein VP8
+KGOPFGHK_00061	CDS	399	L5R			Protein L5
+KGOPFGHK_00062	CDS	444				Protein J1 
+KGOPFGHK_00063	CDS	534	TK	2.7.1.21		Thymidine kinase
+KGOPFGHK_00064	CDS	594				hypothetical protein
+KGOPFGHK_00065	CDS	987	PAPS	2.1.1.57		Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase
+KGOPFGHK_00066	CDS	402				Protein J5
+KGOPFGHK_00067	CDS	3858				hypothetical protein
+KGOPFGHK_00068	CDS	516		3.1.3.-		putative dual specificity protein phosphatase H1 
+KGOPFGHK_00069	CDS	573				Protein H2
+KGOPFGHK_00070	CDS	972	H3L			Envelope protein H3
+KGOPFGHK_00071	CDS	2397				RNA polymerase-associated transcription-specificity factor RAP94
+KGOPFGHK_00072	CDS	681	H5R			Late transcription elongation factor H5
+KGOPFGHK_00073	CDS	954	TOP1	5.6.2.1		DNA topoisomerase 1B
+KGOPFGHK_00074	CDS	444	H7R			Late protein H7
+KGOPFGHK_00075	CDS	2529				mRNA-capping enzyme catalytic subunit
+KGOPFGHK_00076	CDS	468	D4L			Core protein D4
+KGOPFGHK_00077	CDS	738				27 kDa core protein
+KGOPFGHK_00078	CDS	657	UNG	3.2.2.27		Uracil-DNA glycosylase
+KGOPFGHK_00079	CDS	2361		3.6.4.-		Primase D5
+KGOPFGHK_00080	CDS	1908	VETFS	3.6.4.-		Early transcription factor 70 kDa subunit
+KGOPFGHK_00081	CDS	492		2.7.7.6		DNA-directed RNA polymerase 18 kDa subunit
+KGOPFGHK_00082	CDS	681	D9R	3.1.3.-		mRNA-decapping protein D9
+KGOPFGHK_00083	CDS	762		3.1.3.-		mRNA-decapping protein D10
+KGOPFGHK_00084	CDS	1908	NPH1	3.6.1.15		Nucleoside triphosphatase I
+KGOPFGHK_00085	CDS	864				mRNA-capping enzyme regulatory subunit
+KGOPFGHK_00086	CDS	1650				Scaffold protein D13
+KGOPFGHK_00087	CDS	453	VLTF2			Viral late gene transcription factor 2
+KGOPFGHK_00088	CDS	684	VLTF3			Viral late gene transcription factor 3
+KGOPFGHK_00089	CDS	228				Protein A2.5
+KGOPFGHK_00090	CDS	1986				Major core protein 4b
+KGOPFGHK_00091	CDS	486				hypothetical protein
+KGOPFGHK_00092	CDS	504		2.7.7.6		DNA-directed RNA polymerase 19 kDa subunit
+KGOPFGHK_00093	CDS	1128	A6L			Protein A6
+KGOPFGHK_00094	CDS	2145	VETFL			Early transcription factor 82 kDa subunit
+KGOPFGHK_00095	CDS	873	VITF3S			Intermediate transcription factor 3 small subunit
+KGOPFGHK_00096	CDS	237				Virion membrane protein A9
+KGOPFGHK_00097	CDS	2712				Major core protein 4a precursor
+KGOPFGHK_00098	CDS	954				Protein A11
+KGOPFGHK_00099	CDS	573				25 kDa core protein A12L
+KGOPFGHK_00100	CDS	204				hypothetical protein
+KGOPFGHK_00101	CDS	288				Virion membrane protein A14
+KGOPFGHK_00102	CDS	288				Core protein A15
+KGOPFGHK_00103	CDS	1134				Virion membrane protein A16
+KGOPFGHK_00104	CDS	585				Virion membrane protein A17 precursor
+KGOPFGHK_00105	CDS	1443		3.6.4.-		Transcript termination protein A18
+KGOPFGHK_00106	CDS	225				Protein A19
+KGOPFGHK_00107	CDS	159				hypothetical protein
+KGOPFGHK_00108	CDS	1293				DNA polymerase processivity factor component A20
+KGOPFGHK_00109	CDS	507		3.1.-.-		Resolvase A22
+KGOPFGHK_00110	CDS	1158	VITF3L			Intermediate transcription factor 3 large subunit
+KGOPFGHK_00111	CDS	3471		2.7.7.6		DNA-directed RNA polymerase 133 kDa polypeptide
+KGOPFGHK_00112	CDS	450				hypothetical protein
+KGOPFGHK_00113	CDS	423				Envelope protein A28
+KGOPFGHK_00114	CDS	912		2.7.7.6		DNA-directed RNA polymerase 35 kDa subunit
+KGOPFGHK_00115	CDS	225				hypothetical protein
+KGOPFGHK_00116	CDS	126				hypothetical protein
+KGOPFGHK_00117	CDS	771				Protein A32
+KGOPFGHK_00118	CDS	591				Protein A33
+KGOPFGHK_00119	CDS	516				Protein A34
+KGOPFGHK_00120	CDS	576				Protein A35
+KGOPFGHK_00121	CDS	867				hypothetical protein
+KGOPFGHK_00122	CDS	519				hypothetical protein
+KGOPFGHK_00123	CDS	804				hypothetical protein
+KGOPFGHK_00124	CDS	906				hypothetical protein
+KGOPFGHK_00125	CDS	321				hypothetical protein
+KGOPFGHK_00126	CDS	96				hypothetical protein
+KGOPFGHK_00127	CDS	234				hypothetical protein
+KGOPFGHK_00128	CDS	486				hypothetical protein
+KGOPFGHK_00129	CDS	1674	LIG	6.5.1.1		DNA ligase
+KGOPFGHK_00130	CDS	5961				hypothetical protein
+KGOPFGHK_00131	CDS	1083				Soluble interferon alpha/beta receptor B18
+KGOPFGHK_00132	CDS	1008				hypothetical protein
+KGOPFGHK_00133	CDS	543				hypothetical protein
+KGOPFGHK_00134	CDS	918	VPK1	2.7.11.1		B1 kinase
+KGOPFGHK_00135	CDS	723				hypothetical protein
+KGOPFGHK_00136	CDS	681	PS/HR			Protein B5
+KGOPFGHK_00137	CDS	408				hypothetical protein
+KGOPFGHK_00138	CDS	909				hypothetical protein
+KGOPFGHK_00139	CDS	1644	KBTB1_1			Kelch repeat and BTB domain-containing protein A55
+KGOPFGHK_00140	CDS	753				hypothetical protein
+KGOPFGHK_00141	CDS	1116				Ankyrin repeat domain-containing protein M-T5
+KGOPFGHK_00142	CDS	1233		3.1.1.-		Envelope phospholipase F13
+KGOPFGHK_00143	CDS	1497				Ankyrin repeat domain-containing protein M-T5
+KGOPFGHK_00144	CDS	351				hypothetical protein
+KGOPFGHK_00145	CDS	537				hypothetical protein
+KGOPFGHK_00146	CDS	1014	SERP2			Serine proteinase inhibitor 2
+KGOPFGHK_00147	CDS	486				hypothetical protein
+KGOPFGHK_00148	CDS	1659	KBTB1_2			Kelch repeat and BTB domain-containing protein A55
+KGOPFGHK_00149	CDS	1455				Ankyrin repeat domain-containing protein M-T5
+KGOPFGHK_00150	CDS	723				hypothetical protein

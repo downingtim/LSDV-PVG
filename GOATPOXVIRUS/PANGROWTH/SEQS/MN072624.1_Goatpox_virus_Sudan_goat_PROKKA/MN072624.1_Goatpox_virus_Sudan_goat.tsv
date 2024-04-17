@@ -1,0 +1,151 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+AAMCOKHH_00001	CDS	723				hypothetical protein
+AAMCOKHH_00002	CDS	222				hypothetical protein
+AAMCOKHH_00003	CDS	513	BCRF1			Viral interleukin-10 
+AAMCOKHH_00004	CDS	696				hypothetical protein
+AAMCOKHH_00005	CDS	1068				hypothetical protein
+AAMCOKHH_00006	CDS	828				Soluble interferon gamma receptor B8
+AAMCOKHH_00007	CDS	489				hypothetical protein
+AAMCOKHH_00008	CDS	1146				hypothetical protein
+AAMCOKHH_00009	CDS	636				hypothetical protein
+AAMCOKHH_00010	CDS	270				Protein K3
+AAMCOKHH_00011	CDS	486				hypothetical protein
+AAMCOKHH_00012	CDS	303				hypothetical protein
+AAMCOKHH_00013	CDS	531				hypothetical protein
+AAMCOKHH_00014	CDS	441	DUT	3.6.1.23		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+AAMCOKHH_00015	CDS	1689				Kelch repeat protein F3
+AAMCOKHH_00016	CDS	966	F4L	1.17.4.1		Ribonucleoside-diphosphate reductase small chain
+AAMCOKHH_00017	CDS	96				hypothetical protein
+AAMCOKHH_00018	CDS	321				hypothetical protein
+AAMCOKHH_00019	CDS	219				hypothetical protein
+AAMCOKHH_00020	CDS	651				Protein F9
+AAMCOKHH_00021	CDS	1344	VPK2	2.7.11.1		Serine/threonine-protein kinase 2
+AAMCOKHH_00022	CDS	150				hypothetical protein
+AAMCOKHH_00023	CDS	183				hypothetical protein
+AAMCOKHH_00024	CDS	1920				Protein F12
+AAMCOKHH_00025	CDS	1113		3.1.1.-		Envelope phospholipase F13
+AAMCOKHH_00026	CDS	147				hypothetical protein
+AAMCOKHH_00027	CDS	438				hypothetical protein
+AAMCOKHH_00028	CDS	660				hypothetical protein
+AAMCOKHH_00029	CDS	315				Phosphoprotein F17
+AAMCOKHH_00030	CDS	1425	PAPL	2.7.7.19		Poly(A) polymerase catalytic subunit
+AAMCOKHH_00031	CDS	2208				Protein E2
+AAMCOKHH_00032	CDS	534	E3L			Protein E3
+AAMCOKHH_00033	CDS	606				hypothetical protein
+AAMCOKHH_00034	CDS	1134				hypothetical protein
+AAMCOKHH_00035	CDS	1701				Protein E6
+AAMCOKHH_00036	CDS	798				Protein E8
+AAMCOKHH_00037	CDS	3033	POL	2.7.7.7		DNA polymerase
+AAMCOKHH_00038	CDS	288		1.8.3.2		putative FAD-linked sulfhydryl oxidase E10
+AAMCOKHH_00039	CDS	393				Protein E11
+AAMCOKHH_00040	CDS	2052				hypothetical protein
+AAMCOKHH_00041	CDS	945				Telomere-binding protein I1
+AAMCOKHH_00042	CDS	216				hypothetical protein
+AAMCOKHH_00043	CDS	831	I3L			Protein I3
+AAMCOKHH_00044	CDS	237				Protein I5
+AAMCOKHH_00045	CDS	1185				Telomere-binding protein I6
+AAMCOKHH_00046	CDS	1302		3.4.22.-		Core protease I7
+AAMCOKHH_00047	CDS	2031	NPH2	3.6.4.13		RNA helicase NPH-II
+AAMCOKHH_00048	CDS	1788		3.4.24.-		Metalloendopeptidase G1
+AAMCOKHH_00049	CDS	246				Protein G3
+AAMCOKHH_00050	CDS	669				Late transcription elongation factor G2
+AAMCOKHH_00051	CDS	381				Glutaredoxin-2
+AAMCOKHH_00052	CDS	1314	G5R	3.1.-.-		Putative nuclease G5
+AAMCOKHH_00053	CDS	192	RPO7	2.7.7.6		DNA-directed RNA polymerase 7 kDa subunit
+AAMCOKHH_00054	CDS	525				hypothetical protein
+AAMCOKHH_00055	CDS	1122				Assembly protein G7
+AAMCOKHH_00056	CDS	783	VLTF1			Late transcription factor 1
+AAMCOKHH_00057	CDS	1011				Myristoylated protein G9
+AAMCOKHH_00058	CDS	738	L1R			Protein L1
+AAMCOKHH_00059	CDS	279				Protein L2
+AAMCOKHH_00060	CDS	957				Protein L3
+AAMCOKHH_00061	CDS	762	L4R			Core protein VP8
+AAMCOKHH_00062	CDS	396				Protein L5
+AAMCOKHH_00063	CDS	444				Protein J1 
+AAMCOKHH_00064	CDS	534	TK	2.7.1.21		Thymidine kinase
+AAMCOKHH_00065	CDS	594				hypothetical protein
+AAMCOKHH_00066	CDS	1002	PAPS	2.1.1.57		Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase
+AAMCOKHH_00067	CDS	402				Protein J5
+AAMCOKHH_00068	CDS	3858				hypothetical protein
+AAMCOKHH_00069	CDS	516		3.1.3.-		putative dual specificity protein phosphatase H1 
+AAMCOKHH_00070	CDS	573				Protein H2
+AAMCOKHH_00071	CDS	969	H3L			Envelope protein H3
+AAMCOKHH_00072	CDS	2397				RNA polymerase-associated transcription-specificity factor RAP94
+AAMCOKHH_00073	CDS	699	H5R			Late transcription elongation factor H5
+AAMCOKHH_00074	CDS	954	TOP1	5.6.2.1		DNA topoisomerase 1B
+AAMCOKHH_00075	CDS	444	H7R			Late protein H7
+AAMCOKHH_00076	CDS	2529				mRNA-capping enzyme catalytic subunit
+AAMCOKHH_00077	CDS	468	D4L			Core protein D4
+AAMCOKHH_00078	CDS	738				27 kDa core protein
+AAMCOKHH_00079	CDS	657	UNG	3.2.2.27		Uracil-DNA glycosylase
+AAMCOKHH_00080	CDS	2361		3.6.4.-		Primase D5
+AAMCOKHH_00081	CDS	1908	VETFS	3.6.4.-		Early transcription factor 70 kDa subunit
+AAMCOKHH_00082	CDS	492		2.7.7.6		DNA-directed RNA polymerase 18 kDa subunit
+AAMCOKHH_00083	CDS	642	D9R	3.1.3.-		mRNA-decapping protein D9
+AAMCOKHH_00084	CDS	762		3.1.3.-		mRNA-decapping protein D10
+AAMCOKHH_00085	CDS	1908	NPH1	3.6.1.15		Nucleoside triphosphatase I
+AAMCOKHH_00086	CDS	864				mRNA-capping enzyme regulatory subunit
+AAMCOKHH_00087	CDS	1650				Scaffold protein D13
+AAMCOKHH_00088	CDS	453	VLTF2			Viral late gene transcription factor 2
+AAMCOKHH_00089	CDS	699	VLTF3			Viral late gene transcription factor 3
+AAMCOKHH_00090	CDS	228				Protein A2.5
+AAMCOKHH_00091	CDS	1986				Major core protein 4b
+AAMCOKHH_00092	CDS	486				hypothetical protein
+AAMCOKHH_00093	CDS	510		2.7.7.6		DNA-directed RNA polymerase 19 kDa subunit
+AAMCOKHH_00094	CDS	1128	A6L			Protein A6
+AAMCOKHH_00095	CDS	2145	VETFL			Early transcription factor 82 kDa subunit
+AAMCOKHH_00096	CDS	879	VITF3S			Intermediate transcription factor 3 small subunit
+AAMCOKHH_00097	CDS	237				Virion membrane protein A9
+AAMCOKHH_00098	CDS	2715				Major core protein 4a precursor
+AAMCOKHH_00099	CDS	954				Protein A11
+AAMCOKHH_00100	CDS	573				25 kDa core protein A12L
+AAMCOKHH_00101	CDS	204				hypothetical protein
+AAMCOKHH_00102	CDS	288				Virion membrane protein A14
+AAMCOKHH_00103	CDS	288				Core protein A15
+AAMCOKHH_00104	CDS	1134				Virion membrane protein A16
+AAMCOKHH_00105	CDS	582				Virion membrane protein A17 precursor
+AAMCOKHH_00106	CDS	1443		3.6.4.-		Transcript termination protein A18
+AAMCOKHH_00107	CDS	225				Protein A19
+AAMCOKHH_00108	CDS	159				hypothetical protein
+AAMCOKHH_00109	CDS	1293				DNA polymerase processivity factor component A20
+AAMCOKHH_00110	CDS	501		3.1.-.-		Resolvase A22
+AAMCOKHH_00111	CDS	1158	VITF3L			Intermediate transcription factor 3 large subunit
+AAMCOKHH_00112	CDS	3471		2.7.7.6		DNA-directed RNA polymerase 133 kDa polypeptide
+AAMCOKHH_00113	CDS	447				hypothetical protein
+AAMCOKHH_00114	CDS	423				Envelope protein A28
+AAMCOKHH_00115	CDS	912		2.7.7.6		DNA-directed RNA polymerase 35 kDa subunit
+AAMCOKHH_00116	CDS	225				hypothetical protein
+AAMCOKHH_00117	CDS	126				hypothetical protein
+AAMCOKHH_00118	CDS	762				Protein A32
+AAMCOKHH_00119	CDS	597				Protein A33
+AAMCOKHH_00120	CDS	516				Protein A34
+AAMCOKHH_00121	CDS	576				Protein A35
+AAMCOKHH_00122	CDS	867				hypothetical protein
+AAMCOKHH_00123	CDS	519				hypothetical protein
+AAMCOKHH_00124	CDS	822				hypothetical protein
+AAMCOKHH_00125	CDS	906				hypothetical protein
+AAMCOKHH_00126	CDS	351				hypothetical protein
+AAMCOKHH_00127	CDS	246				hypothetical protein
+AAMCOKHH_00128	CDS	486				hypothetical protein
+AAMCOKHH_00129	CDS	1665	LIG	6.5.1.1		DNA ligase
+AAMCOKHH_00130	CDS	6075				hypothetical protein
+AAMCOKHH_00131	CDS	1086				Soluble interferon alpha/beta receptor B18
+AAMCOKHH_00132	CDS	462				hypothetical protein
+AAMCOKHH_00133	CDS	1008				hypothetical protein
+AAMCOKHH_00134	CDS	588				hypothetical protein
+AAMCOKHH_00135	CDS	918	VPK1	2.7.11.1		B1 kinase
+AAMCOKHH_00136	CDS	723				hypothetical protein
+AAMCOKHH_00137	CDS	678				hypothetical protein
+AAMCOKHH_00138	CDS	408				hypothetical protein
+AAMCOKHH_00139	CDS	909				hypothetical protein
+AAMCOKHH_00140	CDS	1644	KBTB1_1			Kelch repeat and BTB domain-containing protein A55
+AAMCOKHH_00141	CDS	1905				hypothetical protein
+AAMCOKHH_00142	CDS	1239		3.1.1.-		Envelope phospholipase F13
+AAMCOKHH_00143	CDS	1497				Ankyrin repeat domain-containing protein M-T5
+AAMCOKHH_00144	CDS	1344				Ankyrin repeat domain-containing protein M-T5
+AAMCOKHH_00145	CDS	1014	SERP2			Serine proteinase inhibitor 2
+AAMCOKHH_00146	CDS	486				hypothetical protein
+AAMCOKHH_00147	CDS	1659	KBTB1_2			Kelch repeat and BTB domain-containing protein A55
+AAMCOKHH_00148	CDS	1347				Ankyrin repeat domain-containing protein M-T5
+AAMCOKHH_00149	CDS	222				hypothetical protein
+AAMCOKHH_00150	CDS	723				hypothetical protein

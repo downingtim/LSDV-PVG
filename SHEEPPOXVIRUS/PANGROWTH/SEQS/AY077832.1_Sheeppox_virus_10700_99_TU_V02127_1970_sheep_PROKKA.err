@@ -1,0 +1,54 @@
+[11:39:58] This is prokka 1.14.6
+[11:39:58] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[11:39:58] Homepage is https://github.com/tseemann/prokka
+[11:39:58] Local time is Tue Apr 16 11:39:58 2024
+[11:39:58] You are downing
+[11:39:58] Operating system is linux
+[11:39:58] You have BioPerl 1.7.8
+Argument "1.7.8" isn't numeric in numeric lt (<) at /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka line 259.
+[11:39:58] System has 64 cores.
+[11:39:58] Will use maximum of 8 cores.
+[11:39:58] Annotating as >>> Viruses <<<
+[11:39:58] Generating locus_tag from '../../../CURRENT/PANGROWTH/SEQS/AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep.fa' contents.
+[11:39:58] Setting --locustag APGADNJF from MD5 a90ad73f9221ec3fe48a585f8c8a17d4
+[11:39:58] Creating new output folder: ../../../CURRENT/PANGROWTH/SEQS/AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep_PROKKA
+[11:39:58] Running: mkdir -p \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/AY077832\.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep_PROKKA
+[11:39:58] Using filename prefix: AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep.XXX
+[11:39:58] Setting HMMER_NCPU=1
+[11:39:58] Writing log to: ../../../CURRENT/PANGROWTH/SEQS/AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep_PROKKA/AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep.log
+[11:39:58] Command: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka --kingdom Viruses --proteins KX894508.gb --gffver 3 --usegenus --outdir ../../../CURRENT/PANGROWTH/SEQS/AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep_PROKKA --force --genus Capripoxvirus --prefix AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep ../../../CURRENT/PANGROWTH/SEQS/AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep.fa
+[11:39:58] Appending to PATH: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin
+[11:39:58] Looking for 'aragorn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/aragorn
+[11:39:58] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[11:39:58] Looking for 'barrnap' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/barrnap
+[11:39:58] Determined barrnap version is 000009 from 'barrnap 0.9'
+[11:39:58] Looking for 'blastp' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/blastp
+[11:39:59] Determined blastp version is 002013 from 'blastp: 2.13.0+'
+[11:39:59] Looking for 'cmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmpress
+[11:39:59] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[11:39:59] Looking for 'cmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmscan
+[11:39:59] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[11:39:59] Looking for 'egrep' - found /usr/bin/egrep
+[11:39:59] Looking for 'find' - found /usr/bin/find
+[11:39:59] Looking for 'grep' - found /usr/bin/grep
+[11:39:59] Looking for 'hmmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmpress
+[11:39:59] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[11:39:59] Looking for 'hmmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmscan
+[11:39:59] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[11:39:59] Looking for 'java' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/java
+[11:39:59] Looking for 'makeblastdb' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/makeblastdb
+[11:39:59] Determined makeblastdb version is 002013 from 'makeblastdb: 2.13.0+'
+[11:39:59] Looking for 'minced' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/minced
+[11:39:59] Determined minced version is 004002 from 'minced 0.4.2'
+[11:39:59] Looking for 'parallel' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/parallel
+[11:39:59] Determined parallel version is 20220922 from 'GNU parallel 20220922'
+[11:39:59] Looking for 'prodigal' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prodigal
+[11:39:59] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[11:39:59] Looking for 'prokka-genbank_to_fasta_db' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka-genbank_to_fasta_db
+[11:39:59] Looking for 'sed' - found /cm/shared/apps/mambaforge/envs/R.4.2.2/bin/sed
+[11:39:59] Looking for 'tbl2asn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/tbl2asn
+[11:39:59] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[11:39:59] Using genetic code table 1.
+[11:39:59] Loading and checking input file: ../../../CURRENT/PANGROWTH/SEQS/AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep.fa
+[11:39:59] Contig ID must <= 37 chars long: AY077832.1_Sheeppox_virus_10700_99_TU_V02127_1970_sheep
+[11:39:59] Please rename your contigs OR try '--centre X --compliant' to generate clean contig names.

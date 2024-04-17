@@ -1,0 +1,859 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:154 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 154 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:154 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	use protein instead of gene as appropriate
+		2 features contains 'gene'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:10 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:155 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::154 proteins have invalid IDs.
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 208)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 101)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 40)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 60)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 156)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 660)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 167)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 558)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 2008)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 44)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 36)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 154 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goat (length 150358, 2001 gap)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::154 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:1243-1353	JELMLCED_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c2132-1410	JELMLCED_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Viral interleukin-10	MN072621.1_Goatpox_virus_Vietnam_goat:2409-2921	JELMLCED_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c3627-2932	JELMLCED_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c4716-3649	JELMLCED_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Soluble interferon gamma receptor B8	MN072621.1_Goatpox_virus_Vietnam_goat:c5628-4801	JELMLCED_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c6002-5874	JELMLCED_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c6825-6337	JELMLCED_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	G-protein coupled receptor US28	MN072621.1_Goatpox_virus_Vietnam_goat:c7997-6873	JELMLCED_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c8736-8110	JELMLCED_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c9051-8941	JELMLCED_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c9460-9302	JELMLCED_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein K3	MN072621.1_Goatpox_virus_Vietnam_goat:c10099-9830	JELMLCED_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c10571-10086	JELMLCED_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c10881-10576	JELMLCED_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c11402-10872	JELMLCED_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	MN072621.1_Goatpox_virus_Vietnam_goat:c11882-11442	JELMLCED_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Kelch repeat protein F3	MN072621.1_Goatpox_virus_Vietnam_goat:c13615-11927	JELMLCED_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Ribonucleoside-diphosphate reductase small chain	MN072621.1_Goatpox_virus_Vietnam_goat:c14645-13680	JELMLCED_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c14779-14681	JELMLCED_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c15310-14990	JELMLCED_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c15734-15516	JELMLCED_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein F9	MN072621.1_Goatpox_virus_Vietnam_goat:c16463-15813	JELMLCED_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Serine/threonine-protein kinase 2	MN072621.1_Goatpox_virus_Vietnam_goat:c17784-16441	JELMLCED_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c18054-17926	JELMLCED_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c18467-18345	JELMLCED_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein F12	MN072621.1_Goatpox_virus_Vietnam_goat:c20648-18729	JELMLCED_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Envelope phospholipase F13	MN072621.1_Goatpox_virus_Vietnam_goat:c21767-20655	JELMLCED_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c21940-21794	JELMLCED_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c22406-21969	JELMLCED_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c23139-22480	JELMLCED_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Phosphoprotein F17	MN072621.1_Goatpox_virus_Vietnam_goat:23214-23528	JELMLCED_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Poly(A) polymerase catalytic subunit	MN072621.1_Goatpox_virus_Vietnam_goat:c24956-23532	JELMLCED_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein E2	MN072621.1_Goatpox_virus_Vietnam_goat:c27160-24953	JELMLCED_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein E3	MN072621.1_Goatpox_virus_Vietnam_goat:c27705-27172	JELMLCED_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c28372-27767	JELMLCED_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:28454-29587	JELMLCED_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein E6	MN072621.1_Goatpox_virus_Vietnam_goat:29597-31297	JELMLCED_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein E8	MN072621.1_Goatpox_virus_Vietnam_goat:31307-32104	JELMLCED_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA polymerase	MN072621.1_Goatpox_virus_Vietnam_goat:c35133-32101	JELMLCED_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	putative FAD-linked sulfhydryl oxidase E10	MN072621.1_Goatpox_virus_Vietnam_goat:35167-35454	JELMLCED_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein E11	MN072621.1_Goatpox_virus_Vietnam_goat:c35843-35451	JELMLCED_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c37884-35830	JELMLCED_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Telomere-binding protein I1	MN072621.1_Goatpox_virus_Vietnam_goat:c38934-37990	JELMLCED_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c39156-38941	JELMLCED_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein I3	MN072621.1_Goatpox_virus_Vietnam_goat:c39987-39157	JELMLCED_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:40092-40274	JELMLCED_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Telomere-binding protein I6	MN072621.1_Goatpox_virus_Vietnam_goat:c41475-40291	JELMLCED_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Core protease I7	MN072621.1_Goatpox_virus_Vietnam_goat:c42769-41468	JELMLCED_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	RNA helicase NPH-II	MN072621.1_Goatpox_virus_Vietnam_goat:42775-44805	JELMLCED_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Metalloendopeptidase G1	MN072621.1_Goatpox_virus_Vietnam_goat:c46589-44802	JELMLCED_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein G3	MN072621.1_Goatpox_virus_Vietnam_goat:c46831-46586	JELMLCED_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Late transcription elongation factor G2	MN072621.1_Goatpox_virus_Vietnam_goat:46912-47580	JELMLCED_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Glutaredoxin-2	MN072621.1_Goatpox_virus_Vietnam_goat:c47924-47544	JELMLCED_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Putative nuclease G5	MN072621.1_Goatpox_virus_Vietnam_goat:47927-49240	JELMLCED_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA-directed RNA polymerase 7 kDa subunit	MN072621.1_Goatpox_virus_Vietnam_goat:49241-49432	JELMLCED_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:49432-49956	JELMLCED_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Assembly protein G7	MN072621.1_Goatpox_virus_Vietnam_goat:c51091-49970	JELMLCED_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Late transcription factor 1	MN072621.1_Goatpox_virus_Vietnam_goat:51122-51904	JELMLCED_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Myristoylated protein G9	MN072621.1_Goatpox_virus_Vietnam_goat:51931-52941	JELMLCED_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein L1	MN072621.1_Goatpox_virus_Vietnam_goat:52942-53679	JELMLCED_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein L2	MN072621.1_Goatpox_virus_Vietnam_goat:53717-53995	JELMLCED_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein L3	MN072621.1_Goatpox_virus_Vietnam_goat:c54962-54006	JELMLCED_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Core protein VP8	MN072621.1_Goatpox_virus_Vietnam_goat:54987-55748	JELMLCED_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein L5	MN072621.1_Goatpox_virus_Vietnam_goat:55764-56159	JELMLCED_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein J1	MN072621.1_Goatpox_virus_Vietnam_goat:56116-56559	JELMLCED_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Thymidine kinase	MN072621.1_Goatpox_virus_Vietnam_goat:56586-57119	JELMLCED_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:57192-57785	JELMLCED_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	MN072621.1_Goatpox_virus_Vietnam_goat:57844-58845	JELMLCED_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein J5	MN072621.1_Goatpox_virus_Vietnam_goat:c59724-59323	JELMLCED_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:59813-63670	JELMLCED_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	putative dual specificity protein phosphatase H1	MN072621.1_Goatpox_virus_Vietnam_goat:c64189-63674	JELMLCED_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein H2	MN072621.1_Goatpox_virus_Vietnam_goat:64205-64777	JELMLCED_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Envelope protein H3	MN072621.1_Goatpox_virus_Vietnam_goat:c65742-64774	JELMLCED_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	RNA polymerase-associated transcription-specificity factor RAP94	MN072621.1_Goatpox_virus_Vietnam_goat:c68168-65772	JELMLCED_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Late transcription elongation factor H5	MN072621.1_Goatpox_virus_Vietnam_goat:68311-68988	JELMLCED_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA topoisomerase 1B	MN072621.1_Goatpox_virus_Vietnam_goat:69030-69983	JELMLCED_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Late protein H7	MN072621.1_Goatpox_virus_Vietnam_goat:70003-70446	JELMLCED_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	mRNA-capping enzyme catalytic subunit	MN072621.1_Goatpox_virus_Vietnam_goat:70475-73003	JELMLCED_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Core protein D4	MN072621.1_Goatpox_virus_Vietnam_goat:c73435-72965	JELMLCED_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	27 kDa core protein	MN072621.1_Goatpox_virus_Vietnam_goat:73437-74174	JELMLCED_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Uracil-DNA glycosylase	MN072621.1_Goatpox_virus_Vietnam_goat:74171-74827	JELMLCED_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Primase D5	MN072621.1_Goatpox_virus_Vietnam_goat:74870-77230	JELMLCED_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Early transcription factor 70 kDa subunit	MN072621.1_Goatpox_virus_Vietnam_goat:77227-79134	JELMLCED_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA-directed RNA polymerase 18 kDa subunit	MN072621.1_Goatpox_virus_Vietnam_goat:79159-79650	JELMLCED_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	mRNA-decapping protein D9	MN072621.1_Goatpox_virus_Vietnam_goat:79691-80332	JELMLCED_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	mRNA-decapping protein D10	MN072621.1_Goatpox_virus_Vietnam_goat:80332-81093	JELMLCED_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Nucleoside triphosphatase I	MN072621.1_Goatpox_virus_Vietnam_goat:c83006-81099	JELMLCED_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	mRNA-capping enzyme regulatory subunit	MN072621.1_Goatpox_virus_Vietnam_goat:c83894-83031	JELMLCED_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Scaffold protein D13	MN072621.1_Goatpox_virus_Vietnam_goat:c85583-83934	JELMLCED_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Viral late gene transcription factor 2	MN072621.1_Goatpox_virus_Vietnam_goat:c86062-85610	JELMLCED_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Viral late gene transcription factor 3	MN072621.1_Goatpox_virus_Vietnam_goat:c86775-86092	JELMLCED_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein A2.5	MN072621.1_Goatpox_virus_Vietnam_goat:c87014-86787	JELMLCED_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Major core protein 4b	MN072621.1_Goatpox_virus_Vietnam_goat:c89005-87023	JELMLCED_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c89566-89081	JELMLCED_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA-directed RNA polymerase 19 kDa subunit	MN072621.1_Goatpox_virus_Vietnam_goat:89607-90110	JELMLCED_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein A6	MN072621.1_Goatpox_virus_Vietnam_goat:c91234-90107	JELMLCED_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Early transcription factor 82 kDa subunit	MN072621.1_Goatpox_virus_Vietnam_goat:c93399-91255	JELMLCED_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Intermediate transcription factor 3 small subunit	MN072621.1_Goatpox_virus_Vietnam_goat:93456-94328	JELMLCED_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Virion membrane protein A9	MN072621.1_Goatpox_virus_Vietnam_goat:c94573-94337	JELMLCED_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Major core protein 4a precursor	MN072621.1_Goatpox_virus_Vietnam_goat:c97288-94574	JELMLCED_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein A11	MN072621.1_Goatpox_virus_Vietnam_goat:97303-98256	JELMLCED_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	25 kDa core protein A12L	MN072621.1_Goatpox_virus_Vietnam_goat:c98825-98253	JELMLCED_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c99089-98886	JELMLCED_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Virion membrane protein A14	MN072621.1_Goatpox_virus_Vietnam_goat:c99457-99170	JELMLCED_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Core protein A15	MN072621.1_Goatpox_virus_Vietnam_goat:c99912-99625	JELMLCED_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Virion membrane protein A16	MN072621.1_Goatpox_virus_Vietnam_goat:c101029-99896	JELMLCED_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Virion membrane protein A17 precursor	MN072621.1_Goatpox_virus_Vietnam_goat:c101629-101045	JELMLCED_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Transcript termination protein A18	MN072621.1_Goatpox_virus_Vietnam_goat:101644-103086	JELMLCED_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein A19	MN072621.1_Goatpox_virus_Vietnam_goat:c103291-103067	JELMLCED_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c103450-103292	JELMLCED_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA polymerase processivity factor component A20	MN072621.1_Goatpox_virus_Vietnam_goat:103638-104930	JELMLCED_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Resolvase A22	MN072621.1_Goatpox_virus_Vietnam_goat:104899-105438	JELMLCED_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Intermediate transcription factor 3 large subunit	MN072621.1_Goatpox_virus_Vietnam_goat:105431-106588	JELMLCED_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072621.1_Goatpox_virus_Vietnam_goat:106619-110089	JELMLCED_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c110549-110103	JELMLCED_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Envelope protein A28	MN072621.1_Goatpox_virus_Vietnam_goat:c110972-110550	JELMLCED_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA-directed RNA polymerase 35 kDa subunit	MN072621.1_Goatpox_virus_Vietnam_goat:c111884-110973	JELMLCED_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c112077-111853	JELMLCED_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c112231-112106	JELMLCED_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein A32	MN072621.1_Goatpox_virus_Vietnam_goat:c113022-112258	JELMLCED_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein A33	MN072621.1_Goatpox_virus_Vietnam_goat:113154-113759	JELMLCED_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein A34	MN072621.1_Goatpox_virus_Vietnam_goat:113778-114293	JELMLCED_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein A35	MN072621.1_Goatpox_virus_Vietnam_goat:114322-114897	JELMLCED_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:114934-115800	JELMLCED_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:115861-116379	JELMLCED_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:116390-117211	JELMLCED_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c118120-117215	JELMLCED_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:118217-118567	JELMLCED_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:118648-118893	JELMLCED_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:118949-119434	JELMLCED_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA ligase	MN072621.1_Goatpox_virus_Vietnam_goat:120001-121677	JELMLCED_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:121794-127820	JELMLCED_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Soluble interferon alpha/beta receptor B18	MN072621.1_Goatpox_virus_Vietnam_goat:127947-129029	JELMLCED_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:129073-129207	JELMLCED_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:129281-129472	JELMLCED_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:129599-130606	JELMLCED_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:130636-131196	JELMLCED_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	B1 kinase	MN072621.1_Goatpox_virus_Vietnam_goat:131235-132152	JELMLCED_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:132182-132904	JELMLCED_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Protein B5	MN072621.1_Goatpox_virus_Vietnam_goat:132953-133630	JELMLCED_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:133632-134039	JELMLCED_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:134076-134984	JELMLCED_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072621.1_Goatpox_virus_Vietnam_goat:135162-136805	JELMLCED_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:136852-138756	JELMLCED_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Envelope phospholipase F13	MN072621.1_Goatpox_virus_Vietnam_goat:138878-140116	JELMLCED_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072621.1_Goatpox_virus_Vietnam_goat:140174-141670	JELMLCED_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072621.1_Goatpox_virus_Vietnam_goat:141718-143061	JELMLCED_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Serine proteinase inhibitor 2	MN072621.1_Goatpox_virus_Vietnam_goat:143082-144095	JELMLCED_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:144134-144619	JELMLCED_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Kelch repeat and BTB domain-containing protein A55	MN072621.1_Goatpox_virus_Vietnam_goat:144660-146318	JELMLCED_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Ankyrin repeat domain-containing protein M-T5	MN072621.1_Goatpox_virus_Vietnam_goat:146384-147745	JELMLCED_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:148227-148949	JELMLCED_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	hypothetical protein	MN072621.1_Goatpox_virus_Vietnam_goat:c149116-149006	JELMLCED_00154
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072621.1_Goatpox_virus_Vietnam_goat:106619-110089	JELMLCED_00115
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains 'gene'
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Viral late gene transcription factor 2	MN072621.1_Goatpox_virus_Vietnam_goat:c86062-85610	JELMLCED_00091
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:CDS	Viral late gene transcription factor 3	MN072621.1_Goatpox_virus_Vietnam_goat:c86775-86092	JELMLCED_00092
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goat:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::10 protein sequences are shorter than 50 aa.
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 40)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 44)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 36)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goat (length 150358, 2001 gap)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goat (length 150358, 2001 gap)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goat (length 150358, 2001 gap)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goat (length 150358, 2001 gap)
+
+DiscRep_ALL:MISSING_PROJECT::155 sequences do not include project.
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goat (length 150358, 2001 gap)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 208)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 36)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 101)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 562)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 32)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 106)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 42)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 40)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 639)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 265)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 71)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 60)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 595)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 197)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 156)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 660)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 167)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 194)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 179)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 303)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 172)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 301)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 116)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 558)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 2008)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 44)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 135)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 412)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 552)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 453)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goa> (length 36)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goat (length 150358, 2001 gap)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+../../../CURRENT/PANGROWTH/SEQS/MN072621.1_Goatpox_virus_Vietnam_goat_PROKKA/MN072621.1_Goatpox_virus_Vietnam_goat:MN072621.1_Goatpox_virus_Vietnam_goat (length 150358, 2001 gap)
+

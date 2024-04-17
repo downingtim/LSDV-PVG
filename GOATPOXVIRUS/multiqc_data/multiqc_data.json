@@ -1,0 +1,197 @@
+{
+    "report_data_sources": {
+        "ODGI": {
+            "all_sections": {
+                "seqwish": "/mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT/goatpox_2_virus_2_2_.fasta.gz.287601a.417fcdf.seqwish.og.stats.yaml",
+                "smooth": "/mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT/goatpox_2_virus_2_2_.fasta.gz.287601a.417fcdf.db2ae42.smooth.final.og.stats.yaml"
+            }
+        }
+    },
+    "report_general_stats_data": [],
+    "report_general_stats_headers": [],
+    "report_multiqc_command": "/mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/multiqc /mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT/ -s -o /mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT/ -c /mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT//multiqc_config.yaml",
+    "report_plot_data": {
+        "odgi_sum_of_path_nodes_distances_plot": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "seqwish",
+                    "smooth"
+                ],
+                [
+                    "seqwish",
+                    "smooth"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Sum of distances: node space",
+                        "data": [
+                            1630.39,
+                            1.53255
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Sum of distances: nucleotide space",
+                        "data": [
+                            1307.14,
+                            1.10543
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "odgi_sum_of_path_nodes_distances_plot",
+                "title": "ODGI: Sum of path node distances",
+                "ylab": "Distance",
+                "yDecimals": false,
+                "cpswitch": false,
+                "logswitch": true,
+                "logswitch_active": true,
+                "data_labels": [
+                    {
+                        "name": "Node space",
+                        "ylab": "Distance"
+                    },
+                    {
+                        "name": "Nucleotide space",
+                        "ylab": "Distance"
+                    }
+                ],
+                "reversedStacks": true
+            }
+        },
+        "odgi_mean_links_length_plot": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "seqwish",
+                    "smooth"
+                ],
+                [
+                    "seqwish",
+                    "smooth"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Mean links length: node space",
+                        "data": [
+                            814.809,
+                            0.532652
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Mean links length: nucleotide space",
+                        "data": [
+                            21260.3,
+                            3.12451
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "odgi_mean_links_length_plot",
+                "title": "ODGI: Mean links length",
+                "ylab": "Distance",
+                "yDecimals": false,
+                "cpswitch": false,
+                "logswitch": true,
+                "logswitch_active": true,
+                "data_labels": [
+                    {
+                        "name": "Node space",
+                        "ylab": "Distance"
+                    },
+                    {
+                        "name": "Nucleotide space",
+                        "ylab": "Distance"
+                    }
+                ],
+                "reversedStacks": true
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_odgi_stats": {
+            "seqwish": {
+                "length": 184251.0,
+                "nodes": 6719.0,
+                "edges": 9126.0,
+                "paths": 13.0,
+                "components": 1.0,
+                "A": 59785.0,
+                "C": 19693.0,
+                "T": 58115.0,
+                "G": 20645.0,
+                "N": 26013.0,
+                "total": 40.0,
+                "unique": 40.0,
+                "mean_links_length_path": "all_paths",
+                "mean_links_length_in_node_space": 814.809,
+                "mean_links_length_in_nucleotide_space": 21260.3,
+                "mean_links_length_num_links_considered": 59791,
+                "mean_links_length_num_gap_links_not_penalized": 0,
+                "sum_of_path_nodes_distances_path": "all_paths",
+                "sum_of_path_nodes_distances_in_node_space": 1630.39,
+                "sum_of_path_nodes_distances_in_nucleotide_space": 1307.14,
+                "sum_of_path_nodes_distances_nodes": 59804,
+                "sum_of_path_nodes_distances_nucleotides": 1947701,
+                "sum_of_path_nodes_distances_num_penalties": 8525,
+                "sum_of_path_nodes_distances_num_penalties_different_orientation": 0,
+                "pct_gc": 21.892961232232118,
+                "pct_n": 14.11824087793282
+            },
+            "smooth": {
+                "length": 177727.0,
+                "nodes": 7805.0,
+                "edges": 10640.0,
+                "paths": 13.0,
+                "components": 1.0,
+                "A": 58569.0,
+                "C": 19182.0,
+                "T": 56845.0,
+                "G": 20117.0,
+                "N": 23014.0,
+                "total": 0.0,
+                "unique": 0.0,
+                "mean_links_length_path": "all_paths",
+                "mean_links_length_in_node_space": 0.532652,
+                "mean_links_length_in_nucleotide_space": 3.12451,
+                "mean_links_length_num_links_considered": 65724,
+                "mean_links_length_num_gap_links_not_penalized": 0,
+                "sum_of_path_nodes_distances_path": "all_paths",
+                "sum_of_path_nodes_distances_in_node_space": 1.53255,
+                "sum_of_path_nodes_distances_in_nucleotide_space": 1.10543,
+                "sum_of_path_nodes_distances_nodes": 65737,
+                "sum_of_path_nodes_distances_nucleotides": 1947701,
+                "sum_of_path_nodes_distances_num_penalties": 0,
+                "sum_of_path_nodes_distances_num_penalties_different_orientation": 0,
+                "pct_gc": 22.11200324092569,
+                "pct_n": 12.949073579141043
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT"
+    ],
+    "config_analysis_dir": [
+        "/mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT/"
+    ],
+    "config_creation_date": "2024-04-15, 07:38 BST",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/lib/python3.7/site-packages/multiqc/utils",
+    "config_short_version": "1.14",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.14"
+}

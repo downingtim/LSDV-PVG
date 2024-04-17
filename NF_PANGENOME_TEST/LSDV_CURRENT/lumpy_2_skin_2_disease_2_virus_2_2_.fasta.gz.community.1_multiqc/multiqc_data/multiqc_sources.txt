@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+ODGI	all_sections	lumpy_2_skin_2_disease_2_virus_2_2	/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST/work/ac/17841ebaff038414c02f90619b4644/2/lumpy_2_skin_2_disease_2_virus_2_2_.fasta.gz.community.1.gfaffix.og.stats.yaml
+ODGI	all_sections	seqwish	/mnt/lustre/RDS-live/downing/LSDV_PVG/NF_PANGENOME_TEST/work/ac/17841ebaff038414c02f90619b4644/1/lumpy_2_skin_2_disease_2_virus_2_2_.fasta.gz.community.1.seqwish.og.stats.yaml

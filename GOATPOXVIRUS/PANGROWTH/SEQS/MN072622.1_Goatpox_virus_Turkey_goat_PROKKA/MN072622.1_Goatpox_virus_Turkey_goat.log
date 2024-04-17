@@ -1,0 +1,119 @@
+[10:54:08] This is prokka 1.14.6
+[10:54:08] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[10:54:08] Homepage is https://github.com/tseemann/prokka
+[10:54:08] Local time is Mon Apr 15 10:54:08 2024
+[10:54:08] You are downing
+[10:54:08] Operating system is linux
+[10:54:08] You have BioPerl 1.7.8
+[10:54:08] System has 64 cores.
+[10:54:08] Will use maximum of 8 cores.
+[10:54:08] Annotating as >>> Viruses <<<
+[10:54:08] Generating locus_tag from '../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat.fa' contents.
+[10:54:08] Setting --locustag ABACBCNL from MD5 abacbc7505fa4981d864207620a178b1
+[10:54:08] Re-using existing --outdir ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA
+[10:54:08] Using filename prefix: MN072622.1_Goatpox_virus_Turkey_goat.XXX
+[10:54:08] Setting HMMER_NCPU=1
+[10:54:08] Writing log to: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.log
+[10:54:08] Command: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka --kingdom Viruses --proteins KX894508.gb --gffver 3 --usegenus --outdir ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA --force --genus Capripoxvirus --prefix MN072622.1_Goatpox_virus_Turkey_goat ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat.fa
+[10:54:08] Appending to PATH: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin
+[10:54:08] Looking for 'aragorn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/aragorn
+[10:54:08] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[10:54:08] Looking for 'barrnap' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/barrnap
+[10:54:08] Determined barrnap version is 000009 from 'barrnap 0.9'
+[10:54:08] Looking for 'blastp' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/blastp
+[10:54:08] Determined blastp version is 002013 from 'blastp: 2.13.0+'
+[10:54:08] Looking for 'cmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmpress
+[10:54:08] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[10:54:08] Looking for 'cmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmscan
+[10:54:08] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[10:54:08] Looking for 'egrep' - found /usr/bin/egrep
+[10:54:08] Looking for 'find' - found /usr/bin/find
+[10:54:08] Looking for 'grep' - found /usr/bin/grep
+[10:54:08] Looking for 'hmmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmpress
+[10:54:08] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[10:54:08] Looking for 'hmmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmscan
+[10:54:08] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[10:54:08] Looking for 'java' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/java
+[10:54:08] Looking for 'makeblastdb' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/makeblastdb
+[10:54:08] Determined makeblastdb version is 002013 from 'makeblastdb: 2.13.0+'
+[10:54:08] Looking for 'minced' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/minced
+[10:54:08] Determined minced version is 004002 from 'minced 0.4.2'
+[10:54:08] Looking for 'parallel' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/parallel
+[10:54:08] Determined parallel version is 20220922 from 'GNU parallel 20220922'
+[10:54:08] Looking for 'prodigal' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prodigal
+[10:54:08] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[10:54:08] Looking for 'prokka-genbank_to_fasta_db' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka-genbank_to_fasta_db
+[10:54:08] Looking for 'sed' - found /cm/shared/apps/mambaforge/envs/R.4.2.2/bin/sed
+[10:54:08] Looking for 'tbl2asn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/tbl2asn
+[10:54:08] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[10:54:08] Using genetic code table 1.
+[10:54:08] Loading and checking input file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat.fa
+[10:54:08] Wrote 1 contigs totalling 149955 bp.
+[10:54:08] Predicting tRNAs and tmRNAs
+[10:54:08] Running: aragorn -l -gc1  -w \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/MN072622\.1_Goatpox_virus_Turkey_goat_PROKKA\/MN072622\.1_Goatpox_virus_Turkey_goat\.fna
+[10:54:08] Found 0 tRNAs
+[10:54:08] Disabling rRNA search: --kingdom=Viruses or --norrna=0
+[10:54:08] Skipping ncRNA search, enable with --rfam if desired.
+[10:54:08] Total of 0 tRNA + rRNA features
+[10:54:08] Searching for CRISPR repeats
+[10:54:08] Found 0 CRISPRs
+[10:54:08] Predicting coding sequences
+[10:54:08] Contigs total 149955 bp, so using single mode
+[10:54:08] Running: prodigal -i \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/MN072622\.1_Goatpox_virus_Turkey_goat_PROKKA\/MN072622\.1_Goatpox_virus_Turkey_goat\.fna -c -m -g 1 -p single -f sco -q
+[10:54:08] Found 148 CDS
+[10:54:08] Connecting features back to sequences
+[10:54:08] Skipping genus-specific proteins as can't see /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/db/Capripoxvirus
+[10:54:08] Annotating CDS, please be patient.
+[10:54:08] Will use 8 CPUs for similarity searching.
+[10:54:08] There are still 148 unannotated CDS left (started with 148)
+[10:54:08] Will use blast to search against /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/db/kingdom/Viruses/sprot with 8 CPUs
+[10:54:08] Running: cat \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/MN072622\.1_Goatpox_virus_Turkey_goat_PROKKA\/MN072622\.1_Goatpox_virus_Turkey_goat\.sprot\.tmp\.1768430\.faa | parallel --gnu --plain -j 8 --block 2925 --recstart '>' --pipe blastp -query - -db /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/db/kingdom/Viruses/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/MN072622\.1_Goatpox_virus_Turkey_goat_PROKKA\/MN072622\.1_Goatpox_virus_Turkey_goat\.sprot\.tmp\.1768430\.blast 2> /dev/null
+[10:54:09] Modify product: Protein J1 homolog => Protein J1 
+[10:54:09] Modify product: Probable host range protein 2-3 => putative host range protein 2-3
+[10:54:09] Modify product: Probable dual specificity protein phosphatase H1 homolog => putative dual specificity protein phosphatase H1 
+[10:54:09] Modify product: Viral interleukin-10 homolog => Viral interleukin-10 
+[10:54:09] Modify product: Probable FAD-linked sulfhydryl oxidase E10 => putative FAD-linked sulfhydryl oxidase E10
+[10:54:09] Cleaned 5 /product names
+[10:54:09] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.sprot.tmp.1768430.faa
+[10:54:09] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.sprot.tmp.1768430.blast
+[10:54:09] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/proteins.psq
+[10:54:09] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/proteins.phr
+[10:54:09] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/proteins.pin
+[10:54:09] Labelling remaining 47 proteins as 'hypothetical protein'
+[10:54:09] Possible /pseudo 'Ankyrin repeat domain-containing protein M-T5' at MN072622.1_Goatpox_virus_Turkey_goat position 141372
+[10:54:09] Found 35 unique /gene codes.
+[10:54:09] Fixed 2 duplicate /gene - KBTB1_1 KBTB1_2
+[10:54:09] Fixed 1 colliding /gene names.
+[10:54:09] Adding /locus_tag identifiers
+[10:54:09] Assigned 148 locus_tags to CDS and RNA features.
+[10:54:09] Writing outputs to ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/
+[10:54:09] Generating annotation statistics file
+[10:54:09] Generating Genbank and Sequin files
+[10:54:09] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/MN072622\.1_Goatpox_virus_Turkey_goat_PROKKA\/MN072622\.1_Goatpox_virus_Turkey_goat\.err -i \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/MN072622\.1_Goatpox_virus_Turkey_goat_PROKKA\/MN072622\.1_Goatpox_virus_Turkey_goat\.fsa 2> /dev/null
+[10:54:10] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/errorsummary.val
+[10:54:10] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.dr
+[10:54:10] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.fixedproducts
+[10:54:10] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.ecn
+[10:54:10] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.val
+[10:54:10] Repairing broken .GBK output that tbl2asn produces...
+[10:54:10] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/MN072622\.1_Goatpox_virus_Turkey_goat_PROKKA\/MN072622\.1_Goatpox_virus_Turkey_goat\.gbf > \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/MN072622\.1_Goatpox_virus_Turkey_goat_PROKKA\/MN072622\.1_Goatpox_virus_Turkey_goat\.gbk
+[10:54:10] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.gbf
+[10:54:10] Output files:
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.fna
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.sqn
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.gff
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.gbk
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.err
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.txt
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.tsv
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.faa
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.tbl
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.fsa
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.ffn
+[10:54:10] ../../../CURRENT/PANGROWTH/SEQS/MN072622.1_Goatpox_virus_Turkey_goat_PROKKA/MN072622.1_Goatpox_virus_Turkey_goat.log
+[10:54:10] Annotation finished successfully.
+[10:54:10] Walltime used: 0.03 minutes
+[10:54:10] If you use this result please cite the Prokka paper:
+[10:54:10] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[10:54:10] Type 'prokka --citation' for more details.
+[10:54:10] Thank you, come again.

@@ -1,0 +1,149 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+CDDLCACD_00001	CDS	723				hypothetical protein
+CDDLCACD_00002	CDS	513	BCRF1			Viral interleukin-10 
+CDDLCACD_00003	CDS	696				hypothetical protein
+CDDLCACD_00004	CDS	1068				hypothetical protein
+CDDLCACD_00005	CDS	828				Soluble interferon gamma receptor B8
+CDDLCACD_00006	CDS	489				hypothetical protein
+CDDLCACD_00007	CDS	1146				hypothetical protein
+CDDLCACD_00008	CDS	636				hypothetical protein
+CDDLCACD_00009	CDS	270				Protein K3
+CDDLCACD_00010	CDS	486				hypothetical protein
+CDDLCACD_00011	CDS	282				hypothetical protein
+CDDLCACD_00012	CDS	531				hypothetical protein
+CDDLCACD_00013	CDS	441	DUT	3.6.1.23		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+CDDLCACD_00014	CDS	1689				Kelch repeat protein F3
+CDDLCACD_00015	CDS	966	F4L	1.17.4.1		Ribonucleoside-diphosphate reductase small chain
+CDDLCACD_00016	CDS	96				hypothetical protein
+CDDLCACD_00017	CDS	321				hypothetical protein
+CDDLCACD_00018	CDS	219				hypothetical protein
+CDDLCACD_00019	CDS	651				Protein F9
+CDDLCACD_00020	CDS	1344	VPK2	2.7.11.1		Serine/threonine-protein kinase 2
+CDDLCACD_00021	CDS	129				hypothetical protein
+CDDLCACD_00022	CDS	1920				Protein F12
+CDDLCACD_00023	CDS	1113		3.1.1.-		Envelope phospholipase F13
+CDDLCACD_00024	CDS	150				hypothetical protein
+CDDLCACD_00025	CDS	438				hypothetical protein
+CDDLCACD_00026	CDS	660				hypothetical protein
+CDDLCACD_00027	CDS	315				Phosphoprotein F17
+CDDLCACD_00028	CDS	1425	PAPL	2.7.7.19		Poly(A) polymerase catalytic subunit
+CDDLCACD_00029	CDS	2208				Protein E2
+CDDLCACD_00030	CDS	534	E3L			Protein E3
+CDDLCACD_00031	CDS	606				hypothetical protein
+CDDLCACD_00032	CDS	1134				hypothetical protein
+CDDLCACD_00033	CDS	1701				Protein E6
+CDDLCACD_00034	CDS	798				Protein E8
+CDDLCACD_00035	CDS	3033	POL	2.7.7.7		DNA polymerase
+CDDLCACD_00036	CDS	288		1.8.3.2		putative FAD-linked sulfhydryl oxidase E10
+CDDLCACD_00037	CDS	393				Protein E11
+CDDLCACD_00038	CDS	2052				hypothetical protein
+CDDLCACD_00039	CDS	945				Telomere-binding protein I1
+CDDLCACD_00040	CDS	216				hypothetical protein
+CDDLCACD_00041	CDS	831	I3L			Protein I3
+CDDLCACD_00042	CDS	237				Protein I5
+CDDLCACD_00043	CDS	1185				Telomere-binding protein I6
+CDDLCACD_00044	CDS	1302		3.4.22.-		Core protease I7
+CDDLCACD_00045	CDS	2031	NPH2	3.6.4.13		RNA helicase NPH-II
+CDDLCACD_00046	CDS	1788		3.4.24.-		Metalloendopeptidase G1
+CDDLCACD_00047	CDS	246				Protein G3
+CDDLCACD_00048	CDS	669				Late transcription elongation factor G2
+CDDLCACD_00049	CDS	381				Glutaredoxin-2
+CDDLCACD_00050	CDS	1314	G5R	3.1.-.-		Putative nuclease G5
+CDDLCACD_00051	CDS	192	RPO7	2.7.7.6		DNA-directed RNA polymerase 7 kDa subunit
+CDDLCACD_00052	CDS	525				hypothetical protein
+CDDLCACD_00053	CDS	1122				Assembly protein G7
+CDDLCACD_00054	CDS	783	VLTF1			Late transcription factor 1
+CDDLCACD_00055	CDS	1011				Myristoylated protein G9
+CDDLCACD_00056	CDS	738	L1R			Protein L1
+CDDLCACD_00057	CDS	279				Protein L2
+CDDLCACD_00058	CDS	957				Protein L3
+CDDLCACD_00059	CDS	762	L4R			Core protein VP8
+CDDLCACD_00060	CDS	396				Protein L5
+CDDLCACD_00061	CDS	444				Protein J1 
+CDDLCACD_00062	CDS	534	TK	2.7.1.21		Thymidine kinase
+CDDLCACD_00063	CDS	594				hypothetical protein
+CDDLCACD_00064	CDS	1002	PAPS	2.1.1.57		Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase
+CDDLCACD_00065	CDS	402				Protein J5
+CDDLCACD_00066	CDS	3858				hypothetical protein
+CDDLCACD_00067	CDS	516		3.1.3.-		putative dual specificity protein phosphatase H1 
+CDDLCACD_00068	CDS	573				Protein H2
+CDDLCACD_00069	CDS	969	H3L			Envelope protein H3
+CDDLCACD_00070	CDS	2397				RNA polymerase-associated transcription-specificity factor RAP94
+CDDLCACD_00071	CDS	693	H5R			Late transcription elongation factor H5
+CDDLCACD_00072	CDS	954	TOP1	5.6.2.1		DNA topoisomerase 1B
+CDDLCACD_00073	CDS	444	H7R			Late protein H7
+CDDLCACD_00074	CDS	2529				mRNA-capping enzyme catalytic subunit
+CDDLCACD_00075	CDS	468	D4L			Core protein D4
+CDDLCACD_00076	CDS	738				27 kDa core protein
+CDDLCACD_00077	CDS	657	UNG	3.2.2.27		Uracil-DNA glycosylase
+CDDLCACD_00078	CDS	2361		3.6.4.-		Primase D5
+CDDLCACD_00079	CDS	1908	VETFS	3.6.4.-		Early transcription factor 70 kDa subunit
+CDDLCACD_00080	CDS	492		2.7.7.6		DNA-directed RNA polymerase 18 kDa subunit
+CDDLCACD_00081	CDS	642	D9R	3.1.3.-		mRNA-decapping protein D9
+CDDLCACD_00082	CDS	762		3.1.3.-		mRNA-decapping protein D10
+CDDLCACD_00083	CDS	1908	NPH1	3.6.1.15		Nucleoside triphosphatase I
+CDDLCACD_00084	CDS	864				mRNA-capping enzyme regulatory subunit
+CDDLCACD_00085	CDS	1650				Scaffold protein D13
+CDDLCACD_00086	CDS	453	VLTF2			Viral late gene transcription factor 2
+CDDLCACD_00087	CDS	699	VLTF3			Viral late gene transcription factor 3
+CDDLCACD_00088	CDS	228				Protein A2.5
+CDDLCACD_00089	CDS	1986				Major core protein 4b
+CDDLCACD_00090	CDS	486				hypothetical protein
+CDDLCACD_00091	CDS	513		2.7.7.6		DNA-directed RNA polymerase 19 kDa subunit
+CDDLCACD_00092	CDS	1128	A6L			Protein A6
+CDDLCACD_00093	CDS	2145	VETFL			Early transcription factor 82 kDa subunit
+CDDLCACD_00094	CDS	873	VITF3S			Intermediate transcription factor 3 small subunit
+CDDLCACD_00095	CDS	237				Virion membrane protein A9
+CDDLCACD_00096	CDS	2715				Major core protein 4a precursor
+CDDLCACD_00097	CDS	954				Protein A11
+CDDLCACD_00098	CDS	573				25 kDa core protein A12L
+CDDLCACD_00099	CDS	204				hypothetical protein
+CDDLCACD_00100	CDS	288				Virion membrane protein A14
+CDDLCACD_00101	CDS	288				Core protein A15
+CDDLCACD_00102	CDS	1134				Virion membrane protein A16
+CDDLCACD_00103	CDS	582				Virion membrane protein A17 precursor
+CDDLCACD_00104	CDS	1443		3.6.4.-		Transcript termination protein A18
+CDDLCACD_00105	CDS	225				Protein A19
+CDDLCACD_00106	CDS	159				hypothetical protein
+CDDLCACD_00107	CDS	1293				DNA polymerase processivity factor component A20
+CDDLCACD_00108	CDS	507		3.1.-.-		Resolvase A22
+CDDLCACD_00109	CDS	1158	VITF3L			Intermediate transcription factor 3 large subunit
+CDDLCACD_00110	CDS	3471		2.7.7.6		DNA-directed RNA polymerase 133 kDa polypeptide
+CDDLCACD_00111	CDS	447				hypothetical protein
+CDDLCACD_00112	CDS	423				Envelope protein A28
+CDDLCACD_00113	CDS	912		2.7.7.6		DNA-directed RNA polymerase 35 kDa subunit
+CDDLCACD_00114	CDS	225				hypothetical protein
+CDDLCACD_00115	CDS	126				hypothetical protein
+CDDLCACD_00116	CDS	762				Protein A32
+CDDLCACD_00117	CDS	597				Protein A33
+CDDLCACD_00118	CDS	516				Protein A34
+CDDLCACD_00119	CDS	576				Protein A35
+CDDLCACD_00120	CDS	867				hypothetical protein
+CDDLCACD_00121	CDS	519				hypothetical protein
+CDDLCACD_00122	CDS	822				hypothetical protein
+CDDLCACD_00123	CDS	183				hypothetical protein
+CDDLCACD_00124	CDS	705				hypothetical protein
+CDDLCACD_00125	CDS	351				hypothetical protein
+CDDLCACD_00126	CDS	246				hypothetical protein
+CDDLCACD_00127	CDS	486				hypothetical protein
+CDDLCACD_00128	CDS	1674	LIG	6.5.1.1		DNA ligase
+CDDLCACD_00129	CDS	6075				hypothetical protein
+CDDLCACD_00130	CDS	1086				Soluble interferon alpha/beta receptor B18
+CDDLCACD_00131	CDS	462				hypothetical protein
+CDDLCACD_00132	CDS	1008				hypothetical protein
+CDDLCACD_00133	CDS	618				hypothetical protein
+CDDLCACD_00134	CDS	918	VPK1	2.7.11.1		B1 kinase
+CDDLCACD_00135	CDS	723				hypothetical protein
+CDDLCACD_00136	CDS	678				hypothetical protein
+CDDLCACD_00137	CDS	408				hypothetical protein
+CDDLCACD_00138	CDS	909				hypothetical protein
+CDDLCACD_00139	CDS	1644	KBTB1_1			Kelch repeat and BTB domain-containing protein A55
+CDDLCACD_00140	CDS	1905				hypothetical protein
+CDDLCACD_00141	CDS	1239		3.1.1.-		Envelope phospholipase F13
+CDDLCACD_00142	CDS	1497				Ankyrin repeat domain-containing protein M-T5
+CDDLCACD_00143	CDS	1344				Ankyrin repeat domain-containing protein M-T5
+CDDLCACD_00144	CDS	1014	SERP2			Serine proteinase inhibitor 2
+CDDLCACD_00145	CDS	486				hypothetical protein
+CDDLCACD_00146	CDS	1659	KBTB1_2			Kelch repeat and BTB domain-containing protein A55
+CDDLCACD_00147	CDS	1347				Ankyrin repeat domain-containing protein M-T5
+CDDLCACD_00148	CDS	723				hypothetical protein

@@ -1,0 +1,200 @@
+2024-04-16 16:00:19 DEBUG:busco.run_BUSCO	Command line: ../121_SAMPLE_PVG/bin/busco -f -i goatpox_2_virus_2_2_.fasta -l poxviridae_odb10 -o BUSCO/ -m genome
+2024-04-16 16:00:19 INFO:busco.run_BUSCO	***** Start a BUSCO v5.5.0 analysis, current time: 04/16/2024 16:00:19 *****
+2024-04-16 16:00:19 DEBUG:busco.ConfigManager	Getting config file
+2024-04-16 16:00:19 INFO:busco.ConfigManager	Configuring BUSCO with local environment
+2024-04-16 16:00:19 INFO:busco.BuscoConfig	Mode is genome
+2024-04-16 16:00:19 INFO:busco.BuscoConfig	'Force' option selected; overwriting previous results directory
+2024-04-16 16:00:19 INFO:busco.BuscoDownloadManager	Downloading information on latest versions of BUSCO data...
+2024-04-16 16:00:21 DEBUG:busco.BuscoConfig	State of BUSCO config before run:
+2024-04-16 16:00:21 DEBUG:busco.BuscoConfig	{'_allow_no_value': False,
+ '_comment_prefixes': ('#', ';'),
+ '_converters': <configparser.ConverterMapping object at 0x1554c89c70d0>,
+ '_defaults': OrderedDict(),
+ '_delimiters': ('=', ':'),
+ '_dict': <class 'collections.OrderedDict'>,
+ '_empty_lines_in_values': True,
+ '_inline_comment_prefixes': (),
+ '_input_filepath': '/mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/goatpox_2_virus_2_2_.fasta',
+ '_interpolation': <configparser.BasicInterpolation object at 0x1555546f9350>,
+ '_mode': 'genome',
+ '_optcre': re.compile('\n        (?P<option>.*?)                    # very permissive!\n        \\s*(?P<vi>=|:)\\s*              # any number of space/tab,\n                                           # followed by any of t, re.VERBOSE),
+ '_proxies': OrderedDict([('DEFAULT', <Section: DEFAULT>),
+                          ('busco_run', <Section: busco_run>),
+                          ('optimize_augustus.pl',
+                           <Section: optimize_augustus.pl>),
+                          ('metaeuk', <Section: metaeuk>),
+                          ('new_species.pl', <Section: new_species.pl>),
+                          ('bbtools', <Section: bbtools>),
+                          ('prodigal', <Section: prodigal>),
+                          ('tblastn', <Section: tblastn>),
+                          ('gff2gbSmallDNA.pl', <Section: gff2gbSmallDNA.pl>),
+                          ('hmmsearch', <Section: hmmsearch>),
+                          ('makeblastdb', <Section: makeblastdb>),
+                          ('sepp', <Section: sepp>),
+                          ('etraining', <Section: etraining>),
+                          ('augustus', <Section: augustus>)]),
+ '_sections': OrderedDict([('busco_run',
+                            OrderedDict([('out_path',
+                                          '/mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS'),
+                                         ('cpu', '1'),
+                                         ('force', 'True'),
+                                         ('restart', 'False'),
+                                         ('quiet', 'False'),
+                                         ('download_path',
+                                          '/mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads'),
+                                         ('datasets_version', 'odb10'),
+                                         ('offline', 'False'),
+                                         ('download_base_url',
+                                          'https://busco-data.ezlab.org/v5/data/'),
+                                         ('auto-lineage', 'False'),
+                                         ('auto-lineage-prok', 'False'),
+                                         ('auto-lineage-euk', 'False'),
+                                         ('update-data', 'False'),
+                                         ('use_augustus', 'False'),
+                                         ('use_miniprot', 'False'),
+                                         ('batch_mode', 'False'),
+                                         ('tar', 'False'),
+                                         ('in',
+                                          '/mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/goatpox_2_virus_2_2_.fasta'),
+                                         ('out', 'BUSCO'),
+                                         ('mode', 'genome'),
+                                         ('lineage_dataset',
+                                          'poxviridae_odb10'),
+                                         ('main_out',
+                                          '/mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO')])),
+                           ('optimize_augustus.pl',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('metaeuk',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('new_species.pl',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('bbtools',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('prodigal',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('tblastn',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('gff2gbSmallDNA.pl',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('hmmsearch',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('makeblastdb',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('sepp',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('etraining',
+                            OrderedDict([('path', ''), ('command', '')])),
+                           ('augustus',
+                            OrderedDict([('path', ''), ('command', '')]))]),
+ '_strict': True,
+ 'conf_file': 'local environment',
+ 'default_section': 'DEFAULT',
+ 'downloader': <busco.BuscoDownloadManager.BuscoDownloadManager object at 0x1554c659a550>,
+ 'main_out': '/mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO',
+ 'params': {'augustus_parameters': None,
+            'augustus_species': None,
+            'auto-lineage': False,
+            'auto-lineage-euk': False,
+            'auto-lineage-prok': False,
+            'config_file': None,
+            'contig_break': None,
+            'cpu': None,
+            'datasets_version': None,
+            'download': '==SUPPRESS==',
+            'download_base_url': None,
+            'download_path': None,
+            'evalue': None,
+            'force': True,
+            'help': '==SUPPRESS==',
+            'in': 'goatpox_2_virus_2_2_.fasta',
+            'limit': None,
+            'lineage_dataset': 'poxviridae_odb10',
+            'list_datasets': '==SUPPRESS==',
+            'long': False,
+            'metaeuk_parameters': None,
+            'metaeuk_rerun_parameters': None,
+            'mode': 'genome',
+            'offline': False,
+            'out': 'BUSCO/',
+            'out_path': None,
+            'quiet': False,
+            'restart': False,
+            'scaffold_composition': False,
+            'tar': False,
+            'update-data': False,
+            'use_augustus': False,
+            'use_miniprot': False,
+            'version': '==SUPPRESS=='}}
+2024-04-16 16:00:21 INFO:busco.BuscoRunner	Input file is /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/goatpox_2_virus_2_2_.fasta
+2024-04-16 16:00:21 INFO:busco.BuscoDownloadManager	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/poxviridae_odb10.2024-01-08.tar.gz'
+2024-04-16 16:00:22 DEBUG:busco.BuscoDownloadManager	md5 hash is 4cb2e71a92b2088a0a0b1f4ff20f94ef
+2024-04-16 16:00:22 INFO:busco.BuscoDownloadManager	Decompressing file '/mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10.tar.gz'
+2024-04-16 16:00:22 DEBUG:busco.analysis.BuscoAnalysis	Check all required tools are accessible...
+2024-04-16 16:00:22 DEBUG:busco.analysis.BuscoAnalysis	Checking dataset for HMM profiles
+2024-04-16 16:00:22 INFO:busco.analysis.BuscoAnalysis	Running BUSCO using lineage dataset poxviridae_odb10 (viruses, 2024-01-08)
+2024-04-16 16:00:22 DEBUG:busco.busco_tools.base	Tool: bbtools
+2024-04-16 16:00:22 DEBUG:busco.busco_tools.base	Version: 39.01
+2024-04-16 16:00:22 INFO:busco.busco_tools.Toolset	Running 1 job(s) on bbtools, starting at 04/16/2024 16:00:22
+2024-04-16 16:00:23 DEBUG:busco.busco_tools.Toolset	cmd call: stats.sh format=2 in=/mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/goatpox_2_virus_2_2_.fasta n=10
+2024-04-16 16:00:23 INFO:busco.busco_tools.Toolset	[bbtools]	1 of 1 task(s) completed
+2024-04-16 16:00:23 INFO:busco.analysis.GenomeAnalysis	***** Run Prodigal on input to predict and extract genes *****
+2024-04-16 16:00:23 DEBUG:busco.busco_tools.base	Tool: prodigal
+2024-04-16 16:00:23 DEBUG:busco.busco_tools.base	Version: 2.6.3
+2024-04-16 16:00:23 INFO:busco.busco_tools.prodigal	Running Prodigal with genetic code 1 in single mode
+2024-04-16 16:00:23 INFO:busco.busco_tools.Toolset	Running 1 job(s) on prodigal, starting at 04/16/2024 16:00:23
+2024-04-16 16:00:24 DEBUG:busco.busco_tools.Toolset	cmd call: prodigal -p single -f gff -g 1 -a /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/tmp/prodigal_mode_single_code_1.faa -d /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/tmp/prodigal_mode_single_code_1.fna -i /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/goatpox_2_virus_2_2_.fasta
+2024-04-16 16:00:25 INFO:busco.busco_tools.Toolset	[prodigal]	1 of 1 task(s) completed
+2024-04-16 16:00:25 DEBUG:busco.busco_tools.prodigal	Coding density is 0.9217839487437688
+2024-04-16 16:00:25 INFO:busco.busco_tools.prodigal	Genetic code 1 selected as optimal
+2024-04-16 16:00:25 INFO:busco.analysis.BuscoAnalysis	***** Run HMMER on gene sequences *****
+2024-04-16 16:00:25 DEBUG:busco.busco_tools.base	Tool: hmmsearch
+2024-04-16 16:00:25 DEBUG:busco.busco_tools.base	Version: 3.3
+2024-04-16 16:00:25 INFO:busco.busco_tools.Toolset	Running 18 job(s) on hmmsearch, starting at 04/16/2024 16:00:25
+2024-04-16 16:00:26 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/10at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/10at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:26 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/118at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/118at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:27 INFO:busco.busco_tools.Toolset	[hmmsearch]	2 of 18 task(s) completed
+2024-04-16 16:00:27 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/14at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/14at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:27 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/159at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/159at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:27 INFO:busco.busco_tools.Toolset	[hmmsearch]	4 of 18 task(s) completed
+2024-04-16 16:00:27 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/22at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/22at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:27 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/269at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/269at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:27 INFO:busco.busco_tools.Toolset	[hmmsearch]	6 of 18 task(s) completed
+2024-04-16 16:00:27 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/279at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/279at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:27 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/416at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/416at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:27 INFO:busco.busco_tools.Toolset	[hmmsearch]	8 of 18 task(s) completed
+2024-04-16 16:00:27 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/43at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/43at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:28 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/440at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/440at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:28 INFO:busco.busco_tools.Toolset	[hmmsearch]	10 of 18 task(s) completed
+2024-04-16 16:00:28 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/455at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/455at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:28 INFO:busco.busco_tools.Toolset	[hmmsearch]	11 of 18 task(s) completed
+2024-04-16 16:00:28 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/48at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/48at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:28 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/53at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/53at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:28 INFO:busco.busco_tools.Toolset	[hmmsearch]	13 of 18 task(s) completed
+2024-04-16 16:00:28 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/58at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/58at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:28 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/696at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/696at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:28 INFO:busco.busco_tools.Toolset	[hmmsearch]	15 of 18 task(s) completed
+2024-04-16 16:00:28 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/705at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/705at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:28 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/74at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/74at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:29 INFO:busco.busco_tools.Toolset	[hmmsearch]	17 of 18 task(s) completed
+2024-04-16 16:00:29 DEBUG:busco.busco_tools.Toolset	cmd call: hmmsearch --domtblout /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/run_poxviridae_odb10/hmmer_output/81at10240.out --cpu 1 /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/busco_downloads/lineages/poxviridae_odb10/hmms/81at10240.hmm /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO/prodigal_output/predicted_genes/predicted.faa
+2024-04-16 16:00:29 INFO:busco.busco_tools.Toolset	[hmmsearch]	18 of 18 task(s) completed
+2024-04-16 16:00:29 INFO:busco.busco_tools.hmmer	Results:	C:100.0%[S:0.0%,D:100.0%],F:0.0%,M:0.0%,n:18	   
+
+2024-04-16 16:00:30 INFO:busco.BuscoRunner	
+
+	---------------------------------------------------
+	|Results from dataset poxviridae_odb10             |
+	---------------------------------------------------
+	|C:100.0%[S:0.0%,D:100.0%],F:0.0%,M:0.0%,n:18      |
+	|18	Complete BUSCOs (C)                        |
+	|0	Complete and single-copy BUSCOs (S)        |
+	|18	Complete and duplicated BUSCOs (D)         |
+	|0	Fragmented BUSCOs (F)                      |
+	|0	Missing BUSCOs (M)                         |
+	|18	Total BUSCO groups searched                |
+	---------------------------------------------------
+2024-04-16 16:00:30 INFO:busco.BuscoRunner	BUSCO analysis done. Total running time: 9 seconds
+2024-04-16 16:00:30 INFO:busco.BuscoRunner	Results written in /mnt/lustre/RDS-live/downing/LSDV_PVG/GOATPOXVIRUS/BUSCO
+2024-04-16 16:00:30 INFO:busco.BuscoRunner	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2024-04-16 16:00:30 INFO:busco.BuscoRunner	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO

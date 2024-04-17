@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+ODGI	all_sections	seqwish	/mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT/goatpox_2_virus_2_2_.fasta.gz.287601a.417fcdf.seqwish.og.stats.yaml
+ODGI	all_sections	smooth	/mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT/goatpox_2_virus_2_2_.fasta.gz.287601a.417fcdf.db2ae42.smooth.final.og.stats.yaml

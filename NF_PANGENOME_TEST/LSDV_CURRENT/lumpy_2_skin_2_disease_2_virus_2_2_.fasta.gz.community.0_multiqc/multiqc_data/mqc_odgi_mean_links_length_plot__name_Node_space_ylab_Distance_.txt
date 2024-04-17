@@ -1,0 +1,3 @@
+Sample	Mean links length: node space
+lumpy_2_skin_2_disease_2_virus_2_2	0.835511
+seqwish	483.385

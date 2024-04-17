@@ -1,0 +1,4 @@
+organism: Capripoxvirus species strain 
+contigs: 1
+bases: 149723
+CDS: 151
