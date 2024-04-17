@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+
+
+if __name__ == "__main__":
+    __spec__ = None
+    try:
+        from busco import run_BUSCO
+    except ImportError as err:
+        try:
+            import re
+
+            pattern_search = re.search(
+                "cannot import name '(?P<module_name>[\w]+)", err.msg
+            )
+            missing_module = pattern_search.group("module_name")
+            if missing_module == "run_BUSCO":
+                print(
+                    "BUSCO must be installed before it is run. Please enter 'python setup.py install (--user)'. "
+                    "See the user guide for more information."
+                )
+            elif missing_module == "Bio":
+                print(
+                    "Please install BioPython (https://biopython.org/) before running BUSCO."
+                )
+            elif missing_module == "numpy":
+                print("Please install NumPy before running BUSCO.")
+            else:
+                print(
+                    "Unable to find module {}. Please make sure it is installed. See the user guide and the GitLab issue "
+                    "board (https://gitlab.com/ezlab/busco/issues) if you need further assistance."
+                    "".format(missing_module)
+                )
+
+        except:
+            print(err.msg)
+            print(
+                "There was a problem installing BUSCO or importing one of its dependencies. See the user guide and the "
+                "GitLab issue board (https://gitlab.com/ezlab/busco/issues) if you need further assistance."
+            )
+        raise SystemExit(1)
+
+    run_BUSCO.main()
