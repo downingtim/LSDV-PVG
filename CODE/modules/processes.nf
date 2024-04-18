@@ -292,8 +292,9 @@ process PAVS {
     sed '1d' ${workflow.projectDir}/CURRENT/${refFasta}.flatten.tsv | awk -v OFS='\t' '{print(\$4,\$2,\$3,"step.rank_"\$6,".",\$5)}' > ${workflow.projectDir}/CURRENT/${refFasta}.flatten.bed
 
     # get BED file
-    odgi pav -i ${workflow.projectDir}/CURRENT/*.og  -b ${workflow.projectDir}/CURRENT/${refFasta}.flatten.bed > ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv
-    grep -c "" ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv  > flatten.pavs.count.txt # gives all PAVs
+    odgi pav -i ${workflow.projectDir}/CURRENT/*.og  -b ${workflow.projectDir}/CURRENT/${refFasta}.flatten.bed >      ${workflow.projectDir}/${refFasta}.flatten.pavs.tsv
+    grep -c "" ${workflow.projectDir}/${refFasta}.flatten.pavs.tsv  > flatten.pavs.count.txt # gives all PAVs
+    rm -rf  ${workflow.projectDir}/${refFasta}.flatten.pavs.tsv  # needs to be removed, file size too large
 
     # make a plot
     Rscript ${workflow.projectDir}/bin/plot_pavs.R  ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv
