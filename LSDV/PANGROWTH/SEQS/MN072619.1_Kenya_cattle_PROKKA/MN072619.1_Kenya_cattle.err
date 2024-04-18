@@ -1,0 +1,836 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:151 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 151 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:151 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:3 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	use protein instead of gene as appropriate
+		2 features contains 'gene'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:2 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:152 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::151 proteins have invalid IDs.
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_2 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_3 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_4 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_5 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_6 (length 230)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_7 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_8 (length 381)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_9 (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_10 (length 341)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_11 (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_12 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_13 (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_14 (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_15 (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_16 (length 569)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_17 (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_18 (length 86)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_19 (length 112)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_20 (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_21 (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_22 (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_23 (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_24 (length 638)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_25 (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_26 (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_27 (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_28 (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_29 (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_30 (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_31 (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_32 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_33 (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_34 (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_35 (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_36 (length 266)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_37 (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_38 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_39 (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_40 (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_41 (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_42 (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_43 (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_44 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_45 (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_46 (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_47 (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_48 (length 596)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_49 (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_50 (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_51 (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_52 (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_53 (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_54 (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_55 (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_56 (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_57 (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_58 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_59 (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_60 (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_61 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_62 (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_63 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_64 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_65 (length 198)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_66 (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_67 (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_68 (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_69 (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_70 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_71 (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_72 (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_73 (length 223)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_74 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_75 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_76 (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_77 (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_78 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_79 (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_80 (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_81 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_82 (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_83 (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_84 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_85 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_86 (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_87 (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_88 (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_89 (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_90 (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_91 (length 661)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_92 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_93 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_94 (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_95 (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_96 (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_97 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_98 (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_99 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_100 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_101 (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_102 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_103 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_104 (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_105 (length 196)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_106 (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_107 (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_108 (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_109 (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_110 (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_111 (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_112 (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_113 (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_114 (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_115 (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_116 (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_117 (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_118 (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_119 (length 196)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_120 (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_121 (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_122 (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_123 (length 181)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_124 (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_125 (length 300)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_126 (length 123)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_127 (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_128 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_129 (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_130 (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_131 (length 1985)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_132 (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_133 (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_134 (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_135 (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_136 (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_137 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_138 (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_139 (length 134)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_140 (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_141 (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_142 (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_143 (length 413)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_144 (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_145 (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_146 (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_147 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_148 (length 550)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_149 (length 489)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_150 (length 91)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_151 (length 240)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 151 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle (length 150329, 2001 gap)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::151 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c1929-1207	EJCKHNBG_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Viral interleukin-10	MN072619.1_Kenya_cattle:2224-2736	EJCKHNBG_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c3442-2747	EJCKHNBG_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c4531-3464	EJCKHNBG_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Soluble interferon gamma receptor B8	MN072619.1_Kenya_cattle:c5442-4615	EJCKHNBG_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c6167-5475	EJCKHNBG_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c6707-6219	EJCKHNBG_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c7896-6751	EJCKHNBG_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c8638-8003	EJCKHNBG_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c9702-8677	EJCKHNBG_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein K3	MN072619.1_Kenya_cattle:c10031-9762	EJCKHNBG_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c10503-10018	EJCKHNBG_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c10809-10540	EJCKHNBG_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c11330-10800	EJCKHNBG_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Deoxyuridine 5'-triphosphate nucleotidohydrolase	MN072619.1_Kenya_cattle:c11812-11372	EJCKHNBG_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Kelch repeat protein F3	MN072619.1_Kenya_cattle:c13568-11859	EJCKHNBG_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Ribonucleoside-diphosphate reductase small chain	MN072619.1_Kenya_cattle:c14598-13633	EJCKHNBG_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c14899-14639	EJCKHNBG_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c15278-14940	EJCKHNBG_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c15727-15509	EJCKHNBG_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein F9	MN072619.1_Kenya_cattle:c16454-15804	EJCKHNBG_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Serine/threonine-protein kinase 2	MN072619.1_Kenya_cattle:c17775-16432	EJCKHNBG_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c18719-17811	EJCKHNBG_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein F12	MN072619.1_Kenya_cattle:c20644-18728	EJCKHNBG_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Envelope phospholipase F13	MN072619.1_Kenya_cattle:c21763-20651	EJCKHNBG_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c21936-21790	EJCKHNBG_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c22402-21965	EJCKHNBG_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c23138-22479	EJCKHNBG_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Phosphoprotein F17	MN072619.1_Kenya_cattle:23212-23526	EJCKHNBG_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Poly(A) polymerase catalytic subunit	MN072619.1_Kenya_cattle:c24954-23530	EJCKHNBG_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein E2	MN072619.1_Kenya_cattle:c27158-24951	EJCKHNBG_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein E3	MN072619.1_Kenya_cattle:c27703-27170	EJCKHNBG_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c28369-27764	EJCKHNBG_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:28452-29576	EJCKHNBG_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein E6	MN072619.1_Kenya_cattle:29585-31285	EJCKHNBG_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein E8	MN072619.1_Kenya_cattle:31292-32092	EJCKHNBG_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA polymerase	MN072619.1_Kenya_cattle:c35121-32089	EJCKHNBG_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	putative FAD-linked sulfhydryl oxidase E10	MN072619.1_Kenya_cattle:35155-35442	EJCKHNBG_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein E11	MN072619.1_Kenya_cattle:c35831-35439	EJCKHNBG_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c37872-35818	EJCKHNBG_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Telomere-binding protein I1	MN072619.1_Kenya_cattle:c38922-37978	EJCKHNBG_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c39147-38929	EJCKHNBG_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein I3	MN072619.1_Kenya_cattle:c39978-39148	EJCKHNBG_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein I5	MN072619.1_Kenya_cattle:c40260-40024	EJCKHNBG_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Telomere-binding protein I6	MN072619.1_Kenya_cattle:c41462-40278	EJCKHNBG_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Core protease I7	MN072619.1_Kenya_cattle:c42756-41455	EJCKHNBG_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	RNA helicase NPH-II	MN072619.1_Kenya_cattle:42762-44792	EJCKHNBG_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Metalloendopeptidase G1	MN072619.1_Kenya_cattle:c46579-44789	EJCKHNBG_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein G3	MN072619.1_Kenya_cattle:c46821-46576	EJCKHNBG_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Late transcription elongation factor G2	MN072619.1_Kenya_cattle:46902-47570	EJCKHNBG_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Glutaredoxin-2	MN072619.1_Kenya_cattle:c47914-47534	EJCKHNBG_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Putative nuclease G5	MN072619.1_Kenya_cattle:47917-49230	EJCKHNBG_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA-directed RNA polymerase 7 kDa subunit	MN072619.1_Kenya_cattle:49231-49422	EJCKHNBG_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:49422-49946	EJCKHNBG_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Assembly protein G7	MN072619.1_Kenya_cattle:c51081-49960	EJCKHNBG_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Late transcription factor 1	MN072619.1_Kenya_cattle:51111-51893	EJCKHNBG_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Myristoylated protein G9	MN072619.1_Kenya_cattle:51920-52930	EJCKHNBG_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein L1	MN072619.1_Kenya_cattle:52931-53668	EJCKHNBG_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein L2	MN072619.1_Kenya_cattle:53706-53984	EJCKHNBG_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein L3	MN072619.1_Kenya_cattle:c54950-53994	EJCKHNBG_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Core protein VP8	MN072619.1_Kenya_cattle:54975-55736	EJCKHNBG_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein L5	MN072619.1_Kenya_cattle:55752-56147	EJCKHNBG_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein J1	MN072619.1_Kenya_cattle:56104-56547	EJCKHNBG_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Thymidine kinase	MN072619.1_Kenya_cattle:56575-57108	EJCKHNBG_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:57180-57776	EJCKHNBG_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase	MN072619.1_Kenya_cattle:57834-58835	EJCKHNBG_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein J5	MN072619.1_Kenya_cattle:c59714-59313	EJCKHNBG_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:59800-63657	EJCKHNBG_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	putative dual specificity protein phosphatase H1	MN072619.1_Kenya_cattle:c64177-63662	EJCKHNBG_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein H2	MN072619.1_Kenya_cattle:64193-64765	EJCKHNBG_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Envelope protein H3	MN072619.1_Kenya_cattle:c65730-64762	EJCKHNBG_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	RNA polymerase-associated transcription-specificity factor RAP94	MN072619.1_Kenya_cattle:c68156-65760	EJCKHNBG_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Late transcription elongation factor H5	MN072619.1_Kenya_cattle:68300-68971	EJCKHNBG_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA topoisomerase 1B	MN072619.1_Kenya_cattle:69013-69966	EJCKHNBG_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Late protein H7	MN072619.1_Kenya_cattle:69986-70429	EJCKHNBG_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	mRNA-capping enzyme catalytic subunit	MN072619.1_Kenya_cattle:70460-72988	EJCKHNBG_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Core protein D4	MN072619.1_Kenya_cattle:c73417-72950	EJCKHNBG_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	27 kDa core protein	MN072619.1_Kenya_cattle:73419-74156	EJCKHNBG_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Uracil-DNA glycosylase	MN072619.1_Kenya_cattle:74153-74809	EJCKHNBG_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Primase D5	MN072619.1_Kenya_cattle:74852-77212	EJCKHNBG_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Early transcription factor 70 kDa subunit	MN072619.1_Kenya_cattle:77209-79116	EJCKHNBG_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA-directed RNA polymerase 18 kDa subunit	MN072619.1_Kenya_cattle:79141-79632	EJCKHNBG_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	mRNA-decapping protein D9	MN072619.1_Kenya_cattle:79673-80314	EJCKHNBG_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	mRNA-decapping protein D10	MN072619.1_Kenya_cattle:80314-81075	EJCKHNBG_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Nucleoside triphosphatase I	MN072619.1_Kenya_cattle:c82988-81081	EJCKHNBG_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	mRNA-capping enzyme regulatory subunit	MN072619.1_Kenya_cattle:c83878-83015	EJCKHNBG_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Scaffold protein D13	MN072619.1_Kenya_cattle:c85567-83918	EJCKHNBG_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Viral late gene transcription factor 2	MN072619.1_Kenya_cattle:c86046-85594	EJCKHNBG_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Viral late gene transcription factor 3	MN072619.1_Kenya_cattle:c86759-86076	EJCKHNBG_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein A2.5	MN072619.1_Kenya_cattle:c86998-86771	EJCKHNBG_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Major core protein 4b	MN072619.1_Kenya_cattle:c88992-87007	EJCKHNBG_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c89602-89117	EJCKHNBG_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA-directed RNA polymerase 19 kDa subunit	MN072619.1_Kenya_cattle:89643-90155	EJCKHNBG_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein A6	MN072619.1_Kenya_cattle:c91279-90152	EJCKHNBG_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Early transcription factor 82 kDa subunit	MN072619.1_Kenya_cattle:c93444-91300	EJCKHNBG_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Intermediate transcription factor 3 small subunit	MN072619.1_Kenya_cattle:93501-94373	EJCKHNBG_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Virion membrane protein A9	MN072619.1_Kenya_cattle:c94633-94397	EJCKHNBG_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Major core protein 4a precursor	MN072619.1_Kenya_cattle:c97348-94634	EJCKHNBG_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein A11	MN072619.1_Kenya_cattle:97363-98316	EJCKHNBG_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	25 kDa core protein A12L	MN072619.1_Kenya_cattle:c98885-98313	EJCKHNBG_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c99153-98950	EJCKHNBG_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Virion membrane protein A14	MN072619.1_Kenya_cattle:c99522-99235	EJCKHNBG_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Core protein A15	MN072619.1_Kenya_cattle:c99977-99690	EJCKHNBG_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Virion membrane protein A16	MN072619.1_Kenya_cattle:c101094-99961	EJCKHNBG_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Virion membrane protein A17 precursor	MN072619.1_Kenya_cattle:c101700-101110	EJCKHNBG_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Transcript termination protein A18	MN072619.1_Kenya_cattle:101715-103157	EJCKHNBG_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein A19	MN072619.1_Kenya_cattle:c103362-103138	EJCKHNBG_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c103521-103363	EJCKHNBG_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA polymerase processivity factor component A20	MN072619.1_Kenya_cattle:103709-105001	EJCKHNBG_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Resolvase A22	MN072619.1_Kenya_cattle:104970-105476	EJCKHNBG_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Intermediate transcription factor 3 large subunit	MN072619.1_Kenya_cattle:105501-106658	EJCKHNBG_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072619.1_Kenya_cattle:106689-110159	EJCKHNBG_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c110619-110173	EJCKHNBG_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Envelope protein A28	MN072619.1_Kenya_cattle:c111042-110620	EJCKHNBG_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA-directed RNA polymerase 35 kDa subunit	MN072619.1_Kenya_cattle:c111951-111043	EJCKHNBG_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c112144-111920	EJCKHNBG_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c112297-112172	EJCKHNBG_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein A32	MN072619.1_Kenya_cattle:c113087-112323	EJCKHNBG_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein A33	MN072619.1_Kenya_cattle:113219-113809	EJCKHNBG_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein A34	MN072619.1_Kenya_cattle:113839-114354	EJCKHNBG_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein A35	MN072619.1_Kenya_cattle:114382-114957	EJCKHNBG_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:114994-115860	EJCKHNBG_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:115919-116464	EJCKHNBG_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:116475-117296	EJCKHNBG_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:c118202-117300	EJCKHNBG_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:118300-118671	EJCKHNBG_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:118740-118985	EJCKHNBG_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:119041-119526	EJCKHNBG_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:119561-120091	EJCKHNBG_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA ligase	MN072619.1_Kenya_cattle:120127-121800	EJCKHNBG_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:122074-128031	EJCKHNBG_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Soluble interferon alpha/beta receptor B18	MN072619.1_Kenya_cattle:128101-129183	EJCKHNBG_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:129231-129692	EJCKHNBG_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:129758-130765	EJCKHNBG_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:130795-131355	EJCKHNBG_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	B1 kinase	MN072619.1_Kenya_cattle:131394-132311	EJCKHNBG_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:132343-133065	EJCKHNBG_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Protein B5	MN072619.1_Kenya_cattle:133114-133791	EJCKHNBG_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:133793-134197	EJCKHNBG_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:134234-135142	EJCKHNBG_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Kelch repeat and BTB domain-containing protein A55	MN072619.1_Kenya_cattle:135311-136954	EJCKHNBG_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:137000-138904	EJCKHNBG_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Envelope phospholipase F13	MN072619.1_Kenya_cattle:139033-140274	EJCKHNBG_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Ankyrin repeat domain-containing protein M-T5	MN072619.1_Kenya_cattle:140335-141831	EJCKHNBG_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Ankyrin repeat domain-containing protein M-T5	MN072619.1_Kenya_cattle:141879-143222	EJCKHNBG_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Serine proteinase inhibitor 2	MN072619.1_Kenya_cattle:143243-144256	EJCKHNBG_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:144295-144780	EJCKHNBG_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Kelch repeat and BTB domain-containing protein A55	MN072619.1_Kenya_cattle:144823-146475	EJCKHNBG_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Ankyrin repeat domain-containing protein M-T5	MN072619.1_Kenya_cattle:146542-148011	EJCKHNBG_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:148056-148331	EJCKHNBG_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	hypothetical protein	MN072619.1_Kenya_cattle:148401-149123	EJCKHNBG_00151
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::3 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	DNA-directed RNA polymerase 133 kDa polypeptide	MN072619.1_Kenya_cattle:106689-110159	EJCKHNBG_00112
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::use protein instead of gene as appropriate
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains 'gene'
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Viral late gene transcription factor 2	MN072619.1_Kenya_cattle:c86046-85594	EJCKHNBG_00088
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:CDS	Viral late gene transcription factor 3	MN072619.1_Kenya_cattle:c86759-86076	EJCKHNBG_00089
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::2 protein sequences are shorter than 50 aa.
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_26 (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_117 (length 41)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle (length 150329, 2001 gap)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle (length 150329, 2001 gap)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle (length 150329, 2001 gap)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle (length 150329, 2001 gap)
+
+DiscRep_ALL:MISSING_PROJECT::152 sequences do not include project.
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle (length 150329, 2001 gap)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_1 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_2 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_3 (length 231)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_4 (length 355)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_5 (length 275)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_6 (length 230)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_7 (length 162)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_8 (length 381)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_9 (length 211)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_10 (length 341)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_11 (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_12 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_13 (length 89)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_14 (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_15 (length 146)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_16 (length 569)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_17 (length 321)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_18 (length 86)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_19 (length 112)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_20 (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_21 (length 216)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_22 (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_23 (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_24 (length 638)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_25 (length 370)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_26 (length 48)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_27 (length 145)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_28 (length 219)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_29 (length 104)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_30 (length 474)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_31 (length 735)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_32 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_33 (length 201)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_34 (length 374)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_35 (length 566)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_36 (length 266)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_37 (length 1010)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_38 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_39 (length 130)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_40 (length 684)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_41 (length 314)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_42 (length 72)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_43 (length 276)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_44 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_45 (length 394)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_46 (length 433)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_47 (length 676)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_48 (length 596)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_49 (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_50 (length 222)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_51 (length 126)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_52 (length 437)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_53 (length 63)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_54 (length 174)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_55 (length 373)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_56 (length 260)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_57 (length 336)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_58 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_59 (length 92)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_60 (length 318)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_61 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_62 (length 131)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_63 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_64 (length 177)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_65 (length 198)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_66 (length 333)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_67 (length 133)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_68 (length 1285)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_69 (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_70 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_71 (length 322)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_72 (length 798)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_73 (length 223)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_74 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_75 (length 147)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_76 (length 842)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_77 (length 155)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_78 (length 245)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_79 (length 218)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_80 (length 786)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_81 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_82 (length 163)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_83 (length 213)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_84 (length 253)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_85 (length 635)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_86 (length 287)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_87 (length 549)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_88 (length 150)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_89 (length 227)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_90 (length 75)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_91 (length 661)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_92 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_93 (length 170)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_94 (length 375)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_95 (length 714)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_96 (length 290)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_97 (length 78)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_98 (length 904)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_99 (length 317)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_100 (length 190)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_101 (length 67)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_102 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_103 (length 95)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_104 (length 377)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_105 (length 196)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_106 (length 480)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_107 (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_108 (length 52)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_109 (length 430)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_110 (length 168)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_111 (length 385)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_112 (length 1156)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_113 (length 148)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_114 (length 140)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_115 (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_116 (length 74)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_117 (length 41)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_118 (length 254)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_119 (length 196)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_120 (length 171)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_121 (length 191)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_122 (length 288)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_123 (length 181)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_124 (length 273)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_125 (length 300)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_126 (length 123)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_127 (length 81)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_128 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_129 (length 176)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_130 (length 557)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_131 (length 1985)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_132 (length 360)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_133 (length 153)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_134 (length 335)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_135 (length 186)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_136 (length 305)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_137 (length 240)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_138 (length 225)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_139 (length 134)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_140 (length 302)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_141 (length 547)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_142 (length 634)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_143 (length 413)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_144 (length 498)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_145 (length 447)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_146 (length 337)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_147 (length 161)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_148 (length 550)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_149 (length 489)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_150 (length 91)
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle_151 (length 240)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle (length 150329, 2001 gap)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+../../../CURRENT/PANGROWTH/SEQS/MN072619.1_Kenya_cattle_PROKKA/MN072619.1_Kenya_cattle:MN072619.1_Kenya_cattle (length 150329, 2001 gap)
+

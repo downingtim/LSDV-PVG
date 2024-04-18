@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+ODGI	all_sections	smooth	/mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT/lumpy_2_skin_2_disease_2_virus_2_2_.fasta.gz.5688c4a.417fcdf.11a686d.smooth.final.og.stats.yaml
+ODGI	all_sections	seqwish	/mnt/lustre/RDS-live/downing/LSDV_PVG/121_SAMPLE_PVG/CURRENT/lumpy_2_skin_2_disease_2_virus_2_2_.fasta.gz.5688c4a.417fcdf.seqwish.og.stats.yaml

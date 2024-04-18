@@ -1,0 +1,119 @@
+[18:00:16] This is prokka 1.14.6
+[18:00:16] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[18:00:16] Homepage is https://github.com/tseemann/prokka
+[18:00:16] Local time is Tue Apr 16 18:00:16 2024
+[18:00:16] You are downing
+[18:00:16] Operating system is linux
+[18:00:16] You have BioPerl 1.7.8
+[18:00:16] System has 64 cores.
+[18:00:16] Will use maximum of 8 cores.
+[18:00:16] Annotating as >>> Viruses <<<
+[18:00:16] Generating locus_tag from '../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022.fa' contents.
+[18:00:16] Setting --locustag JCHOPBNJ from MD5 3c189b733bc1c0ab9b551799773881fe
+[18:00:16] Creating new output folder: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA
+[18:00:16] Running: mkdir -p \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/OQ511520\.1_Thailand_Trang_2022_2022_PROKKA
+[18:00:16] Using filename prefix: OQ511520.1_Thailand_Trang_2022_2022.XXX
+[18:00:16] Setting HMMER_NCPU=1
+[18:00:16] Writing log to: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.log
+[18:00:16] Command: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka --kingdom Viruses --proteins KX894508.gb --gffver 3 --usegenus --outdir ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA --force --genus Capripoxvirus --prefix OQ511520.1_Thailand_Trang_2022_2022 ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022.fa
+[18:00:16] Appending to PATH: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin
+[18:00:16] Looking for 'aragorn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/aragorn
+[18:00:16] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[18:00:16] Looking for 'barrnap' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/barrnap
+[18:00:16] Determined barrnap version is 000009 from 'barrnap 0.9'
+[18:00:16] Looking for 'blastp' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/blastp
+[18:00:16] Determined blastp version is 002013 from 'blastp: 2.13.0+'
+[18:00:16] Looking for 'cmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmpress
+[18:00:16] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[18:00:16] Looking for 'cmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmscan
+[18:00:16] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[18:00:16] Looking for 'egrep' - found /usr/bin/egrep
+[18:00:16] Looking for 'find' - found /usr/bin/find
+[18:00:16] Looking for 'grep' - found /usr/bin/grep
+[18:00:16] Looking for 'hmmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmpress
+[18:00:16] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[18:00:16] Looking for 'hmmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmscan
+[18:00:16] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[18:00:16] Looking for 'java' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/java
+[18:00:16] Looking for 'makeblastdb' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/makeblastdb
+[18:00:16] Determined makeblastdb version is 002013 from 'makeblastdb: 2.13.0+'
+[18:00:16] Looking for 'minced' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/minced
+[18:00:16] Determined minced version is 004002 from 'minced 0.4.2'
+[18:00:16] Looking for 'parallel' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/parallel
+[18:00:16] Determined parallel version is 20220922 from 'GNU parallel 20220922'
+[18:00:16] Looking for 'prodigal' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prodigal
+[18:00:16] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[18:00:16] Looking for 'prokka-genbank_to_fasta_db' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka-genbank_to_fasta_db
+[18:00:16] Looking for 'sed' - found /cm/shared/apps/mambaforge/envs/R.4.2.2/bin/sed
+[18:00:16] Looking for 'tbl2asn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/tbl2asn
+[18:00:16] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[18:00:16] Using genetic code table 1.
+[18:00:16] Loading and checking input file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022.fa
+[18:00:16] Wrote 1 contigs totalling 150812 bp.
+[18:00:16] Predicting tRNAs and tmRNAs
+[18:00:16] Running: aragorn -l -gc1  -w \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/OQ511520\.1_Thailand_Trang_2022_2022_PROKKA\/OQ511520\.1_Thailand_Trang_2022_2022\.fna
+[18:00:16] Found 0 tRNAs
+[18:00:16] Disabling rRNA search: --kingdom=Viruses or --norrna=0
+[18:00:16] Skipping ncRNA search, enable with --rfam if desired.
+[18:00:16] Total of 0 tRNA + rRNA features
+[18:00:16] Searching for CRISPR repeats
+[18:00:16] Found 0 CRISPRs
+[18:00:16] Predicting coding sequences
+[18:00:16] Contigs total 150812 bp, so using single mode
+[18:00:16] Running: prodigal -i \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/OQ511520\.1_Thailand_Trang_2022_2022_PROKKA\/OQ511520\.1_Thailand_Trang_2022_2022\.fna -c -m -g 1 -p single -f sco -q
+[18:00:16] Found 152 CDS
+[18:00:16] Connecting features back to sequences
+[18:00:16] Skipping genus-specific proteins as can't see /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/db/Capripoxvirus
+[18:00:16] Annotating CDS, please be patient.
+[18:00:16] Will use 8 CPUs for similarity searching.
+[18:00:16] There are still 152 unannotated CDS left (started with 152)
+[18:00:16] Will use blast to search against /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/db/kingdom/Viruses/sprot with 8 CPUs
+[18:00:16] Running: cat \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/OQ511520\.1_Thailand_Trang_2022_2022_PROKKA\/OQ511520\.1_Thailand_Trang_2022_2022\.sprot\.tmp\.288354\.faa | parallel --gnu --plain -j 8 --block 2997 --recstart '>' --pipe blastp -query - -db /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/db/kingdom/Viruses/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/OQ511520\.1_Thailand_Trang_2022_2022_PROKKA\/OQ511520\.1_Thailand_Trang_2022_2022\.sprot\.tmp\.288354\.blast 2> /dev/null
+[18:00:17] Modify product: Protein J1 homolog => Protein J1 
+[18:00:17] Modify product: Probable dual specificity protein phosphatase H1 homolog => putative dual specificity protein phosphatase H1 
+[18:00:17] Modify product: Probable FAD-linked sulfhydryl oxidase E10 => putative FAD-linked sulfhydryl oxidase E10
+[18:00:17] Modify product: Viral interleukin-10 homolog => Viral interleukin-10 
+[18:00:17] Cleaned 4 /product names
+[18:00:17] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.sprot.tmp.288354.faa
+[18:00:17] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.sprot.tmp.288354.blast
+[18:00:17] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/proteins.psq
+[18:00:17] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/proteins.phr
+[18:00:17] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/proteins.pin
+[18:00:17] Labelling remaining 51 proteins as 'hypothetical protein'
+[18:00:17] Possible /pseudo 'Ankyrin repeat domain-containing protein M-T5' at OQ511520.1_Thailand_Trang_2022_2022 position 142166
+[18:00:17] Found 36 unique /gene codes.
+[18:00:17] Fixed 2 duplicate /gene - KBTB1_1 KBTB1_2
+[18:00:17] Fixed 1 colliding /gene names.
+[18:00:17] Adding /locus_tag identifiers
+[18:00:17] Assigned 152 locus_tags to CDS and RNA features.
+[18:00:17] Writing outputs to ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/
+[18:00:17] Generating annotation statistics file
+[18:00:17] Generating Genbank and Sequin files
+[18:00:17] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/OQ511520\.1_Thailand_Trang_2022_2022_PROKKA\/OQ511520\.1_Thailand_Trang_2022_2022\.err -i \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/OQ511520\.1_Thailand_Trang_2022_2022_PROKKA\/OQ511520\.1_Thailand_Trang_2022_2022\.fsa 2> /dev/null
+[18:00:18] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/errorsummary.val
+[18:00:18] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.dr
+[18:00:18] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.fixedproducts
+[18:00:18] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.ecn
+[18:00:18] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.val
+[18:00:18] Repairing broken .GBK output that tbl2asn produces...
+[18:00:18] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/OQ511520\.1_Thailand_Trang_2022_2022_PROKKA\/OQ511520\.1_Thailand_Trang_2022_2022\.gbf > \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/OQ511520\.1_Thailand_Trang_2022_2022_PROKKA\/OQ511520\.1_Thailand_Trang_2022_2022\.gbk
+[18:00:18] Deleting unwanted file: ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.gbf
+[18:00:18] Output files:
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.ffn
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.fsa
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.tsv
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.fna
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.log
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.sqn
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.faa
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.err
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.gbk
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.gff
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.tbl
+[18:00:18] ../../../CURRENT/PANGROWTH/SEQS/OQ511520.1_Thailand_Trang_2022_2022_PROKKA/OQ511520.1_Thailand_Trang_2022_2022.txt
+[18:00:18] Annotation finished successfully.
+[18:00:18] Walltime used: 0.03 minutes
+[18:00:18] If you use this result please cite the Prokka paper:
+[18:00:18] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[18:00:18] Type 'prokka --citation' for more details.
+[18:00:18] Thank you, come again.

@@ -1,0 +1,778 @@
+>Feature OR567413.1_Jiling_2022_China_Dec_2022
+1927	1205	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00001
+			product	hypothetical protein
+2222	2734	CDS
+			gene	BCRF1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03180
+			locus_tag	FMHLFHII_00002
+			product	Viral interleukin-10 
+3440	2745	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00003
+			product	hypothetical protein
+4529	3462	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00004
+			product	hypothetical protein
+5440	4613	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24770
+			locus_tag	FMHLFHII_00005
+			product	Soluble interferon gamma receptor B8
+6167	5475	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00006
+			product	hypothetical protein
+6706	6218	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00007
+			product	hypothetical protein
+7895	6750	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00008
+			product	hypothetical protein
+8637	8002	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00009
+			product	hypothetical protein
+9701	8676	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00010
+			product	hypothetical protein
+10030	9761	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P18378
+			locus_tag	FMHLFHII_00011
+			product	Protein K3
+10502	10017	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00012
+			product	hypothetical protein
+10807	10538	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00013
+			product	hypothetical protein
+11328	10798	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00014
+			product	hypothetical protein
+11810	11370	CDS
+			EC_number	3.6.1.23
+			gene	DUT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P17374
+			locus_tag	FMHLFHII_00015
+			product	Deoxyuridine 5'-triphosphate nucleotidohydrolase
+13117	11852	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24357
+			locus_tag	FMHLFHII_00016
+			product	Kelch repeat protein F3
+13560	13108	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00017
+			product	hypothetical protein
+14590	13625	CDS
+			EC_number	1.17.4.1
+			gene	F4L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20493
+			locus_tag	FMHLFHII_00018
+			product	Ribonucleoside-diphosphate reductase small chain
+14890	14630	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00019
+			product	hypothetical protein
+15269	14931	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00020
+			product	hypothetical protein
+15717	15499	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00021
+			product	hypothetical protein
+16443	15793	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24361
+			locus_tag	FMHLFHII_00022
+			product	Protein F9
+17764	16421	CDS
+			EC_number	2.7.11.1
+			gene	VPK2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q89121
+			locus_tag	FMHLFHII_00023
+			product	Serine/threonine-protein kinase 2
+18708	17800	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00024
+			product	hypothetical protein
+20633	18717	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q80HX6
+			locus_tag	FMHLFHII_00025
+			product	Protein F12
+21752	20640	CDS
+			EC_number	3.1.1.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04021
+			locus_tag	FMHLFHII_00026
+			product	Envelope phospholipase F13
+21925	21779	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00027
+			product	hypothetical protein
+22391	21954	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00028
+			product	hypothetical protein
+23127	22468	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00029
+			product	hypothetical protein
+23201	23515	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07396
+			locus_tag	FMHLFHII_00030
+			product	Phosphoprotein F17
+24943	23519	CDS
+			EC_number	2.7.7.19
+			gene	PAPL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23371
+			locus_tag	FMHLFHII_00031
+			product	Poly(A) polymerase catalytic subunit
+27147	24940	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21604
+			locus_tag	FMHLFHII_00032
+			product	Protein E2
+27737	27159	CDS
+			gene	E3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21081
+			locus_tag	FMHLFHII_00033
+			product	Protein E3
+28357	27752	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00034
+			product	hypothetical protein
+28441	29565	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00035
+			product	hypothetical protein
+29575	31275	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21607
+			locus_tag	FMHLFHII_00036
+			product	Protein E6
+31282	32082	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23372
+			locus_tag	FMHLFHII_00037
+			product	Protein E8
+35111	32079	CDS
+			EC_number	2.7.7.7
+			gene	POL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20509
+			locus_tag	FMHLFHII_00038
+			product	DNA polymerase
+35145	35432	CDS
+			EC_number	1.8.3.2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21050
+			locus_tag	FMHLFHII_00039
+			product	putative FAD-linked sulfhydryl oxidase E10
+35821	35429	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSU0
+			locus_tag	FMHLFHII_00040
+			product	Protein E11
+37862	35808	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00041
+			product	hypothetical protein
+38912	37968	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16714
+			locus_tag	FMHLFHII_00042
+			product	Telomere-binding protein I1
+39137	38919	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00043
+			product	hypothetical protein
+39968	39138	CDS
+			gene	I3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20499
+			locus_tag	FMHLFHII_00044
+			product	Protein I3
+40250	40014	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12924
+			locus_tag	FMHLFHII_00045
+			product	Protein I5
+41452	40268	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68462
+			locus_tag	FMHLFHII_00046
+			product	Telomere-binding protein I6
+42746	41445	CDS
+			EC_number	3.4.22.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12926
+			locus_tag	FMHLFHII_00047
+			product	Core protease I7
+42752	44782	CDS
+			EC_number	3.6.4.13
+			gene	NPH2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9Q927
+			locus_tag	FMHLFHII_00048
+			product	RNA helicase NPH-II
+46569	44779	CDS
+			EC_number	3.4.24.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16713
+			locus_tag	FMHLFHII_00049
+			product	Metalloendopeptidase G1
+46811	46566	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68458
+			locus_tag	FMHLFHII_00050
+			product	Protein G3
+46892	47560	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68456
+			locus_tag	FMHLFHII_00051
+			product	Late transcription elongation factor G2
+47904	47524	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68460
+			locus_tag	FMHLFHII_00052
+			product	Glutaredoxin-2
+47907	49220	CDS
+			EC_number	3.1.-.-
+			gene	G5R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSS6
+			locus_tag	FMHLFHII_00053
+			product	Putative nuclease G5
+49221	49412	CDS
+			EC_number	2.7.7.6
+			gene	RPO7
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9DHQ8
+			locus_tag	FMHLFHII_00054
+			product	DNA-directed RNA polymerase 7 kDa subunit
+49412	49936	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00055
+			product	hypothetical protein
+51071	49950	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68716
+			locus_tag	FMHLFHII_00056
+			product	Assembly protein G7
+51101	51883	CDS
+			gene	VLTF1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68613
+			locus_tag	FMHLFHII_00057
+			product	Late transcription factor 1
+51910	52920	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07611
+			locus_tag	FMHLFHII_00058
+			product	Myristoylated protein G9
+52921	53658	CDS
+			gene	L1R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20540
+			locus_tag	FMHLFHII_00059
+			product	Protein L1
+53696	53974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07613
+			locus_tag	FMHLFHII_00060
+			product	Protein L2
+54940	53984	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07614
+			locus_tag	FMHLFHII_00061
+			product	Protein L3
+54965	55726	CDS
+			gene	L4R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20981
+			locus_tag	FMHLFHII_00062
+			product	Core protein VP8
+55742	56137	CDS
+			gene	L5R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOU2
+			locus_tag	FMHLFHII_00063
+			product	Protein L5
+56094	56540	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P19746
+			locus_tag	FMHLFHII_00064
+			product	Protein J1 
+56562	57095	CDS
+			EC_number	2.7.1.21
+			gene	TK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O57203
+			locus_tag	FMHLFHII_00065
+			product	Thymidine kinase
+57167	57760	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00066
+			product	hypothetical protein
+57817	58818	CDS
+			EC_number	2.1.1.57
+			gene	PAPS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07617
+			locus_tag	FMHLFHII_00067
+			product	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase
+59697	59296	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07618
+			locus_tag	FMHLFHII_00068
+			product	Protein J5
+59783	63640	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00069
+			product	hypothetical protein
+64160	63645	CDS
+			EC_number	3.1.3.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q85297
+			locus_tag	FMHLFHII_00070
+			product	putative dual specificity protein phosphatase H1 
+64176	64748	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08583
+			locus_tag	FMHLFHII_00071
+			product	Protein H2
+65713	64745	CDS
+			gene	H3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20497
+			locus_tag	FMHLFHII_00072
+			product	Envelope protein H3
+68138	65742	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68439
+			locus_tag	FMHLFHII_00073
+			product	RNA polymerase-associated transcription-specificity factor RAP94
+68282	68953	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07242
+			locus_tag	FMHLFHII_00074
+			product	Late transcription elongation factor H5
+68995	69948	CDS
+			EC_number	5.6.2.1
+			gene	TOP1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68698
+			locus_tag	FMHLFHII_00075
+			product	DNA topoisomerase 1B
+69968	70411	CDS
+			gene	H7R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DON8
+			locus_tag	FMHLFHII_00076
+			product	Late protein H7
+70442	72970	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04298
+			locus_tag	FMHLFHII_00077
+			product	mRNA-capping enzyme catalytic subunit
+73399	72932	CDS
+			gene	D4L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25951
+			locus_tag	FMHLFHII_00078
+			product	Core protein D4
+73401	74138	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8V3L7
+			locus_tag	FMHLFHII_00079
+			product	27 kDa core protein
+74135	74791	CDS
+			EC_number	3.2.2.27
+			gene	UNG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32941
+			locus_tag	FMHLFHII_00080
+			product	Uracil-DNA glycosylase
+74834	77194	CDS
+			EC_number	3.6.4.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04305
+			locus_tag	FMHLFHII_00081
+			product	Primase D5
+77191	79098	CDS
+			EC_number	3.6.4.-
+			gene	VETFS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04308
+			locus_tag	FMHLFHII_00082
+			product	Early transcription factor 70 kDa subunit
+79123	79614	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSY0
+			locus_tag	FMHLFHII_00083
+			product	DNA-directed RNA polymerase 18 kDa subunit
+79655	80296	CDS
+			EC_number	3.1.3.-
+			gene	D9R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32098
+			locus_tag	FMHLFHII_00084
+			product	mRNA-decapping protein D9
+80296	81057	CDS
+			EC_number	3.1.3.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32097
+			locus_tag	FMHLFHII_00085
+			product	mRNA-decapping protein D10
+82970	81063	CDS
+			EC_number	3.6.1.15
+			gene	NPH1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05807
+			locus_tag	FMHLFHII_00086
+			product	Nucleoside triphosphatase I
+83860	82997	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04318
+			locus_tag	FMHLFHII_00087
+			product	mRNA-capping enzyme regulatory subunit
+85549	83900	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68440
+			locus_tag	FMHLFHII_00088
+			product	Scaffold protein D13
+86028	85576	CDS
+			gene	VLTF2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07610
+			locus_tag	FMHLFHII_00089
+			product	Viral late gene transcription factor 2
+86741	86058	CDS
+			gene	VLTF3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOT6
+			locus_tag	FMHLFHII_00090
+			product	Viral late gene transcription factor 3
+86980	86753	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0CK20
+			locus_tag	FMHLFHII_00091
+			product	Protein A2.5
+88974	86989	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P06440
+			locus_tag	FMHLFHII_00092
+			product	Major core protein 4b
+89535	89050	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00093
+			product	hypothetical protein
+89576	90088	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68611
+			locus_tag	FMHLFHII_00094
+			product	DNA-directed RNA polymerase 19 kDa subunit
+91212	90085	CDS
+			gene	A6L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20985
+			locus_tag	FMHLFHII_00095
+			product	Protein A6
+93377	91233	CDS
+			gene	VETFL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20636
+			locus_tag	FMHLFHII_00096
+			product	Early transcription factor 82 kDa subunit
+93434	94306	CDS
+			gene	VITF3S
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSQ0
+			locus_tag	FMHLFHII_00097
+			product	Intermediate transcription factor 3 small subunit
+94566	94330	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O57222
+			locus_tag	FMHLFHII_00098
+			product	Virion membrane protein A9
+97281	94567	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16715
+			locus_tag	FMHLFHII_00099
+			product	Major core protein 4a precursor
+97296	98249	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOQ8
+			locus_tag	FMHLFHII_00100
+			product	Protein A11
+98818	98246	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOL0
+			locus_tag	FMHLFHII_00101
+			product	25 kDa core protein A12L
+99086	98883	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00102
+			product	hypothetical protein
+99453	99166	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q76ZQ3
+			locus_tag	FMHLFHII_00103
+			product	Virion membrane protein A14
+99908	99621	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68718
+			locus_tag	FMHLFHII_00104
+			product	Core protein A15
+101025	99892	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O93122
+			locus_tag	FMHLFHII_00105
+			product	Virion membrane protein A16
+101631	101041	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68593
+			locus_tag	FMHLFHII_00106
+			product	Virion membrane protein A17 precursor
+101646	103088	CDS
+			EC_number	3.6.4.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16712
+			locus_tag	FMHLFHII_00107
+			product	Transcript termination protein A18
+103293	103069	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68714
+			locus_tag	FMHLFHII_00108
+			product	Protein A19
+103452	103294	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00109
+			product	hypothetical protein
+103640	104932	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68710
+			locus_tag	FMHLFHII_00110
+			product	DNA polymerase processivity factor component A20
+104901	105440	CDS
+			EC_number	3.1.-.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q80HV3
+			locus_tag	FMHLFHII_00111
+			product	Resolvase A22
+105433	106590	CDS
+			gene	VITF3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20998
+			locus_tag	FMHLFHII_00112
+			product	Intermediate transcription factor 3 large subunit
+106621	110091	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q76ZP7
+			locus_tag	FMHLFHII_00113
+			product	DNA-directed RNA polymerase 133 kDa polypeptide
+110551	110105	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00114
+			product	hypothetical protein
+110974	110552	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68633
+			locus_tag	FMHLFHII_00115
+			product	Envelope protein A28
+111886	110975	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24757
+			locus_tag	FMHLFHII_00116
+			product	DNA-directed RNA polymerase 35 kDa subunit
+112079	111855	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00117
+			product	hypothetical protein
+112232	112107	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00118
+			product	hypothetical protein
+113022	112258	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68615
+			locus_tag	FMHLFHII_00119
+			product	Protein A32
+113154	113744	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DON2
+			locus_tag	FMHLFHII_00120
+			product	Protein A33
+113775	114290	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24761
+			locus_tag	FMHLFHII_00121
+			product	Protein A34
+114318	114893	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21058
+			locus_tag	FMHLFHII_00122
+			product	Protein A35
+114930	115796	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00123
+			product	hypothetical protein
+115855	116373	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00124
+			product	hypothetical protein
+116384	117205	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00125
+			product	hypothetical protein
+118111	117209	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00126
+			product	hypothetical protein
+118209	118580	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00127
+			product	hypothetical protein
+118648	118893	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00128
+			product	hypothetical protein
+118954	119439	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00129
+			product	hypothetical protein
+119556	120005	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00130
+			product	hypothetical protein
+120041	121714	CDS
+			EC_number	6.5.1.1
+			gene	LIG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16272
+			locus_tag	FMHLFHII_00131
+			product	DNA ligase
+121989	127943	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00132
+			product	hypothetical protein
+128013	129095	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25213
+			locus_tag	FMHLFHII_00133
+			product	Soluble interferon alpha/beta receptor B18
+129143	129604	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00134
+			product	hypothetical protein
+129670	130677	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00135
+			product	hypothetical protein
+130707	131267	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00136
+			product	hypothetical protein
+131306	132223	CDS
+			EC_number	2.7.11.1
+			gene	VPK1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16913
+			locus_tag	FMHLFHII_00137
+			product	B1 kinase
+132254	132976	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00138
+			product	hypothetical protein
+133025	133702	CDS
+			gene	PS/HR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q01227
+			locus_tag	FMHLFHII_00139
+			product	Protein B5
+133704	134102	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00140
+			product	hypothetical protein
+134139	135047	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00141
+			product	hypothetical protein
+135216	136859	CDS
+			gene	KBTB1_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24768
+			locus_tag	FMHLFHII_00142
+			product	Kelch repeat and BTB domain-containing protein A55
+136905	138809	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00143
+			product	hypothetical protein
+138938	140176	CDS
+			EC_number	3.1.1.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26653
+			locus_tag	FMHLFHII_00144
+			product	Envelope phospholipase F13
+140236	141732	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83730
+			locus_tag	FMHLFHII_00145
+			product	Ankyrin repeat domain-containing protein M-T5
+141780	143123	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83730
+			locus_tag	FMHLFHII_00146
+			product	Ankyrin repeat domain-containing protein M-T5
+143144	144157	CDS
+			gene	SERP2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68565
+			locus_tag	FMHLFHII_00147
+			product	Serine proteinase inhibitor 2
+144196	144681	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00148
+			product	hypothetical protein
+144724	146373	CDS
+			gene	KBTB1_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24768
+			locus_tag	FMHLFHII_00149
+			product	Kelch repeat and BTB domain-containing protein A55
+146439	147908	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83730
+			locus_tag	FMHLFHII_00150
+			product	Ankyrin repeat domain-containing protein M-T5
+147953	148228	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00151
+			product	hypothetical protein
+148298	149020	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	FMHLFHII_00152
+			product	hypothetical protein

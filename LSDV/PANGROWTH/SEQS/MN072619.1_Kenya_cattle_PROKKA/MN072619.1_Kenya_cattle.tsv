@@ -1,0 +1,152 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+EJCKHNBG_00001	CDS	723				hypothetical protein
+EJCKHNBG_00002	CDS	513	BCRF1			Viral interleukin-10 
+EJCKHNBG_00003	CDS	696				hypothetical protein
+EJCKHNBG_00004	CDS	1068				hypothetical protein
+EJCKHNBG_00005	CDS	828				Soluble interferon gamma receptor B8
+EJCKHNBG_00006	CDS	693				hypothetical protein
+EJCKHNBG_00007	CDS	489				hypothetical protein
+EJCKHNBG_00008	CDS	1146				hypothetical protein
+EJCKHNBG_00009	CDS	636				hypothetical protein
+EJCKHNBG_00010	CDS	1026				hypothetical protein
+EJCKHNBG_00011	CDS	270				Protein K3
+EJCKHNBG_00012	CDS	486				hypothetical protein
+EJCKHNBG_00013	CDS	270				hypothetical protein
+EJCKHNBG_00014	CDS	531				hypothetical protein
+EJCKHNBG_00015	CDS	441	DUT	3.6.1.23		Deoxyuridine 5'-triphosphate nucleotidohydrolase
+EJCKHNBG_00016	CDS	1710				Kelch repeat protein F3
+EJCKHNBG_00017	CDS	966	F4L	1.17.4.1		Ribonucleoside-diphosphate reductase small chain
+EJCKHNBG_00018	CDS	261				hypothetical protein
+EJCKHNBG_00019	CDS	339				hypothetical protein
+EJCKHNBG_00020	CDS	219				hypothetical protein
+EJCKHNBG_00021	CDS	651				Protein F9
+EJCKHNBG_00022	CDS	1344	VPK2	2.7.11.1		Serine/threonine-protein kinase 2
+EJCKHNBG_00023	CDS	909				hypothetical protein
+EJCKHNBG_00024	CDS	1917				Protein F12
+EJCKHNBG_00025	CDS	1113		3.1.1.-		Envelope phospholipase F13
+EJCKHNBG_00026	CDS	147				hypothetical protein
+EJCKHNBG_00027	CDS	438				hypothetical protein
+EJCKHNBG_00028	CDS	660				hypothetical protein
+EJCKHNBG_00029	CDS	315				Phosphoprotein F17
+EJCKHNBG_00030	CDS	1425	PAPL	2.7.7.19		Poly(A) polymerase catalytic subunit
+EJCKHNBG_00031	CDS	2208				Protein E2
+EJCKHNBG_00032	CDS	534	E3L			Protein E3
+EJCKHNBG_00033	CDS	606				hypothetical protein
+EJCKHNBG_00034	CDS	1125				hypothetical protein
+EJCKHNBG_00035	CDS	1701				Protein E6
+EJCKHNBG_00036	CDS	801				Protein E8
+EJCKHNBG_00037	CDS	3033	POL	2.7.7.7		DNA polymerase
+EJCKHNBG_00038	CDS	288		1.8.3.2		putative FAD-linked sulfhydryl oxidase E10
+EJCKHNBG_00039	CDS	393				Protein E11
+EJCKHNBG_00040	CDS	2055				hypothetical protein
+EJCKHNBG_00041	CDS	945				Telomere-binding protein I1
+EJCKHNBG_00042	CDS	219				hypothetical protein
+EJCKHNBG_00043	CDS	831	I3L			Protein I3
+EJCKHNBG_00044	CDS	237				Protein I5
+EJCKHNBG_00045	CDS	1185				Telomere-binding protein I6
+EJCKHNBG_00046	CDS	1302		3.4.22.-		Core protease I7
+EJCKHNBG_00047	CDS	2031	NPH2	3.6.4.13		RNA helicase NPH-II
+EJCKHNBG_00048	CDS	1791		3.4.24.-		Metalloendopeptidase G1
+EJCKHNBG_00049	CDS	246				Protein G3
+EJCKHNBG_00050	CDS	669				Late transcription elongation factor G2
+EJCKHNBG_00051	CDS	381				Glutaredoxin-2
+EJCKHNBG_00052	CDS	1314	G5R	3.1.-.-		Putative nuclease G5
+EJCKHNBG_00053	CDS	192	RPO7	2.7.7.6		DNA-directed RNA polymerase 7 kDa subunit
+EJCKHNBG_00054	CDS	525				hypothetical protein
+EJCKHNBG_00055	CDS	1122				Assembly protein G7
+EJCKHNBG_00056	CDS	783	VLTF1			Late transcription factor 1
+EJCKHNBG_00057	CDS	1011				Myristoylated protein G9
+EJCKHNBG_00058	CDS	738	L1R			Protein L1
+EJCKHNBG_00059	CDS	279				Protein L2
+EJCKHNBG_00060	CDS	957				Protein L3
+EJCKHNBG_00061	CDS	762	L4R			Core protein VP8
+EJCKHNBG_00062	CDS	396				Protein L5
+EJCKHNBG_00063	CDS	444				Protein J1 
+EJCKHNBG_00064	CDS	534	TK	2.7.1.21		Thymidine kinase
+EJCKHNBG_00065	CDS	597				hypothetical protein
+EJCKHNBG_00066	CDS	1002	PAPS	2.1.1.57		Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase
+EJCKHNBG_00067	CDS	402				Protein J5
+EJCKHNBG_00068	CDS	3858				hypothetical protein
+EJCKHNBG_00069	CDS	516		3.1.3.-		putative dual specificity protein phosphatase H1 
+EJCKHNBG_00070	CDS	573				Protein H2
+EJCKHNBG_00071	CDS	969	H3L			Envelope protein H3
+EJCKHNBG_00072	CDS	2397				RNA polymerase-associated transcription-specificity factor RAP94
+EJCKHNBG_00073	CDS	672				Late transcription elongation factor H5
+EJCKHNBG_00074	CDS	954	TOP1	5.6.2.1		DNA topoisomerase 1B
+EJCKHNBG_00075	CDS	444	H7R			Late protein H7
+EJCKHNBG_00076	CDS	2529				mRNA-capping enzyme catalytic subunit
+EJCKHNBG_00077	CDS	468	D4L			Core protein D4
+EJCKHNBG_00078	CDS	738				27 kDa core protein
+EJCKHNBG_00079	CDS	657	UNG	3.2.2.27		Uracil-DNA glycosylase
+EJCKHNBG_00080	CDS	2361		3.6.4.-		Primase D5
+EJCKHNBG_00081	CDS	1908	VETFS	3.6.4.-		Early transcription factor 70 kDa subunit
+EJCKHNBG_00082	CDS	492		2.7.7.6		DNA-directed RNA polymerase 18 kDa subunit
+EJCKHNBG_00083	CDS	642	D9R	3.1.3.-		mRNA-decapping protein D9
+EJCKHNBG_00084	CDS	762		3.1.3.-		mRNA-decapping protein D10
+EJCKHNBG_00085	CDS	1908	NPH1	3.6.1.15		Nucleoside triphosphatase I
+EJCKHNBG_00086	CDS	864				mRNA-capping enzyme regulatory subunit
+EJCKHNBG_00087	CDS	1650				Scaffold protein D13
+EJCKHNBG_00088	CDS	453	VLTF2			Viral late gene transcription factor 2
+EJCKHNBG_00089	CDS	684	VLTF3			Viral late gene transcription factor 3
+EJCKHNBG_00090	CDS	228				Protein A2.5
+EJCKHNBG_00091	CDS	1986				Major core protein 4b
+EJCKHNBG_00092	CDS	486				hypothetical protein
+EJCKHNBG_00093	CDS	513		2.7.7.6		DNA-directed RNA polymerase 19 kDa subunit
+EJCKHNBG_00094	CDS	1128	A6L			Protein A6
+EJCKHNBG_00095	CDS	2145	VETFL			Early transcription factor 82 kDa subunit
+EJCKHNBG_00096	CDS	873	VITF3S			Intermediate transcription factor 3 small subunit
+EJCKHNBG_00097	CDS	237				Virion membrane protein A9
+EJCKHNBG_00098	CDS	2715				Major core protein 4a precursor
+EJCKHNBG_00099	CDS	954				Protein A11
+EJCKHNBG_00100	CDS	573				25 kDa core protein A12L
+EJCKHNBG_00101	CDS	204				hypothetical protein
+EJCKHNBG_00102	CDS	288				Virion membrane protein A14
+EJCKHNBG_00103	CDS	288				Core protein A15
+EJCKHNBG_00104	CDS	1134				Virion membrane protein A16
+EJCKHNBG_00105	CDS	591				Virion membrane protein A17 precursor
+EJCKHNBG_00106	CDS	1443		3.6.4.-		Transcript termination protein A18
+EJCKHNBG_00107	CDS	225				Protein A19
+EJCKHNBG_00108	CDS	159				hypothetical protein
+EJCKHNBG_00109	CDS	1293				DNA polymerase processivity factor component A20
+EJCKHNBG_00110	CDS	507		3.1.-.-		Resolvase A22
+EJCKHNBG_00111	CDS	1158	VITF3L			Intermediate transcription factor 3 large subunit
+EJCKHNBG_00112	CDS	3471		2.7.7.6		DNA-directed RNA polymerase 133 kDa polypeptide
+EJCKHNBG_00113	CDS	447				hypothetical protein
+EJCKHNBG_00114	CDS	423				Envelope protein A28
+EJCKHNBG_00115	CDS	909		2.7.7.6		DNA-directed RNA polymerase 35 kDa subunit
+EJCKHNBG_00116	CDS	225				hypothetical protein
+EJCKHNBG_00117	CDS	126				hypothetical protein
+EJCKHNBG_00118	CDS	765				Protein A32
+EJCKHNBG_00119	CDS	591				Protein A33
+EJCKHNBG_00120	CDS	516				Protein A34
+EJCKHNBG_00121	CDS	576				Protein A35
+EJCKHNBG_00122	CDS	867				hypothetical protein
+EJCKHNBG_00123	CDS	546				hypothetical protein
+EJCKHNBG_00124	CDS	822				hypothetical protein
+EJCKHNBG_00125	CDS	903				hypothetical protein
+EJCKHNBG_00126	CDS	372				hypothetical protein
+EJCKHNBG_00127	CDS	246				hypothetical protein
+EJCKHNBG_00128	CDS	486				hypothetical protein
+EJCKHNBG_00129	CDS	531				hypothetical protein
+EJCKHNBG_00130	CDS	1674	LIG	6.5.1.1		DNA ligase
+EJCKHNBG_00131	CDS	5958				hypothetical protein
+EJCKHNBG_00132	CDS	1083				Soluble interferon alpha/beta receptor B18
+EJCKHNBG_00133	CDS	462				hypothetical protein
+EJCKHNBG_00134	CDS	1008				hypothetical protein
+EJCKHNBG_00135	CDS	561				hypothetical protein
+EJCKHNBG_00136	CDS	918	VPK1	2.7.11.1		B1 kinase
+EJCKHNBG_00137	CDS	723				hypothetical protein
+EJCKHNBG_00138	CDS	678	PS/HR			Protein B5
+EJCKHNBG_00139	CDS	405				hypothetical protein
+EJCKHNBG_00140	CDS	909				hypothetical protein
+EJCKHNBG_00141	CDS	1644	KBTB1_1			Kelch repeat and BTB domain-containing protein A55
+EJCKHNBG_00142	CDS	1905				hypothetical protein
+EJCKHNBG_00143	CDS	1242		3.1.1.-		Envelope phospholipase F13
+EJCKHNBG_00144	CDS	1497				Ankyrin repeat domain-containing protein M-T5
+EJCKHNBG_00145	CDS	1344				Ankyrin repeat domain-containing protein M-T5
+EJCKHNBG_00146	CDS	1014	SERP2			Serine proteinase inhibitor 2
+EJCKHNBG_00147	CDS	486				hypothetical protein
+EJCKHNBG_00148	CDS	1653	KBTB1_2			Kelch repeat and BTB domain-containing protein A55
+EJCKHNBG_00149	CDS	1470				Ankyrin repeat domain-containing protein M-T5
+EJCKHNBG_00150	CDS	276				hypothetical protein
+EJCKHNBG_00151	CDS	723				hypothetical protein

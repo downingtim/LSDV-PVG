@@ -1,0 +1,54 @@
+[17:59:43] This is prokka 1.14.6
+[17:59:43] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[17:59:43] Homepage is https://github.com/tseemann/prokka
+[17:59:43] Local time is Tue Apr 16 17:59:43 2024
+[17:59:43] You are downing
+[17:59:43] Operating system is linux
+[17:59:43] You have BioPerl 1.7.8
+Argument "1.7.8" isn't numeric in numeric lt (<) at /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka line 259.
+[17:59:43] System has 64 cores.
+[17:59:43] Will use maximum of 8 cores.
+[17:59:43] Annotating as >>> Viruses <<<
+[17:59:43] Generating locus_tag from '../../../CURRENT/PANGROWTH/SEQS/MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus.fa' contents.
+[17:59:43] Setting --locustag EEPHNJJK from MD5 ee9173346e3f2024b6379634ce9c8ed3
+[17:59:43] Creating new output folder: ../../../CURRENT/PANGROWTH/SEQS/MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus_PROKKA
+[17:59:43] Running: mkdir -p \.\.\/\.\.\/\.\.\/CURRENT\/PANGROWTH\/SEQS\/MN642592\.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus_PROKKA
+[17:59:43] Using filename prefix: MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus.XXX
+[17:59:43] Setting HMMER_NCPU=1
+[17:59:43] Writing log to: ../../../CURRENT/PANGROWTH/SEQS/MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus_PROKKA/MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus.log
+[17:59:43] Command: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka --kingdom Viruses --proteins KX894508.gb --gffver 3 --usegenus --outdir ../../../CURRENT/PANGROWTH/SEQS/MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus_PROKKA --force --genus Capripoxvirus --prefix MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus ../../../CURRENT/PANGROWTH/SEQS/MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus.fa
+[17:59:43] Appending to PATH: /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin
+[17:59:43] Looking for 'aragorn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/aragorn
+[17:59:43] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[17:59:43] Looking for 'barrnap' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/barrnap
+[17:59:43] Determined barrnap version is 000009 from 'barrnap 0.9'
+[17:59:43] Looking for 'blastp' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/blastp
+[17:59:44] Determined blastp version is 002013 from 'blastp: 2.13.0+'
+[17:59:44] Looking for 'cmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmpress
+[17:59:44] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[17:59:44] Looking for 'cmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/cmscan
+[17:59:44] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[17:59:44] Looking for 'egrep' - found /usr/bin/egrep
+[17:59:44] Looking for 'find' - found /usr/bin/find
+[17:59:44] Looking for 'grep' - found /usr/bin/grep
+[17:59:44] Looking for 'hmmpress' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmpress
+[17:59:44] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[17:59:44] Looking for 'hmmscan' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/hmmscan
+[17:59:44] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[17:59:44] Looking for 'java' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/java
+[17:59:44] Looking for 'makeblastdb' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/makeblastdb
+[17:59:44] Determined makeblastdb version is 002013 from 'makeblastdb: 2.13.0+'
+[17:59:44] Looking for 'minced' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/minced
+[17:59:44] Determined minced version is 004002 from 'minced 0.4.2'
+[17:59:44] Looking for 'parallel' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/parallel
+[17:59:44] Determined parallel version is 20220922 from 'GNU parallel 20220922'
+[17:59:44] Looking for 'prodigal' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prodigal
+[17:59:44] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[17:59:44] Looking for 'prokka-genbank_to_fasta_db' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/prokka-genbank_to_fasta_db
+[17:59:44] Looking for 'sed' - found /cm/shared/apps/mambaforge/envs/R.4.2.2/bin/sed
+[17:59:44] Looking for 'tbl2asn' - found /mnt/lustre/RDS-live/downing/miniconda3/envs/snippy/bin/tbl2asn
+[17:59:44] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[17:59:44] Using genetic code table 1.
+[17:59:44] Loading and checking input file: ../../../CURRENT/PANGROWTH/SEQS/MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus.fa
+[17:59:44] Contig ID must <= 37 chars long: MN642592.1_Kubash_KAZ_16_Kazakhstan_Atyrau_region_07_Jul_2016_Bos_taurus
+[17:59:44] Please rename your contigs OR try '--centre X --compliant' to generate clean contig names.
