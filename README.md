@@ -2,9 +2,9 @@
 
 ## 1 # The complete LSDV PVG 
 
-The foler 121_SAMPLE_PVG contains data for the PVG created from all available valid LSDV genomes (n=121). 
+The foler CODE contains NF code (main.nf, modules/processes.nf) to run the PVG creation & analysis pipeline on a fresh dataset. This uses scripts in its bin/ folder, which output data in the folder named CURRENT. Large PAV and BED files may be omitted due to their large file sizes. 
 
-1.1 For these samples, the download process takes us through file download from NCBI Nucleotide, metadata extraction, symbol removal, an initial phylogeny, a genome length check, reporting of excluded sequences, and a final output FASTA.
+1.1 For these samples, the download process (bin/download.R0 takes you through file download from NCBI Nucleotide, metadata extraction, symbol removal, an initial phylogeny, a genome length check, reporting of excluded sequences, and a final output FASTA.
 
 1.2 We take the above fasta and use PGGB to construct a PVG from it.
 
