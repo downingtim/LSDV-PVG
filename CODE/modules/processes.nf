@@ -69,24 +69,34 @@ process MAKE_PVG {
     #   ${workflow.projectDir}/CURRENT  --communities  --wfmash_segment_length 1000
     #odgi stats -m -i ${workflow.projectDir}/CURRENT/FINAL_ODGI/${refFasta}.gz.squeeze.og -S > ${workflow.projectDir}/odgi.stats.txt 
 
+    """
+}
+
+process VIZ1 {
+    input:
+    val ready 
+    path (refFasta)
+
+    output:
+    publishDir ".", mode: "copy"
+
+    script:
+    """
+    # visualise gfa - need to separate, this takes a while
+    vg view -F -p -d ${workflow.projectDir}/CURRENT/*.gfa  | dot -Tpng -o ${workflow.projectDir}/CURRENT/${refFasta}.vg.png
+
     # get general info on gfa
     ${workflow.projectDir}/bin/gfastats ${workflow.projectDir}/CURRENT/*gfa > ${workflow.projectDir}/CURRENT/gfa.stats.txt
-
-    # visualise gfa
-    vg view -F -p -d ${workflow.projectDir}/CURRENT/*.gfa  | dot -Tpng -o ${workflow.projectDir}/CURRENT/${refFasta}.vg.png
 
     # get lengths of genomes etc
     perl ${workflow.projectDir}/bin/lengths.pl ${refFasta} 
 
     # get Bandage stats
-    Bandage info ${workflow.projectDir}/CURRENT/*.gfa  > bandage.stats.txt
+    /mnt/lustre/RDS-live/downing/miniconda3/bin/Bandage info ${workflow.projectDir}/CURRENT/*.gfa > bandage.stats.txt
     """
-} 
+}
 
 process ODGI {
-    tag {"odgi"}
-    label 'odgi'
-
     input:
     val ready 
     path (refFasta)
@@ -292,12 +302,13 @@ process PAVS {
     sed '1d' ${workflow.projectDir}/CURRENT/${refFasta}.flatten.tsv | awk -v OFS='\t' '{print(\$4,\$2,\$3,"step.rank_"\$6,".",\$5)}' > ${workflow.projectDir}/CURRENT/${refFasta}.flatten.bed
 
     # get BED file
-    odgi pav -i ${workflow.projectDir}/CURRENT/*.og  -b ${workflow.projectDir}/CURRENT/${refFasta}.flatten.bed >      ${workflow.projectDir}/${refFasta}.flatten.pavs.tsv
-    grep -c "" ${workflow.projectDir}/${refFasta}.flatten.pavs.tsv  > flatten.pavs.count.txt # gives all PAVs
-    rm -rf  ${workflow.projectDir}/${refFasta}.flatten.pavs.tsv  # needs to be removed, file size too large
+    odgi pav -i ${workflow.projectDir}/CURRENT/*.og  -b ${workflow.projectDir}/CURRENT/${refFasta}.flatten.bed >       ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv
+    grep -c "" ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv  > flatten.pavs.count.txt # gives all PAVs
 
     # make a plot
     Rscript ${workflow.projectDir}/bin/plot_pavs.R  ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv
+
+    rm -rf  ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv  # needs to be removed, file size too large
     """
 }
 
