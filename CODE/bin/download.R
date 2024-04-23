@@ -193,7 +193,7 @@ for (i in 1:length(lengths(str_split(in1, "")))){
 counter2=0
 for (i in 1:length(lengths(str_split(in1, "")))){ 
   if(( lengths(str_split(in1[i], "")) > 180000)||
-     ( lengths(str_split(in1[i], "")) < 140000)){
+     ( lengths(str_split(in1[i], "")) < 147000)){
     print(lengths(str_split(in1[i], "")))
     print(i)
     print(lengths(str_split(in1[i], "")))
@@ -315,15 +315,6 @@ print(output)
 list1 <- c()
 
 system2(command='mkdir', args=c('bin'))
-
-in11 <- seqinr::read.fasta(out, seqtype=c("DNA"),as.string=T)
-for (k in 1:length(lengths(in11))){ # 5end
-  xx <- as.data.frame(strsplit(in11[[k]], ""))
-  colnames(xx) <- "A"
-  if (length(xx$A)<150000) { print(length(xx$A)) }
-# screen for length, needs to be adjustee
-#  if (length(xx$A)<150000) { print(in11[[k]]) }
-  list1 <- c(list1, length(xx$A)) } # end for
 
 in11 <- seqinr::read.fasta(out, seqtype=c("DNA"),as.string=T)
 for (k in 1:length(lengths(in11))){ # 5end
