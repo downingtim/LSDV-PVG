@@ -18,7 +18,7 @@ Modules
 #==============================================
 */
 
-include { DOWNLOAD; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; GET_VCF; GETBASES; VIZ2; HEAPS; PAVS; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; BANDAGE } from './modules/processes.nf'
+include { DOWNLOAD; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; GET_VCF; GETBASES; VIZ2; HEAPS; PAVS; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; BANDAGE } from './modules/processes.nf'
 
 /*
 #==============================================
@@ -29,21 +29,21 @@ Modules
 workflow { 
    faS = channel.fromPath("bin/faSplit", checkIfExists:true)
 //   refFasta = channel.fromPath("goatpox_2_virus_2_2_.fasta", checkIfExists:true)
-   refFasta = channel.fromPath("lumpy_skin_disease_2_virus_2_2_.fasta", checkIfExists:true)
+//   refFasta = channel.fromPath("lumpy_skin_disease_2_virus_2_2_.fasta", checkIfExists:true)
 
-/*       DOWNLOAD(faS) 
+       DOWNLOAD(faS)
        DOWNLOAD
 	  .out
 	  .write
 	  .set { refFasta }
-*/
+
        MAKE_PVG( refFasta )
 
        VIZ1(MAKE_PVG.out, refFasta)
        
        COMMUNITIES(MAKE_PVG.out, refFasta)
 
-       ODGI(MAKE_PVG.out, refFasta)
+	ODGI(MAKE_PVG.out, refFasta)
        
        OPENNESS_PANACUS(MAKE_PVG.out)
 
@@ -63,12 +63,15 @@ workflow {
 
        BUSCO(MAKE_PVG.out, refFasta)
 
+       PAFGNOSTIC(MAKE_PVG.out, refFasta)
+
        waragraph()
 
 }
 
 workflow waragraph { 
 //   refFasta = channel.fromPath("goatpox_2_virus_2_2_.fasta", checkIfExists:true)
+//   refFasta = channel.fromPath("lumpy_skin_disease_2_virus_2_2_.fasta", checkIfExists:true)
 
 //      WARAGRAPH( refFasta)
 //	BANDAGE( refFasta )

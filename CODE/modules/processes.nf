@@ -439,7 +439,7 @@ process PANAROO {
     """
 }
 
-process RECOMBINATION {
+process PAFGNOSTIC {
     input:
     val ready
     path (refFasta)
@@ -449,10 +449,6 @@ process RECOMBINATION {
 
     script:
     """
-    # TO DO
-    ./3seq -c my3seqTable2000 # check 3seq works
-    ./3seq -i   v5_full_genomes.aln -quiet # check file is ok
-    ./3seq  -f  v5_full_genomes.aln   -id R1  -f2500 -l148000 -bp-all &> all.out  
-    ./3seq  -f  v5_full_genomes.aln   -id R1  -f2500 -l148000 -bp-all &> all.out 
+    ${workflow.projectDir}/bin/pafgnostic --paf ${workflow.projectDir}/CURRENT/*paf > ${workflow.projectDir}/CURRENT/${refFasta}.paf.txt  # chcek
     """
 }
