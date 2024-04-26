@@ -29,14 +29,16 @@ Modules
 workflow { 
    faS = channel.fromPath("bin/faSplit", checkIfExists:true)
 //   refFasta = channel.fromPath("goatpox_2_virus_2_2_.fasta", checkIfExists:true)
-//   refFasta = channel.fromPath("lumpy_skin_disease_2_virus_2_2_.fasta", checkIfExists:true)
+//
+refFasta = channel.fromPath("lumpy_skin_disease_2_virus_2_2_.fasta", checkIfExists:true)
 
-       DOWNLOAD(faS)
-       DOWNLOAD
+/*
+	DOWNLOAD(faS)
+	DOWNLOAD
 	  .out
 	  .write
 	  .set { refFasta }
-
+*/
        MAKE_PVG( refFasta )
 
        VIZ1(MAKE_PVG.out, refFasta)
