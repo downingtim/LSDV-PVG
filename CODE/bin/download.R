@@ -180,17 +180,21 @@ sd1 <- sd(summary(lengths(str_split(in1, ""))))
 print(length(lengths(in1)))
 print(paste("range:", round(median1+3*sd1),"to",
             round(median1-3*sd1)))
+
+
+print(length(lengths(in1)))
 counter=0
 for (i in 1:length(lengths(str_split(in1, "")))){ 
   if(( lengths(str_split(in1[i], "")) > median1+3*sd1)||
      ( lengths(str_split(in1[i], "")) < median1-3*sd1)){
     print(lengths(str_split(in1[i], "")))
-    print(i)
-    print(lengths(str_split(in1[i], "")))
+    print(i) 
     counter = counter+1
     in1 <- in1[-i]}  }
 
 counter2=0
+for (i2 in 1:6){ 
+print(length(lengths(in1)))
 for (i in 1:length(lengths(str_split(in1, "")))){ 
   if(( lengths(str_split(in1[i], "")) > 180000)||
      ( lengths(str_split(in1[i], "")) < 147000)){
@@ -198,7 +202,9 @@ for (i in 1:length(lengths(str_split(in1, "")))){
     print(i)
     print(lengths(str_split(in1[i], "")))
     counter2 = counter2+1
-    in1 <- in1[-i]}  }
+    in1 <- in1[-i]
+    }  }
+    } 
 
 print(length(lengths(in1)))
 print(paste("Removed", counter + counter2, "seqs"))
