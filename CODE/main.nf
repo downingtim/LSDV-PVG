@@ -18,7 +18,7 @@ Modules
 #==============================================
 */
 
-include { DOWNLOAD; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; GET_VCF; GETBASES; VIZ2; HEAPS; PAVS; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; BANDAGE } from './modules/processes.nf'
+include { DOWNLOAD; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; GET_VCF; GETBASES; VIZ2; HEAPS; PAVS; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; GRETL; BANDAGE } from './modules/processes.nf'
 
 /*
 #==============================================

@@ -61,7 +61,7 @@ process MAKE_PVG {
     samtools faidx ${refFasta}.gz > ${refFasta}.gz.fai
 
     # run PGGB - you need to specify the number of haplotypes in $number
-    pggb -i ${refFasta}.gz -m -S -o ${workflow.projectDir}/CURRENT/ -t 46 -p 90 -s 1k -n $number
+    ${workflow.projectDir}/bin/pggb -i ${refFasta}.gz -m -S -o ${workflow.projectDir}/CURRENT/ -t 46 -p 90 -s 1k -n $number
     # if issues, remove CURRENT/ in ${workflow.projectDir}  before re-running 
 
     # run pangenome in nf-core - don't work as reliably as PGGB, so best avoided
@@ -450,5 +450,26 @@ process PAFGNOSTIC {
     script:
     """
     ${workflow.projectDir}/bin/pafgnostic --paf ${workflow.projectDir}/CURRENT/*paf > ${workflow.projectDir}/CURRENT/${refFasta}.paf.txt  # chcek
+    """
+}
+
+process GRETL {
+    input:
+    val ready
+    path (refFasta)
+
+    output:
+    publishDir ".", mode: "copy"
+
+    script:
+    """
+    # get stats
+    ${workflow.projectDir}/bin/gretl stats -g ${workflow.projectDir}/CURRENT/*gfa -o ${workflow.projectDir}/CURRENT/gretl.stats.txt
+
+    # get core metrics
+    ${workflow.projectDir}/bin/gretl core -g ${workflow.projectDir}/CURRENT/*gfa -o ${workflow.projectDir}/CURRENT/gretl.core.txt
+
+    # get path similarity metrics
+    ${workflow.projectDir}/bin/gretl  ps -g ${workflow.projectDir}/CURRENT/*gfa -o ${workflow.projectDir}/CURRENT/gretl.paths.txt
     """
 }
