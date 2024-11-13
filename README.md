@@ -2,7 +2,7 @@
 
 ## Basic information
 
-It has been developed primarly for virus genome, principally large DNA viruses.
+It has been developed primarly for virus genomes, principally large DNA viruses.
 It is still in development, and will be containerised in docker eventually.
 It has been tested primarly in livestock poxviruses, such as lumpy skin disease virus (LSDV), sheeppox virus (SPPV) and goatpox virus (GTPV).
 The test data presented is 6 GTPV genomes as an example.
@@ -25,6 +25,10 @@ Essential: In that file, the 'genomes' and 'reference' should be the FASTA file 
 Essential: It will need the correct number of samples present ('haplotypes').
 Optional: If you are not using a poxvirus and want to apply BUSCO gene analysis, you will need to change the busco database.
 Optional: You can also add a text 'filter' if you are using the download function to omit uninformative regular expressions from the FASTA headers in that file for convenience.
+
+## How to run
+
+nextflow run main.nf --template template.yml --reference test_genomes.fa
 
 ## Credits
 
