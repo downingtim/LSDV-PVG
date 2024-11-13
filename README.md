@@ -35,3 +35,6 @@ nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 ## Credits
 
 Tim Downing, Chandana Tennakoon, Thibaut Freville
+
+![image](https://github.com/user-attachments/assets/5d2bc147-83d8-449d-9a78-a56560f14c63)
+
