@@ -36,5 +36,7 @@ nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
 Tim Downing, Chandana Tennakoon, Thibaut Freville
 
+Figure below. A SequenceTubeMap visualisation of the lumpy skin disease virus (LSDV) PVG using 121 samples. Each coloured line corresponds to a different genome.
+
 ![image](https://github.com/user-attachments/assets/5d2bc147-83d8-449d-9a78-a56560f14c63)
 
