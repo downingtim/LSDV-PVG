@@ -1,28 +1,21 @@
-# 1) Set path for docker and libjemalloc-5.2.1
 
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu:/usr/local/lib/:/gnu/store/w0qizv5w8xdn8kj17vnlm0d0kpwld75m-profile/lib/:/gnu/store/myq1s6fji9nb7llpz5bky70kyzxl0ny7-jemalloc-5.2.1/lib/
+# conda create -n odgi_env -c bioconda odgi jemalloc
+# conda activate odgi_env
+
+# python3 -m venv sklearn-env
+# source sklearn-env/bin/activate  # activate
+# pip3 install -U scikit-learn
+
+echo "/usr/local/lib/libjemalloc.so" | sudo tee /etc/ld.so.conf.d/jemalloc.conf
+sudo ldconfig
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
 source ~/.bashrc
 export PATH=$PATH:/cm/local/apps/docker/current/bin:/mnt/lustre/RDS-live/downing/miniforge3/bin
  
-# 2) Load R module and nextflow module etc
 module load R/R.4.2.2  # adegenet and hierfstat do not work in R v4.4
 module load nextflow 
 Rscript setup.R # install R packages
 
-# 3) remove     container "mgibio/panacus:0.2.4"
-export PATH=$PATH:/mnt/lustre/RDS-live/downing/miniforge3/bin
-# conda install bioconda::panacus
-
-# 4) remove  '   container "pangenome/odgi:1726671973" '  from all instances
-# due to error: '  odgi: error while loading shared libraries: libjemalloc.so.2: cannot open shared object file: No such file or directory ' 
-#  then error for odgi because we need GLIBC v2.32+ and we have v2.31: '/mnt/lustre/RDS-live/downing/bin/odgi: /usr/lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.32' not found (required by /gnu/store/myq1s6fji9nb7llpz5bky70kyzxl0ny7-jemalloc-5.2.1/lib/libjemalloc.so.2)' 
-conda create -n odgi_env -c bioconda odgi
-y
-conda activate odgi_env
-y
-#  then repeat above
-
-# 5) add python packages
 pip install "numpy<2"
 pip install seaborn
 pip install scipy
@@ -31,16 +24,4 @@ pip install python-igraph
 pip install pycairo
 pip install cairocffi
  
-#change raxml-ng executable to be /mnt/lustre/RDS-live/downing/raxml-ng/bin/raxml-ng
-
-#Comment out Bandage in main.nf
- 
-#Comment out communities in main.nf # issues with fastix.sh - local file structure for SEQS is incorrect and hard-coded
-
-#mamba install bioconda::pggb
-
-# Edit template.yml - just the genomes, haplotypes & reference genome can be used for trial, busco_clade if you run busco
-
-# Launch, eg:
-nextflow run main.nf --config template.GTPV.yml --reference goatpox_virus_small.fa
-nextflow run main.nf --config template.LSDV.yml --reference test_genomes.LSDV.fa
+nextflow run main.nf --config template.RVFV.yml --reference test_genomes.M.fa

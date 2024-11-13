@@ -12,26 +12,19 @@ It has also been tested on ssRNA viruses, such as foot-and-mouth disease virus (
 
 The folder CODE/ contains the code and relevant packages/tools to support running Panalyze.
 
-The foler CODE contains NF code (main.nf, modules/processes.nf) to run the PVG creation & analysis pipeline on a fresh dataset. This uses scripts in its bin/ folder, which output data in the folder named CURRENT. Large PAV and BED files may be omitted due to their large file sizes. 
+The input data is "test_genomes.GTPV.fa" in this example. You can switch this to your own FASTA file input: in main.nf, Panalyze has a Download module which is not active by default.
 
-1.1 For these samples, the download process (bin/download.R0 takes you through file download from NCBI Nucleotide, metadata extraction, symbol removal, an initial phylogeny, a genome length check, reporting of excluded sequences, and a final output FASTA.
+The modules folder contains the processes, which are called by main.nf. These may call tools and scripts in other folders like bin.
 
-1.2 We take the above fasta and use PGGB to construct a PVG from it.
+Prior to running Panalyze, you should run setup.R to set up the R packages you will need.
 
-1.3 odgi etc
+In addition, you may need to configure the environment for a range of other packages in 'readme', which could include libjemalloc, odgi, nextflow, panacus, pggb, and various Python packages.
 
-## 2 # The 6-sample LSDV PVG
-
-The foler 6_SAMPLE_PVG contains data for the PVG created from 6 representative LSDV genomes for computationally efficient investigation.
-
-2.1 PGGB etc
-
-
-
-## 3 # NF_PANGENOME_TEST
-
-This folder contains tests run of the nf-core pangenome tool for LSDV, GPV, SPV and CaPV.
-
+You will need to edit "template.yml" to align it with your own configuration.
+Essential: In that file, the 'genomes' and 'reference' should be the FASTA file you want to examine.
+Essential: It will need the correct number of samples present ('haplotypes').
+Optional: If you are not using a poxvirus and want to apply BUSCO gene analysis, you will need to change the busco database.
+Optional: You can also add a text 'filter' if you are using the download function to omit uninformative regular expressions from the FASTA headers in that file for convenience.
 
 ## Credits
 
