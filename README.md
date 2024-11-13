@@ -28,7 +28,9 @@ Optional: You can also add a text 'filter' if you are using the download functio
 
 ## How to run
 
-nextflow run main.nf --template template.yml --reference test_genomes.fa
+E.g. given some YAML file "template.GTPV.yml" with 6 genomes in "test_genomes.GTPV.fa" with no downloading nor Busco analysis:
+
+nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
 ## Credits
 
