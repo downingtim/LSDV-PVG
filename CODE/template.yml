@@ -1,0 +1,16 @@
+---
+PROCESS:
+  executor: slurm
+  cpus: 40 
+VIRUS:
+  name : goatpox virus
+  filter : goatpox virus, GTPV, goatpox, goatpox_virus
+  genomes : "test_genomes.GTPV.fa"
+  virus_end :
+  busco_clade : "poxviridae_odb10"
+  virus_start :
+  core_start :
+  core_end :
+  haplotypes : 6
+  reference : test_genomes.GTPV.fa
+#  out_dir: /folder
