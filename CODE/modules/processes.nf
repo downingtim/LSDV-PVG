@@ -19,36 +19,89 @@ Download dataset to examine (eg LSDV)
 */
 
 process DOWNLOAD {
-    input:
-    path (faS)
+    cpus 8
 
     output:
-    publishDir ".", mode: "copy"
-    path("*2_2_.fasta"), emit: "write"
+    publishDir "results/download", mode: "copy"
+    path "genomes.fasta"
+    path "5end.fasta"
+    path "3end.fasta"
+    path "genomes.aln"
+    //path "T14.*"
+    path "T14.raxml.supportTBE",emit:raxml_file
 
-    script:
+    shell:
+	q1 = params.virus_name + " [organism] AND complete genome [title]"
+	q2 = params.virus_name + " [organism] AND genomic sequence [title]"
+    filter_text = params.virus_filter.replaceAll(',', "\\\\|");filter = /complete genome\|${filter_text}\|isolate\|genomic sequence\|_NULL\|strain/
+
+    '''
+    #module load R
+    esearch -db nucleotide -query "!{q1}"|efetch -format genbank > gb.1 
+    esearch -db nucleotide -query "!{q2}"|efetch -format genbank > gb.2
+    cat gb.1 gb.2 > genbank.gb 
+    rm gb.1 gb.2
+    parseGB.py genbank.gb|sed -e "s%!{filter}%%g"|tr -d "',)(:;\\\""|sed -e "s%/\\| \\|-%_%g" |sed -e "s%[_]+%_%g"|tr -s _|sed -e "s/_$//"  > genomes.fasta
+    awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 13850){print h"\\n"substr($0, 1, 13850)} }}' genomes.fasta >5end.fasta
+    awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 106910){print h"\\n"substr($0,13851,106910-13851+1)} }}' genomes.fasta >core.fasta
+    awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 106911){print h"\\n"substr($0,106911)} }}' genomes.fasta >3end.fasta
+        
+    mafft  --thread !{task.cpus} --auto genomes.fasta > genomes.aln 
+    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo
+        
+    '''
+}
+
+process ALIGN {
+    cpus 8
+    
+    input:
+    path genomes
+
+    output:
+    publishDir "results/align", mode: "copy"
+    path "genomes.aln"
+    path "T14.*"
+    path "T14.raxml.supportTBE",emit:raxml_file
+
+    shell:
     """
-    module load R
-    Rscript ${workflow.projectDir}/bin/download.R
+        
+    mafft  --thread !{task.cpus} --auto ${genomes} > genomes.aln 
+    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo
+        
     """
 }
 
+process TREE{
+
+   tag "Building tree with $y"
+   input:
+   path y   
+   
+   output:
+   publishDir "results/tree", mode: "copy"
+   path "tree.png"
+
+   shell:
+   """
+   tree.R
+   """
+}
+
 process MAKE_PVG {
+    container 'chandanatpi/tpi:pggb'
+    cache 'lenient'
     tag {"index reference FASTA"}
     label 'pvg'
+    cpus 20 
 
     input:
     path (refFasta)
     
     output:
-    val true, emit: value1
-    publishDir ".", mode: "copy"
-
-    exec:
-    def file1 = file('bin/number1.txt')
-    allLines = file1.readLines()
-    for( line : allLines ) { number=line }
-    println(number)
+    path ("pggb.gfa"), emit: gfa
+    publishDir "results/PVG", mode: "copy"
 
     script:
     """
@@ -60,12 +113,13 @@ process MAKE_PVG {
     bgzip ${refFasta}
     samtools faidx ${refFasta}.gz > ${refFasta}.gz.fai
 
-    # run PGGB - you need to specify the number of haplotypes in $number
-    pggb -i ${refFasta}.gz -m -S -o ${workflow.projectDir}/CURRENT/ -t 46 -p 90 -s 1k -n $number
+    # run PGGB - you need to specify the number of haplotypes in number
+    pggb -i ${refFasta}.gz -m -S -o . -t ${task.cpus} -p 90 -s 1k -n ${params.haplotypes}
+    mv *.gfa pggb.gfa
     # if issues, remove CURRENT/ in ${workflow.projectDir}  before re-running 
 
     # run pangenome in nf-core - don't work as reliably as PGGB, so best avoided
-    # nextflow run nf-core/pangenome --input ${refFasta}.gz --n_haplotypes $number --outdir \
+    # nextflow run nf-core/pangenome --input ${refFasta}.gz --n_haplotypes number --outdir \
     #   ${workflow.projectDir}/CURRENT  --communities  --wfmash_segment_length 1000
     #odgi stats -m -i ${workflow.projectDir}/CURRENT/FINAL_ODGI/${refFasta}.gz.squeeze.og -S > ${workflow.projectDir}/odgi.stats.txt 
 
@@ -74,66 +128,104 @@ process MAKE_PVG {
 
 process VIZ1 {
     input:
-    val ready 
-    path (refFasta)
+    path gfa 
 
     output:
-    publishDir ".", mode: "copy"
+    path "out.vg.png"
+    publishDir "results/vg", mode: "copy"
 
     script:
     """
     # visualise gfa - need to separate, this takes a while
-    vg view -F -p -d ${workflow.projectDir}/CURRENT/*.gfa  | dot -Tpng -o ${workflow.projectDir}/CURRENT/${refFasta}.vg.png
+    vg view -F -p -d ${gfa}  | dot -Tpng -o out.vg.png
+    """
+}
 
+process GFAstat {
+    input:
+    path gfa 
+    path (refFasta)
+
+    output:
+    path "gfa.stats.txt"
+    path "genome.lengths.txt"
+    publishDir "results/gfastat", mode: "copy"
+
+    script:
+    """
     # get general info on gfa
-    ${workflow.projectDir}/bin/gfastats ${workflow.projectDir}/CURRENT/*gfa > ${workflow.projectDir}/CURRENT/gfa.stats.txt
+    gfastats ${gfa} > gfa.stats.txt
 
     # get lengths of genomes etc
-    perl ${workflow.projectDir}/bin/lengths.pl ${refFasta} 
+    lengths.pl ${refFasta} 
 
+    """
+}
+
+process Bandage {
+    container "biocontainers/bandage:v0.8.1-1-deb_cv1"
+    containerOptions = "--user root"
+    input:
+    path gfa 
+
+    output:
+    path "bandage.stats.txt"
+    publishDir "results/bandage", mode: "copy"
+
+    script:
+    """
     # get Bandage stats
-    /mnt/lustre/RDS-live/downing/miniconda3/bin/Bandage info ${workflow.projectDir}/CURRENT/*.gfa > bandage.stats.txt
+    Bandage info ${gfa} > bandage.stats.txt
     """
 }
 
 process ODGI {
+    container "pangenome/odgi:1726671973"
+    containerOptions = '--entrypoint ""'
+
+    cpus 1
+
     input:
-    val ready 
-    path (refFasta)
+    path gfa 
 
     output:
-    publishDir ".", mode: "copy"
+    path "out.og", emit:ogfile 
+    path "odgi.stats.txt"
+    publishDir "results/odgi", mode: "copy"
 
     script:
     """
-    #odgi build -g ${projectDir}/CURRENT/*.gfa -o ${projectDir}/CURRENT/${refFasta}.og 
-    #odgi stats -m -i ${projectDir}/CURRENT/${refFasta}.og -S > ${projectDir}/CURRENT/odgi.stats.txt 
-    odgi stats -m -i ${projectDir}/CURRENT/*.og -S > ${projectDir}/CURRENT/odgi.stats.txt 
+    odgi build -g ${gfa} -o out.og 
+    odgi stats -m -i out.og -S > odgi.stats.txt 
     """
 }
 
 process OPENNESS_PANACUS {
     tag {"get PVG openness panacus"}
     label 'openness_panacus'
+    container "mgibio/panacus:0.2.4"
 
     input:
-    val ready 
+    path gfa 
 
     output:
-    publishDir ".", mode: "copy"
+    path "haplotypes.txt"
+    path "histgrowth.node.tsv"
+    path "histgrowth.node.pdf"
+    publishDir "results/panacus", mode: "copy"
     
     script:
     """
     # you need to install panancus
     # mamba install -c conda-forge -c bioconda panacus
     # get haplotypes
-    grep '^P' ${workflow.projectDir}/CURRENT/*.gfa | cut -f2 > ${workflow.projectDir}/CURRENT/PANACUS/haplotypes.txt
+    grep '^P' ${gfa} | cut -f2 > haplotypes.txt
     
     # run panacus to get data - just use defaults
-    RUST_LOG=info panacus histgrowth -t4 -l 1,2,1,1,1 -q 0,0,1,0.5,0.1 -S -s ${workflow.projectDir}/CURRENT/PANACUS/haplotypes.txt ${workflow.projectDir}/CURRENT/*.gfa > ${workflow.projectDir}/CURRENT/PANACUS/histgrowth.node.tsv
+    RUST_LOG=info panacus histgrowth -t4 -l 1,2,1,1,1 -q 0,0,1,0.5,0.1 -S -s haplotypes.txt ${gfa} > histgrowth.node.tsv
  
     # visualise plot as PDF
-    panacus-visualize -e ${workflow.projectDir}/CURRENT/PANACUS/histgrowth.node.tsv > ${workflow.projectDir}/CURRENT/PANACUS/histgrowth.node.pdf
+    panacus-visualize -e histgrowth.node.tsv > histgrowth.node.pdf
     """
 }
 
@@ -142,113 +234,156 @@ process OPENNESS_PANGROWTH {
     label 'openness_pangrowth'
 
     input:
-    val ready 
     path (refFasta)
 
     output:
-    publishDir ".", mode: "copy"
-
-    exec:
-    def file1 = file('bin/number1.txt')
-    allLines = file1.readLines()
-    for( line : allLines ) { number=line }
+    path "LSDV_core"
+    path "communities.genomes.fasta",emit:communities_genome
+    publishDir "results/pangrowth", mode: "copy"
 
     script:
     """
     # need to split files into individual files in folder SEQS
     # wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/faSplit and chmod it
-    #   ./faSplit byname ${refFasta} ${workflow.projectDir}/CURRENT/PANGROWTH/SEQS/
+    mkdir SEQS -p
+    faSplit byname ${refFasta} SEQS/
+    for FILE in SEQS/*.fa 
+    do
+    # Extract sample name from file name
+    sample_name=\$(basename "\$FILE" | cut -f 1 -d '.')
+    # Execute ~/bin/fastix with sample name and append output to "COMMUNITIES/genomes.fasta"
+    fastix -p "\${sample_name}#1#" "\$FILE" >> communities.genomes.fasta
+    done
 
     # run pangrowth
-    ${workflow.projectDir}/bin/pangrowth hist -k 17 -t 12 ${workflow.projectDir}/CURRENT/PANGROWTH/SEQS/*a > ${workflow.projectDir}/CURRENT/PANGROWTH/hist.txt
+    pangrowth hist -k 17 -t 12 SEQS/*a > hist.txt
 
     # plot AFS for single dataset - not very useful! 
-     python ${workflow.projectDir}/bin/plot_single_hist.py ${workflow.projectDir}/CURRENT/PANGROWTH/hist.txt ${workflow.projectDir}/CURRENT/PANGROWTH/LSDV.pangrowth.pdf
+    plot_single_hist.py hist.txt LSDV.pangrowth.pdf
 
     # model growth - prepare dataset 1 - not useful
-     ${workflow.projectDir}/bin/pangrowth growth -h ${workflow.projectDir}/CURRENT/PANGROWTH/hist.txt > ${workflow.projectDir}/CURRENT/PANGROWTH/LSDV
-     python ${workflow.projectDir}/bin/plot_growth.py ${workflow.projectDir}/CURRENT/PANGROWTH/LSDV ${workflow.projectDir}/CURRENT/PANGROWTH/LSDV.growth.pdf
+    pangrowth growth -h hist.txt > LSDV
+    plot_growth.py LSDV LSDV.growth.pdf
 
     # do core - this does not converge to a solution for n<10 samples, causes error
-     ${workflow.projectDir}/bin/pangrowth core -h ${workflow.projectDir}/CURRENT/PANGROWTH/hist.txt -q 0.5 > ${workflow.projectDir}/CURRENT/PANGROWTH/LSDV_core
+    pangrowth core -h hist.txt -q 0.5 > LSDV_core
 
-    if [ $number -gt 10 ]; then # if the core is too small, this crashes
-       python ${workflow.projectDir}/bin/plot_core.py ${workflow.projectDir}/CURRENT/PANGROWTH/LSDV_core    ${workflow.projectDir}/CURRENT/PANGROWTH/LSDV_core.pdf
+    if [ ${params.haplotypes} -gt 10 ]; then # if the core is too small, this crashes
+       plot_core.py LSDV_core LSDV_core.pdf
     fi
     """
 }
 
-process GET_VCF {
-    tag {"get VCFs"}
+process PATH_FROM_GFA {
+    tag {"get paths from GFA"}
     label 'vcf'
+    container "pangenome/odgi:1726671973"
+    containerOptions = '--entrypoint ""'
 
     input:
-    val ready 
-    path (refFasta)
+    path gfa
 
     output:
-    publishDir ".", mode: "copy"
-
-    exec:
-    def file1 = file('bin/number1.txt')
-    allLines = file1.readLines()
-    for( line : allLines ) { number=line }
+    path "path1"
 
     script:
     """
-    ${workflow.projectDir}/bin/gfautil -i ${workflow.projectDir}/CURRENT/*.gfa gfa2vcf > ${workflow.projectDir}/CURRENT/VCF/${refFasta}.vcf
-    # https://lib.rs/crates/gfautil - download this
-
     # need to get paths from GFA
-    odgi paths -i ${workflow.projectDir}/CURRENT/*.og -L > ${workflow.projectDir}/CURRENT/VCF/paths.txt
-    head -n 1 ${workflow.projectDir}/CURRENT/VCF/paths.txt > ${workflow.projectDir}/CURRENT/VCF/path1
-    # these correspond to the samples, eg "K303/83_g001_s001"
-    # get first sample name then give to gfautil
-    # Outputs a tab-delimited list in the format:
-    # <query-path-name>\t<reference base>\t<reference pos>\t<query base>\t<query pos>
+    odgi paths -i ${gfa} -L |head -n 1 > path1
+    
+    """
+}
 
+process VCF_FROM_GFA {
+    container "chandanatpi/panalayze_env:2.0"
+
+    tag {"get VCFs from GFA"}
+    label 'vcf'
+
+    input:
+    path gfa
+
+    output:
+    path "gfavariants.vcf",emit:gfavariants 
+    publishDir "results/vcf", mode: "copy"
+
+    script:
+    """
+    gfautil -i ${gfa} gfa2vcf > gfavariants.vcf
+    """
+}
+
+process VCF_PROCESS {
+    container "chandanatpi/panalayze_env:2.0"
+    tag {"Process VCF information"}
+    label 'vcf'
+
+    input:
+    path pathinfo
+    path vcf_file
+    path gfa_file
+
+    output:
+    path "variation_map-basic.pdf"
+    path "mutation_density.pdf"
+    publishDir "results/vcf", mode: "copy"
+
+    script:
+    """
     # script to create initial input to visualise with R
-    perl ${workflow.projectDir}/bin/vcf.pl ../../../CURRENT/VCF/path1  #  sort out coordinates
-    Rscript ${workflow.projectDir}/bin/plot_variation_map.R # plot image of variation map in PDF
+# TODO: very parametrized
+    Ref=\$(cat ${pathinfo})
+    for N in {1000..2000} #148500}
+    do
+        gfautil --quiet -t 15 -i ${gfa_file} snps --ref \$Ref  --snps \$N
+    done| sort -nk 3 | grep -v \\: |grep -v path > variation_map.txt
+
+
+    plot_variation_map.R # plot image of variation map in PDF
 
     # plot SNP density across genome
-    Rscript ${workflow.projectDir}/bin/plot_SNP_density.R ${workflow.projectDir}/CURRENT/VCF/${refFasta}.vcf
+    plot_SNP_density.R ${vcf_file}
 
     # plot AFS (allele freq spectrum) - input VCF and number of samples
-    # python3 ${workflow.projectDir}/bin/afs.py ${workflow.projectDir}/CURRENT/VCF/${refFasta}.vcf $number
-    perl ${workflow.projectDir}/bin/afs.pl ${workflow.projectDir}/CURRENT/VCF/${refFasta}.vcf $number
-    #  python3 ${workflow.projectDir}/bin/afs.lol.py ${workflow.projectDir}/CURRENT/VCF/${refFasta}.vcf $number
+# TODO: very parametrized
+    afs.pl out.vcf ${params.haplotypes}
     """
 }
 
 process GETBASES {
     tag {"get bases"}
     label 'bases'
+    container "pangenome/odgi:1726671973"
+    containerOptions = '--entrypoint ""'
 
     input:
-    val ready
+    path ogfile
     path (refFasta)
 
     output:
-    publishDir ".", mode: "copy"
+    path "out.flatten.fa"
+    path "out.bed"
+    publishDir "result", mode: "copy"
 
     script:
     """
-    odgi flatten -i ${workflow.projectDir}/CURRENT/*.og -f ${workflow.projectDir}/CURRENT/${refFasta}.flatten.fa -b ${workflow.projectDir}/CURRENT/${refFasta}.bed -t 22
-    perl ${workflow.projectDir}/bin/bases.pl ${refFasta}
+    odgi flatten -i ${ogfile} -f out.flatten.fa -b out.bed -t 22
+    bases.pl ${refFasta}
     """
 }
 
 process VIZ2 {
 	tag {"big viz"}
 	label 'viz2'
+    container "pangenome/odgi:1726671973"
+    containerOptions = '--entrypoint ""'
 
 	input:
-	val ready
-	path (refFasta)
+	path ogfile
 
 	output:
-	publishDir ".", mode: "copy"
+    path "out.viz.png"
+	publishDir "result", mode: "copy"
 
 	script:
 	"""
@@ -257,58 +392,96 @@ process VIZ2 {
         # c = numbers of characters for sample names
         # x = width in pixels of output
         # y = height in pixels of output
-        odgi viz -i ${workflow.projectDir}/CURRENT/*.og -o ${workflow.projectDir}/CURRENT/${refFasta}.viz.png -c 55 -w 50 -y 1500
-        """
+        odgi viz -i ${ogfile} -o out.viz.png -c 55 -w 50 -y 1500
+    """
 }
 
 process HEAPS {
     tag {"heaps"}
     label 'heaps'
+    container "pangenome/odgi:1726671973"
+    containerOptions = '--entrypoint ""'
 
     input:
-    val ready 
+    path ogfile 
 
     output:
-    publishDir ".", mode: "copy"
-
-    exec:
-    def file1 = file('bin/number1.txt')
-    allLines = file1.readLines()
-    for( line : allLines ) { number=line }
+    path "heaps.txt",emit:heap_file
+    publishDir "results/heaps", mode: "copy"
 
     script:
     """
     # visualise output, reading in heaps file, 3rd column only of interest
-    Rscript ${workflow.projectDir}/bin/visualisation.R $number
+    for N in {1..${params.haplotypes}}
+	do
+       odgi heaps -i ${ogfile} -n 1000 -d \$N -t 12 | sort -nk 2 | tail -n 1
+	done > heaps.txt
+    """
+}
+
+process HEAPS_Visualize {
+    container "chandanatpi/panalayze_env:2.0"
+    tag {"heaps"}
+    label 'heaps'
+
+    input:
+    path ogfile 
+
+    output:
+    path "heaps.pdf"
+    publishDir "results/heaps", mode: "copy"
+
+    script:
+    """
+    visualisation.R ${params.haplotypes}
     """
 }
 
 process PAVS {
     tag{"pavs"}
     label 'pavs'
+    container "pangenome/odgi:1726671973"
+    containerOptions = '--entrypoint ""'
 
     input:
-    val ready
-    path (refFasta)
+    path ogfile
 
     output:
-    publishDir ".", mode: "copy"
+    path "out.flatten.pavs.tsv" 
+
+    publishDir "result/pavs", mode: "copy", pattern: "flatten.pavs.count.txt"
 
     script:
     """
-    odgi flatten -i ${workflow.projectDir}/CURRENT/*.og -b ${workflow.projectDir}/CURRENT/${refFasta}.flatten.tsv -t 22
+    odgi flatten -i ${ogfile} -b out.flatten.tsv -t 22
 
     # convert to BED
-    sed '1d' ${workflow.projectDir}/CURRENT/${refFasta}.flatten.tsv | awk -v OFS='\t' '{print(\$4,\$2,\$3,"step.rank_"\$6,".",\$5)}' > ${workflow.projectDir}/CURRENT/${refFasta}.flatten.bed
+    sed '1d' out.flatten.tsv | awk -v OFS='\t' '{print(\$4,\$2,\$3,"step.rank_"\$6,".",\$5)}' > out.flatten.bed
 
     # get BED file
-    odgi pav -i ${workflow.projectDir}/CURRENT/*.og  -b ${workflow.projectDir}/CURRENT/${refFasta}.flatten.bed >       ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv
-    grep -c "" ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv  > flatten.pavs.count.txt # gives all PAVs
+    odgi pav -i ${ogfile}  -b out.flatten.bed > out.flatten.pavs.tsv
+    grep -c "" out.flatten.pavs.tsv  > flatten.pavs.count.txt # gives all PAVs
 
     # make a plot
-    Rscript ${workflow.projectDir}/bin/plot_pavs.R  ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv
 
-    rm -rf  ${workflow.projectDir}/CURRENT/${refFasta}.flatten.pavs.tsv  # needs to be removed, file size too large
+    """
+}
+
+process PAVS_plot {
+    container "chandanatpi/panalayze_env:2.0"
+    tag{"pavs"}
+    label 'pavs'
+
+    input:
+    path tsv_file
+
+    output:
+    path "out.flatten.pavs.pdf"
+    publishDir "result/pavs", mode: "copy"
+
+    script:
+    """
+    plot_pavs.R  ${tsv_file}
     """
 }
 
@@ -333,29 +506,33 @@ process WARAGRAPH {
     """
 }
 
-process BANDAGE {
-    input:
-    val ready
-    path (refFasta)
+process BANDAGE_view {
 
-    output:
-    publishDir ".", mode: "copy"
+	executor 'local' 
+    cpus 1
+
+    container "biocontainers/bandage:v0.8.1-1-deb_cv1"
+    containerOptions = "--user root --env DISPLAY=$DISPLAY"
+    input:
+    path gfa 
+
 
     script:
     """
     # view in Bandage 
-    Bandage load ${workflow.projectDir}/CURRENT/*.gfa --nodewidth=22
+    Bandage load ${gfa} --nodewidth=22
     """
 }
 
 
 process COMMUNITIES {
     input:
-    val ready
-    path (refFasta)
+    path communities_genome
+    
 
     output:
-    publishDir ".", mode: "copy"
+    path "genomes.mapping.paf",emit:paf_file  
+    publishDir "results/communities", mode: "copy", pattern:"genomes.mapping.paf.*"  
 
     script:
     """
@@ -363,32 +540,31 @@ process COMMUNITIES {
     #     mkdir ${workflow.projectDir}/CURRENT/COMMUNITIES/
 
     # create genomes.fasta in COMMUNITIES using fastix
-    bash ${workflow.projectDir}/bin/fastix.sh
+    bash fastix.sh
 
-    rm -rf ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.fasta.gz
-    bgzip -@ 4 ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.fasta
-    samtools faidx ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.fasta.gz # index
+    bgzip -@ 4 ${communities_genome}
+    samtools faidx ${communities_genome}.gz # index
 
     # Community detection based on p/w alignments based on 90% ID at mash level with 6
     # mappings per segment, using k-mer of 19 and window of 67
-    wfmash ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.fasta.gz -p 90 -n 6 -t 44 -m > ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.mapping.paf
+    wfmash ${communities_genome}.gz -p 90 -n 6 -t 44 -m > genomes.mapping.paf
 
     # Convert PAF mappings into a network:
-    python3 ${workflow.projectDir}/bin/paf2net.py -p ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.mapping.paf
+    paf2net.py -p genomes.mapping.paf
 
     # make plot
-    python3 ${workflow.projectDir}/bin/net2communities.py -e ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.mapping.paf.edges.list.txt -w ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.mapping.paf.edges.weights.txt -n ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.mapping.paf.vertices.id2name.txt --plot
+    net2communities.py -e genomes.mapping.paf.edges.list.txt -w genomes.mapping.paf.edges.weights.txt -n genomes.mapping.paf.vertices.id2name.txt --plot
 
     # mash-based partitioning
-    mash dist ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.fasta.gz ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.fasta.gz -s 10000 -i > ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.distances.tsv
+    mash dist ${communities_genome}.gz ${communities_genome}.gz -s 10000 -i > genomes.distances.tsv
 
     # get distances
-    python3 ${workflow.projectDir}/bin/mash2net.py -m ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.distances.tsv
+    mash2net.py -m genomes.distances.tsv
 
     # get numbers in each group
-    bash ${workflow.projectDir}/bin/community_numbers.sh
+    community_numbers.sh
 
-    ${workflow.projectDir}/bin/pafgnostic --paf ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.mapping.paf > ${workflow.projectDir}/CURRENT/COMMUNITIES/genomes.mapping.paf.txt 
+    pafgnostic --paf genomes.mapping.paf > genomes.mapping.paf.txt 
     #  pafgnostic outputs a tab-separated table directly to the console with the following columns:
     # - Query name, start, end, strand
     # - Target name, start, end
@@ -399,34 +575,49 @@ process COMMUNITIES {
 }
 
 process BUSCO { 
+
+    container "ezlabgva/busco:v5.8.0_cv1"
+    containerOptions = "--user root"
     input:
-    val ready
     path (refFasta)
 
     output:
-    publishDir ".", mode: "copy"
+    publishDir "results/busco", mode: "copy"
 
     script:
     """
-    ${workflow.projectDir}/bin/busco -f -i ${refFasta} -l poxviridae_odb10 -o ${workflow.projectDir}/CURRENT/BUSCO -m genome
+    busco -f -i ${refFasta} -l ${params.busco_clade} -o BUSCO -m genome
     # identifies genes using the poxvirus annotation for busco v5 process annotate {
     """
 }
 
-process PANAROO {
+process PAFGNOSTIC {
     input:
-    val ready
+    path paf_file 
+
+    output:
+    publishDir "results/pafgnostic", mode: "copy"
+
+    script:
+    """
+    pafgnostic --paf ${paf_file} > pafgnostic.txt  
+    """
+}
+
+process PANAROO {
+    container "chandanatpi/panalayze_env:2.0"
+    input:
     path (refFasta)
 
     output:
-    publishDir ".", mode: "copy"
+    publishDir "results/panaroo", mode: "copy"
 
     script:
     """
     # use data in PANGROWTH/SEQS/
     # Rscript ${workflow.projectDir}/bin/annotate.R lsdv
     # Rscript ${workflow.projectDir}/bin/annotate.R sppv
-    Rscript ${workflow.projectDir}/bin/annotate.R gpv
+    Rscript annotate.R gpv
 
     # mamba update panaroo
     ${workflow.projectDir}/bin/panaroo -i ${workflow.projectDir}/CURRENT/PANGROWTH/SEQS/*PROKKA/*.gff -o ${workflow.projectDir}/CURRENT/PANAROO --clean-mode strict 
@@ -436,19 +627,5 @@ process PANAROO {
     
     # visualise presence absence
     Rscript ${workflow.projectDir}/bin/panaroo_viz.R
-    """
-}
-
-process PAFGNOSTIC {
-    input:
-    val ready
-    path (refFasta)
-
-    output:
-    publishDir ".", mode: "copy"
-
-    script:
-    """
-    ${workflow.projectDir}/bin/pafgnostic --paf ${workflow.projectDir}/CURRENT/*paf > ${workflow.projectDir}/CURRENT/${refFasta}.paf.txt  # chcek
     """
 }
