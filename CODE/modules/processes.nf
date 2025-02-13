@@ -570,26 +570,24 @@ process COMMUNITIES {
     # Initialize a flag to check if any community files were found
     found_community_files=0
 
-    # Iterate over the range of community file indices, e.g., 0 to 3
     for i in {0..3}; do
-        # Check if the community file exists
-        if [[ -f "genomes.mapping.paf.edges.weights.txt.community.${i}.txt" ]]; then
-            # Extract unique chromosome names from the community file
-            chromosomes=$(cut -f 3 -d '#' "genomes.mapping.paf.edges.weights.txt.community.${i}.txt" | sort | uniq | tr '\n' ' ')
-            echo "community $i --> $chromosomes"
+    # Check if the community file exists
+        if [[ -f "genomes.mapping.paf.edges.weights.txt.community.\${i}.txt" ]]; then
+    # Extract unique chromosome names from the community file
+            chromosomes=\$(cut -f 3 -d '#' "genomes.mapping.paf.edges.weights.txt.community.\${i}.txt" | sort | uniq | tr '\n' ' ')
+            echo "community \${i} --> \${chromosomes}"
             found_community_files=1
         else
-            echo "community $i --> Community file not found"
+            echo "community \${i} --> Community file not found"
         fi
     done
 
     # Check if any community files were found
-    if [[ $found_community_files -eq 0 ]]; then
+    if [[ \$found_community_files -eq 0 ]]; then
         echo "No community files found. Exiting."
-    fi
-
+    fi  
     # Redirect the output to the specified file
-    echo "Output written to $output_file"
+    echo "Output written to \$output_file"
     # community_numbers.sh end
 
     pafgnostic --paf genomes.mapping.paf > genomes.mapping.paf.txt 
