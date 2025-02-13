@@ -56,14 +56,14 @@ COPY requirements.txt requirements.txt
 
 # Install dependencies from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
-COPY bin/tree.R /app/
-COPY bin/plot_variation_map.R /app/
-COPY bin/plot_SNP_density.R /app/
-COPY bin/visualisation.R /app/
-COPY bin/plot_pavs.R /app/
-COPY bin/annotate.R /app/
-COPY bin/view_gml.R /app/
-COPY bin/panaroo_viz.R /app/
+COPY bin/tree.R /bin/
+COPY bin/plot_variation_map.R /bin/
+COPY bin/plot_SNP_density.R /bin/
+COPY bin/visualisation.R /bin/
+COPY bin/plot_pavs.R /bin/
+COPY bin/annotate.R /bin/
+COPY bin/view_gml.R /bin/
+COPY bin/panaroo_viz.R /bin/
 
 RUN cargo install fastix
 RUN apt-get install git -y && git clone https://github.com/gi-bielefeld/pangrowth && cd pangrowth && make
