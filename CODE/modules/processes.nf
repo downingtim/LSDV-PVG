@@ -31,8 +31,8 @@ process DOWNLOAD {
     path "T14.raxml.supportTBE",emit:raxml_file
 
     shell:
-	q1 = params.virus_name + " [organism] AND complete genome [title]"
-	q2 = params.virus_name + " [organism] AND genomic sequence [title]"
+    q1 = params.virus_name + " [organism] AND complete genome [title]"
+    q2 = params.virus_name + " [organism] AND genomic sequence [title]"
     filter_text = params.virus_filter.replaceAll(',', "\\\\|");filter = /complete genome\|${filter_text}\|isolate\|genomic sequence\|_NULL\|strain/
 
     '''
@@ -74,7 +74,7 @@ process ALIGN {
 }
 
 process TREE{
-
+   container "chandanatpi/panalayze_env:2.0"
    tag "Building tree with $y"
    input:
    path y   
@@ -230,6 +230,7 @@ process OPENNESS_PANACUS {
 }
 
 process OPENNESS_PANGROWTH {
+    container "chandanatpi/panalayze_env:2.0"
     tag {"get PVG openness pangrowth"}
     label 'openness_pangrowth'
 
@@ -373,20 +374,20 @@ process GETBASES {
 }
 
 process VIZ2 {
-	tag {"big viz"}
-	label 'viz2'
+    tag {"big viz"}
+    label 'viz2'
     container "pangenome/odgi:1726671973"
     containerOptions = '--entrypoint ""'
 
-	input:
-	path ogfile
+    input:
+    path ogfile
 
-	output:
+    output:
     path "out.viz.png"
-	publishDir "result", mode: "copy"
+    publishDir "result", mode: "copy"
 
-	script:
-	"""
+    script:
+    """
         # y = height of plot
         # w = step size for blocks in plot
         # c = numbers of characters for sample names
@@ -413,9 +414,9 @@ process HEAPS {
     """
     # visualise output, reading in heaps file, 3rd column only of interest
     for N in {1..${params.haplotypes}}
-	do
+    do
        odgi heaps -i ${ogfile} -n 1000 -d \$N -t 12 | sort -nk 2 | tail -n 1
-	done > heaps.txt
+    done > heaps.txt
     """
 }
 
@@ -508,7 +509,7 @@ process WARAGRAPH {
 
 process BANDAGE_view {
 
-	executor 'local' 
+    executor 'local' 
     cpus 1
 
     container "biocontainers/bandage:v0.8.1-1-deb_cv1"
@@ -540,7 +541,7 @@ process COMMUNITIES {
     #     mkdir ${workflow.projectDir}/CURRENT/COMMUNITIES/
 
     # create genomes.fasta in COMMUNITIES using fastix
-    bash fastix.sh
+    # bash fastix.sh
 
     bgzip -@ 4 ${communities_genome}
     samtools faidx ${communities_genome}.gz # index
@@ -562,7 +563,34 @@ process COMMUNITIES {
     mash2net.py -m genomes.distances.tsv
 
     # get numbers in each group
-    community_numbers.sh
+    # community_numbers.sh start
+
+    output_file="genomes.communities.mash.paths.txt"
+
+    # Initialize a flag to check if any community files were found
+    found_community_files=0
+
+    # Iterate over the range of community file indices, e.g., 0 to 3
+    for i in {0..3}; do
+        # Check if the community file exists
+        if [[ -f "genomes.mapping.paf.edges.weights.txt.community.${i}.txt" ]]; then
+            # Extract unique chromosome names from the community file
+            chromosomes=$(cut -f 3 -d '#' "genomes.mapping.paf.edges.weights.txt.community.${i}.txt" | sort | uniq | tr '\n' ' ')
+            echo "community $i --> $chromosomes"
+            found_community_files=1
+        else
+            echo "community $i --> Community file not found"
+        fi
+    done
+
+    # Check if any community files were found
+    if [[ $found_community_files -eq 0 ]]; then
+        echo "No community files found. Exiting."
+    fi
+
+    # Redirect the output to the specified file
+    echo "Output written to $output_file"
+    # community_numbers.sh end
 
     pafgnostic --paf genomes.mapping.paf > genomes.mapping.paf.txt 
     #  pafgnostic outputs a tab-separated table directly to the console with the following columns:
