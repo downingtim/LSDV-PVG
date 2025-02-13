@@ -4,15 +4,16 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Update package list and install Python 3.10
 RUN apt-get update && apt-get install -y \
-    wget gpg \
+    wget gpg  libcurl4-openssl-dev libxml2-dev \
     python3.10 \
     python3-pip && \
-    ln -sf /usr/bin/python3.10 /usr/bin/python3
+    ln -sf /usr/bin/python3.10 /usr/bin/python3 && \
+    ln -sf /usr/bin/python3.10 /usr/bin/python
 RUN wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | gpg --dearmor | tee /usr/share/keyrings/cran.gpg > /dev/null && \
     echo "deb [signed-by=/usr/share/keyrings/cran.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" | tee -a /etc/apt/sources.list.d/cran.list && \
     apt-get update && \
+    apt-get install libssl-dev && \
     apt-get install -y r-base r-base-dev && \
-
     R -e "install.packages('remotes', repos='http://cran.us.r-project.org')" && \
 	R -e "remotes::install_version('adegenet', version='2.1.10', repos='http://cran.us.r-project.org')"  && \
 	R -e "remotes::install_version('ape', version='5.8', repos='http://cran.us.r-project.org')"  && \
@@ -35,9 +36,9 @@ RUN wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc |
 
 RUN R -e "install.packages('BiocManager', repos='https://cloud.r-project.org/')"
 RUN R -e "BiocManager::install('Biostrings')"
+RUN R -e "BiocManager::install(update=TRUE,ask=FALSE)"
 RUN R -e "BiocManager::install('ggtree')"
 RUN R -e "BiocManager::install('treeio')"
-#	R -e "remotes::install_version('grid', version='4.2.2', repos='http://cran.us.r-project.org')"  && \
 
 RUN apt-get install -y curl build-essential
 WORKDIR /app
@@ -63,3 +64,9 @@ COPY bin/plot_pavs.R /app/
 COPY bin/annotate.R /app/
 COPY bin/view_gml.R /app/
 COPY bin/panaroo_viz.R /app/
+
+RUN cargo install fastix
+RUN apt-get install git -y && git clone https://github.com/gi-bielefeld/pangrowth && cd pangrowth && make
+RUN mv pangrowth/pangrowth /usr/local/bin/
+COPY bin/raxml-ng /usr/local/bin
+
