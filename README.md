@@ -67,13 +67,16 @@ It has been developed primarly for virus genome, principally large DNA viruses. 
 ## How to run
 
 Clone the directory
-    git clone https://github.com/downingtim/LSDV-PVG/
+
+git clone https://github.com/downingtim/LSDV-PVG/
 
 Go to the folder
-    cd LSDV-PVG
+
+cd LSDV-PVG
 
 Run in Nextflow given a template YML file and an example FASTA file
-    nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+
+nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
 The test data presented is 6 GTPV genomes as an example. This should run within 3 minutes.
 

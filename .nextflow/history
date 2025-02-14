@@ -1,0 +1,1 @@
+2025-02-14 14:27:04	-	romantic_lamarr	-	3bfa5cb4ae42eae2a345301615fc7e5e	7983f335-afe2-472c-b849-cf8bb57c3326	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
