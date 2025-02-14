@@ -1,16 +1,19 @@
-# This is the code and data repository for the tool Panalyze that can make and analyse pangenome variation graphs (PVGs).
+# Here we describe Panalyze that can make and analyse pangenome variation graphs (PVGs).
+## This was mainly designed with virus genomes in mind. 
 
 ## Basic information
 
 It has been developed primarly for virus genome, principally large DNA viruses.
-It is still in development, and will be containerised in docker eventually.
+It is still in development, and will be containerised in docker.
+
+
+
 It has been tested primarly in livestock poxviruses, such as lumpy skin disease virus (LSDV), sheeppox virus (SPPV) and goatpox virus (GTPV).
 The test data presented is 6 GTPV genomes as an example.
 It has also been tested on ssRNA viruses, such as foot-and-mouth disease virus (FMDV) and Rift Valley fever virus (RVFV).
 
 ## How does it work?
 
-The folder CODE/ contains the code and relevant packages/tools to support running Panalyze.
 
 The input data is "test_genomes.GTPV.fa" in this example. You can switch this to your own FASTA file input: in main.nf, Panalyze has a Download module which is not active by default.
 

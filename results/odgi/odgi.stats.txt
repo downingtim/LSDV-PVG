@@ -1,0 +1,21 @@
+---
+length: 163715
+nodes: 7508
+edges: 10210
+paths: 6
+steps: 29701
+num_weakly_connected_components: 1
+weakly_connected_components: 
+  - component:
+      id: 0
+      nodes: 7508
+      is_acyclic: 'yes'
+num_nodes_self_loops:
+  total: 0
+  unique: 0
+A: 57472
+C: 18877
+G: 19645
+N: 12006
+T: 55715
+file_size_in_bytes: 1410610

@@ -1,0 +1,4 @@
+2025-02-14 13:42:12	-	sick_ritchie	-	0c68570bf423d6d81cd16e49908fd4cc	ce10da10-1983-4c81-b0d7-5c5ba3b7f4b2	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-14 13:43:22	9.6s	focused_ptolemy	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	edeec11d-a2b2-44f4-9c06-b6ac9fcd9dc7	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-14 13:44:33	13.2s	confident_church	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	d654170d-7e90-460c-8dc0-1bf578977896	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-14 13:45:36	3m 38s	kickass_edison	OK	3bfa5cb4ae42eae2a345301615fc7e5e	1695b10b-4add-4ce8-aac5-0dbc9a419655	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa

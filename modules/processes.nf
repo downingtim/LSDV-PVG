@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
 
 /*
-Download datasets of interest, perform QC and construct a phylogeny.
+Info here
 /*
 
 /*
@@ -24,8 +24,6 @@ process DOWNLOAD {
     output:
     publishDir "results/download", mode: "copy"
     path "genomes.fasta"
-    path "5end.fasta"
-    path "3end.fasta"
     path "genomes.aln"
     //path "T14.*"
     path "T14.raxml.supportTBE",emit:raxml_file
@@ -42,13 +40,8 @@ process DOWNLOAD {
     cat gb.1 gb.2 > genbank.gb 
     rm gb.1 gb.2
     parseGB.py genbank.gb|sed -e "s%!{filter}%%g"|tr -d "',)(:;\\\""|sed -e "s%/\\| \\|-%_%g" |sed -e "s%[_]+%_%g"|tr -s _|sed -e "s/_$//"  > genomes.fasta
-    awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 13850){print h"\\n"substr($0, 1, 13850)} }}' genomes.fasta >5end.fasta
-    awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 106910){print h"\\n"substr($0,13851,106910-13851+1)} }}' genomes.fasta >core.fasta
-    awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 106911){print h"\\n"substr($0,106911)} }}' genomes.fasta >3end.fasta
-        
     mafft  --thread !{task.cpus} --auto genomes.fasta > genomes.aln 
-    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo
-        
+    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo        
     '''
 }
 
@@ -238,7 +231,7 @@ process OPENNESS_PANGROWTH {
     path (refFasta)
 
     output:
-    path "LSDV_core"
+    path "p_core"
     path "communities.genomes.fasta",emit:communities_genome
     publishDir "results/pangrowth", mode: "copy"
 
@@ -260,17 +253,17 @@ process OPENNESS_PANGROWTH {
     pangrowth hist -k 17 -t 12 SEQS/*a > hist.txt
 
     # plot AFS for single dataset - not very useful! 
-    plot_single_hist.py hist.txt LSDV.pangrowth.pdf
+    plot_single_hist.py hist.txt pangrowth.pdf
 
     # model growth - prepare dataset 1 - not useful
     pangrowth growth -h hist.txt > LSDV
-    plot_growth.py LSDV LSDV.growth.pdf
+    plot_growth.py LSDV growth.pdf
 
     # do core - this does not converge to a solution for n<10 samples, causes error
-    pangrowth core -h hist.txt -q 0.5 > LSDV_core
+    pangrowth core -h hist.txt -q 0.5 > p_core
 
     if [ ${params.haplotypes} -gt 10 ]; then # if the core is too small, this crashes
-       plot_core.py LSDV_core LSDV_core.pdf
+       plot_core.py p_core p_core.pdf
     fi
     """
 }
