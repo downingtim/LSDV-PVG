@@ -10,8 +10,8 @@ It has been developed primarly for virus genome, principally large DNA viruses. 
 ### [1]  DOWNLOAD: (optional)
      [i]   Download all 'complete genomes' or 'genomic sequences' from Nucleotide matching your text query of a specific defined organism (using the [orgn] search condition).
 ### [2]  ALIGN: (optional)
-     [ii]  Align the genomes with MAFFT
-     [iii] Construct a phylogeny with RAxML using a GTR+G4 substitution model.
+     [i]  Align the genomes with MAFFT
+     [ii] Construct a phylogeny with RAxML using a GTR+G4 substitution model.
 ### [3]  TREE: (optional)
      [i]   Visualise the phylogeny with R
 ### [4]  MAKE_PVG: (core)
@@ -55,8 +55,7 @@ It has been developed primarly for virus genome, principally large DNA viruses. 
 ### [17] PAVS_plot: (core)
      [i]   Visualise the PAVs from PAVS -> out.flatten.pavs.pdf
 ### [18] COMMUNITIES: (core)
-     [i]   Use wfmash to quantify the number of communities based on a 90% similarity threshold and at least 6 mappings
-per segment.
+     [i]   Use wfmash to quantify the number of communities based on a 90% similarity threshold and at least 6 mappings per segment.
      [ii]  Convert these mapping into a network that is visualised -> genomes.mapping.paf
 ### [19] BUSCO: (core)
      [i]   Use Busco to count the number of BUSCO genes present.
@@ -65,27 +64,23 @@ per segment.
 ### [21] GFAstat: (core)
     [i]   Compute key PVG metrics with GFAstats and get the genome lengths -> gfa.stats.txt
 
+## How to run
 
-It has been tested primarly in livestock poxviruses, such as lumpy skin disease virus (LSDV), sheeppox virus (SPPV) and goatpox virus (GTPV).
+Clone the directory
+### git clone https://github.com/downingtim/LSDV-PVG/
+
+Go to the folder
+### cd LSDV-PVG
+
+Run in Nextflow given a template YML file and an example FASTA file
+### nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+
 The test data presented is 6 GTPV genomes as an example.
-It has also been tested on ssRNA viruses, such as foot-and-mouth disease virus (FMDV) and Rift Valley fever virus (RVFV).
 
 ## How does it work?
 
-
 The input data is "test_genomes.GTPV.fa" in this example. You can switch this to your own FASTA file input: in main.nf, Panalyze has a Download module which is not active by default.
-
 The modules folder contains the processes, which are called by main.nf. These may call tools and scripts in other folders like bin.
-
-Prior to running Panalyze, you should run setup.R to set up the R packages you will need.
-
-In addition, you may need to configure the environment for a range of other packages in 'readme', which could include libjemalloc, odgi, nextflow, panacus, pggb, and various Python packages.
-
-You will need to edit "template.yml" to align it with your own configuration.
-Essential: In that file, the 'genomes' and 'reference' should be the FASTA file you want to examine.
-Essential: It will need the correct number of samples present ('haplotypes').
-Optional: If you are not using a poxvirus and want to apply BUSCO gene analysis, you will need to change the busco database.
-Optional: You can also add a text 'filter' if you are using the download function to omit uninformative regular expressions from the FASTA headers in that file for convenience.
 
 ## Credits
 
