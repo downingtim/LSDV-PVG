@@ -1,0 +1,1 @@
+nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
