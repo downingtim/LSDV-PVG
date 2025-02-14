@@ -1,15 +1,14 @@
 # Here we describe Panalyze that can make and analyse pangenome variation graphs (PVGs).
-## This was mainly designed with virus genomes in mind. 
+
+This was mainly designed with virus genomes in mind. 
 
 ## Basic information
 
-It has been developed primarly for virus genome, principally large DNA viruses.
-It is still in development, and will be containerised in docker.
+It has been developed primarly for virus genome, principally large DNA viruses. It is still in development, and will be containerised in docker.
 
-Main components:
-[1]  DOWNLOAD: (optional)
-     [i]   Download all 'complete genomes' or 'genomic sequences' from Nucleotide matching your text query of a specific
- defined organism (using the [orgn] search condition).
+## Main components:
+### [1]  DOWNLOAD: (optional)
+     [i]   Download all 'complete genomes' or 'genomic sequences' from Nucleotide matching your text query of a specific defined organism (using the [orgn] search condition).
 [2]  ALIGN: (optional)
      [ii]  Align the genomes with MAFFT
      [iii] Construct a phylogeny with RAxML using a GTR+G4 substitution model.
