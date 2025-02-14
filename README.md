@@ -51,7 +51,7 @@ It has been developed primarly for virus genome, principally large DNA viruses. 
      [i]   Visualise the output from Odgi's heaps function in HEAPS -> results/heaps/heaps.pdf
 ### [16] PAVS: (core)
      [i]   Use Odgi to get presence-absence variants (PAVs) (a large file!)
-     [ii]  Quantify the number of PAVs -> flatten.pavs.count.txt
+     [ii]  Quantify the number of PAVs -> result/out.flatten.fa
 ### [17] PAVS_plot: (core)
      [i]   Visualise the PAVs from PAVS -> result/pavs/out.flatten.pavs.pdf
 ### [18] COMMUNITIES: (core)
