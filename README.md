@@ -78,11 +78,15 @@ Go to the folder
 Run in Nextflow given a template YML file and an example FASTA file
 
 For example, we can examine a smnall set of goatpox virus (GTPV) genomes:
+
     nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+
 The test data presented is 6 GTPV genomes as a large DNA example. This should run within 186 seconds.
 
 In another example, we can examine a smnall set of foot-and-mouth virus (FMDV) genomes:
+
     nextflow run main.nf --config template.FMDV_WRL.A.yml --reference test_genomes.FMDV_WRL.A.fa
+
 The test data presented is 9 FMDV genomes as a ssRNA virus example. This should run within 120 seconds.
 
 In your own template YML file, you will need to define the dataset name, number of haplotypes, max number of CPUs available, minimum expected genome size, sample name filtering if using the download function, and the BUSCO clade (if relevant).
