@@ -8,7 +8,7 @@ nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 nextflow run main.nf --config template.GTPV.yml 
 
 # run on ssRNA test dataset - 9 FMDV serotype A genomes
-nextflow run main.nf --config template.FMDV_WRL.yml --reference template.FMDV_WRL.A.fa
+nextflow run main.nf --config template.FMDV_WRL.yml --reference test_genomes.FMDV_WRL.A.fa
 
 # run on ssRNA test dataset - 9 FMDV serotype A genomes to be downloaded based on the text in the template file
 nextflow run main.nf --config template.FMDV_WRL.yml
