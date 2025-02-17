@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 open(IN, "$ARGV[0]");
-$n=$ARGV[0].".out";
+$n=".out.vcf.txt";
 open(OUT, ">$n");
 # get AFS for pangenomes
 # plot fraction of bases (y-axis) vs

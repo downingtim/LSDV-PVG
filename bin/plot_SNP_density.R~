@@ -1,0 +1,34 @@
+#!/usr/bin/env Rscript
+
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) < 1) {
+  cat("Usage: Rscript script.R <input_file>\n")
+  quit(status = 1)
+}
+
+library(ggplot2)
+
+# Read the input file
+name <- args[1]
+x <- read.csv("variation_map.txt", sep="\t", skip=4)
+# Convert position to Kb
+x$POS <- x$POS / 1000
+
+# Create histogram data
+hist_data <- hist(x$POS, plot = FALSE, breaks = 9999)
+
+# Transform counts using log10
+hist_df <- data.frame(
+  bin_mid = hist_data$mids, 
+  count = log10(hist_data$counts + 1) # log transform counts
+)
+
+# Generate the ggplot
+pdf("mutation_density.pdf", width = 20, height = 8)
+ggplot(hist_df, aes(x = bin_mid, y = count)) +
+  geom_bar(stat = "identity", fill = "grey", width = diff(hist_data$breaks)[1]) +
+  labs(x = "Genomic position (Kb)", y = "Log10(Count + 1)") +
+  theme_minimal() +
+  theme(axis.text = element_text(size = 14),
+        axis.title = element_text(size = 16))
+dev.off()

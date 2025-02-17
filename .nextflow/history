@@ -1,0 +1,19 @@
+2025-02-17 07:21:22	6.4s	adoring_meucci	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	f9cd8919-7269-4d76-90a1-a7455af188e2	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 07:23:41	6.7s	special_church	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	c6c7ce8e-0dfb-4cf2-9486-f532b06c66f4	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 07:24:45	6.2s	clever_goldstine	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	7274619e-eeb8-4ca3-a793-f3ced2418c8d	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 07:31:55	7.3s	evil_miescher	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	58ce34e8-83b3-4442-b886-73f227fa9dab	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 07:33:46	3m 36s	grave_faraday	OK	3bfa5cb4ae42eae2a345301615fc7e5e	a3985945-44d3-4d30-bec0-6023a9dc3843	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 07:56:11	1m 37s	marvelous_ampere	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	066bdf6d-5ccf-4d6e-99a4-d4aa8ab115b7	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 07:59:24	1m 37s	irreverent_darwin	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	3da75fb3-a4b4-4155-91cb-d6f615b9e300	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 08:04:54	10m 37s	chaotic_wegener	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	b69d9824-2394-403b-afcb-98a144e4bb9e	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 08:15:57	19m 5s	evil_babbage	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	2295d018-b050-4f77-be28-d064f9eb03be	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 08:35:18	-	gigantic_legentil	-	3bfa5cb4ae42eae2a345301615fc7e5e	c3485722-a962-4628-a923-97b912346184	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 09:32:04	50m 7s	lethal_banach	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	86155c1a-b076-4031-a20b-caaf12c9749f	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 12:48:33	-	reverent_caravaggio	-	3bfa5cb4ae42eae2a345301615fc7e5e	fb748aac-f6f2-4294-9fd4-f050024dd35a	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 12:49:20	47m 13s	dreamy_heyrovsky	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	c504de1f-d933-4543-b70f-342a0d7f4f27	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 13:36:39	1m 47s	loving_volta	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	10efd68c-8332-48a9-b128-3e08f3f2646b	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 13:49:53	1m 46s	crazy_goodall	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	298f7d65-51b8-4abe-a0fa-4f8d545d2be9	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 13:55:39	1m 47s	distracted_lorenz	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	d4482d97-e832-43d2-aab8-32a2d643bd96	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 14:03:21	1m 52s	nice_gutenberg	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	1738fd78-fa78-4177-8720-f8a26dad6eb5	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 14:07:15	22m 3s	suspicious_einstein	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	2c6bbd9a-defe-438d-a341-9829146bfc91	nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+2025-02-17 14:29:31	20m	tiny_morse	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	842997cd-7b69-4ec4-9475-b2fc4f7cdd3f	nextflow run main.nf --config template.GTPV.yml

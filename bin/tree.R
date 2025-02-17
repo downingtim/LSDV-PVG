@@ -22,7 +22,7 @@ SD <- sd(tree$edge.length)
 index <- which(tree$edge.length >= (moyenne + 10 * SD))
 
 
-png("tree.png",width=1900,height=1900,units="px")
+pdf("tree.pdf",width=12,height=10,units="px")
 plot(ggtree(midpoint.root(ladderize(tree))) + geom_tiplab(hjust=0, size=2) +  geom_treescale(0,0))
 # plot(tree)
 dev.off()

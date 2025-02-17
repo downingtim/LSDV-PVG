@@ -1,6 +1,0 @@
-MW020570.1_Goatpox_virus_V103_goat
-MN072625.1_Goatpox_virus_Yemen_goat
-MN072624.1_Goatpox_virus_Sudan_goat
-MN072623.1_Goatpox_virus_Oman_goat
-MN072622.1_Goatpox_virus_Turkey_goat
-MN072621.1_Goatpox_virus_Vietnam_goat

@@ -17,7 +17,7 @@ It has been developed primarly for virus genome, principally large DNA viruses. 
 ### [4]  MAKE_PVG: (core)
      [i]   Construct a PVG using PGGB based on a 90% identity threshold and a match length of 1 Kb -> results/PVG/pggb.gfa
 ### [5]  VIZ1: (core)
-     [i]   Create a PVG visualisation PNG with VG's view function and dot -> results/vg/out.vg.png
+     [i]   Create a PVG visualisation PNG with VG's view function and dot -> results/vg/out.vg.png - note this file size is very large and may take time to resolve on any visualisation tool
 ### [6]  ODGI: (core)
      [i]   Create OG file with odgi -> results/odgi/out.og
      [ii]  Extract odgi PVG metrics from OG file -> results/odgi/odgi.stats.txt
@@ -69,17 +69,23 @@ It has been developed primarly for virus genome, principally large DNA viruses. 
 
 Clone the directory
 
-git clone https://github.com/downingtim/LSDV-PVG/
+    git clone https://github.com/downingtim/LSDV-PVG/
 
 Go to the folder
 
-cd LSDV-PVG
+    cd LSDV-PVG
 
 Run in Nextflow given a template YML file and an example FASTA file
 
-nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+For example, we can examine a smnall set of goatpox virus (GTPV) genomes:
+    nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+The test data presented is 6 GTPV genomes as a large DNA example. This should run within 186 seconds.
 
-The test data presented is 6 GTPV genomes as an example. This should run within 3 minutes.
+In another example, we can examine a smnall set of foot-and-mouth virus (FMDV) genomes:
+    nextflow run main.nf --config template.FMDV_WRL.A.yml --reference test_genomes.FMDV_WRL.A.fa
+The test data presented is 9 FMDV genomes as a ssRNA virus example. This should run within 120 seconds.
+
+In your own template YML file, you will need to define the dataset name, number of haplotypes, max number of CPUs available, minimum expected genome size, sample name filtering if using the download function, and the BUSCO clade (if relevant).
 
 ## How does it work?
 

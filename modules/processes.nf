@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
 
 /*
-Info here
+
 /*
 
 /*
@@ -59,10 +59,8 @@ process ALIGN {
 
     shell:
     """
-        
     mafft  --thread !{task.cpus} --auto ${genomes} > genomes.aln 
-    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo
-        
+    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo        
     """
 }
 
@@ -223,7 +221,7 @@ process OPENNESS_PANACUS {
 }
 
 process OPENNESS_PANGROWTH {
-    container "chandanatpi/panalayze_env:2.0"
+//    container "chandanatpi/panalayze_env:2.0"
     tag {"get PVG openness pangrowth"}
     label 'openness_pangrowth'
 
@@ -253,17 +251,17 @@ process OPENNESS_PANGROWTH {
     pangrowth hist -k 17 -t 12 SEQS/*a > hist.txt
 
     # plot AFS for single dataset - not very useful! 
-    plot_single_hist.py hist.txt pangrowth.pdf
+    plot_hist.py hist.txt pangrowth.pdf
 
     # model growth - prepare dataset 1 - not useful
-    pangrowth growth -h hist.txt > LSDV
-    plot_growth.py LSDV growth.pdf
+    pangrowth growth -h hist.txt > temp1
+    plot_growth.py temp1 growth.pdf
 
     # do core - this does not converge to a solution for n<10 samples, causes error
     pangrowth core -h hist.txt -q 0.5 > p_core
 
     if [ ${params.haplotypes} -gt 10 ]; then # if the core is too small, this crashes
-       plot_core.py p_core p_core.pdf
+       plot_core.py p_core p_core.pdf     # so need at least 10 genomes
     fi
     """
 }
@@ -308,7 +306,7 @@ process VCF_FROM_GFA {
 }
 
 process VCF_PROCESS {
-    container "chandanatpi/panalayze_env:2.0"
+ //container "chandanatpi/panalayze_env:2.0"
     tag {"Process VCF information"}
     label 'vcf'
 
@@ -320,18 +318,17 @@ process VCF_PROCESS {
     output:
     path "variation_map-basic.pdf"
     path "mutation_density.pdf"
+    path "out.vcf.txt"
     publishDir "results/vcf", mode: "copy"
 
     script:
     """
     # script to create initial input to visualise with R
-# TODO: very parametrized
     Ref=\$(cat ${pathinfo})
-    for N in {1000..2000} #148500}
+    for N in {300..${params.genome_length}} #  genome ends skipped
     do
-        gfautil --quiet -t 15 -i ${gfa_file} snps --ref \$Ref  --snps \$N
+        gfautil --quiet -t 35 -i ${gfa_file} snps --ref \$Ref  --snps \$N
     done| sort -nk 3 | grep -v \\: |grep -v path > variation_map.txt
-
 
     plot_variation_map.R # plot image of variation map in PDF
 
@@ -339,7 +336,6 @@ process VCF_PROCESS {
     plot_SNP_density.R ${vcf_file}
 
     # plot AFS (allele freq spectrum) - input VCF and number of samples
-# TODO: very parametrized
     afs.pl out.vcf ${params.haplotypes}
     """
 }
@@ -414,7 +410,7 @@ process HEAPS {
 }
 
 process HEAPS_Visualize {
-    container "chandanatpi/panalayze_env:2.0"
+   // container "chandanatpi/panalayze_env:2.0"
     tag {"heaps"}
     label 'heaps'
 
@@ -427,6 +423,7 @@ process HEAPS_Visualize {
 
     script:
     """
+    module load R
     visualisation.R ${params.haplotypes}
     """
 }
