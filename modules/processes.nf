@@ -538,9 +538,12 @@ process COMMUNITIES {
     """
     mkdir SEQS -p
     faSplit byname ${refFasta} SEQS/
-    for FILE in SEQS/*.fa 
-    do
-      # Extract sample name from file name
+    
+   #   COUNT=\$(ls SEQS/*.fa | wc -l)  # Get total number of files
+  #    HALF=\$((COUNT / 2))            # Calculate half
+ #     for FILE in \$(ls SEQS/*.fa | head -n "\$HALF"); do
+     for FILE in SEQS/*.fa 
+     do      # Extract sample name from file name
       sample_name=\$(basename "\$FILE" .fasta)
       # Execute ~/bin/fastix with sample name and append output
       fastix -p "\${sample_name}#1#" "\$FILE" >> communities.genomes.fasta2
