@@ -109,7 +109,8 @@ workflow {
         BUSCO(refFasta)
     }
     Pangrowth_Out = OPENNESS_PANGROWTH(refFasta)
-    COMMUNITIES(Pangrowth_Out.communities_genome)|PAFGNOSTIC 
+    communities_output = COMMUNITIES(Pangrowth_Out.communities_genome)  
+    PAFGNOSTIC(communities_output.paf_file)  
 }
 
 workflow GetVCF(){

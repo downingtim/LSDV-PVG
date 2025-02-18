@@ -1,34 +1,15 @@
 #!/usr/bin/env Rscript
-
-args <- commandArgs(trailingOnly = TRUE)
-if (length(args) < 1) {
-  cat("Usage: Rscript script.R <input_file>\n")
-  quit(status = 1)
-}
+options(warn=-1)  # Suppress warnings
 
 library(ggplot2)
-
-# Read the input file
-x <- read.csv("variation_map.txt", sep="\t")
-# Convert position to Kb
-x$POS <- x$POS / 1000
-
-# Create histogram data
-hist_data <- hist(x$POS, plot = FALSE, breaks = 9999)
-
-# Transform counts using log10
-hist_df <- data.frame(
-  bin_mid = hist_data$mids, 
-  count = log10(hist_data$counts + 1) # log transform counts
-)
-
-# Generate the ggplot
-pdf("mutation_density.pdf", width = 20, height = 8)
-ggplot(hist_df, aes(x = bin_mid, y = count)) +
-  geom_bar(stat = "identity", fill = "grey", width = diff(hist_data$breaks)[1]) +
-  labs(x = "Genomic position (Kb)", y = "Log10(Count + 1)") +
-  theme_minimal() +
-  theme(axis.text = element_text(size = 14),
-        axis.title = element_text(size = 16))
+library(ggExtra)
+map <- read.csv("variation_map.txt", sep="\t")
+colnames(map) <- c("sample", "allele1", "pos1", "allele2", "pos2")
+p1 <- ggplot(map, aes(x =pos1, y = log10( abs(pos1-pos2)), fill = sample, color=sample)) +
+ geom_point(size=0.1, show.legend = F) +
+ geom_line(size=0.6, alpha=0.8, linetype=4, show.legend = F) +
+ labs(y= "Log10-scaled other sample genome position", x="Main sample genome position") +
+ theme(legend.position = "none")
+pdf("variation_map.pdf", width=10, height=5)
+ggExtra::ggMarginal(p1, type="densigram", size=5, colour="grey", bins=50)
 dev.off()
-

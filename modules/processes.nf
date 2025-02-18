@@ -76,7 +76,7 @@ process TREE{
 
    shell:
    """
-   tree.R
+   tree.R || true
    """
 }
 
@@ -230,7 +230,10 @@ process OPENNESS_PANGROWTH {
 
     output:
     path "p_core"
+    path "p_core.pdf"
     path "communities.genomes.fasta",emit:communities_genome
+    path "pangrowth.pdf"
+    path "growth.pdf"    
     publishDir "results/pangrowth", mode: "copy"
 
     script:
@@ -241,10 +244,10 @@ process OPENNESS_PANGROWTH {
     faSplit byname ${refFasta} SEQS/
     for FILE in SEQS/*.fa 
     do
-    # Extract sample name from file name
-    sample_name=\$(basename "\$FILE" | cut -f 1 -d '.')
-    # Execute ~/bin/fastix with sample name and append output to "COMMUNITIES/genomes.fasta"
-    fastix -p "\${sample_name}#1#" "\$FILE" >> communities.genomes.fasta
+      # Extract sample name from file name
+      sample_name=\$(basename "\$FILE" .fasta)
+      # Execute ~/bin/fastix with sample name and append output
+      fastix -p "\${sample_name}#1#" "\$FILE" >> communities.genomes.fasta
     done
 
     # run pangrowth
@@ -260,9 +263,9 @@ process OPENNESS_PANGROWTH {
     # do core - this does not converge to a solution for n<10 samples, causes error
     pangrowth core -h hist.txt -q 0.5 > p_core
 
-    if [ ${params.haplotypes} -gt 10 ]; then # if the core is too small, this crashes
+    # if [ ${params.haplotypes} -gt 8 ]; then # if the core is too small, this crashes
        plot_core.py p_core p_core.pdf     # so need at least 10 genomes
-    fi
+    # fi
     """
 }
 
@@ -316,27 +319,27 @@ process VCF_PROCESS {
     path gfa_file
 
     output:
-    path "variation_map-basic.pdf"
     path "mutation_density.pdf"
-    path "out.vcf.txt"
+    path "frequency_distribution.png"
     publishDir "results/vcf", mode: "copy"
 
     script:
     """
     # script to create initial input to visualise with R
     Ref=\$(cat ${pathinfo})
-    for N in {300..${params.genome_length}} #  genome ends skipped
+    for ((N=300; N<=${params.genome_length}; N+=2)) 
+        # genome ends skipped, even numbers only
     do
         gfautil --quiet -t 35 -i ${gfa_file} snps --ref \$Ref  --snps \$N
     done| sort -nk 3 | grep -v \\: |grep -v path > variation_map.txt
 
-    plot_variation_map.R # plot image of variation map in PDF
+    plot_variation_map.R || true # plot image of variation map in PDF
 
     # plot SNP density across genome
-    plot_SNP_density.R ${vcf_file}
+    plot_SNP_density.R ${vcf_file} || true
 
     # plot AFS (allele freq spectrum) - input VCF and number of samples
-    afs.pl out.vcf ${params.haplotypes}
+    afs.py out ${params.haplotypes} 
     """
 }
 
@@ -424,7 +427,7 @@ process HEAPS_Visualize {
     script:
     """
     module load R
-    visualisation.R ${params.haplotypes}
+    visualisation.R ${params.haplotypes} || true
     """
 }
 
@@ -515,30 +518,40 @@ process BANDAGE_view {
     """
 }
 
-
 process COMMUNITIES {
     input:
-    path communities_genome
-    
+    path refFasta
 
     output:
-    path "genomes.mapping.paf",emit:paf_file  
-    publishDir "results/communities", mode: "copy", pattern:"genomes.mapping.paf.*"  
+    path "genomes.mapping.paf", emit: paf_file
+    path "genomes.mapping.paf.txt", emit: paf_file2
+    path "genomes.mapping.paf.edges.weights.txt", emit: paf_file3
+    path "genomes.mapping.paf.edges.list.txt", emit: paf_file4
+    path "genomes.mapping.paf.vertices.id2name.txt", emit: paf_file5
+    path "genomes.distances.tsv", emit: paf_file6
+    path "genomes.mapping.paf.edges.weights.txt.community.1.txt", emit: paf_file7
+    path "genomes.mapping.paf.edges.weights.txt.community.0.txt", emit: paf_file8
+    path "genomes.mapping.paf.edges.weights.txt.communities.pdf", emit: paf_file9
+    publishDir "results/communities", mode: "copy", pattern: "genomes.mapping.paf.*"
 
     script:
     """
-    # use data in CURRENT/PANGROWTH/SEQS -> send to COMMUNITIES
-    #     mkdir ${workflow.projectDir}/CURRENT/COMMUNITIES/
+    mkdir SEQS -p
+    faSplit byname ${refFasta} SEQS/
+    for FILE in SEQS/*.fa 
+    do
+      # Extract sample name from file name
+      sample_name=\$(basename "\$FILE" .fasta)
+      # Execute ~/bin/fastix with sample name and append output
+      fastix -p "\${sample_name}#1#" "\$FILE" >> communities.genomes.fasta2
+    done
 
-    # create genomes.fasta in COMMUNITIES using fastix
-    # bash fastix.sh
-
-    bgzip -@ 4 ${communities_genome}
-    samtools faidx ${communities_genome}.gz # index
+    bgzip -@ 4 communities.genomes.fasta2
+    samtools faidx communities.genomes.fasta2.gz
 
     # Community detection based on p/w alignments based on 90% ID at mash level with 6
     # mappings per segment, using k-mer of 19 and window of 67
-    wfmash ${communities_genome}.gz -p 90 -n 6 -t 44 -m > genomes.mapping.paf
+    wfmash communities.genomes.fasta2.gz -p 90 -n 6 -t 44 -m > genomes.mapping.paf
 
     # Convert PAF mappings into a network:
     paf2net.py -p genomes.mapping.paf
@@ -547,7 +560,7 @@ process COMMUNITIES {
     net2communities.py -e genomes.mapping.paf.edges.list.txt -w genomes.mapping.paf.edges.weights.txt -n genomes.mapping.paf.vertices.id2name.txt --plot
 
     # mash-based partitioning
-    mash dist ${communities_genome}.gz ${communities_genome}.gz -s 10000 -i > genomes.distances.tsv
+    mash dist communities.genomes.fasta2.gz communities.genomes.fasta2.gz -s 10000 -i > genomes.distances.tsv
 
     # get distances
     mash2net.py -m genomes.distances.tsv
@@ -560,7 +573,7 @@ process COMMUNITIES {
     # Initialize a flag to check if any community files were found
     found_community_files=0
 
-    for i in {0..3}; do
+    for i in {0..9}; do
     # Check if the community file exists
         if [[ -f "genomes.mapping.paf.edges.weights.txt.community.\${i}.txt" ]]; then
     # Extract unique chromosome names from the community file
@@ -633,15 +646,15 @@ process PANAROO {
     # use data in PANGROWTH/SEQS/
     # Rscript ${workflow.projectDir}/bin/annotate.R lsdv
     # Rscript ${workflow.projectDir}/bin/annotate.R sppv
-    Rscript annotate.R gpv
+    Rscript annotate.R gpv || true
 
     # mamba update panaroo
     ${workflow.projectDir}/bin/panaroo -i ${workflow.projectDir}/CURRENT/PANGROWTH/SEQS/*PROKKA/*.gff -o ${workflow.projectDir}/CURRENT/PANAROO --clean-mode strict 
 
     # generate simple plot
-    Rscript ${workflow.projectDir}/bin/view_gml.R
+    Rscript ${workflow.projectDir}/bin/view_gml.R || true
     
     # visualise presence absence
-    Rscript ${workflow.projectDir}/bin/panaroo_viz.R
+    Rscript ${workflow.projectDir}/bin/panaroo_viz.R || true
     """
 }

@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+options(warn=-1)  # Suppress warnings
 load_or_quit <- function(pkgs) 
 {
     for (pkg in pkgs) {

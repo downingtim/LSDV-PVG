@@ -1,2 +1,0 @@
-2025-02-17 14:59:12	1.4s	modest_heyrovsky	ERR	3bfa5cb4ae42eae2a345301615fc7e5e	edbf6421-afad-460b-a51f-8861ac202bf2	nextflow run main.nf --config template.FMDV_WRL.yml --reference template.FMDV_WRL.A.fa
-2025-02-17 15:00:10	-	lonely_swanson	-	3bfa5cb4ae42eae2a345301615fc7e5e	bf79b394-7807-46a1-9836-89b8bd8e5ed4	nextflow run main.nf --config template.FMDV_WRL.yml --reference test_genomes.FMDV_WRL.A.fa

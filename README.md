@@ -57,13 +57,13 @@ It has been developed primarly for virus genome, principally large DNA viruses. 
 ### [18] COMMUNITIES: (core)
      [i]   Use wfmash to quantify the number of communities based on a 90% similarity threshold and at least 6 mappings per segment.
      [ii]  Convert these mapping into a network that is visualised -> genomes.mapping.paf
-### [19] BUSCO: (core)
-     [i]   Use Busco to count the number of BUSCO genes present.
-### [20] PAFGNOSTIC: (core)
+### [19] PAFGNOSTIC: (core)
      [i]   Create a text file of the mapping from the COMMUNITIES -> pafgnostic.txt
-### [21] GFAstat: (core)
+### [20] GFAstat: (core)
     [i]    Compute key PVG metrics with GFAstats  -> results/gfastat/gfa.stats.txt
     [ii]   Get the genome lengths -> results/gfastat/genome.lengths.txt
+### [21] BUSCO: (optional)
+     [i]   Use Busco to count the number of BUSCO genes present.
 
 ## How to run
 
