@@ -23,14 +23,14 @@ process DOWNLOAD {
 
     output:
     publishDir "results/download", mode: "copy"
-    path "genomes.fasta"
+    path "genomes.fasta",emit:refFasta
     path "genomes.aln"
     //path "T14.*"
     path "T14.raxml.supportTBE",emit:raxml_file
 
     shell:
-    q1 = params.virus_name + " [organism] AND complete genome [title]"
-    q2 = params.virus_name + " [organism] AND genomic sequence [title]"
+    q1 = params.virus_name + " [organism] AND complete genome [title] AND \"params.virus_subname\" "
+    q2 = params.virus_name + " [organism] AND genomic sequence [title] AND \"params.virus_subname\" " 
     filter_text = params.virus_filter.replaceAll(',', "\\\\|");filter = /complete genome\|${filter_text}\|isolate\|genomic sequence\|_NULL\|strain/
 
     '''
@@ -41,8 +41,7 @@ process DOWNLOAD {
     rm gb.1 gb.2
     parseGB.py genbank.gb|sed -e "s%!{filter}%%g"|tr -d "',)(:;\\\""|sed -e "s%/\\| \\|-%_%g" |sed -e "s%[_]+%_%g"|tr -s _|sed -e "s/_$//"  > genomes.fasta
     mafft  --thread !{task.cpus} --auto genomes.fasta > genomes.aln 
-    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo        
-    '''
+    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo           '''
 }
 
 process ALIGN {

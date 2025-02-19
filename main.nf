@@ -80,18 +80,16 @@ Modules
 #==============================================
 */
 
-
-workflow { 
-
-    refFasta = channel.fromPath(params.reference, checkIfExists:true)
-    if (params.genomes)
-    {
-        Input_Genome = channel.fromPath(params.genomes, checkIfExists:true)
-    }
-    else 
-    {
-	    Input_Genome = DOWNLOAD() 
-    }
+workflow {
+    if (params.genomes)  {
+      refFasta = channel.fromPath(params.reference, checkIfExists:true)
+      Input_Genome = channel.fromPath(params.genomes, checkIfExists:true) }
+    else  {   Input_Genome = DOWNLOAD()
+    	      refFasta = Input_Genome }
+//    refFasta = channel.fromPath(params.reference, checkIfExists:true)
+//    if (params.genomes)  {
+//        Input_Genome = channel.fromPath(params.genomes, checkIfExists:true) }
+//    else  {   Input_Genome = DOWNLOAD()     }
     ALIGN(Input_Genome.first())
     TREE(ALIGN.out.raxml_file) 
     PVG_out = MAKE_PVG( refFasta )

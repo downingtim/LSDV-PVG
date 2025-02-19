@@ -4,11 +4,11 @@ module load R    # check R is working
 # run on large DNA test dataset - 6 GTPV genomes
 nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
-# run on large DNA test dataset - 6 GTPV genomes to be downloaded based on the text in the template file 
+# run on large DNA test dataset - X GTPV genomes to be downloaded based on the text in the template file 
 nextflow run main.nf --config template.GTPV.yml 
 
-# run on ssRNA test dataset - 9 FMDV serotype A genomes
+# run on ssRNA test dataset - 9 FMDV serotype A genomes (during testing, this takes  201 seconds to complete)
 nextflow run main.nf --config template.FMDV_WRL.yml --reference test_genomes.FMDV_WRL.A.fa
 
-# run on ssRNA test dataset - 9 FMDV serotype A genomes to be downloaded based on the text in the template file
+# run on ssRNA test dataset - 193 FMDV serotype A genomes to be downloaded based on the "subname" in the template file (here the subname is "serotype A") (during testing, this takes  206 seconds to complete)
 nextflow run main.nf --config template.FMDV_WRL.yml

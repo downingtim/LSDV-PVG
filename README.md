@@ -87,7 +87,7 @@ In another example, we can examine a smnall set of foot-and-mouth virus (FMDV) g
 
     nextflow run main.nf --config template.FMDV_WRL.A.yml --reference test_genomes.FMDV_WRL.A.fa
 
-The test data presented is 9 FMDV genomes as a ssRNA virus example. This should run within 120 seconds.
+The test data presented is 9 FMDV genomes as a ssRNA virus example. This should run within 201 seconds.
 
 In your own template YML file, you will need to define the dataset name, number of haplotypes, max number of CPUs available, minimum expected genome size, sample name filtering if using the download function, and the BUSCO clade (if relevant).
 
