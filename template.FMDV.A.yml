@@ -5,7 +5,7 @@ PROCESS:
 VIRUS:
   name : foot-and-mouth disease virus
   filter : foot-and-mouth disease virus, serotype A, FMDV
-  genomes : "test_genomes.FMDV_WRL.A.fa"
-  haplotypes : 9
+  genomes : "test_genomes.FMDV.A.fa"
+  haplotypes : 142
   genome_length : 8000
-  reference : test_genomes.FMDV_WRL.A.fa
+  reference : test_genomes.FMDV.A.fa
