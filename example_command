@@ -1,14 +1,17 @@
 source ~/.bashrc # load docker and dependencies
 module load R    # check R is working
 
-# run on large DNA test dataset - 6 GTPV genomes (during testing, this takes 301 seconds to complete)
+# run on a large DNA test dataset - 6 GTPV genomes (during testing, this takes 301 seconds to complete)
 nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
-# run on large DNA test dataset - X GTPV genomes to be downloaded based on the text in the template file 
+# run on a large DNA test dataset - X GTPV genomes to be downloaded based on the text in the template file 
 nextflow run main.nf --config template.GTPV.yml (during testing, this takes 401 seconds to complete)
 
-# run on ssRNA test dataset - 142 FMDV serotype A genomes (during testing, this takes 201 seconds to complete)
+# run on a ssRNA test dataset - 142 FMDV serotype A genomes (during testing, this takes 201 seconds to complete)
 nextflow run main.nf --config template.FMDV.A.yml --reference test_genomes.FMDV.A.fa
 
-# run on ssRNA test dataset - 193 FMDV serotype A genomes to be downloaded based on the "subname" in the template file (here the subname is "serotype A") (during testing, this takes 206 seconds to complete)
+# run on a ssRNA test dataset - 193 FMDV serotype A genomes to be downloaded based on the "subname" in the template file (here the subname is "serotype A") (during testing, this takes 206 seconds to complete)
 nextflow run main.nf --config template.FMDV.yml
+
+# run on a large DNA test dataset - 121 LSDV genomes (during testing, this takes 605 minutes to complete)
+nextflow run main.nf --config template.LSDV.yml --reference test_genomes.LSDV.fa

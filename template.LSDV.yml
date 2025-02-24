@@ -1,0 +1,12 @@
+---
+PROCESS:
+  executor: slurm
+  cpus: 40 
+VIRUS:
+  name : lumpy skin disease virus
+  filter : lumpy skin disease virus, LSDV, LSD
+  genomes : "test_genomes.LSDV.fa"
+  busco_clade : "poxviridae_odb10"
+  haplotypes : 121
+  genome_length : 149000   # minimum expected genome size
+  reference : test_genomes.LSDV.fa

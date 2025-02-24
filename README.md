@@ -1,10 +1,48 @@
-# Here we describe Panalyze that can make and analyse pangenome variation graphs (PVGs).
+# Overview
 
-This was mainly designed with virus genomes in mind. 
+Panalyze can make and analyse pangenome variation graphs (PVGs). This was mainly designed with virus genomes in mind. It takes in a FASTA file of related sequences and constructs a PVVG from them using PGGB. It visualises the PVG using VG and ODGI, and summarises it numerically using GFAtools and ODGI. It calculates PVG openness using Panacus, Pangrowth and ODGI's heaps function. It gets the sample genome sizes and allocates them into communities (ie, groups) based on similarity. It identifies mutations in the form of VCFs using GFAutil and gets presence-absence variants (PAVs). It has a range of optional functions, like downloading a query to create the input FASTA, and using the BUSCO database to quantify the numbers of genes in the samples of interest.
 
-## Basic information
+## How to run
 
-It has been developed primarly for virus genome, principally large DNA viruses. It is still in development, and will be containerised in docker.
+Clone the directory
+
+    git clone https://github.com/downingtim/LSDV-PVG/
+
+Go to the folder
+
+    cd LSDV-PVG
+
+Run in Nextflow given a template YML file and an example FASTA file. You may need to activate docker and R to ensure it works smoothly.
+
+For example, we can examine a smnall set of goatpox virus (GTPV) genomes, this should take 6 minutes to run:
+
+    nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+
+In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) genomes, which should take 4 mins to run.
+
+    nextflow run main.nf --config template.FMDV.A.yml --reference test_genomes.FMDV.A.fa
+
+We can take 121 lumpy skin disease virus (LSDV) genome, which takes 605 mins to run:
+
+    nextflow run main.nf --config template.LSDV.yml --reference test_genomes.LSDV.fa
+
+We can run on a large DNA test dataset - 15 GTPV genomes to be downloaded based on the text in the template file
+
+    nextflow run main.nf --config template.GTPV.yml 
+
+We can run on a ssRNA test dataset - 193 FMDV serotype A genomes to be downloaded based on the "subname" in the template file (here the subname is "serotype A") (during testing, this takes 206 seconds to complete)
+
+    nextflow run main.nf --config template.FMDV.yml
+
+## Make your own run
+
+In your own template YML file, you will need to define the dataset name, number of haplotypes, max number of CPUs available, minimum expected genome size, sample name filtering if using the download function, and the BUSCO clade (if relevant).
+
+## How does it work?
+
+The input data is "test_genomes.GTPV.fa" in this example. You can switch this to your own FASTA file input: in main.nf, Panalyze has a Download module which is not active by default.
+The modules folder contains the processes, which are called by main.nf. These may call tools and scripts in other folders like bin.
+
 
 ## Main components:
 ### [1]  DOWNLOAD: (optional)
@@ -64,37 +102,6 @@ It has been developed primarly for virus genome, principally large DNA viruses. 
     [ii]   Get the genome lengths -> results/gfastat/genome.lengths.txt
 ### [21] BUSCO: (optional)
      [i]   Use Busco to count the number of BUSCO genes present.
-
-## How to run
-
-Clone the directory
-
-    git clone https://github.com/downingtim/LSDV-PVG/
-
-Go to the folder
-
-    cd LSDV-PVG
-
-Run in Nextflow given a template YML file and an example FASTA file
-
-For example, we can examine a smnall set of goatpox virus (GTPV) genomes:
-
-    nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
-
-The test data presented is 6 GTPV genomes as a large DNA example. This should run within 386 seconds.
-
-In another example, we can examine a smnall set of foot-and-mouth virus (FMDV) genomes:
-
-    nextflow run main.nf --config template.FMDV.A.yml --reference test_genomes.FMDV.A.fa
-
-The test data presented is 142 FMDV genomes as a ssRNA virus example. This should run within 301 seconds.
-
-In your own template YML file, you will need to define the dataset name, number of haplotypes, max number of CPUs available, minimum expected genome size, sample name filtering if using the download function, and the BUSCO clade (if relevant).
-
-## How does it work?
-
-The input data is "test_genomes.GTPV.fa" in this example. You can switch this to your own FASTA file input: in main.nf, Panalyze has a Download module which is not active by default.
-The modules folder contains the processes, which are called by main.nf. These may call tools and scripts in other folders like bin.
 
 ## Credits
 
