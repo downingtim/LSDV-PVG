@@ -1,3 +1,8 @@
+![Nextflow](https://img.shields.io/badge/nextflow-20.07.1-brightgreen)
+![Docker](https://img.shields.io/badge/uses-docker-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-gray)
+![Publication](https://img.shields.io/badge/Publication-OUP%20Bioinformatics-purple)
+
 # Overview
 
 Panalyze can make and analyse pangenome variation graphs (PVGs). This was mainly designed with virus genomes in mind. It takes in a FASTA file of related sequences and constructs a PVVG from them using PGGB. It visualises the PVG using VG and ODGI, and summarises it numerically using GFAtools and ODGI. It calculates PVG openness using Panacus, Pangrowth and ODGI's heaps function. It gets the sample genome sizes and allocates them into communities (ie, groups) based on similarity. It identifies mutations in the form of VCFs using GFAutil and gets presence-absence variants (PAVs). It has a range of optional functions, like downloading a query to create the input FASTA, and using the BUSCO database to quantify the numbers of genes in the samples of interest.
