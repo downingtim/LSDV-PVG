@@ -48,7 +48,7 @@ In your own template YML file, you will need to define the dataset name, number 
 ## How does it work?
 
 The input data is "test_genomes.GTPV.fa" in this example. You can switch this to your own FASTA file input: in main.nf, Panalyze has a Download module which is not active by default.
-The modules folder contains the processes, which are called by main.nf. These may call tools and scripts in other folders like bin.
+vvvvThe modules folder contains the processes, which are called by main.nf. These may call tools and scripts in other folders like bin.
 
 
 ## Main components:
@@ -87,7 +87,7 @@ The modules folder contains the processes, which are called by main.nf. These ma
      [iv]  Count the AFS based on this SNP data -> out file
 ### [12] GETBASES: (core)
      [i]   Generate a BED file based on the odgi file -> result/out.bed
-     [ii]  Get the sequenc length per genome
+     [ii]  Get the sequence length per genome
 ### [13] VIZ2: (core)
      [i]   Create large-scale PVG visualisation using Odgi's viz function -> result/out.viz.png
 ### [14] HEAPS: (core)
@@ -112,10 +112,26 @@ The modules folder contains the processes, which are called by main.nf. These ma
 
 ## Dependencies
 
-Panalyze is based on the following tools and scripts:
-1. PGGB
-2. ODGI
-3. 
+Panalyze is based on the following tools and scripts. If you use the Docker version, this should not be an issue.
+
+1.  Esearch cand efetch
+2.  Mafft
+3.  RAxML
+4.  R
+5.  VG
+6.  dot
+7.  PGGB
+8.  ODGI
+9.  Panacus
+10. Pangrowth
+11. Gfautil
+12. Wfmash
+13. Pafgnostic
+14. GFAstats
+15. Busco
+16. Bgzip
+17. SAMtools
+18. Mash
 
 ## Credits
 
