@@ -7,7 +7,9 @@
 
 Panalyze can make and analyse pangenome variation graphs (PVGs). This was mainly designed with virus genomes in mind. It takes in a FASTA file of related sequences and constructs a PVVG from them using PGGB. It visualises the PVG using VG and ODGI, and summarises it numerically using GFAtools and ODGI. It calculates PVG openness using Panacus, Pangrowth and ODGI's heaps function. It gets the sample genome sizes and allocates them into communities (ie, groups) based on similarity. It identifies mutations in the form of VCFs using GFAutil and gets presence-absence variants (PAVs). It has a range of optional functions, like downloading a query to create the input FASTA, and using the BUSCO database to quantify the numbers of genes in the samples of interest.
 
-## How to run
+You can read our preprint [here](https://biorxiv.org) and some ideas behind this [here](https://arxiv.org/abs/2412.05096). Panalyze works in a [Docker](https://www.docker.com/resources/what-container) container and runs in [NextFlow](https://www.nextflow.io/).
+
+## Installation
 
 Clone the directory
 
@@ -107,6 +109,13 @@ The modules folder contains the processes, which are called by main.nf. These ma
     [ii]   Get the genome lengths -> results/gfastat/genome.lengths.txt
 ### [21] BUSCO: (optional)
      [i]   Use Busco to count the number of BUSCO genes present.
+
+## Dependencies
+
+Panalyze is based on the following tools and scripts:
+1. PGGB
+2. ODGI
+3. 
 
 ## Credits
 
