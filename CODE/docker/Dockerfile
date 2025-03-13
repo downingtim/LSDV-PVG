@@ -56,17 +56,29 @@ COPY requirements.txt requirements.txt
 
 # Install dependencies from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
-COPY bin/tree.R /bin/
-COPY bin/plot_variation_map.R /bin/
-COPY bin/plot_SNP_density.R /bin/
-COPY bin/visualisation.R /bin/
-COPY bin/plot_pavs.R /bin/
-COPY bin/annotate.R /bin/
-COPY bin/view_gml.R /bin/
-COPY bin/panaroo_viz.R /bin/
+COPY bin.docker/tree.R /bin/
+COPY bin.docker/plot_variation_map.R /bin/
+COPY bin.docker/plot_SNP_density.R /bin/
+COPY bin.docker/visualisation.R /bin/
+COPY bin.docker/plot_pavs.R /bin/
+COPY bin.docker/annotate.R /bin/
+COPY bin.docker/view_gml.R /bin/
+COPY bin.docker/panaroo_viz.R /bin/
 
 RUN cargo install fastix
-RUN apt-get install git -y && git clone https://github.com/gi-bielefeld/pangrowth && cd pangrowth && make
+RUN apt-get update && apt-get install git -y && git clone https://github.com/gi-bielefeld/pangrowth && cd pangrowth && make
 RUN mv pangrowth/pangrowth /usr/local/bin/
-COPY bin/raxml-ng /usr/local/bin
+COPY bin.docker/raxml-ng /usr/local/bin
+
+RUN git clone https://github.com/vgl-hub/gfastats.git --recursive
+RUN cd gfastats && make -j
+RUN cd /app && cp gfastats/build/bin/gfastats /usr/local/bin
+COPY bin.docker/lengths.pl /bin
+COPY bin.docker/plot_single_hist.py /bin
+COPY bin.docker/plot_growth.py /bin
+COPY bin.docker/plot_core.py /bin
+COPY bin.docker/bases.pl /bin
+COPY bin.docker/afs.pl /bin
+
+
 

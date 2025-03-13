@@ -17,59 +17,58 @@ nextflow.enable.dsl = 2
 Modules
 #==============================================
 */
-
-include { DOWNLOAD; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; GET_VCF; GETBASES; VIZ2; HEAPS; PAVS; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; BANDAGE } from './modules/processes.nf'
-
+include { DOWNLOAD; ALIGN; TREE; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; PATH_FROM_GFA;VCF_FROM_GFA;VCF_PROCESS; GETBASES; VIZ2; HEAPS; HEAPS_Visualize; PAVS; PAVS_plot; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; Bandage;BANDAGE_view; GFAstat; } from './modules/processes.nf'
 /*
 #==============================================
 Modules
 #==============================================
 */
 
+
 workflow { 
-   faS = channel.fromPath("bin/faSplit", checkIfExists:true)
-//   refFasta = channel.fromPath("goatpox_2_virus_2_2_.fasta", checkIfExists:true)
-//
-refFasta = channel.fromPath("lumpy_skin_disease_2_virus_2_2_.fasta", checkIfExists:true)
 
-/*
-	DOWNLOAD(faS)
-	DOWNLOAD
-	  .out
-	  .write
-	  .set { refFasta }
-*/
-       MAKE_PVG( refFasta )
-
-       VIZ1(MAKE_PVG.out, refFasta)
-       
-       COMMUNITIES(MAKE_PVG.out, refFasta)
-
-	ODGI(MAKE_PVG.out, refFasta)
-       
-       OPENNESS_PANACUS(MAKE_PVG.out)
-
-       OPENNESS_PANGROWTH(MAKE_PVG.out, refFasta)
-
-       GETBASES(MAKE_PVG.out, refFasta)
-    
-       VIZ2(MAKE_PVG.out, refFasta )
-       
-       HEAPS(MAKE_PVG.out )
-
-       PAVS(MAKE_PVG.out, refFasta)
-
-       GET_VCF(MAKE_PVG.out, refFasta)
-
-       PANAROO(MAKE_PVG.out, refFasta)
-
-       BUSCO(MAKE_PVG.out, refFasta)
-
-       PAFGNOSTIC(MAKE_PVG.out, refFasta)
-
-       waragraph()
-
+    refFasta = channel.fromPath(params.reference, checkIfExists:true)
+    if (params.genomes)
+    {
+        Input_Genome = channel.fromPath(params.genomes, checkIfExists:true)
+    }
+    else 
+    {
+	    Input_Genome = DOWNLOAD() 
+    }
+    ALIGN(Input_Genome.first())
+    TREE(ALIGN.out.raxml_file) 
+    PVG_out = MAKE_PVG( refFasta )
+    VIZ1(PVG_out.gfa)
+    GFAstat(PVG_out.gfa,refFasta)
+    Bandage(PVG_out.gfa)
+	ODGI_out = ODGI(PVG_out.gfa)
+    OPENNESS_PANACUS(PVG_out.gfa)
+    GETBASES(ODGI_out.ogfile, refFasta)
+    VIZ2(ODGI_out.ogfile)
+    HEAPS(ODGI_out.ogfile)|HEAPS_Visualize
+    PAVS(ODGI_out.ogfile)|PAVS_plot
+    GetVCF(PVG_out.gfa)
+    if (params.busco_clade)
+    {
+        BUSCO(refFasta)
+    }
+    Pangrowth_Out = OPENNESS_PANGROWTH(refFasta)
+    COMMUNITIES(Pangrowth_Out.communities_genome)|PAFGNOSTIC 
+    //BANDAGE_view(PVG_out.gfa)
+    //PANAROO(MAKE_PVG.out, refFasta)
 }
+
+workflow GetVCF(){
+    take:
+    gfa
+
+    main:
+    gfapath = PATH_FROM_GFA(gfa)
+    gfavariants = VCF_FROM_GFA(gfa) 
+    VCF_PROCESS(gfapath,gfavariants,gfa)
+}
+
 
 workflow waragraph { 
 //   refFasta = channel.fromPath("goatpox_2_virus_2_2_.fasta", checkIfExists:true)
@@ -80,3 +79,4 @@ workflow waragraph {
 
 // add Bandage
 }
+

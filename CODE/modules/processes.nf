@@ -45,7 +45,7 @@ process DOWNLOAD {
     awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 13850){print h"\\n"substr($0, 1, 13850)} }}' genomes.fasta >5end.fasta
     awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 106910){print h"\\n"substr($0,13851,106910-13851+1)} }}' genomes.fasta >core.fasta
     awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 106911){print h"\\n"substr($0,106911)} }}' genomes.fasta >3end.fasta
-        
+#TODO - check for duplication        
     mafft  --thread !{task.cpus} --auto genomes.fasta > genomes.aln 
     raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo
         
@@ -74,7 +74,7 @@ process ALIGN {
 }
 
 process TREE{
-   container "chandanatpi/panalayze_env:2.0"
+   container "chandanatpi/panalayze_env:3.0"
    tag "Building tree with $y"
    input:
    path y   
@@ -142,6 +142,7 @@ process VIZ1 {
 }
 
 process GFAstat {
+    container "chandanatpi/panalayze_env:3.0"
     input:
     path gfa 
     path (refFasta)
@@ -230,7 +231,7 @@ process OPENNESS_PANACUS {
 }
 
 process OPENNESS_PANGROWTH {
-    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     tag {"get PVG openness pangrowth"}
     label 'openness_pangrowth'
 
@@ -246,14 +247,28 @@ process OPENNESS_PANGROWTH {
     """
     # need to split files into individual files in folder SEQS
     # wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/faSplit and chmod it
+    #faSplit byname ${refFasta} SEQS/
+
     mkdir SEQS -p
-    faSplit byname ${refFasta} SEQS/
+    awk '{
+        if (substr(\$1, 1, 1) == ">") {
+            NAME = substr(\$1, 2);
+            split(NAME, arr, " ");
+            NAME = arr[1];
+            print ">" NAME > "SEQS/" NAME ".fa"
+        } else {
+            if (\$1) {
+                print \$1 >> "SEQS/" NAME ".fa"
+            }
+        }
+    }' ${refFasta}
+
     for FILE in SEQS/*.fa 
     do
-    # Extract sample name from file name
-    sample_name=\$(basename "\$FILE" | cut -f 1 -d '.')
-    # Execute ~/bin/fastix with sample name and append output to "COMMUNITIES/genomes.fasta"
-    fastix -p "\${sample_name}#1#" "\$FILE" >> communities.genomes.fasta
+        # Extract sample name from file name
+        sample_name=\$(basename "\$FILE" | cut -f 1 -d '.')
+        # Execute ~/bin/fastix with sample name and append output to "COMMUNITIES/genomes.fasta"
+        fastix -p "\${sample_name}#1#" "\$FILE" >> communities.genomes.fasta
     done
 
     # run pangrowth
@@ -296,7 +311,7 @@ process PATH_FROM_GFA {
 }
 
 process VCF_FROM_GFA {
-    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
 
     tag {"get VCFs from GFA"}
     label 'vcf'
@@ -315,7 +330,7 @@ process VCF_FROM_GFA {
 }
 
 process VCF_PROCESS {
-    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     tag {"Process VCF information"}
     label 'vcf'
 
@@ -369,7 +384,7 @@ process GETBASES {
     script:
     """
     odgi flatten -i ${ogfile} -f out.flatten.fa -b out.bed -t 22
-    bases.pl ${refFasta}
+    #bases.pl ${refFasta}
     """
 }
 
@@ -421,7 +436,7 @@ process HEAPS {
 }
 
 process HEAPS_Visualize {
-    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     tag {"heaps"}
     label 'heaps'
 
@@ -469,7 +484,7 @@ process PAVS {
 }
 
 process PAVS_plot {
-    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     tag{"pavs"}
     label 'pavs'
 
@@ -527,6 +542,7 @@ process BANDAGE_view {
 
 
 process COMMUNITIES {
+    container 'chandanatpi/tpi:pggb'
     input:
     path communities_genome
     
@@ -618,6 +634,7 @@ process BUSCO {
 }
 
 process PAFGNOSTIC {
+    container 'chandanatpi/tpi:pggb'
     input:
     path paf_file 
 
@@ -631,7 +648,7 @@ process PAFGNOSTIC {
 }
 
 process PANAROO {
-    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     input:
     path (refFasta)
 
