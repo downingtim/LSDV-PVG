@@ -19,7 +19,7 @@ Go to the folder
 
     cd LSDV-PVG
 
-Run in Nextflow given a template YML file and an example FASTA file. You may need to activate docker and R to ensure it works smoothly.
+Run in Nextflow given a template YML file and an example FASTA file. You may need to activate docker and R to ensure it works smoothly. You need Java version 11+ as well.
 
 For example, we can examine a smnall set of goatpox virus (GTPV) genomes, this should take 6 minutes to run:
 
@@ -40,6 +40,15 @@ We can run on a large DNA test dataset - 15 GTPV genomes to be downloaded based 
 We can run on a ssRNA test dataset - 193 FMDV serotype A genomes to be downloaded based on the "subname" in the template file (here the subname is "serotype A") (during testing, this takes 206 seconds to complete)
 
     nextflow run main.nf --config template.FMDV.yml
+
+## Java issue
+
+In the event that you have a Java version issue, you should ensure you have version 11 or higher and the commands below may assist (you may need to edit these):
+
+    export JAVA_HOME=/cm/shared/apps/mambaforge/envs/tools
+    export PATH=$JAVA_HOME/bin:$PATH
+
+
 
 ## Make your own run
 
