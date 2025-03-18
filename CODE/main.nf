@@ -27,34 +27,33 @@ Modules
 
 workflow { 
 
-    refFasta = channel.fromPath(params.reference, checkIfExists:true)
-    if (params.genomes)
+    if (params.reference)
     {
-        Input_Genome = channel.fromPath(params.genomes, checkIfExists:true)
+        refFasta = channel.fromPath(params.reference, checkIfExists:true)
     }
     else 
     {
-	    Input_Genome = DOWNLOAD() 
+	    refFasta = DOWNLOAD() 
     }
-    ALIGN(Input_Genome.first())
-    TREE(ALIGN.out.raxml_file) 
-    PVG_out = MAKE_PVG( refFasta )
-    VIZ1(PVG_out.gfa)
-    GFAstat(PVG_out.gfa,refFasta)
-    Bandage(PVG_out.gfa)
-	ODGI_out = ODGI(PVG_out.gfa)
-    OPENNESS_PANACUS(PVG_out.gfa)
-    GETBASES(ODGI_out.ogfile, refFasta)
-    VIZ2(ODGI_out.ogfile)
-    HEAPS(ODGI_out.ogfile)|HEAPS_Visualize
-    PAVS(ODGI_out.ogfile)|PAVS_plot
-    GetVCF(PVG_out.gfa)
-    if (params.busco_clade)
+    if (params.align) ALIGN(refFasta)
+    if (params.tree) TREE(ALIGN.out.raxml_file) 
+    if (params.make_pvg) PVG_out = MAKE_PVG( refFasta )
+    if (params.viz1) VIZ1(PVG_out.gfa)
+    if (params.gfastat) GFAstat(PVG_out.gfa,refFasta)
+    if (params.bandage) Bandage(PVG_out.gfa)
+	if (params.odgi) ODGI_out = ODGI(PVG_out.gfa)
+    if (params.openness_panacus) OPENNESS_PANACUS(PVG_out.gfa)
+    if (params.getbases) GETBASES(ODGI_out.ogfile, refFasta)
+    if (params.viz2) VIZ2(ODGI_out.ogfile)
+    if (params.heaps) {HEAPS(ODGI_out.ogfile)|HEAPS_Visualize}
+    if (params.pavs) {PAVS(ODGI_out.ogfile)|PAVS_plot}
+    if (params.getvcf) GetVCF(PVG_out.gfa)
+    if (params.busco && params.busco_clade)
     {
         BUSCO(refFasta)
     }
-    Pangrowth_Out = OPENNESS_PANGROWTH(refFasta)
-    COMMUNITIES(Pangrowth_Out.communities_genome)|PAFGNOSTIC 
+    if (params.openness_pangrowth) Pangrowth_Out = OPENNESS_PANGROWTH(refFasta)
+    if (params.communities) COMMUNITIES(Pangrowth_Out.communities_genome)|PAFGNOSTIC 
     //BANDAGE_view(PVG_out.gfa)
     //PANAROO(MAKE_PVG.out, refFasta)
 }

@@ -19,16 +19,12 @@ Download dataset to examine (eg LSDV)
 */
 
 process DOWNLOAD {
+    container "chandanatpi/panalayze_env:3.0"
     cpus 8
 
     output:
     publishDir "results/download", mode: "copy"
     path "genomes.fasta"
-    path "5end.fasta"
-    path "3end.fasta"
-    path "genomes.aln"
-    //path "T14.*"
-    path "T14.raxml.supportTBE",emit:raxml_file
 
     shell:
     q1 = params.virus_name + " [organism] AND complete genome [title]"
@@ -42,12 +38,9 @@ process DOWNLOAD {
     cat gb.1 gb.2 > genbank.gb 
     rm gb.1 gb.2
     parseGB.py genbank.gb|sed -e "s%!{filter}%%g"|tr -d "',)(:;\\\""|sed -e "s%/\\| \\|-%_%g" |sed -e "s%[_]+%_%g"|tr -s _|sed -e "s/_$//"  > genomes.fasta
-    awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 13850){print h"\\n"substr($0, 1, 13850)} }}' genomes.fasta >5end.fasta
-    awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 106910){print h"\\n"substr($0,13851,106910-13851+1)} }}' genomes.fasta >core.fasta
-    awk '{if(substr($1,0,1)==">"){h=$0}else{if(length($0) >= 106911){print h"\\n"substr($0,106911)} }}' genomes.fasta >3end.fasta
 #TODO - check for duplication        
-    mafft  --thread !{task.cpus} --auto genomes.fasta > genomes.aln 
-    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo
+#    mafft  --thread !{task.cpus} --auto genomes.fasta > genomes.aln 
+#    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo
         
     '''
 }
@@ -85,7 +78,7 @@ process TREE{
 
    shell:
    """
-   tree.R
+       tree.R || true
    """
 }
 
@@ -158,7 +151,7 @@ process GFAstat {
     gfastats ${gfa} > gfa.stats.txt
 
     # get lengths of genomes etc
-    lengths.pl ${refFasta} 
+     lengths.py ${refFasta} 
 
     """
 }
@@ -340,29 +333,27 @@ process VCF_PROCESS {
     path gfa_file
 
     output:
-    path "variation_map-basic.pdf"
     path "mutation_density.pdf"
+    path "frequency_distribution.png"
     publishDir "results/vcf", mode: "copy"
 
     script:
     """
     # script to create initial input to visualise with R
-# TODO: very parametrized
     Ref=\$(cat ${pathinfo})
-    for N in {1000..2000} #148500}
+    for ((N=300; N<=${params.genome_length}; N+=2)) 
+    # genome ends skipped, even numbers only
     do
-        gfautil --quiet -t 15 -i ${gfa_file} snps --ref \$Ref  --snps \$N
+        gfautil --quiet -t 35 -i ${gfa_file} snps --ref \$Ref  --snps \$N
     done| sort -nk 3 | grep -v \\: |grep -v path > variation_map.txt
 
-
-    plot_variation_map.R # plot image of variation map in PDF
+    plot_variation_map.R || true # plot image of variation map in PDF
 
     # plot SNP density across genome
-    plot_SNP_density.R ${vcf_file}
+    plot_SNP_density.R ${vcf_file} || true
 
     # plot AFS (allele freq spectrum) - input VCF and number of samples
-# TODO: very parametrized
-    afs.pl out.vcf ${params.haplotypes}
+    afs.py out ${params.haplotypes} 
     """
 }
 
@@ -449,7 +440,7 @@ process HEAPS_Visualize {
 
     script:
     """
-    visualisation.R ${params.haplotypes}
+    visualisation.R ${params.haplotypes} || true
     """
 }
 
@@ -666,9 +657,9 @@ process PANAROO {
     ${workflow.projectDir}/bin/panaroo -i ${workflow.projectDir}/CURRENT/PANGROWTH/SEQS/*PROKKA/*.gff -o ${workflow.projectDir}/CURRENT/PANAROO --clean-mode strict 
 
     # generate simple plot
-    Rscript ${workflow.projectDir}/bin/view_gml.R
+    Rscript ${workflow.projectDir}/bin/view_gml.R || true
     
     # visualise presence absence
-    Rscript ${workflow.projectDir}/bin/panaroo_viz.R
+    Rscript ${workflow.projectDir}/bin/panaroo_viz.R || true
     """
 }

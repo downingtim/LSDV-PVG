@@ -73,12 +73,17 @@ COPY bin.docker/raxml-ng /usr/local/bin
 RUN git clone https://github.com/vgl-hub/gfastats.git --recursive
 RUN cd gfastats && make -j
 RUN cd /app && cp gfastats/build/bin/gfastats /usr/local/bin
-COPY bin.docker/lengths.pl /bin
+COPY bin.docker/lengths.py /bin
 COPY bin.docker/plot_single_hist.py /bin
 COPY bin.docker/plot_growth.py /bin
 COPY bin.docker/plot_core.py /bin
 COPY bin.docker/bases.pl /bin
-COPY bin.docker/afs.pl /bin
+COPY bin.docker/afs.py /bin
+COPY bin.docker/parseGB.py /bin
+RUN apt-get install ncbi-entrez-direct -y
+#RUN sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
+#RUN export "PATH=/root/edirect:$PATH" >> ~/.bashrc
+
 
 
 
