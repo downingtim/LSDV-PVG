@@ -80,9 +80,8 @@ COPY bin.docker/plot_core.py /bin
 COPY bin.docker/bases.pl /bin
 COPY bin.docker/afs.py /bin
 COPY bin.docker/parseGB.py /bin
+COPY bin.docker/plot_hist.py /bin
 RUN apt-get install ncbi-entrez-direct -y
-#RUN sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
-#RUN export "PATH=/root/edirect:$PATH" >> ~/.bashrc
 
 
 
