@@ -17,7 +17,7 @@ nextflow.enable.dsl = 2
 Modules
 #==============================================
 */
-include { DOWNLOAD; ALIGN; TREE; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; PATH_FROM_GFA;VCF_FROM_GFA;VCF_PROCESS; GETBASES; VIZ2; HEAPS; HEAPS_Visualize; PAVS; PAVS_plot; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; Bandage;BANDAGE_view; GFAstat; } from './modules/processes.nf'
+include { DOWNLOAD; ALIGN; TREE; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; PATH_FROM_GFA;VCF_FROM_GFA;VCF_PROCESS; GETBASES; VIZ2; HEAPS; HEAPS_Visualize; PAVS; PAVS_plot; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; Bandage;BANDAGE_view; GFAstat; SUMMARIZE; } from './modules/processes.nf'
 /*
 #==============================================
 Modules
@@ -25,7 +25,7 @@ Modules
 */
 
 
-workflow { 
+workflow Main{ 
 
     if (params.reference)
     {
@@ -53,7 +53,11 @@ workflow {
         BUSCO(refFasta)
     }
     if (params.openness_pangrowth) Pangrowth_Out = OPENNESS_PANGROWTH(refFasta)
-    if (params.communities) COMMUNITIES(Pangrowth_Out.communities_genome)|PAFGNOSTIC 
+    if (params.communities) 
+    {
+        Communities_Out = COMMUNITIES(Pangrowth_Out.communities_genome)
+        PAFGNOSTIC(Communities_Out.paf_file) 
+    }
     //BANDAGE_view(PVG_out.gfa)
     //PANAROO(MAKE_PVG.out, refFasta)
 }
@@ -68,14 +72,13 @@ workflow GetVCF(){
     VCF_PROCESS(gfapath,gfavariants,gfa)
 }
 
+workflow Summary{
+    template_ch = Channel.fromPath("template.tex") 
+    SUMMARIZE(template_ch)
+}
 
-workflow waragraph { 
-//   refFasta = channel.fromPath("goatpox_2_virus_2_2_.fasta", checkIfExists:true)
-//   refFasta = channel.fromPath("lumpy_skin_disease_2_virus_2_2_.fasta", checkIfExists:true)
-
-//      WARAGRAPH( refFasta)
-//	BANDAGE( refFasta )
-
-// add Bandage
+workflow {
+    if(params.summary) {Summary()}
+    else {Main()}
 }
 

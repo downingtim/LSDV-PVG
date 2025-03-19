@@ -38,9 +38,6 @@ process DOWNLOAD {
     cat gb.1 gb.2 > genbank.gb 
     rm gb.1 gb.2
     parseGB.py genbank.gb|sed -e "s%!{filter}%%g"|tr -d "',)(:;\\\""|sed -e "s%/\\| \\|-%_%g" |sed -e "s%[_]+%_%g"|tr -s _|sed -e "s/_$//"  > genomes.fasta
-#TODO - check for duplication        
-#    mafft  --thread !{task.cpus} --auto genomes.fasta > genomes.aln 
-#    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo
         
     '''
 }
@@ -241,10 +238,7 @@ process OPENNESS_PANGROWTH {
 
     script:
     """
-    # need to split files into individual files in folder SEQS
-    # wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/faSplit and chmod it
-    #faSplit byname ${refFasta} SEQS/
-
+    #Splir refFasta by name i to different files
     mkdir SEQS -p
     awk '{
         if (substr(\$1, 1, 1) == ">") {
@@ -373,7 +367,7 @@ process GETBASES {
     output:
     path "out.flatten.fa"
     path "out.bed"
-    publishDir "result", mode: "copy"
+    publishDir "results/getbases", mode: "copy"
 
     script:
     """
@@ -393,7 +387,7 @@ process VIZ2 {
 
     output:
     path "out.viz.png"
-    publishDir "result", mode: "copy"
+    publishDir "results/viz2", mode: "copy"
 
     script:
     """
@@ -459,7 +453,7 @@ process PAVS {
     output:
     path "out.flatten.pavs.tsv" 
 
-    publishDir "result/pavs", mode: "copy", pattern: "flatten.pavs.count.txt"
+    publishDir "results/pavs", mode: "copy", pattern: "flatten.pavs.count.txt"
 
     script:
     """
@@ -487,7 +481,7 @@ process PAVS_plot {
 
     output:
     path "out.flatten.pavs.pdf"
-    publishDir "result/pavs", mode: "copy"
+    publishDir "results/pavs", mode: "copy"
 
     script:
     """
@@ -542,16 +536,13 @@ process COMMUNITIES {
     
 
     output:
+    path "genomes.mapping.paf*"
+    path "genomes.distances.tsv"
     path "genomes.mapping.paf",emit:paf_file  
-    publishDir "results/communities", mode: "copy", pattern:"genomes.mapping.paf.*"  
+    publishDir "results/communities", mode: "copy", pattern: "*"  
 
     script:
     """
-    # use data in CURRENT/PANGROWTH/SEQS -> send to COMMUNITIES
-    #     mkdir ${workflow.projectDir}/CURRENT/COMMUNITIES/
-
-    # create genomes.fasta in COMMUNITIES using fastix
-    # bash fastix.sh
 
     bgzip -@ 4 ${communities_genome}
     samtools faidx ${communities_genome}.gz # index
@@ -571,9 +562,6 @@ process COMMUNITIES {
 
     # get distances
     mash2net.py -m genomes.distances.tsv
-
-    # get numbers in each group
-    # community_numbers.sh start
 
     output_file="genomes.communities.mash.paths.txt"
 
@@ -652,8 +640,6 @@ process PANAROO {
     script:
     """
     # use data in PANGROWTH/SEQS/
-    # Rscript ${workflow.projectDir}/bin/annotate.R lsdv
-    # Rscript ${workflow.projectDir}/bin/annotate.R sppv
     Rscript annotate.R gpv
 
     # mamba update panaroo
@@ -664,5 +650,20 @@ process PANAROO {
     
     # visualise presence absence
     Rscript ${workflow.projectDir}/bin/panaroo_viz.R || true
+    """
+}
+
+process SUMMARIZE {
+    container "chandanatpi/panalayze_env:3.0"
+    input:
+    path template_tex 
+    output:
+    path "template.pdf"
+
+    publishDir "results/summary", mode: "copy"
+
+    script:
+    """
+    pdflatex --interaction=nonstopmode ${template_tex}
     """
 }

@@ -82,6 +82,8 @@ COPY bin.docker/afs.py /bin
 COPY bin.docker/parseGB.py /bin
 COPY bin.docker/plot_hist.py /bin
 RUN apt-get install ncbi-entrez-direct -y
+RUN apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra -y
+
 
 
 
