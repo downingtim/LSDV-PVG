@@ -21,25 +21,35 @@ Go to the folder
 
 Run in Nextflow given a template YML file and an example FASTA file. You may need to activate docker and R to ensure it works smoothly. You need Java version 11+ as well.
 
-For example, we can examine a smnall set of goatpox virus (GTPV) genomes, this should take 6 minutes to run:
+For example, we can examine a smnall set of goatpox virus (GTPV) genomes, this took 24 minutes / 19.3 CPU hours to run:
 
     nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
-In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) genomes, which should take 4 mins to run.
+In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) genomes, which took 4 mins / 14 CPU hours to run:
 
     nextflow run main.nf --config template.FMDV.A.yml --reference test_genomes.FMDV.A.fa
 
-We can take 121 lumpy skin disease virus (LSDV) genome, which takes 605 mins to run:
+We can take 121 lumpy skin disease virus (LSDV) genome, which takes 605 mins / 33 CPU hours to run:
 
     nextflow run main.nf --config template.LSDV.yml --reference test_genomes.LSDV.fa
 
-We can run on a large DNA test dataset - 15 GTPV genomes to be downloaded based on the text in the template file
+We can run on a large DNA test dataset - 15 GTPV genomes (at the time of writing) to be downloaded based on the text in the template file (during testing, this took 15 mins / XX CPU hours to complete):
 
     nextflow run main.nf --config template.GTPV.yml 
 
-We can run on a ssRNA test dataset - 193 FMDV serotype A genomes to be downloaded based on the "subname" in the template file (here the subname is "serotype A") (during testing, this takes 206 seconds to complete)
+We can run on a ssRNA test dataset - 193 FMDV serotype A genomes (at the time of writing) to be downloaded based on the "subname" in the template file (here the subname is "serotype A") (during testing, this took 206 seconds / X CPU hours to complete):
 
     nextflow run main.nf --config template.FMDV.yml
+
+## Module selection
+
+By default, the modules will be active if the associated component in the 'MODULES' is 'on' (has a digit 1 following its entry) in the template YML file. To turn a module 'off', put 0 after the module in the template YML file.
+
+
+## Speeding it up
+
+You can skip some modules: the HEAPS_Visualize module takes a considerable amount of time. Toggle these using the template file.  
+
 
 ## Java issue
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
 
 /*
-
+Download datasets of interest, perform QC and construct a phylogeny.
 /*
 
 /*
@@ -19,18 +19,16 @@ Download dataset to examine (eg LSDV)
 */
 
 process DOWNLOAD {
+    container "chandanatpi/panalayze_env:3.0"
     cpus 8
 
     output:
     publishDir "results/download", mode: "copy"
-    path "genomes.fasta",emit:refFasta
-    path "genomes.aln"
-    //path "T14.*"
-    path "T14.raxml.supportTBE",emit:raxml_file
+    path "genomes.fasta"
 
     shell:
-    q1 = params.virus_name + " [organism] AND complete genome [title] AND \"params.virus_subname\" "
-    q2 = params.virus_name + " [organism] AND genomic sequence [title] AND \"params.virus_subname\" " 
+    q1 = params.virus_name + " [organism] AND complete genome [title]"
+    q2 = params.virus_name + " [organism] AND genomic sequence [title]"
     filter_text = params.virus_filter.replaceAll(',', "\\\\|");filter = /complete genome\|${filter_text}\|isolate\|genomic sequence\|_NULL\|strain/
 
     '''
@@ -40,8 +38,8 @@ process DOWNLOAD {
     cat gb.1 gb.2 > genbank.gb 
     rm gb.1 gb.2
     parseGB.py genbank.gb|sed -e "s%!{filter}%%g"|tr -d "',)(:;\\\""|sed -e "s%/\\| \\|-%_%g" |sed -e "s%[_]+%_%g"|tr -s _|sed -e "s/_$//"  > genomes.fasta
-    mafft  --thread !{task.cpus} --auto genomes.fasta > genomes.aln 
-    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo           '''
+        
+    '''
 }
 
 process ALIGN {
@@ -58,13 +56,15 @@ process ALIGN {
 
     shell:
     """
+        
     mafft  --thread !{task.cpus} --auto ${genomes} > genomes.aln 
-    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo        
+    raxml-ng  --all --msa genomes.aln --model GTR+G4 --prefix T14 --seed 21231 --bs-metric fbp,tbe --redo
+        
     """
 }
 
 process TREE{
-   container "chandanatpi/panalayze_env:2.0"
+   container "chandanatpi/panalayze_env:3.0"
    tag "Building tree with $y"
    input:
    path y   
@@ -75,7 +75,7 @@ process TREE{
 
    shell:
    """
-   tree.R || true
+       tree.R || true
    """
 }
 
@@ -132,6 +132,7 @@ process VIZ1 {
 }
 
 process GFAstat {
+    container "chandanatpi/panalayze_env:3.0"
     input:
     path gfa 
     path (refFasta)
@@ -220,7 +221,7 @@ process OPENNESS_PANACUS {
 }
 
 process OPENNESS_PANGROWTH {
-//    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     tag {"get PVG openness pangrowth"}
     label 'openness_pangrowth'
 
@@ -237,10 +238,21 @@ process OPENNESS_PANGROWTH {
 
     script:
     """
-    # need to split files into individual files in folder SEQS
-    # wget https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/faSplit and chmod it
+    #Splir refFasta by name i to different files
     mkdir SEQS -p
-    faSplit byname ${refFasta} SEQS/
+    awk '{
+        if (substr(\$1, 1, 1) == ">") {
+            NAME = substr(\$1, 2);
+            split(NAME, arr, " ");
+            NAME = arr[1];
+            print ">" NAME > "SEQS/" NAME ".fa"
+        } else {
+            if (\$1) {
+                print \$1 >> "SEQS/" NAME ".fa"
+            }
+        }
+    }' ${refFasta}
+
     for FILE in SEQS/*.fa 
     do
       # Extract sample name from file name
@@ -263,7 +275,7 @@ process OPENNESS_PANGROWTH {
     pangrowth core -h hist.txt -q 0.5 > p_core
 
     # if [ ${params.haplotypes} -gt 8 ]; then # if the core is too small, this crashes
-       plot_core.py p_core p_core.pdf     # so need at least 10 genomes
+    plot_core.py p_core p_core.pdf     # so need at least 10 genomes
     # fi
     """
 }
@@ -289,7 +301,7 @@ process PATH_FROM_GFA {
 }
 
 process VCF_FROM_GFA {
-    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
 
     tag {"get VCFs from GFA"}
     label 'vcf'
@@ -308,7 +320,7 @@ process VCF_FROM_GFA {
 }
 
 process VCF_PROCESS {
- //container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     tag {"Process VCF information"}
     label 'vcf'
 
@@ -327,7 +339,7 @@ process VCF_PROCESS {
     # script to create initial input to visualise with R
     Ref=\$(cat ${pathinfo})
     for ((N=300; N<=${params.genome_length}; N+=2)) 
-        # genome ends skipped, even numbers only
+    # genome ends skipped, even numbers only
     do
         gfautil --quiet -t 35 -i ${gfa_file} snps --ref \$Ref  --snps \$N
     done| sort -nk 3 | grep -v \\: |grep -v path > variation_map.txt
@@ -355,12 +367,12 @@ process GETBASES {
     output:
     path "out.flatten.fa"
     path "out.bed"
-    publishDir "result", mode: "copy"
+    publishDir "results/getbases", mode: "copy"
 
     script:
     """
     odgi flatten -i ${ogfile} -f out.flatten.fa -b out.bed -t 22
-    bases.pl ${refFasta}
+    #bases.pl ${refFasta}
     """
 }
 
@@ -375,7 +387,7 @@ process VIZ2 {
 
     output:
     path "out.viz.png"
-    publishDir "result", mode: "copy"
+    publishDir "results/viz2", mode: "copy"
 
     script:
     """
@@ -412,7 +424,7 @@ process HEAPS {
 }
 
 process HEAPS_Visualize {
-   // container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     tag {"heaps"}
     label 'heaps'
 
@@ -425,7 +437,6 @@ process HEAPS_Visualize {
 
     script:
     """
-    module load R
     visualisation.R ${params.haplotypes} || true
     """
 }
@@ -442,7 +453,7 @@ process PAVS {
     output:
     path "out.flatten.pavs.tsv" 
 
-    publishDir "result/pavs", mode: "copy", pattern: "flatten.pavs.count.txt"
+    publishDir "results/pavs", mode: "copy", pattern: "flatten.pavs.count.txt"
 
     script:
     """
@@ -461,7 +472,7 @@ process PAVS {
 }
 
 process PAVS_plot {
-    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     tag{"pavs"}
     label 'pavs'
 
@@ -470,7 +481,7 @@ process PAVS_plot {
 
     output:
     path "out.flatten.pavs.pdf"
-    publishDir "result/pavs", mode: "copy"
+    publishDir "results/pavs", mode: "copy"
 
     script:
     """
@@ -517,43 +528,28 @@ process BANDAGE_view {
     """
 }
 
+
 process COMMUNITIES {
+    container 'chandanatpi/tpi:pggb'
     input:
-    path refFasta
+    path communities_genome
+    
 
     output:
-    path "genomes.mapping.paf", emit: paf_file
-    path "genomes.mapping.paf.txt", emit: paf_file2
-    path "genomes.mapping.paf.edges.weights.txt", emit: paf_file3
-    path "genomes.mapping.paf.edges.list.txt", emit: paf_file4
-    path "genomes.mapping.paf.vertices.id2name.txt", emit: paf_file5
-    path "genomes.distances.tsv", emit: paf_file6
-    path "genomes.mapping.paf.edges.weights.txt.community.1.txt", emit: paf_file7
-    path "genomes.mapping.paf.edges.weights.txt.community.0.txt", emit: paf_file8
-    path "genomes.mapping.paf.edges.weights.txt.communities.pdf", emit: paf_file9
-    publishDir "results/communities", mode: "copy", pattern: "genomes.mapping.paf.*"
+    path "genomes.mapping.paf*"
+    path "genomes.distances.tsv"
+    path "genomes.mapping.paf",emit:paf_file  
+    publishDir "results/communities", mode: "copy", pattern: "*"  
 
     script:
     """
-    mkdir SEQS -p
-    faSplit byname ${refFasta} SEQS/
-    
-   #   COUNT=\$(ls SEQS/*.fa | wc -l)  # Get total number of files
-  #    HALF=\$((COUNT / 2))            # Calculate half
- #     for FILE in \$(ls SEQS/*.fa | head -n "\$HALF"); do
-     for FILE in SEQS/*.fa 
-     do      # Extract sample name from file name
-      sample_name=\$(basename "\$FILE" .fasta)
-      # Execute ~/bin/fastix with sample name and append output
-      fastix -p "\${sample_name}#1#" "\$FILE" >> communities.genomes.fasta2
-    done
 
-    bgzip -@ 4 communities.genomes.fasta2
-    samtools faidx communities.genomes.fasta2.gz
+    bgzip -@ 4 ${communities_genome}
+    samtools faidx ${communities_genome}.gz # index
 
     # Community detection based on p/w alignments based on 90% ID at mash level with 6
     # mappings per segment, using k-mer of 19 and window of 67
-    wfmash communities.genomes.fasta2.gz -p 90 -n 6 -t 44 -m > genomes.mapping.paf
+    wfmash ${communities_genome}.gz -p 90 -n 6 -t 44 -m > genomes.mapping.paf
 
     # Convert PAF mappings into a network:
     paf2net.py -p genomes.mapping.paf
@@ -562,20 +558,17 @@ process COMMUNITIES {
     net2communities.py -e genomes.mapping.paf.edges.list.txt -w genomes.mapping.paf.edges.weights.txt -n genomes.mapping.paf.vertices.id2name.txt --plot
 
     # mash-based partitioning
-    mash dist communities.genomes.fasta2.gz communities.genomes.fasta2.gz -s 10000 -i > genomes.distances.tsv
+    mash dist ${communities_genome}.gz ${communities_genome}.gz -s 10000 -i > genomes.distances.tsv
 
     # get distances
     mash2net.py -m genomes.distances.tsv
-
-    # get numbers in each group
-    # community_numbers.sh start
 
     output_file="genomes.communities.mash.paths.txt"
 
     # Initialize a flag to check if any community files were found
     found_community_files=0
 
-    for i in {0..9}; do
+    for i in {0..3}; do
     # Check if the community file exists
         if [[ -f "genomes.mapping.paf.edges.weights.txt.community.\${i}.txt" ]]; then
     # Extract unique chromosome names from the community file
@@ -623,6 +616,7 @@ process BUSCO {
 }
 
 process PAFGNOSTIC {
+    container 'chandanatpi/tpi:pggb'
     input:
     path paf_file 
 
@@ -636,7 +630,7 @@ process PAFGNOSTIC {
 }
 
 process PANAROO {
-    container "chandanatpi/panalayze_env:2.0"
+    container "chandanatpi/panalayze_env:3.0"
     input:
     path (refFasta)
 
@@ -646,9 +640,7 @@ process PANAROO {
     script:
     """
     # use data in PANGROWTH/SEQS/
-    # Rscript ${workflow.projectDir}/bin/annotate.R lsdv
-    # Rscript ${workflow.projectDir}/bin/annotate.R sppv
-    Rscript annotate.R gpv || true
+    Rscript annotate.R gpv
 
     # mamba update panaroo
     ${workflow.projectDir}/bin/panaroo -i ${workflow.projectDir}/CURRENT/PANGROWTH/SEQS/*PROKKA/*.gff -o ${workflow.projectDir}/CURRENT/PANAROO --clean-mode strict 
@@ -658,5 +650,20 @@ process PANAROO {
     
     # visualise presence absence
     Rscript ${workflow.projectDir}/bin/panaroo_viz.R || true
+    """
+}
+
+process SUMMARIZE {
+    container "chandanatpi/panalayze_env:3.0"
+    input:
+    path template_tex 
+    output:
+    path "template.pdf"
+
+    publishDir "results/summary", mode: "copy"
+
+    script:
+    """
+    pdflatex --interaction=nonstopmode ${template_tex}
     """
 }
