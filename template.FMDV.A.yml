@@ -23,6 +23,6 @@ MODULES:   # Setting the module value to 0 will switch off the module in the pip
   heaps : 1
   pavs : 1
   getvcf : 1
-  busco : 1
+  busco : 0
   openness_pangrowth : 1
   communities : 1

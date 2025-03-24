@@ -21,7 +21,7 @@ Go to the folder
 
 Run in Nextflow given a template YML file and an example FASTA file. You may need to activate docker and R to ensure it works smoothly. You need Java version 11+ as well.
 
-For example, we can examine a smnall set of goatpox virus (GTPV) genomes, this took 24 minutes / 19.3 CPU hours to run:
+For example, we can examine a smnall set of goatpox virus (GTPV) genomes, this took 21 minutes / 17.3 CPU hours to run:
 
     nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
@@ -33,13 +33,13 @@ We can take 121 lumpy skin disease virus (LSDV) genomes, which takes 605 mins / 
 
     nextflow run main.nf --config template.LSDV.yml --reference test_genomes.LSDV.fa
 
-We can run on a large DNA test dataset - 15 GTPV genomes (at the time of writing) to be downloaded based on the text in the template file (during testing, this took 15 mins / XX CPU hours to complete):
+We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing) to be downloaded based on the text in the template file (during testing, this took 23 mins / 18.3 CPU hours to complete):
 
     nextflow run main.nf --config template.GTPV.all.yml 
 
-We can run on a ssRNA test dataset - 193 FMDV serotype A genomes (at the time of writing) to be downloaded based on the "subname" in the template file (here the subname is "serotype A") (during testing, this took 206 seconds / X CPU hours to complete):
+We can run on a ssRNA test dataset - 11 coxsackie virus genomes (at the time of writing) to be downloaded (during testing, this took 96 seconds / 0.7 CPU hours to complete):
 
-    nextflow run main.nf --config template.FMDV.A.all.yml
+    nextflow run main.nf --config template.COX.all.yml
 
 ## Module selection
 

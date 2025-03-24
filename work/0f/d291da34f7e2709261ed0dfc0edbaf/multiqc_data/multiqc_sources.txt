@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+ODGI	all_sections	seqwish	/mnt/lustre/RDS-live/downing/LSDV-PVG/work/0f/d291da34f7e2709261ed0dfc0edbaf/genomes.fasta.gz.ad2b792.11fba48.seqwish.og.stats.yaml
+ODGI	all_sections	smooth	/mnt/lustre/RDS-live/downing/LSDV-PVG/work/0f/d291da34f7e2709261ed0dfc0edbaf/genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.stats.yaml

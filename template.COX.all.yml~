@@ -1,0 +1,27 @@
+---
+PROCESS:
+  executor: slurm
+  cpus: 40 
+VIRUS:
+  name : "human coxsackievirus a1"
+  filter : human coxsackievirus a1, human coxsackievirus, coxsackievirus 
+  haplotypes : 11
+  genome_length : 7300
+MODULES:   # Setting the module value to 0 will switch off the module in the pipeline
+  download : 1
+  align : 1
+  tree : 1
+  make_pvg : 0
+  viz1 : 0
+  gfastat : 0
+  bandage : 0
+  odgi : 0
+  openness_panacus : 0
+  getbases : 0
+  viz2 : 0
+  heaps : 0
+  pavs : 0
+  getvcf : 0
+  busco : 0
+  openness_pangrowth : 0
+  communities : 0

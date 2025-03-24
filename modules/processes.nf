@@ -19,26 +19,26 @@ Download dataset to examine (eg LSDV)
 */
 
 process DOWNLOAD {
-    container "chandanatpi/panalayze_env:3.0"
+// container "chandanatpi/panalayze_env:3.0"
     cpus 8
 
     output:
     publishDir "results/download", mode: "copy"
-    path "genomes.fasta"
+    path "genomes.fasta", emit: fasta_file
 
     shell:
-    q1 = params.virus_name + " [organism] AND complete genome [title]"
-    q2 = params.virus_name + " [organism] AND genomic sequence [title]"
+    q1 = params.virus_name + " [organism] AND complete genome [title]"  
+    q2 = params.virus_name + " [organism] AND genomic sequence [title]" 
     filter_text = params.virus_filter.replaceAll(',', "\\\\|");filter = /complete genome\|${filter_text}\|isolate\|genomic sequence\|_NULL\|strain/
-
     '''
-    #module load R
     esearch -db nucleotide -query "!{q1}"|efetch -format genbank > gb.1 
     esearch -db nucleotide -query "!{q2}"|efetch -format genbank > gb.2
     cat gb.1 gb.2 > genbank.gb 
     rm gb.1 gb.2
-    parseGB.py genbank.gb|sed -e "s%!{filter}%%g"|tr -d "',)(:;\\\""|sed -e "s%/\\| \\|-%_%g" |sed -e "s%[_]+%_%g"|tr -s _|sed -e "s/_$//"  > genomes.fasta
-        
+    #parseGB.py genbank.gb|sed -e "s%!{filter}%%g"|tr -d "',)(:;\\\""|sed -e "s%/\\| \\|-%_%g" |sed -e "s%[_]+%_%g"|tr -s _|sed -e "s/_$//"  > genomes.fasta
+    parseGB.py genbank.gb > genomes.fasta
+    ls -lt genomes.fasta genbank.gb
+    echo "File created with size: $(ls -la genomes.fasta)"
     '''
 }
 

@@ -1,0 +1,17 @@
+[2025-03-24T08:36:06Z INFO  panacus::cli] running panacus on 4 threads
+[2025-03-24T08:36:06Z INFO  panacus::graph] constructing indexes for node/edge IDs, node lengths, and P/W lines..
+[2025-03-24T08:36:06Z INFO  panacus::io] loading graph from pggb.gfa
+[2025-03-24T08:36:06Z INFO  panacus::graph] found: 11 paths/walks, 1286 nodes
+[2025-03-24T08:36:06Z INFO  panacus::abacus] loading coordinates from haplotypes.txt
+[2025-03-24T08:36:06Z INFO  panacus::io] loading graph from pggb.gfa
+[2025-03-24T08:36:06Z INFO  panacus::io] parsing path + walk sequences
+[2025-03-24T08:36:06Z INFO  panacus::abacus] counting abacus entries..
+[2025-03-24T08:36:06Z INFO  panacus::abacus] abacus has 11 path groups and 1286 countables
+[2025-03-24T08:36:06Z INFO  panacus::abacus] constructing histogram..
+[2025-03-24T08:36:06Z INFO  panacus::hist] calculating growth for coverage >= 1A and quorum >= 0R
+[2025-03-24T08:36:06Z INFO  panacus::hist] calculating growth for coverage >= 1A and quorum >= 1R
+[2025-03-24T08:36:06Z INFO  panacus::hist] calculating growth for coverage >= 1A and quorum >= 0.5R
+[2025-03-24T08:36:06Z INFO  panacus::hist] calculating growth for coverage >= 2A and quorum >= 0R
+[2025-03-24T08:36:06Z INFO  panacus::hist] calculating growth for coverage >= 1A and quorum >= 0.1R
+[2025-03-24T08:36:06Z INFO  panacus::cli] reporting histgrowth table
+[2025-03-24T08:36:06Z INFO  panacus] done; time elapsed: 10.221514ms 

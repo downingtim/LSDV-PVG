@@ -24,42 +24,79 @@ Modules
 #==============================================
 */
 
-
-workflow Main{ 
-
-    if (params.reference)
-    {
-        refFasta = channel.fromPath(params.reference, checkIfExists:true)
+workflow Main {
+    // Define a single source for fasta input
+    fastaCh = params.reference 
+        ? channel.fromPath(params.reference, checkIfExists: true) 
+        : DOWNLOAD().fasta_file
+    
+    // Debug print to console
+    fastaCh.view { "Debug - Input file: $it" }
+    
+    // Proceed with downstream processes
+    if (params.align) {
+        alignOut = ALIGN(fastaCh)
+        if (params.tree) {
+            TREE(alignOut.raxml_file)
+        }
     }
-    else 
-    {
-	    refFasta = DOWNLOAD() 
+    
+    if (params.make_pvg) {
+        pvgOut = MAKE_PVG(fastaCh)
+        
+        if (params.viz1) {
+            VIZ1(pvgOut.gfa)
+        }
+        
+        if (params.bandage) {
+            Bandage(pvgOut.gfa)
+        }
+        
+        if (params.odgi) {
+            odgiOut = ODGI(pvgOut.gfa)
+            
+            if (params.viz2) {
+                VIZ2(odgiOut.ogfile)
+            }
+            
+            if (params.heaps) {
+                HEAPS(odgiOut.ogfile) | HEAPS_Visualize
+            }
+            
+            if (params.pavs) {
+                PAVS(odgiOut.ogfile) | PAVS_plot
+            }
+            
+            if (params.getbases) {
+                GETBASES(odgiOut.ogfile, fastaCh)
+            }
+        }
+        
+        if (params.gfastat) {
+            GFAstat(pvgOut.gfa, fastaCh)
+        }
+        
+        if (params.getvcf) {
+            GetVCF(pvgOut.gfa)
+        }
+        
+        if (params.openness_panacus) {
+            OPENNESS_PANACUS(pvgOut.gfa)
+        }
     }
-    if (params.align) ALIGN(refFasta)
-    if (params.tree) TREE(ALIGN.out.raxml_file) 
-    if (params.make_pvg) PVG_out = MAKE_PVG( refFasta )
-    if (params.viz1) VIZ1(PVG_out.gfa)
-    if (params.gfastat) GFAstat(PVG_out.gfa,refFasta)
-    if (params.bandage) Bandage(PVG_out.gfa)
-	if (params.odgi) ODGI_out = ODGI(PVG_out.gfa)
-    if (params.openness_panacus) OPENNESS_PANACUS(PVG_out.gfa)
-    if (params.getbases) GETBASES(ODGI_out.ogfile, refFasta)
-    if (params.viz2) VIZ2(ODGI_out.ogfile)
-    if (params.heaps) {HEAPS(ODGI_out.ogfile)|HEAPS_Visualize}
-    if (params.pavs) {PAVS(ODGI_out.ogfile)|PAVS_plot}
-    if (params.getvcf) GetVCF(PVG_out.gfa)
-    if (params.busco && params.busco_clade)
-    {
-        BUSCO(refFasta)
+    
+    if (params.openness_pangrowth) {
+        pangrowthOut = OPENNESS_PANGROWTH(fastaCh)
+        
+        if (params.communities) {
+            communitiesOut = COMMUNITIES(pangrowthOut.communities_genome)
+            PAFGNOSTIC(communitiesOut.paf_file)
+        }
     }
-    if (params.openness_pangrowth) Pangrowth_Out = OPENNESS_PANGROWTH(refFasta)
-    if (params.communities) 
-    {
-        Communities_Out = COMMUNITIES(Pangrowth_Out.communities_genome)
-        PAFGNOSTIC(Communities_Out.paf_file) 
+    
+    if (params.busco && params.busco_clade) {
+        BUSCO(fastaCh)
     }
-    //BANDAGE_view(PVG_out.gfa)
-    //PANAROO(MAKE_PVG.out, refFasta)
 }
 
 workflow GetVCF(){
@@ -81,4 +118,3 @@ workflow {
     if(params.summary) {Summary()}
     else {Main()}
 }
-

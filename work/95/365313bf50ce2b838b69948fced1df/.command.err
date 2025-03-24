@@ -1,0 +1,274 @@
+Loading required package: hierfstat
+Loading required package: phangorn
+Loading required package: ape
+
+Attaching package: 'ape'
+
+The following objects are masked from 'package:hierfstat':
+
+    pcoa, varcomp
+
+Loading required package: Biostrings
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, aperm, append,
+    as.data.frame, basename, cbind, colnames, dirname, do.call,
+    duplicated, eval, evalq, get, grep, grepl, intersect, is.unsorted,
+    lapply, mapply, match, mget, order, paste, pmax, pmax.int, pmin,
+    pmin.int, rank, rbind, rownames, sapply, saveRDS, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: 'S4Vectors'
+
+The following object is masked from 'package:utils':
+
+    findMatches
+
+The following objects are masked from 'package:base':
+
+    I, expand.grid, unname
+
+Loading required package: IRanges
+Loading required package: XVector
+Loading required package: GenomeInfoDb
+
+Attaching package: 'Biostrings'
+
+The following object is masked from 'package:ape':
+
+    complement
+
+The following object is masked from 'package:base':
+
+    strsplit
+
+Loading required package: adegenet
+Loading required package: ade4
+
+Attaching package: 'ade4'
+
+The following object is masked from 'package:BiocGenerics':
+
+    score
+
+
+   /// adegenet 2.1.11 is loaded ////////////
+
+   > overview: '?adegenet'
+   > tutorials/doc/questions: 'adegenetWeb()' 
+   > bug reports/feature requests: adegenetIssues()
+
+
+
+Attaching package: 'adegenet'
+
+The following object is masked from 'package:phangorn':
+
+    AICc
+
+The following objects are masked from 'package:hierfstat':
+
+    Hs, read.fstat
+
+Loading required package: stringr
+Loading required package: seqinr
+
+Attaching package: 'seqinr'
+
+The following object is masked from 'package:Biostrings':
+
+    translate
+
+The following objects are masked from 'package:ape':
+
+    as.alignment, consensus
+
+Loading required package: ggtree
+ggtree v3.14.0 Learn more at https://yulab-smu.top/contribution-tree-data/
+
+Please cite:
+
+Guangchuang Yu, David Smith, Huachen Zhu, Yi Guan, Tommy Tsan-Yuk Lam.
+ggtree: an R package for visualization and annotation of phylogenetic
+trees with their covariates and other associated data. Methods in
+Ecology and Evolution. 2017, 8(1):28-36. doi:10.1111/2041-210X.12628
+
+Attaching package: 'ggtree'
+
+The following object is masked from 'package:Biostrings':
+
+    collapse
+
+The following object is masked from 'package:IRanges':
+
+    collapse
+
+The following object is masked from 'package:S4Vectors':
+
+    expand
+
+The following object is masked from 'package:ape':
+
+    rotate
+
+Loading required package: ggnewscale
+Loading required package: restez
+Loading required package: rentrez
+
+Attaching package: 'rentrez'
+
+The following object is masked from 'package:restez':
+
+    entrez_fetch
+
+Loading required package: tibble
+Loading required package: irlba
+Loading required package: Matrix
+
+Attaching package: 'Matrix'
+
+The following object is masked from 'package:ggtree':
+
+    expand
+
+The following object is masked from 'package:S4Vectors':
+
+    expand
+
+Loading required package: phytools
+Loading required package: maps
+Loading required package: ggplot2
+Loading required package: treeio
+treeio v1.30.0 Learn more at https://yulab-smu.top/contribution-tree-data/
+
+Please cite:
+
+LG Wang, TTY Lam, S Xu, Z Dai, L Zhou, T Feng, P Guo, CW Dunn, BR
+Jones, T Bradley, H Zhu, Y Guan, Y Jiang, G Yu. treeio: an R package
+for phylogenetic tree input and output with richly annotated and
+associated data. Molecular Biology and Evolution. 2020, 37(2):599-603.
+doi: 10.1093/molbev/msz240
+
+Attaching package: 'treeio'
+
+The following object is masked from 'package:phytools':
+
+    read.newick
+
+The following object is masked from 'package:seqinr':
+
+    read.fasta
+
+The following object is masked from 'package:Biostrings':
+
+    mask
+
+Loading required package: Rcpp
+Loading required package: RcppArmadillo
+Loading required package: microseq
+Loading required package: dplyr
+
+Attaching package: 'dplyr'
+
+The following object is masked from 'package:seqinr':
+
+    count
+
+The following objects are masked from 'package:Biostrings':
+
+    collapse, intersect, setdiff, setequal, union
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    intersect
+
+The following object is masked from 'package:XVector':
+
+    slice
+
+The following objects are masked from 'package:IRanges':
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from 'package:BiocGenerics':
+
+    combine, intersect, setdiff, union
+
+The following object is masked from 'package:ape':
+
+    where
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Loading required package: data.table
+
+Attaching package: 'data.table'
+
+The following objects are masked from 'package:dplyr':
+
+    between, first, last
+
+The following object is masked from 'package:IRanges':
+
+    shift
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, second
+
+Loading required package: rlang
+
+Attaching package: 'rlang'
+
+The following object is masked from 'package:data.table':
+
+    :=
+
+The following object is masked from 'package:adegenet':
+
+    chr
+
+The following object is masked from 'package:phangorn':
+
+    hash
+
+
+Attaching package: 'microseq'
+
+The following object is masked from 'package:seqinr':
+
+    translate
+
+The following objects are masked from 'package:Biostrings':
+
+    reverseComplement, translate
+
+The following object is masked from 'package:ape':
+
+    muscle
+
+The following object is masked from 'package:base':
+
+    gregexpr
+

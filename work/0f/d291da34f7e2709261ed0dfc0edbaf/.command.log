@@ -1,0 +1,266 @@
+[pggb] warning: there are sequence names (like 'PP756364.1') that do not match the Pangenome Sequence Naming (PanSN).
+[mashmap] Skipping self mappings for single file all-vs-all mapping.
+[mashmap] MashMap v3.1.1
+[mashmap] Reference = [genomes.fasta.gz]
+[mashmap] Query = [genomes.fasta.gz]
+[mashmap] Kmer size = 19
+[mashmap] Sketch size = 58
+[mashmap] Segment length = 1000 (read split allowed)
+[mashmap] Block length min = 5000
+[mashmap] Chaining gap max = 4000
+[mashmap] Mappings per segment = 1
+[mashmap] Percentage identity threshold = 90%
+[mashmap] Skip self mappings
+[mashmap] Skipping sequences containing the same prefix based on the delimiter "#"
+[mashmap] Hypergeometric filter w/ delta = 0.3 and confidence 0.999
+[mashmap] Mapping output file = /dev/stdout
+[mashmap] Filter mode = 1 (1 = map, 2 = one-to-one, 3 = none)
+[mashmap] Execution threads  = 20
+[mashmap::skch::Sketch::build] minmer windows picked from reference = 9218
+[mashmap::skch::Sketch::index] unique minmers = 2846
+[mashmap::skch::Sketch::computeFreqHist] Frequency histogram of minmer interval points = (2, 1110) ... (76, 1)
+[mashmap::skch::Sketch::computeFreqHist] With threshold 0.001%, consider all minmers during lookup.
+[wfmash::map] time spent computing the reference index: 0.00723719 sec
+[mashmap::skch::Map::mapQuery] mapped  -nan% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[mashmap::skch::Map::mapQuery] mapped  -nan% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[mashmap::skch::Map::mapQuery] count of mapped reads = 9, reads qualified for mapping = 11, total input reads = 11, total input bp = 0
+[wfmash::map] time spent mapping the query: 8.21e-03 sec
+[wfmash::map] mapping results saved in: /dev/stdout
+wfmash -s 1000 -l 5000 -p 90 -n 1 -k 19 -H 0.001 -Y # -t 20 --tmp-base . genomes.fasta.gz --lower-triangular --hg-filter-ani-diff 30 --approx-map
+0.06s user 0.01s system 238% cpu 0.03s total 11552Kb max memory
+[mashmap] Skipping self mappings for single file all-vs-all mapping.
+[wfmash::align] Reference = [genomes.fasta.gz]
+[wfmash::align] Query = [genomes.fasta.gz]
+[wfmash::align] Mapping file = ./wfmash-YhnrP3
+[wfmash::align] Alignment identity cutoff = 72.00%
+[wfmash::align] Alignment output file = /dev/stdout
+[wfmash::align] time spent loading the reference index: 0.02 sec
+[wfmash::align::computeAlignments] aligned  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[wfmash::align::computeAlignments] aligned 97.87% @ 6.74e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[wfmash::align::computeAlignments] aligned 100.00% @ 3.42e+05 bp/s elapsed: 00:00:00:01 remain: 00:00:00:00
+[wfmash::align::computeAlignments] count of mapped reads = 11, total aligned bp = 345319
+[wfmash::align] time spent computing the alignment: 1.03e+00 sec
+[wfmash::align] alignment results saved in: /dev/stdout
+wfmash -s 1000 -l 5000 -p 90 -n 1 -k 19 -H 0.001 -Y # -t 20 --tmp-base . genomes.fasta.gz --lower-triangular --hg-filter-ani-diff 30 -i ./genomes.fasta.gz.ad2b792.mappings.wfmash.paf --invert-filtering
+4.71s user 0.35s system 481% cpu 1.05s total 443828Kb max memory
+[seqwish::seqidx] 0.001 indexing sequences
+[seqwish::seqidx] 0.032 index built
+[seqwish::alignments] 0.032 processing alignments
+[seqwish::alignments] 0.040 indexing
+[seqwish::alignments] 0.056 index built
+[seqwish::transclosure] 0.059 computing transitive closures
+[seqwish::transclosure] 0.062 0.00% 0-80823 overlap_collect
+[seqwish::transclosure] 0.120 0.00% 0-80823 rank_build
+[seqwish::transclosure] 0.122 0.00% 0-80823 parallel_union_find
+[seqwish::transclosure] 0.126 0.00% 0-80823 dset_write
+[seqwish::transclosure] 0.127 0.00% 0-80823 dset_compression
+[seqwish::transclosure] 0.129 0.00% 0-80823 dset_sort
+[seqwish::transclosure] 0.130 0.00% 0-80823 dset_invert
+[seqwish::transclosure] 0.131 0.00% 0-80823 graph_emission
+[seqwish::transclosure] 0.140 100.00% building node_iitree and path_iitree indexes
+[seqwish::transclosure] 0.148 100.00% done
+[seqwish::transclosure] 0.148 done with transitive closures
+[seqwish::compact] 0.148 compacting nodes
+[seqwish::compact] 0.150 done compacting
+[seqwish::compact] 0.150 built node index
+[seqwish::links] 0.150 finding graph links
+[seqwish::links] 0.158 links derived
+[seqwish::gfa] 0.158 writing graph
+[seqwish::gfa] 0.168 done
+seqwish -s genomes.fasta.gz -p ./genomes.fasta.gz.ad2b792.alignments.wfmash.paf -k 23 -f 0 -g ./genomes.fasta.gz.ad2b792.11fba48.seqwish.gfa -B 10M -t 20 --temp-dir . -P
+0.27s user 0.13s system 230% cpu 0.17s total 34144Kb max memory
+[smoothxg::(1-3)::main] loading graph
+[smoothxg::(1-3)::main] prepping graph for smoothing
+[odgi::gfa_to_handle] building nodes:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building nodes: 100.00% @ 3.36e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building edges:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building edges: 100.00% @ 4.50e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building paths:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building paths: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::prep] building path index
+[smoothxg::(1-3)::prep] path_sgd_zipf_space_max: 100
+[smoothxg::(1-3)::prep] path_sgd_zipf_max_number_of_distributions: 101
+[smoothxg::(1-3)::prep] sorting graph
+[odgi::path_linear_sgd] 1D path-guided SGD:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::path_linear_sgd] calculating linear SGD schedule (1.75e-06 1.00e+00 100 0 1.00e-02)
+[odgi::path_linear_sgd] calculating zetas for 102 zipf distributions
+[odgi::path_linear_sgd] 1D path-guided SGD: 100.00% @ 1.30e+06 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] grooming: 14.63% @ 4.21e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] grooming: 16.12% @ 4.28e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] grooming: 100.00% @ 3.36e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] organizing handles: 11.78% @ 7.53e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] organizing handles: 19.57% @ 1.61e+06 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] organizing handles: 100.00% @ 3.36e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] flipped 0 handles
+[odgi::topological_order] sorting nodes:  0.30% @ 2.81e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::topological_order] sorting nodes:  0.54% @ 5.54e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::topological_order] sorting nodes: 100.00% @ 3.36e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::prep] chopping graph to 100
+[odgi::chop] 67 node(s) to chop.
+[smoothxg::(1-3)::prep] writing graph ./genomes.fasta.gz.ad2b792.11fba48.seqwish.gfa.prep.0.gfa
+[smoothxg::(1-3)::main] building xg index
+[smoothxg::(1-3)::smoothable_blocks] computing blocks for 1768 handles:  1.19% @ 7.50e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(1-3)::smoothable_blocks] computing blocks for 1768 handles:  3.00% @ 7.15e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(1-3)::smoothable_blocks] computing blocks for 1768 handles: 100.00% @ 3.53e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::break_and_split_blocks] cutting blocks that contain sequences longer than max-poa-length (1400) and depth >= 0
+[smoothxg::(1-3)::break_and_split_blocks] splitting 17 blocks at identity 0.900 (WFA-based clustering) and at estimated-identity 0.900 (mash-based clustering)
+[smoothxg::(1-3)::break_and_split_blocks] cutting and splitting 17 blocks:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(1-3)::break_and_split_blocks] cutting and splitting 17 blocks: 100.00% @ 3.40e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::break_and_split_blocks] cut 0 blocks of which 0 had repeats
+[smoothxg::(1-3)::break_and_split_blocks] split 0 blocks
+[smoothxg::(1-3)::smooth_and_lace] applying local SPOA to 17 blocks:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(1-3)::smooth_and_lace] applying local SPOA to 17 blocks: 100.00% @ 3.40e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::smooth_and_lace] flipping 0 block graphs
+[smoothxg::(1-3)::smooth_and_lace] indexing sequences
+[smoothxg::(1-3)::smooth_and_lace] sorting path fragments
+[smoothxg::(1-3)::smooth_and_lace] sorted 154 path fragments
+[smoothxg::(1-3)::smooth_and_lace] loading 17 graph blocks:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(1-3)::smooth_and_lace] loading 17 graph blocks: 100.00% @ 3.40e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::smooth_and_lace] adding nodes and edges from 17 graphs:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(1-3)::smooth_and_lace] adding nodes and edges from 17 graphs: 100.00% @ 3.40e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::smooth_and_lace] embedding 154 path fragments:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(1-3)::smooth_and_lace] embedding 154 path fragments: 100.00% @ 3.08e+02 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::smooth_and_lace] validating 11 path sequences:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(1-3)::smooth_and_lace] validating 11 path sequences: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::smooth_and_lace] walking edges in 11 paths:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(1-3)::smooth_and_lace] walking edges in 11 paths: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(1-3)::main] unchopping smoothed graph
+[odgi::unchop] unchopped 86 nodes into 36 new nodes.
+[smoothxg::(1-3)::main] smoothed graph length 39569bp in 1318 nodes
+[smoothxg::(1-3)::main] writing smoothed graph to ./genomes.fasta.gz.ad2b792.11fba48.seqwish.gfa.smooth.0.gfa
+[smoothxg::(2-3)::main] loading graph
+[smoothxg::(2-3)::main] prepping graph for smoothing
+[odgi::gfa_to_handle] building nodes:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building nodes: 100.00% @ 2.63e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building edges:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building edges: 100.00% @ 3.54e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building paths:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building paths: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::prep] building path index
+[smoothxg::(2-3)::prep] path_sgd_zipf_space_max: 100
+[smoothxg::(2-3)::prep] path_sgd_zipf_max_number_of_distributions: 101
+[smoothxg::(2-3)::prep] sorting graph
+[odgi::path_linear_sgd] 1D path-guided SGD:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::path_linear_sgd] calculating linear SGD schedule (1.96e-06 1.00e+00 100 0 1.00e-02)
+[odgi::path_linear_sgd] calculating zetas for 102 zipf distributions
+[odgi::path_linear_sgd] 1D path-guided SGD: 100.00% @ 8.47e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] grooming:  1.21% @ 1.03e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] grooming:  2.05% @ 2.38e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] grooming: 100.00% @ 2.63e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] organizing handles: 17.00% @ 1.13e+06 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] organizing handles: 25.19% @ 1.80e+06 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] organizing handles: 100.00% @ 2.63e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] flipped 0 handles
+[odgi::topological_order] sorting nodes:  0.23% @ 1.13e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::topological_order] sorting nodes:  0.23% @ 1.94e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::topological_order] sorting nodes: 100.00% @ 2.63e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::prep] chopping graph to 100
+[odgi::chop] 63 node(s) to chop.
+[smoothxg::(2-3)::prep] writing graph ./genomes.fasta.gz.ad2b792.11fba48.seqwish.gfa.smooth.0.gfa.prep.1.gfa
+[smoothxg::(2-3)::main] building xg index
+[smoothxg::(2-3)::smoothable_blocks] computing blocks for 1587 handles:  1.58% @ 4.97e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::smoothable_blocks] computing blocks for 1587 handles:  1.58% @ 2.17e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::smoothable_blocks] computing blocks for 1587 handles: 100.00% @ 3.17e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::break_and_split_blocks] cutting blocks that contain sequences longer than max-poa-length (1800) and depth >= 0
+[smoothxg::(2-3)::break_and_split_blocks] splitting 53 blocks at identity 0.900 (WFA-based clustering) and at estimated-identity 0.900 (mash-based clustering)
+[smoothxg::(2-3)::break_and_split_blocks] cutting and splitting 53 blocks:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::break_and_split_blocks] cutting and splitting 53 blocks: 100.00% @ 1.06e+02 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::break_and_split_blocks] cut 0 blocks of which 0 had repeats
+[smoothxg::(2-3)::break_and_split_blocks] split 0 blocks
+[smoothxg::(2-3)::smooth_and_lace] applying local SPOA to 53 blocks:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::smooth_and_lace] applying local SPOA to 53 blocks: 100.00% @ 1.06e+02 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::smooth_and_lace] flipping 0 block graphs
+[smoothxg::(2-3)::smooth_and_lace] indexing sequences
+[smoothxg::(2-3)::smooth_and_lace] sorting path fragments
+[smoothxg::(2-3)::smooth_and_lace] sorted 185 path fragments
+[smoothxg::(2-3)::smooth_and_lace] loading 53 graph blocks:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::smooth_and_lace] loading 53 graph blocks:  9.43% @ 1.65e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::smooth_and_lace] loading 53 graph blocks: 100.00% @ 1.06e+02 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::smooth_and_lace] adding nodes and edges from 53 graphs:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::smooth_and_lace] adding nodes and edges from 53 graphs: 100.00% @ 1.06e+02 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::smooth_and_lace] embedding 185 path fragments:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::smooth_and_lace] embedding 185 path fragments: 100.00% @ 3.70e+02 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::smooth_and_lace] validating 11 path sequences:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::smooth_and_lace] validating 11 path sequences: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::smooth_and_lace] walking edges in 11 paths:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(2-3)::smooth_and_lace] walking edges in 11 paths: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(2-3)::main] unchopping smoothed graph
+[odgi::unchop] unchopped 54 nodes into 19 new nodes.
+[smoothxg::(2-3)::main] smoothed graph length 40450bp in 1238 nodes
+[smoothxg::(2-3)::main] writing smoothed graph to ./genomes.fasta.gz.ad2b792.11fba48.seqwish.gfa.smooth.1.gfa
+[smoothxg::(3-3)::main] loading graph
+[smoothxg::(3-3)::main] prepping graph for smoothing
+[odgi::gfa_to_handle] building nodes:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building nodes: 100.00% @ 2.47e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building edges:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building edges: 100.00% @ 3.31e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building paths:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building paths: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::prep] building path index
+[smoothxg::(3-3)::prep] path_sgd_zipf_space_max: 100
+[smoothxg::(3-3)::prep] path_sgd_zipf_max_number_of_distributions: 101
+[smoothxg::(3-3)::prep] sorting graph
+[odgi::path_linear_sgd] 1D path-guided SGD:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::path_linear_sgd] calculating linear SGD schedule (2.14e-06 1.00e+00 100 0 1.00e-02)
+[odgi::path_linear_sgd] calculating zetas for 102 zipf distributions
+[odgi::path_linear_sgd] 1D path-guided SGD: 100.00% @ 7.69e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] grooming: 100.00% @ 3.73e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] grooming: 100.00% @ 3.55e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] organizing handles: 27.54% @ 1.74e+06 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] organizing handles: 47.98% @ 3.59e+06 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] organizing handles: 100.00% @ 2.47e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] flipped 0 handles
+[odgi::topological_order] sorting nodes:  0.48% @ 1.70e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::topological_order] sorting nodes:  0.57% @ 3.03e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::topological_order] sorting nodes: 100.00% @ 2.47e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::prep] chopping graph to 100
+[odgi::chop] 51 node(s) to chop.
+[smoothxg::(3-3)::prep] writing graph ./genomes.fasta.gz.ad2b792.11fba48.seqwish.gfa.smooth.1.gfa.prep.2.gfa
+[smoothxg::(3-3)::main] building xg index
+[smoothxg::(3-3)::smoothable_blocks] computing blocks for 1529 handles:  1.64% @ 3.98e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::smoothable_blocks] computing blocks for 1529 handles:  1.64% @ 2.16e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::smoothable_blocks] computing blocks for 1529 handles: 100.00% @ 3.06e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::break_and_split_blocks] cutting blocks that contain sequences longer than max-poa-length (2200) and depth >= 0
+[smoothxg::(3-3)::break_and_split_blocks] splitting 41 blocks at identity 0.900 (WFA-based clustering) and at estimated-identity 0.900 (mash-based clustering)
+[smoothxg::(3-3)::break_and_split_blocks] cutting and splitting 41 blocks:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::break_and_split_blocks] cutting and splitting 41 blocks: 100.00% @ 8.19e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::break_and_split_blocks] cut 0 blocks of which 0 had repeats
+[smoothxg::(3-3)::break_and_split_blocks] split 0 blocks
+[smoothxg::(3-3)::smooth_and_lace] applying local SPOA to 41 blocks:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::smooth_and_lace] applying local SPOA to 41 blocks: 100.00% @ 8.19e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::smooth_and_lace] flipping 0 block graphs
+[smoothxg::(3-3)::smooth_and_lace] indexing sequences
+[smoothxg::(3-3)::smooth_and_lace] sorting path fragments
+[smoothxg::(3-3)::smooth_and_lace] sorted 138 path fragments
+[smoothxg::(3-3)::smooth_and_lace] loading 41 graph blocks:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::smooth_and_lace] loading 41 graph blocks: 12.20% @ 2.67e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::smooth_and_lace] loading 41 graph blocks: 100.00% @ 8.19e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::smooth_and_lace] adding nodes and edges from 41 graphs:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::smooth_and_lace] adding nodes and edges from 41 graphs: 100.00% @ 8.19e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::smooth_and_lace] embedding 138 path fragments:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::smooth_and_lace] embedding 138 path fragments: 100.00% @ 2.76e+02 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::smooth_and_lace] validating 11 path sequences:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::smooth_and_lace] validating 11 path sequences: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::smooth_and_lace] walking edges in 11 paths:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[smoothxg::(3-3)::smooth_and_lace] walking edges in 11 paths: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[smoothxg::(3-3)::main] unchopping smoothed graph
+[odgi::unchop] unchopped 33 nodes into 12 new nodes.
+[smoothxg::(3-3)::main] smoothed graph length 40335bp in 1285 nodes
+[smoothxg::(3-3)::main] writing smoothed graph to ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.gfa
+smoothxg -t 20 -T 20 -g ./genomes.fasta.gz.ad2b792.11fba48.seqwish.gfa -r 11 --base . --chop-to 100 -I .9000 -R 0 -j 0 -e 0 -l 700,900,1100 -p 1,19,39,3,81,1 -O 0.001 -Y 1100 -d 0 -D 0 -Q Consensus_ -V -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.gfa
+22.32s user 3.34s system 112% cpu 22.81s total 1039560Kb max memory
+[2025-03-24T08:35:51Z INFO  gfaffix] running gfaffix on 1 threads
+[2025-03-24T08:35:51Z INFO  gfaffix] loading graph from ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.gfa
+[2025-03-24T08:35:51Z INFO  gfaffix] constructing handle graph
+[2025-03-24T08:35:51Z INFO  gfaffix] handlegraph has 1285 nodes and 1721 edges
+[2025-03-24T08:35:51Z INFO  gfaffix] storing length of original nodes for bookkeeping
+[2025-03-24T08:35:51Z INFO  gfaffix] identifying walk-preserving shared affixes
+[2025-03-24T08:35:51Z INFO  gfaffix] found and collapsed 5 shared prefixes, 0 of which are overlapping, and 0 of which are bubbles
+[2025-03-24T08:35:51Z INFO  gfaffix] identifying walk-preserving blunt ends
+[2025-03-24T08:35:51Z INFO  gfaffix] found and collapsed 0 blunt ends
+[2025-03-24T08:35:51Z INFO  gfaffix] expand transformation table
+[2025-03-24T08:35:51Z INFO  gfaffix] writing refined graph to ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.fix.gfa
+[2025-03-24T08:35:51Z INFO  gfaffix] transforming paths+walks
+[2025-03-24T08:35:51Z INFO  gfaffix] done
+gfaffix ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.gfa -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.fix.gfa
+0.00s user 0.00s system 92% cpu 0.01s total 5704Kb max memory
+pigz
+0.00s user 0.00s system 15% cpu 0.01s total 2292Kb max memory
+[odgi::gfa_to_handle] building nodes:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building nodes: 100.00% @ 2.57e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building edges:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building edges: 100.00% @ 3.44e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building paths:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building paths: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+odgi build -t 20 -P -g ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.fix.gfa -o - -O
+0.05s user 0.02s system 5% cpu 1.53s total 13548Kb max memory
+[odgi::unchop] unchopped 2 nodes into 1 new nodes.
+odgi unchop -P -t 20 -i - -o -
+5.02s user 1.05s system 365% cpu 1.66s total 42708Kb max memory
+path_sgd_zipf_space_max: 100
+path_sgd_zipf_max_number_of_distributions: 101
+[odgi::path_linear_sgd] calculating linear SGD schedule ([odgi::path_linear_sgd] 1D path-guided SGD:  0.00% @ 0.00e+00 bp/s elapsed: 1.94519e-06 1.00e+00 100 0 1.00e-02)
+00:00:00:00 remain: 00:00:00:00[odgi::path_linear_sgd] calculating zetas for 102 zipf distributions
+[odgi::path_linear_sgd] 1D path-guided SGD: 100.00% @ 7.91e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] grooming: 22.40% @ 2.77e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] grooming: 23.72% @ 2.79e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] grooming: 100.00% @ 2.57e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] organizing handles: 11.04% @ 8.74e+05 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] organizing handles: 22.86% @ 1.72e+06 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::groom] organizing handles: 100.00% @ 2.57e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::groom] flipped 0 handles
+[odgi::topological_order] sorting nodes:  0.39% @ 3.39e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::topological_order] sorting nodes:  0.54% @ 4.39e+04 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::topological_order] sorting nodes: 100.00% @ 2.57e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+odgi sort -P -p Ygs --temp-dir . -t 20 -i - -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og
+8.05s user 0.16s system 215% cpu 3.81s total 25024Kb max memory
+odgi view -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -g
+0.01s user 0.00s system 90% cpu 0.02s total 11564Kb max memory
+[odgi::gfa_to_handle] building nodes:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building nodes: 100.00% @ 3.36e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building edges:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building edges: 100.00% @ 4.50e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::gfa_to_handle] building paths:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::gfa_to_handle] building paths: 100.00% @ 2.20e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+odgi build -t 20 -P -g ./genomes.fasta.gz.ad2b792.11fba48.seqwish.gfa -o ./genomes.fasta.gz.ad2b792.11fba48.seqwish.og
+0.07s user 0.02s system 6% cpu 1.52s total 13808Kb max memory
+odgi viz -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.viz_multiqc.png -x 1500 -y 500 -a 10 -I Consensus_
+0.08s user 0.00s system 97% cpu 0.08s total 18020Kb max memory
+odgi viz -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.viz_pos_multiqc.png -x 1500 -y 500 -a 10 -u -d -I Consensus_
+0.08s user 0.01s system 98% cpu 0.10s total 18540Kb max memory
+odgi viz -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.viz_depth_multiqc.png -x 1500 -y 500 -a 10 -m -I Consensus_
+0.09s user 0.00s system 97% cpu 0.09s total 17992Kb max memory
+odgi viz -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.viz_inv_multiqc.png -x 1500 -y 500 -a 10 -z -I Consensus_
+0.07s user 0.01s system 96% cpu 0.08s total 17876Kb max memory
+odgi viz -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.viz_O_multiqc.png -x 1500 -y 500 -a 10 -O -I Consensus_
+0.07s user 0.00s system 96% cpu 0.08s total 17044Kb max memory
+odgi viz -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.viz_uncalled_multiqc.png -x 1500 -y 500 -a 10 -N -I Consensus_
+0.09s user 0.00s system 97% cpu 0.10s total 18036Kb max memory
+[odgi::path_linear_sgd_layout] 2D path-guided SGD:  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::path_linear_sgd_layout] 2D path-guided SGD: 100.00% @ 2.37e+06 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+odgi layout -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -o ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.lay -T ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.lay.tsv -t 20 --temp-dir . -P
+7.83s user 0.37s system 1184% cpu 0.69s total 24800Kb max memory
+odgi draw -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -c ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.lay -p ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.lay.draw.png -H 1000
+2.80s user 0.03s system 99% cpu 2.84s total 134124Kb max memory
+odgi draw -i ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og -c ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.lay -p ./genomes.fasta.gz.ad2b792.11fba48.c00ce9c.smooth.final.og.lay.draw_multiqc.png -C -w 20 -H 1000
+2.96s user 0.04s system 99% cpu 3.00s total 120640Kb max memory
+
+/// MultiQC v1.22.2
+
+            config | Loading config settings from: multiqc_config.yaml
+            config | Loading config settings from: multiqc_config.yaml
+     update_config | Not cleaning sample names
+     version_check | MultiQC Version v1.28 now available!
+       file_search | Search path: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/0f/d291da34f7e2709261ed0dfc0edbaf
+              odgi | Found 2 reports
+     write_results | Data        : multiqc_data
+     write_results | Report      : multiqc_report.html
+           multiqc | MultiQC complete
+multiqc . -s -o . -c ./multiqc_config.yaml
+7.78s user 0.09s system 732% cpu 1.07s total 117636Kb max memory

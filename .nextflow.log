@@ -1,0 +1,184 @@
+Mar-24 08:35:13.221 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --config template.COX.all.yml
+Mar-24 08:35:13.328 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.3
+Mar-24 08:35:13.342 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/mnt/lustre/RDS-live/downing/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.3,nf-tower@1.9.3,nf-wave@1.7.4
+Mar-24 08:35:13.359 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-24 08:35:13.359 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-24 08:35:13.362 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Mar-24 08:35:13.372 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-24 08:35:13.390 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mnt/lustre/RDS-live/downing/LSDV-PVG/nextflow.config
+Mar-24 08:35:13.393 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/lustre/RDS-live/downing/LSDV-PVG/nextflow.config
+Mar-24 08:35:13.413 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /mnt/lustre/RDS-live/downing/.nextflow/secrets/store.json
+Mar-24 08:35:13.416 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@1a78dacd] - activable => nextflow.secret.LocalSecretsProvider@1a78dacd
+Mar-24 08:35:13.427 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Mar-24 08:35:13.991 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Mar-24 08:35:14.003 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [determined_kalman] DSL2 - revision: 525bb14852
+Mar-24 08:35:14.004 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-24 08:35:14.004 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Mar-24 08:35:14.046 [main] DEBUG nextflow.Session - Session UUID: 601924f0-ef85-4eda-9352-28e33db7d78c
+Mar-24 08:35:14.047 [main] DEBUG nextflow.Session - Run name: determined_kalman
+Mar-24 08:35:14.047 [main] DEBUG nextflow.Session - Executor pool size: 10
+Mar-24 08:35:14.053 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Mar-24 08:35:14.058 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=30; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-24 08:35:14.077 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.3 build 5933
+  Created: 16-12-2024 15:34 UTC 
+  System: Linux 5.4.0-42-generic
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 17.0.3-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 3493779@login1 [192.168.200.211]
+  CPUs: 10 - Mem: 995.6 GB (479.5 GB) - Swap: 32 GB (2.7 GB)
+Mar-24 08:35:14.102 [main] DEBUG nextflow.Session - Work-dir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work [lustre]
+Mar-24 08:35:14.136 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-24 08:35:14.143 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-24 08:35:14.163 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-24 08:35:14.171 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 11; maxThreads: 1000
+Mar-24 08:35:14.246 [main] DEBUG nextflow.Session - Session start
+Mar-24 08:35:14.564 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-24 08:35:15.038 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.038 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.045 [main] DEBUG nextflow.executor.Executor - [warm up] executor > slurm
+Mar-24 08:35:15.051 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'slurm' > capacity: 100; pollInterval: 5s; dumpInterval: 5m 
+Mar-24 08:35:15.052 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: slurm)
+Mar-24 08:35:15.054 [main] DEBUG n.executor.AbstractGridExecutor - Creating executor 'slurm' > queue-stat-interval: 1m
+Mar-24 08:35:15.130 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.130 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.136 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.137 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.143 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.143 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.147 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.147 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.151 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.152 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.155 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.156 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.160 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.160 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.165 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.165 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.169 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.170 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.174 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.174 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.177 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.177 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.182 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.182 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.187 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.187 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.192 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.192 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.197 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.197 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.202 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.203 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.207 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.207 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.212 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.212 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.216 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.216 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.219 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: slurm
+Mar-24 08:35:15.219 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'slurm'
+Mar-24 08:35:15.223 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: GFAstat, Main:OPENNESS_PANGROWTH, Main:GETBASES, BUSCO, Main:HEAPS_Visualize, DOWNLOAD, Main:MAKE_PVG, OPENNESS_PANGROWTH, PANAROO, PAVS, Main:GFAstat, Main:PAVS, ALIGN, MAKE_PVG, ODGI, Bandage, Main:COMMUNITIES, BANDAGE_view, Main:ODGI, Main:GetVCF:VCF_PROCESS, Main:HEAPS, Main:DOWNLOAD, VIZ1, VCF_PROCESS, Main:GetVCF:PATH_FROM_GFA, VIZ2, Main:OPENNESS_PANACUS, Main:VIZ2, PATH_FROM_GFA, Main:Bandage, Main:PAVS_plot, Main:PAFGNOSTIC, PAVS_plot, COMMUNITIES, Main:VIZ1, HEAPS, SUMMARIZE, WARAGRAPH, PAFGNOSTIC, GETBASES, VCF_FROM_GFA, TREE, Main:ALIGN, OPENNESS_PANACUS, Main:TREE, HEAPS_Visualize, Main:GetVCF:VCF_FROM_GFA
+Mar-24 08:35:15.223 [main] DEBUG nextflow.Session - Igniting dataflow network (21)
+Mar-24 08:35:15.223 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:DOWNLOAD
+Mar-24 08:35:15.224 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:ALIGN
+Mar-24 08:35:15.224 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:TREE
+Mar-24 08:35:15.224 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:MAKE_PVG
+Mar-24 08:35:15.225 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:VIZ1
+Mar-24 08:35:15.225 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:Bandage
+Mar-24 08:35:15.225 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:ODGI
+Mar-24 08:35:15.225 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:VIZ2
+Mar-24 08:35:15.225 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:HEAPS
+Mar-24 08:35:15.226 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:HEAPS_Visualize
+Mar-24 08:35:15.226 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:PAVS
+Mar-24 08:35:15.226 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:PAVS_plot
+Mar-24 08:35:15.226 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:GETBASES
+Mar-24 08:35:15.226 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:GFAstat
+Mar-24 08:35:15.226 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:GetVCF:PATH_FROM_GFA
+Mar-24 08:35:15.227 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:GetVCF:VCF_FROM_GFA
+Mar-24 08:35:15.227 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:GetVCF:VCF_PROCESS
+Mar-24 08:35:15.227 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:OPENNESS_PANACUS
+Mar-24 08:35:15.227 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:OPENNESS_PANGROWTH
+Mar-24 08:35:15.227 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:COMMUNITIES
+Mar-24 08:35:15.227 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > Main:PAFGNOSTIC
+Mar-24 08:35:15.228 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_8e66c89eeb7b2889: /mnt/lustre/RDS-live/downing/LSDV-PVG/main.nf
+  Script_b69406b4734a3515: /mnt/lustre/RDS-live/downing/LSDV-PVG/./modules/processes.nf
+Mar-24 08:35:15.228 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Mar-24 08:35:15.228 [main] DEBUG nextflow.Session - Session await
+Mar-24 08:35:15.404 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:DOWNLOAD > jobId: 89478; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/41/08a44567baf293f7e4319534789c32
+Mar-24 08:35:15.405 [Task submitter] INFO  nextflow.Session - [41/08a445] Submitted process > Main:DOWNLOAD
+Mar-24 08:35:25.065 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89478; id: 1; name: Main:DOWNLOAD; status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/41/08a44567baf293f7e4319534789c32 started: 1742805320061; exited: 2025-03-24T08:35:20Z; ]
+Mar-24 08:35:25.066 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=30; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-24 08:35:25.098 [TaskFinalizer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=30; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-24 08:35:25.142 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:ALIGN > jobId: 89479; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/53/b00c7284858872832c62e574ee4ac1
+Mar-24 08:35:25.142 [Task submitter] INFO  nextflow.Session - [53/b00c72] Submitted process > Main:ALIGN
+Mar-24 08:35:25.174 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:OPENNESS_PANGROWTH (get PVG openness pangrowth) > jobId: 89480; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/f7/4d81bc3604fc5f0b74c142b658f0a3
+Mar-24 08:35:25.174 [Task submitter] INFO  nextflow.Session - [f7/4d81bc] Submitted process > Main:OPENNESS_PANGROWTH (get PVG openness pangrowth)
+Mar-24 08:35:25.197 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:MAKE_PVG (index reference FASTA) > jobId: 89481; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/0f/d291da34f7e2709261ed0dfc0edbaf
+Mar-24 08:35:25.197 [Task submitter] INFO  nextflow.Session - [0f/d291da] Submitted process > Main:MAKE_PVG (index reference FASTA)
+Mar-24 08:35:30.067 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89479; id: 4; name: Main:ALIGN; status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/53/b00c7284858872832c62e574ee4ac1 started: 1742805330061; exited: 2025-03-24T08:35:29Z; ]
+Mar-24 08:35:30.131 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:TREE (Building tree with T14.raxml.supportTBE) > jobId: 89482; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/68/5271f440896599b0e90d0dfcd7731d
+Mar-24 08:35:30.132 [Task submitter] INFO  nextflow.Session - [68/5271f4] Submitted process > Main:TREE (Building tree with T14.raxml.supportTBE)
+Mar-24 08:35:35.066 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89480; id: 2; name: Main:OPENNESS_PANGROWTH (get PVG openness pangrowth); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/f7/4d81bc3604fc5f0b74c142b658f0a3 started: 1742805330068; exited: 2025-03-24T08:35:34Z; ]
+Mar-24 08:35:35.109 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:COMMUNITIES > jobId: 89483; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/45/040c8e1e88946677a85c2c94022b3d
+Mar-24 08:35:35.110 [Task submitter] INFO  nextflow.Session - [45/040c8e] Submitted process > Main:COMMUNITIES
+Mar-24 08:35:40.066 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89482; id: 5; name: Main:TREE (Building tree with T14.raxml.supportTBE); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/68/5271f440896599b0e90d0dfcd7731d started: 1742805335068; exited: 2025-03-24T08:35:35Z; ]
+Mar-24 08:35:40.071 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89483; id: 6; name: Main:COMMUNITIES; status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/45/040c8e1e88946677a85c2c94022b3d started: 1742805340067; exited: 2025-03-24T08:35:36Z; ]
+Mar-24 08:35:40.116 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:PAFGNOSTIC > jobId: 89484; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/fe/33e3c503ba8dcf9676a3e0677ff567
+Mar-24 08:35:40.116 [Task submitter] INFO  nextflow.Session - [fe/33e3c5] Submitted process > Main:PAFGNOSTIC
+Mar-24 08:35:45.067 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89484; id: 7; name: Main:PAFGNOSTIC; status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/fe/33e3c503ba8dcf9676a3e0677ff567 started: 1742805345063; exited: 2025-03-24T08:35:41Z; ]
+Mar-24 08:36:05.065 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89481; id: 3; name: Main:MAKE_PVG (index reference FASTA); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/0f/d291da34f7e2709261ed0dfc0edbaf started: 1742805330071; exited: 2025-03-24T08:36:05Z; ]
+Mar-24 08:36:05.100 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:Bandage > jobId: 89485; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/c1/0e14243e151f3d3b7884b2357a42d7
+Mar-24 08:36:05.101 [Task submitter] INFO  nextflow.Session - [c1/0e1424] Submitted process > Main:Bandage
+Mar-24 08:36:05.121 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:GetVCF:VCF_FROM_GFA (get VCFs from GFA) > jobId: 89486; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/27/d5db0eb1c961575215b3c420b9f591
+Mar-24 08:36:05.121 [Task submitter] INFO  nextflow.Session - [27/d5db0e] Submitted process > Main:GetVCF:VCF_FROM_GFA (get VCFs from GFA)
+Mar-24 08:36:05.140 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:ODGI > jobId: 89487; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/a5/007936cfde3f3190764f91a94c67fa
+Mar-24 08:36:05.140 [Task submitter] INFO  nextflow.Session - [a5/007936] Submitted process > Main:ODGI
+Mar-24 08:36:05.158 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:GFAstat > jobId: 89488; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/75/1ab03c0ab706b781640743307c4864
+Mar-24 08:36:05.159 [Task submitter] INFO  nextflow.Session - [75/1ab03c] Submitted process > Main:GFAstat
+Mar-24 08:36:05.179 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:GetVCF:PATH_FROM_GFA (get paths from GFA) > jobId: 89489; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/de/2ef6f2ec17ba508c7ff5bbc2f75af4
+Mar-24 08:36:05.179 [Task submitter] INFO  nextflow.Session - [de/2ef6f2] Submitted process > Main:GetVCF:PATH_FROM_GFA (get paths from GFA)
+Mar-24 08:36:05.205 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:VIZ1 > jobId: 89490; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/c7/328d7736d311824e68b46001c8710b
+Mar-24 08:36:05.205 [Task submitter] INFO  nextflow.Session - [c7/328d77] Submitted process > Main:VIZ1
+Mar-24 08:36:05.224 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:OPENNESS_PANACUS (get PVG openness panacus) > jobId: 89491; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/9a/954c1a7cc37e77da04192c43c7aa63
+Mar-24 08:36:05.224 [Task submitter] INFO  nextflow.Session - [9a/954c1a] Submitted process > Main:OPENNESS_PANACUS (get PVG openness panacus)
+Mar-24 08:36:10.066 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89485; id: 9; name: Main:Bandage; status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/c1/0e14243e151f3d3b7884b2357a42d7 started: 1742805370062; exited: 2025-03-24T08:36:07Z; ]
+Mar-24 08:36:10.070 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89486; id: 11; name: Main:GetVCF:VCF_FROM_GFA (get VCFs from GFA); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/27/d5db0eb1c961575215b3c420b9f591 started: 1742805370067; exited: 2025-03-24T08:36:07Z; ]
+Mar-24 08:36:10.074 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89487; id: 14; name: Main:ODGI; status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/a5/007936cfde3f3190764f91a94c67fa started: 1742805370071; exited: 2025-03-24T08:36:06Z; ]
+Mar-24 08:36:10.077 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89488; id: 10; name: Main:GFAstat; status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/75/1ab03c0ab706b781640743307c4864 started: 1742805370075; exited: 2025-03-24T08:36:07Z; ]
+Mar-24 08:36:10.081 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89489; id: 8; name: Main:GetVCF:PATH_FROM_GFA (get paths from GFA); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/de/2ef6f2ec17ba508c7ff5bbc2f75af4 started: 1742805370078; exited: 2025-03-24T08:36:07Z; ]
+Mar-24 08:36:10.086 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89491; id: 13; name: Main:OPENNESS_PANACUS (get PVG openness panacus); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/9a/954c1a7cc37e77da04192c43c7aa63 started: 1742805370083; exited: 2025-03-24T08:36:08Z; ]
+Mar-24 08:36:10.101 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:PAVS (pavs) > jobId: 89492; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/a7/23b0f5598724dba6d2990912cfc371
+Mar-24 08:36:10.101 [Task submitter] INFO  nextflow.Session - [a7/23b0f5] Submitted process > Main:PAVS (pavs)
+Mar-24 08:36:10.121 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:VIZ2 (big viz) > jobId: 89493; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/10/6924d03800557055bda4f4f3cc2fe1
+Mar-24 08:36:10.122 [Task submitter] INFO  nextflow.Session - [10/6924d0] Submitted process > Main:VIZ2 (big viz)
+Mar-24 08:36:10.141 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:GETBASES (get bases) > jobId: 89494; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/24/a7f5d31e7159ee84e427c43a974d9e
+Mar-24 08:36:10.141 [Task submitter] INFO  nextflow.Session - [24/a7f5d3] Submitted process > Main:GETBASES (get bases)
+Mar-24 08:36:10.161 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:HEAPS (heaps) > jobId: 89495; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/8b/00db727ba13a8f7461b4326f2a4f1e
+Mar-24 08:36:10.162 [Task submitter] INFO  nextflow.Session - [8b/00db72] Submitted process > Main:HEAPS (heaps)
+Mar-24 08:36:10.181 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:GetVCF:VCF_PROCESS (Process VCF information) > jobId: 89496; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/10/dfa274f0a45bc9a2bcd9dcccee83d4
+Mar-24 08:36:10.181 [Task submitter] INFO  nextflow.Session - [10/dfa274] Submitted process > Main:GetVCF:VCF_PROCESS (Process VCF information)
+Mar-24 08:36:15.066 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89490; id: 12; name: Main:VIZ1; status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/c7/328d7736d311824e68b46001c8710b started: 1742805370081; exited: 2025-03-24T08:36:11Z; ]
+Mar-24 08:36:15.071 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89492; id: 17; name: Main:PAVS (pavs); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/a7/23b0f5598724dba6d2990912cfc371 started: 1742805375067; exited: 2025-03-24T08:36:12Z; ]
+Mar-24 08:36:15.075 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89493; id: 16; name: Main:VIZ2 (big viz); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/10/6924d03800557055bda4f4f3cc2fe1 started: 1742805375072; exited: 2025-03-24T08:36:12Z; ]
+Mar-24 08:36:15.079 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89494; id: 15; name: Main:GETBASES (get bases); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/24/a7f5d31e7159ee84e427c43a974d9e started: 1742805375076; exited: 2025-03-24T08:36:11Z; ]
+Mar-24 08:36:15.082 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89495; id: 18; name: Main:HEAPS (heaps); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/8b/00db727ba13a8f7461b4326f2a4f1e started: 1742805375079; exited: 2025-03-24T08:36:13Z; ]
+Mar-24 08:36:15.107 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:PAVS_plot (pavs) > jobId: 89497; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/57/a9c6fd34256ae2695f1c8f8f426ec5
+Mar-24 08:36:15.107 [Task submitter] INFO  nextflow.Session - [57/a9c6fd] Submitted process > Main:PAVS_plot (pavs)
+Mar-24 08:36:15.127 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SLURM] submitted process Main:HEAPS_Visualize (heaps) > jobId: 89498; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/11/ec100921827996b867f00aaf0dc6ac
+Mar-24 08:36:15.127 [Task submitter] INFO  nextflow.Session - [11/ec1009] Submitted process > Main:HEAPS_Visualize (heaps)
+Mar-24 08:36:20.069 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89497; id: 20; name: Main:PAVS_plot (pavs); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/57/a9c6fd34256ae2695f1c8f8f426ec5 started: 1742805380065; exited: 2025-03-24T08:36:16Z; ]
+Mar-24 08:36:20.073 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89498; id: 21; name: Main:HEAPS_Visualize (heaps); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/11/ec100921827996b867f00aaf0dc6ac started: 1742805380070; exited: 2025-03-24T08:36:17Z; ]
+Mar-24 08:36:45.068 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 89496; id: 19; name: Main:GetVCF:VCF_PROCESS (Process VCF information); status: COMPLETED; exit: 0; error: -; workDir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/10/dfa274f0a45bc9a2bcd9dcccee83d4 started: 1742805375083; exited: 2025-03-24T08:36:43Z; ]
+Mar-24 08:36:45.074 [main] DEBUG nextflow.Session - Session await > all processes finished
+Mar-24 08:36:50.064 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: slurm) - terminating tasks monitor poll loop
+Mar-24 08:36:50.065 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Mar-24 08:36:50.069 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Mar-24 08:36:50.070 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Mar-24 08:36:50.075 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=21; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=42m 20s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=3; peakCpus=120; peakMemory=0; ]
+Mar-24 08:36:50.289 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Mar-24 08:36:50.304 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Mar-24 08:36:50.304 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

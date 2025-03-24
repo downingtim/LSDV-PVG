@@ -1,0 +1,205 @@
+Mar-24 08:32:14.250 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --config template.COX.all.yml
+Mar-24 08:32:14.355 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.3
+Mar-24 08:32:14.369 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/mnt/lustre/RDS-live/downing/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.3,nf-tower@1.9.3,nf-wave@1.7.4
+Mar-24 08:32:14.386 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-24 08:32:14.387 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-24 08:32:14.389 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Mar-24 08:32:14.399 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-24 08:32:14.417 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mnt/lustre/RDS-live/downing/LSDV-PVG/nextflow.config
+Mar-24 08:32:14.420 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/lustre/RDS-live/downing/LSDV-PVG/nextflow.config
+Mar-24 08:32:14.440 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /mnt/lustre/RDS-live/downing/.nextflow/secrets/store.json
+Mar-24 08:32:14.442 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@1a78dacd] - activable => nextflow.secret.LocalSecretsProvider@1a78dacd
+Mar-24 08:32:14.454 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Mar-24 08:32:15.012 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Mar-24 08:32:15.024 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [voluminous_joliot] DSL2 - revision: 525bb14852
+Mar-24 08:32:15.026 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-24 08:32:15.026 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Mar-24 08:32:15.068 [main] DEBUG nextflow.Session - Session UUID: 3f735846-4619-481a-867b-60a8b38ea7ce
+Mar-24 08:32:15.068 [main] DEBUG nextflow.Session - Run name: voluminous_joliot
+Mar-24 08:32:15.068 [main] DEBUG nextflow.Session - Executor pool size: 10
+Mar-24 08:32:15.075 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Mar-24 08:32:15.079 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=30; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-24 08:32:15.105 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.3 build 5933
+  Created: 16-12-2024 15:34 UTC 
+  System: Linux 5.4.0-42-generic
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 17.0.3-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 3490780@login1 [192.168.200.211]
+  CPUs: 10 - Mem: 995.6 GB (478.6 GB) - Swap: 32 GB (2.7 GB)
+Mar-24 08:32:15.133 [main] DEBUG nextflow.Session - Work-dir: /mnt/lustre/RDS-live/downing/LSDV-PVG/work [lustre]
+Mar-24 08:32:15.165 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-24 08:32:15.172 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-24 08:32:15.193 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-24 08:32:15.200 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 11; maxThreads: 1000
+Mar-24 08:32:15.259 [main] DEBUG nextflow.Session - Session start
+Mar-24 08:32:15.570 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-24 08:32:15.590 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_8e66c89eeb7b2889: /mnt/lustre/RDS-live/downing/LSDV-PVG/main.nf
+Mar-24 08:32:15.594 [main] DEBUG nextflow.Session - 
+Thread[main,5,main]
+  java.base@17.0.3-internal/java.lang.Thread.dumpThreads(Native Method)
+  java.base@17.0.3-internal/java.lang.Thread.getAllStackTraces(Thread.java:1662)
+  app//nextflow.util.SysHelper.dumpThreads(SysHelper.groovy:188)
+  app//nextflow.Session.abort(Session.groovy:800)
+  app//nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:149)
+  app//nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+  app//nextflow.cli.Launcher.run(Launcher.groovy:503)
+  app//nextflow.cli.Launcher.main(Launcher.groovy:658)
+
+Thread[Notification Thread,9,system]
+
+Thread[Finalizer,8,system]
+  java.base@17.0.3-internal/java.lang.Object.wait(Native Method)
+  java.base@17.0.3-internal/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+  java.base@17.0.3-internal/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+  java.base@17.0.3-internal/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+Thread[Reference Handler,10,system]
+  java.base@17.0.3-internal/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+  java.base@17.0.3-internal/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+  java.base@17.0.3-internal/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+Thread[Signal Dispatcher,9,system]
+
+Thread[Common-Cleaner,8,InnocuousThreadGroup]
+  java.base@17.0.3-internal/java.lang.Object.wait(Native Method)
+  java.base@17.0.3-internal/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+  java.base@17.0.3-internal/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+  java.base@17.0.3-internal/java.lang.Thread.run(Thread.java:833)
+  java.base@17.0.3-internal/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+Thread[AnsiLogObserver,5,main]
+  java.base@17.0.3-internal/java.lang.Object.wait(Native Method)
+  app//nextflow.trace.AnsiLogObserver.render0(AnsiLogObserver.groovy:185)
+  java.base@17.0.3-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@17.0.3-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base@17.0.3-internal/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@17.0.3-internal/java.lang.reflect.Method.invoke(Method.java:568)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@17.0.3-internal/java.lang.Thread.run(Thread.java:833)
+
+Thread[Thread-1,5,main]
+  java.base@17.0.3-internal/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@17.0.3-internal/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+  java.base@17.0.3-internal/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+  java.base@17.0.3-internal/java.util.concurrent.LinkedBlockingDeque.pollFirst(LinkedBlockingDeque.java:515)
+  java.base@17.0.3-internal/java.util.concurrent.LinkedBlockingDeque.poll(LinkedBlockingDeque.java:677)
+  app//nextflow.util.SimpleAgent.run(SimpleAgent.groovy:89)
+  java.base@17.0.3-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@17.0.3-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base@17.0.3-internal/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@17.0.3-internal/java.lang.reflect.Method.invoke(Method.java:568)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@17.0.3-internal/java.lang.Thread.run(Thread.java:833)
+
+Thread[process reaper,10,system]
+  java.base@17.0.3-internal/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@17.0.3-internal/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+  java.base@17.0.3-internal/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+  java.base@17.0.3-internal/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+  java.base@17.0.3-internal/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+  java.base@17.0.3-internal/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+  java.base@17.0.3-internal/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+  java.base@17.0.3-internal/java.lang.Thread.run(Thread.java:833)
+
+Mar-24 08:32:15.599 [main] ERROR nextflow.cli.Launcher - Module compilation error
+- file : /mnt/lustre/RDS-live/downing/LSDV-PVG/./modules/processes.nf
+- cause: Unexpected character: '#' @ line 22, column 1.
+   #=    container "chandanatpi/panalayze_env:3.0"
+   ^
+
+1 error
+
+nextflow.exception.ScriptCompilationException: Module compilation error
+- file : /mnt/lustre/RDS-live/downing/LSDV-PVG/./modules/processes.nf
+- cause: Unexpected character: '#' @ line 22, column 1.
+   #=    container "chandanatpi/panalayze_env:3.0"
+   ^
+
+1 error
+
+	at nextflow.script.ScriptParser.parse0(ScriptParser.groovy:196)
+	at nextflow.script.ScriptParser.parse(ScriptParser.groovy:206)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:221)
+	at nextflow.script.IncludeDef.memoizedMethodPriv$loadModule0PathMapSession(IncludeDef.groovy:142)
+	at nextflow.script.IncludeDef.access$0(IncludeDef.groovy)
+	at nextflow.script.IncludeDef$__clinit__closure2.doCall(IncludeDef.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at org.codehaus.groovy.runtime.memoize.Memoize$MemoizeFunction.lambda$call$0(Memoize.java:137)
+	at org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache.getAndPut(ConcurrentCommonCache.java:137)
+	at org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache.getAndPut(ConcurrentCommonCache.java:113)
+	at org.codehaus.groovy.runtime.memoize.Memoize$MemoizeFunction.call(Memoize.java:136)
+	at nextflow.script.IncludeDef.loadModule0(IncludeDef.groovy)
+	at nextflow.script.IncludeDef.load0(IncludeDef.groovy:114)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at Script_8e66c89eeb7b2889.runScript(Script_8e66c89eeb7b2889:20)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run0(BaseScript.groovy:159)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:209)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:236)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:243)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:138)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+	at nextflow.cli.Launcher.run(Launcher.groovy:503)
+	at nextflow.cli.Launcher.main(Launcher.groovy:658)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script_b08ba06e38bd5e69: 22: Unexpected character: '#' @ line 22, column 1.
+   #=    container "chandanatpi/panalayze_env:3.0"
+   ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:292)
+	at org.codehaus.groovy.control.ErrorCollector.addFatalError(ErrorCollector.java:148)
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4753)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4736)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:254)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:228)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:262)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at org.codehaus.groovy.control.SourceUnit.buildAST(SourceUnit.java:256)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:663)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:373)
+	at groovy.lang.GroovyClassLoader.lambda$parseClass$2(GroovyClassLoader.java:316)
+	at org.codehaus.groovy.runtime.memoize.StampedCommonCache.compute(StampedCommonCache.java:163)
+	at org.codehaus.groovy.runtime.memoize.StampedCommonCache.getAndPut(StampedCommonCache.java:154)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:314)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:572)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:585)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:639)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:643)
+	at nextflow.script.ScriptParser.parse0(ScriptParser.groovy:175)
+	... 32 common frames omitted

@@ -1,0 +1,27 @@
+[wfmash] Warning: Detected single file all-vs-all mapping with no other options. Consider adding -L, --lower-triangular for efficiency.
+[mashmap] Skipping self mappings for single file all-vs-all mapping.
+[mashmap] MashMap v3.1.1
+[mashmap] Reference = [communities.genomes.fasta.gz]
+[mashmap] Query = [communities.genomes.fasta.gz]
+[mashmap] Kmer size = 19
+[mashmap] Sketch size = 298
+[mashmap] Segment length = 5000 (read split allowed)
+[mashmap] Block length min = 25000
+[mashmap] Chaining gap max = 20000
+[mashmap] Mappings per segment = 6
+[mashmap] Percentage identity threshold = 90%
+[mashmap] Skip self mappings
+[mashmap] Hypergeometric filter w/ delta = 0 and confidence 0.999
+[mashmap] Mapping output file = /dev/stdout
+[mashmap] Filter mode = 1 (1 = map, 2 = one-to-one, 3 = none)
+[mashmap] Execution threads  = 44
+[mashmap::skch::Sketch::build] minmer windows picked from reference = 9437
+[mashmap::skch::Sketch::index] unique minmers = 2572
+[mashmap::skch::Sketch::computeFreqHist] Frequency histogram of minmer interval points = (2, 1154) ... (94, 1)
+[mashmap::skch::Sketch::computeFreqHist] With threshold 0.001%, consider all minmers during lookup.
+[wfmash::map] time spent computing the reference index: 0.00888357 sec
+[mashmap::skch::Map::mapQuery] mapped  -nan% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[mashmap::skch::Map::mapQuery] mapped  -nan% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[mashmap::skch::Map::mapQuery] count of mapped reads = 11, reads qualified for mapping = 11, total input reads = 11, total input bp = 0
+[wfmash::map] time spent mapping the query: 1.08e-01 sec
+[wfmash::map] mapping results saved in: /dev/stdout
+Sketching communities.genomes.fasta.gz (provide sketch file made with "mash sketch" to skip)...done.
