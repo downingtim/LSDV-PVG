@@ -3,10 +3,10 @@ PROCESS:
   executor: slurm
   cpus: 40 
 VIRUS:
-  name : "human coxsackievirus a1"
-  filter : human coxsackievirus a1, human coxsackievirus, coxsackievirus 
-  haplotypes : 11
-  genome_length : 7300
+  name : porcine respiratory coronavirus
+  filter :   porcine respiratory coronavirus
+  haplotypes : 15
+  genome_length : 27000
 MODULES:   # Setting the module value to 0 will switch off the module in the pipeline
   download : 1
   align : 1

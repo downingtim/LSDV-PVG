@@ -37,9 +37,9 @@ We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing
 
     nextflow run main.nf --config template.GTPV.all.yml 
 
-We can run on a ssRNA test dataset - 11 coxsackie virus genomes (at the time of writing) to be downloaded (during testing, this took 96 seconds / 0.7 CPU hours to complete):
+We can run on a ssRNA test dataset - 15 porcine respiratory virus genomes (at the time of writing) to be downloaded (during testing, this took 7.2 mins / 21 CPU hours to complete):
 
-    nextflow run main.nf --config template.COX.all.yml
+    nextflow run main.nf --config template.PRCV.all.yml
 
 ## Module selection
 

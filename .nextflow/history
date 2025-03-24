@@ -1,0 +1,2 @@
+2025-03-24 12:03:29	2m 7s	berserk_cantor	ERR	525bb14852a6a34034c4af48f24b8604	d791f6ef-23d3-4ded-9763-d93bb44f6f0a	nextflow run main.nf --config template.COX.2.all.yml
+2025-03-24 12:36:54	7m 41s	serene_austin	OK	525bb14852a6a34034c4af48f24b8604	25be5a0d-2c10-44fb-b0b5-5707904ad678	nextflow run main.nf --config template.COX.2.all.yml
