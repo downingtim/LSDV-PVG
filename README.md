@@ -33,7 +33,7 @@ We can take 121 lumpy skin disease virus (LSDV) genomes, which takes 605 mins / 
 
     nextflow run main.nf --config template.LSDV.yml --reference test_genomes.LSDV.fa
 
-We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing) to be downloaded based on the text in the template file (during testing, this took 23 mins / 18.3 CPU hours to complete):
+We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing) to be downloaded based on the qtext in the template file (during testing, this took 23 mins / 18.3 CPU hours to complete):
 
     nextflow run main.nf --config template.GTPV.all.yml 
 
