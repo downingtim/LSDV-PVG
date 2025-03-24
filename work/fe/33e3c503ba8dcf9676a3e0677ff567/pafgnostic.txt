@@ -1,1 +1,0 @@
-q.name	q.start	q.end	q.strand	t.name	t.start	t.end	num.=	num.X	num.I	num.D	unique.=	unique.X	unique.I	unique.D	longest.=	shortest.=	avg.=	longest.X	shortest.X	avg.X	longest.I	shortest.I	avg.I	longest.D	shortest.D	avg.D

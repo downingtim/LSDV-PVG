@@ -1,9 +1,0 @@
-[2025-03-24 08:36:04,252] multiqc.config                                     [INFO   ]  Loading config settings from: multiqc_config.yaml
-[2025-03-24 08:36:04,256] multiqc.config                                     [INFO   ]  Loading config settings from: multiqc_config.yaml
-[2025-03-24 08:36:04,256] multiqc.core.update_config                         [INFO   ]  Not cleaning sample names
-[2025-03-24 08:36:04,348] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.28 now available!
-[2025-03-24 08:36:04,349] multiqc.core.file_search                           [INFO   ]  Search path: /mnt/lustre/RDS-live/downing/LSDV-PVG/work/0f/d291da34f7e2709261ed0dfc0edbaf
-[2025-03-24 08:36:04,455] multiqc.modules.odgi.odgi                          [INFO   ]  Found 2 reports
-[2025-03-24 08:36:04,517] multiqc.core.write_results                         [INFO   ]  Data        : multiqc_data
-[2025-03-24 08:36:04,601] multiqc.core.write_results                         [INFO   ]  Report      : multiqc_report.html
-[2025-03-24 08:36:04,603] multiqc.multiqc                                    [INFO   ]  MultiQC complete

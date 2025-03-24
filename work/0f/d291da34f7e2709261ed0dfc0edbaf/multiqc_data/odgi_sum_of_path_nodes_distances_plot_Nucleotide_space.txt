@@ -1,3 +1,0 @@
-Sample	Sum of distances: nucleotide space
-seqwish	566.271
-smooth	5.40215

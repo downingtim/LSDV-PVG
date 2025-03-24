@@ -1,3 +1,0 @@
-Sample	Mean links length: nucleotide space
-seqwish	3529.92
-smooth	0

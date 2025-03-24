@@ -1,6 +1,0 @@
-temp1 growth: (8.90e+03) x^0.63
-temp1 average new: (1.07e+04) x^-0.73
-p_core core: (1.17e+04) e^(-0.25x) + 532.67
-p_core percentage of core in a genome:
-    (predicted core)/(average items in a single genome)
-    532.67/7271.36 = 0.07325568288307915

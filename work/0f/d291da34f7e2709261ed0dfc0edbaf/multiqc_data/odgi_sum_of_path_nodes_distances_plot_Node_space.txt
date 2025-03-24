@@ -1,3 +1,0 @@
-Sample	Sum of distances: node space
-seqwish	489.324
-smooth	3.48295

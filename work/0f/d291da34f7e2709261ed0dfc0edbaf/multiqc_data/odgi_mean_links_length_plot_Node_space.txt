@@ -1,3 +1,0 @@
-Sample	Mean links length: node space
-seqwish	244.677
-smooth	0
