@@ -19,7 +19,7 @@ Download dataset to examine (eg LSDV)
 */
 
 process DOWNLOAD {
-// container "chandanatpi/panalayze_env:3.0"
+    container "chandanatpi/panalayze_env:3.0"
     cpus 8
 
     output:
@@ -117,6 +117,7 @@ process MAKE_PVG {
 }
 
 process VIZ1 {
+    container "chandanatpi/panalayze_env:3.0"
     input:
     path gfa 
 
