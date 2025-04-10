@@ -1,0 +1,27 @@
+---
+PROCESS:
+  executor: slurm
+  cpus: 40 
+VIRUS:
+  name : goatpox virus OR GTPV  # Add search terms for the virus separated by the word OR
+  filter : goatpox virus, GTPV, goatpox, goatpox_virus
+  haplotypes : 132
+  genome_length : 7500
+MODULES:   # Setting the module value to 0 will switch off the module in the pipeline
+  download : 1
+  align : 1
+  tree : 1
+  make_pvg : 1
+  viz1 : 1
+  gfastat : 1
+  bandage : 1
+  odgi : 1
+  openness_panacus : 1
+  getbases : 1
+  viz2 : 1
+  heaps : 1
+  pavs : 1
+  getvcf : 1
+  busco : 0
+  openness_pangrowth : 1
+  communities : 1
