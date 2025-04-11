@@ -71,7 +71,7 @@ In your own template YML file, you will need to define the dataset name, number 
 ## How does it work?
 
 The input data is "test_genomes.GTPV.fa" in this example. You can switch this to your own FASTA file input: in main.nf, Panalyze has a Download module which is not active by default.
-vvvvThe modules folder contains the processes, which are called by main.nf. These may call tools and scripts in other folders like bin.
+The modules folder contains the processes, which are called by main.nf. These may call tools and scripts in other folders like bin.
 
 
 ## Main components:
