@@ -104,7 +104,7 @@ process MAKE_PVG {
     samtools faidx ${refFasta}.gz > ${refFasta}.gz.fai
 
     # run PGGB - you need to specify the number of haplotypes in number
-    pggb -i ${refFasta}.gz -m -S -o . -t ${task.cpus} -p 90 -s 1k -n ${params.haplotypes}
+    pggb -i ${refFasta}.gz -m -S -o . -t ${task.cpus} -p 90 -s ${params.seed} -n ${params.haplotypes}
     mv *.gfa pggb.gfa
     # if issues, remove CURRENT/ in ${workflow.projectDir}  before re-running 
 
@@ -351,7 +351,7 @@ process VCF_PROCESS {
     plot_SNP_density.R ${vcf_file} || true
 
     # plot AFS (allele freq spectrum) - input VCF and number of samples
-    afs.py out ${params.haplotypes} 
+    afs.py out ${params.haplotypes} || true 
     """
 }
 
