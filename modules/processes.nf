@@ -20,7 +20,7 @@ Download dataset to examine (eg LSDV)
 
 process DOWNLOAD {
     container "chandanatpi/panalayze_env:3.0"
-    cpus 8
+    cpus { Math.min(params.cpus as int, 8) }
 
     output:
     publishDir "results/download", mode: "copy"
@@ -43,7 +43,7 @@ process DOWNLOAD {
 }
 
 process ALIGN {
-    cpus 8
+    cpus { Math.min(params.cpus as int, 8) }
     
     input:
     path genomes
@@ -84,7 +84,7 @@ process MAKE_PVG {
     cache 'lenient'
     tag {"index reference FASTA"}
     label 'pvg'
-    cpus 20 
+    cpus { Math.min(params.cpus as int, 20) }
 
     input:
     path (refFasta)
