@@ -83,6 +83,8 @@ COPY bin.docker/plot_hist.py /bin
 RUN apt-get install ncbi-entrez-direct -y
 RUN apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra -y
 RUN apt-get install -y gffread
+RUN apt-get install mafft -y
+RUN apt-get install samtools -y
 
 
 
