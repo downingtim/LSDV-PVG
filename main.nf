@@ -17,7 +17,7 @@ nextflow.enable.dsl = 2
 Modules
 #==============================================
 */
-include { DOWNLOAD; ALIGN; TREE; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; PATH_FROM_GFA;VCF_FROM_GFA;VCF_PROCESS; GETBASES; VIZ2; HEAPS; HEAPS_Visualize; PAVS; PAVS_plot; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; Bandage;BANDAGE_view; GFAstat; SUMMARIZE; } from './modules/processes.nf'
+include { DOWNLOAD; ALIGN; TREE; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; PATH_FROM_GFA;VCF_FROM_GFA;VCF_PROCESS; GETBASES; VIZ2; HEAPS; HEAPS_Visualize; PAVS; PAVS_plot; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; Bandage;BANDAGE_view; GFAstat; SUMMARIZE; ANNOTATE; } from './modules/processes.nf'
 /*
 #==============================================
 Modules
@@ -54,8 +54,13 @@ workflow Main {
         
         if (params.odgi) {
             odgiOut = ODGI(pvgOut.gfa)
-            
-            if (params.viz2) {
+
+	    if (params.annotate){
+	    	    ANNOTATE(odgiOut.ogfile, fastaCh)
+            	    annotation_csv = ANNOTATE.out
+	     }
+
+	    if (params.viz2) {
                 VIZ2(odgiOut.ogfile)
             }
             
