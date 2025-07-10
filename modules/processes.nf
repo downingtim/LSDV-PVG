@@ -697,32 +697,24 @@ process ANNOTATE {
     CLEAN_GFF="\${REFERENCE_ID}_clean.gff"
     ANNOTATION_CSV="PVG_annotation.csv"
 
+    # Clean up sequence region naming in GFF
     string1=\$(grep "sequence-region" "\$INPUT_GFF" | awk '{print \$2}')
     sed "s/\${string1}/\${REFERENCE_ID}/g" "\$INPUT_GFF" | sed 's/^>//' > "\$CLEAN_GFF"
 
-    CLEAN_GTF="\${REFERENCE_ID}_clean.gtf" # Convert GFF to GTF format
+    # Convert GFF to GTF format
+    CLEAN_GTF="\${REFERENCE_ID}_clean.gtf"
     gffread -E "\$CLEAN_GFF" -T -o "\$CLEAN_GTF"
 
-    PREP_GTF="\${REFERENCE_ID}.prep.gtf" # intermediate
-    # Process GTF to extract gene names or simplified gene numbers
-    grep -P "transcript\\t" "\$CLEAN_GTF" | while IFS=\$'\\t' read -r col1 col2 col3 col4 col5 col6 col7 col8 col9; do
-        # Extract gene_name if it exists
-        gene_name=\$(echo "\$col9" | grep -oP 'gene_name "\\K[^"]+')
+    # Process GTF to create simplified annotation format
+    PREP_GTF="\${REFERENCE_ID}.prep.gtf"
 
-        if [ -n "\$gene_name" ]; then
-            # Use gene_name if available
-            annotation="\$gene_name"
-        else
-            # Extract gene_id and convert to simplified format
-            gene_id=\$(echo "\$col9" | grep -oP 'gene_id "\\K[^"]+')
-            # Extract the number part after the last underscore
-            gene_num=\$(echo "\$gene_id" | sed 's/.*_//')
-            annotation="gene_\$gene_num"
-        fi
-
-        # Output in GTF format with simplified annotation
-        echo -e "\$col1\\t\$col2\\t\$col3\\t\$col4\\t\$col5\\t\$col6\\t\$col7\\t\$col8\\ttranscript_id \\"\$annotation\\"; gene_id \\"\$annotation\\""
-    done > "\$PREP_GTF"
+    # Extract transcript lines and clean up formatting
+    grep -P "transcript\\t" "\$CLEAN_GTF" | \\
+    sed 's/gene_id //g; s/"//g; s/prokka\ttranscript//g; s/_gene; gene_name//g; s/transcript_id//g; s/_gene//g' | sort | uniq | awk '{
+        # Print: chr, A, B, start, end, strand, score, frame, gene_name
+        printf "%s\tA\tB\t%s\t%s\t%s\t%s\t%s\t", \$1, \$2, \$3, \$4, \$5, \$6
+        if (\$9) {  print \$9 } else {  print "gene_" \$8  }
+    }' > "\$PREP_GTF"
 
     # Map positions to PVG nodes
     odgi position -i ${ogfile} -E "\$PREP_GTF" > "\$ANNOTATION_CSV"
