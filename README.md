@@ -1,4 +1,5 @@
 ![Nextflow](https://img.shields.io/badge/nextflow-20.07.1-brightgreen)
+
 ![Docker](https://img.shields.io/badge/uses-docker-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-gray)
 ![Publication](https://img.shields.io/badge/Publication-OUP%20Bioinformatics-purple)
@@ -25,25 +26,54 @@ For example, we can examine a smnall set of goatpox virus (GTPV) genomes, this t
 
     nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
-In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) genomes, which took 4 mins / 14 CPU hours to run:
+In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) serotype A genomes:
 
     nextflow run main.nf --config template.FMDV.A.yml --reference test_genomes.FMDV.A.fa
 
-We can take 121 lumpy skin disease virus (LSDV) genomes, which takes 605 mins / 33 CPU hours to run:
+We can examine a set of 441 foot-and-mouth virus (FMDV) serotype O genomes:
+
+   nextflow run ../main.nf --config template.FMDV.O.yml --reference /ephemeral/downing/PVG/FMDV_O/FMDV_O.fa
+
+We can examine a set of 18 foot-and-mouth virus (FMDV) serotype C genomes:
+
+   nextflow run ../main.nf --config template.FMDV.C.yml --reference /ephemeral/downing/PVG/FMDV_C/FMDV_C.fa
+
+We can take 121 lumpy skin disease virus (LSDV) genomes:
 
     nextflow run main.nf --config template.LSDV.yml --reference test_genomes.LSDV.fa
 
-We can take 121 lumpy skin disease virus (LSDV) genomes but just 7.5 Kb spanning 2.5-10 Kb of their aligned genomes, which takes 8.5 mins / 7.2 CPU hours to run:
+We can take 31 sheeppoxvirus (SPPV) genomes:
+
+    nextflow run main.nf --config template.SPPV.yml --reference test_genomes.SPPV.fa  
+
+We can take 132 lumpy skin disease virus (LSDV) genomes but just 7.5 Kb spanning 2.5-10 Kb of their aligned genomes:
 
     nextflow run main.nf --config template.LSDV.10kb.yml --reference test_genomes.LSDV.10kb.fa
 
-We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing) to be downloaded based on the qtext in the template file (during testing, this took 23 mins / 18.3 CPU hours to complete):
+We can take 132 lumpy skin disease virus (LSDV) genomes but just 8.9 Kb spanning 135-144 Kb of their aligned genomes:
+
+    nextflow run main.nf --config template.LSDV.135kb.yml --reference test_genomes.LSDV.135kb.fa
+
+We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing) to be downloaded based on the qtext in the template file:
 
     nextflow run main.nf --config template.GTPV.all.yml 
 
-We can run on a ssRNA test dataset - 15 porcine respiratory virus genomes (at the time of writing) to be downloaded (during testing, this took 7.2 mins / 21 CPU hours to complete):
+We can run on a ssRNA test dataset - 15 porcine respiratory coronavirus genomes (at the time of writing) to be downloaded (during testing:
 
     nextflow run main.nf --config template.PRCV.all.yml
+
+We can investigate 414 Rift Valley fever virus (RVFV) S segment sequences:
+
+   nextflow run ../main.nf --config template.RVFV.S.yml --reference /ephemeral/downing/PVG/CODE_RVFV_S/test_genomes.S.fa
+
+We can investigate 302 Rift Valley fever virus (RVFV) M segment sequences:
+
+   nextflow run ../main.nf --config template.RVFV.M.yml --reference /ephemeral/downing/PVG/CODE_RVFV_M/test_genomes.M.fa 
+
+We can investigate 306 Rift Valley fever virus (RVFV) L segment sequences:
+
+   nextflow run ../main.nf --config template.RVFV.L.yml  --reference /ephemeral/downing/PVG/CODE_RVFV_L/test_genomes.L.fa
+
 
 ## Module selection
 
