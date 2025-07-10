@@ -1,0 +1,117 @@
+[07:41:16] This is prokka 1.14.6
+[07:41:16] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[07:41:16] Homepage is https://github.com/tseemann/prokka
+[07:41:16] Local time is Tue Jul  8 07:41:16 2025
+[07:41:16] You are downing
+[07:41:16] Operating system is linux
+[07:41:16] You have BioPerl 1.7.8
+[07:41:16] System has 64 cores.
+[07:41:16] Will use maximum of 8 cores.
+[07:41:16] Annotating as >>> Viruses <<<
+[07:41:16] Generating locus_tag from 'KX894508.fasta' contents.
+[07:41:16] Setting --locustag KCBEBCIG from MD5 4cbebc20cb45034f06d8740d1ef6e54d
+[07:41:16] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[07:41:16] Creating new output folder: PROKKA
+[07:41:16] Running: mkdir -p PROKKA
+[07:41:16] Using filename prefix: KX894508.XXX
+[07:41:16] Setting HMMER_NCPU=1
+[07:41:16] Writing log to: PROKKA/KX894508.log
+[07:41:16] Command: /cm/shared/apps/mambaforge/envs/prokka/bin/prokka --kingdom Viruses --gffver 3 --usegenus --outdir PROKKA --prefix KX894508 KX894508.fasta --force --compliant
+[07:41:16] Appending to PATH: /cm/shared/apps/mambaforge/envs/prokka/bin
+[07:41:16] Looking for 'aragorn' - found /cm/shared/apps/mambaforge/envs/prokka/bin/aragorn
+[07:41:16] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[07:41:16] Looking for 'barrnap' - found /cm/shared/apps/mambaforge/envs/prokka/bin/barrnap
+[07:41:16] Determined barrnap version is 000009 from 'barrnap 0.9'
+[07:41:16] Looking for 'blastp' - found /cm/shared/apps/mambaforge/envs/prokka/bin/blastp
+[07:41:17] Determined blastp version is 002015 from 'blastp: 2.15.0+'
+[07:41:17] Looking for 'cmpress' - found /cm/shared/apps/mambaforge/envs/prokka/bin/cmpress
+[07:41:17] Determined cmpress version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[07:41:17] Looking for 'cmscan' - found /cm/shared/apps/mambaforge/envs/prokka/bin/cmscan
+[07:41:17] Determined cmscan version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[07:41:17] Looking for 'egrep' - found /usr/bin/egrep
+[07:41:17] Looking for 'find' - found /usr/bin/find
+[07:41:17] Looking for 'grep' - found /usr/bin/grep
+[07:41:17] Looking for 'hmmpress' - found /cm/shared/apps/mambaforge/envs/prokka/bin/hmmpress
+[07:41:17] Determined hmmpress version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[07:41:17] Looking for 'hmmscan' - found /cm/shared/apps/mambaforge/envs/prokka/bin/hmmscan
+[07:41:17] Determined hmmscan version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[07:41:17] Looking for 'java' - found /cm/shared/apps/mambaforge/envs/prokka/bin/java
+[07:41:17] Looking for 'makeblastdb' - found /cm/shared/apps/mambaforge/envs/prokka/bin/makeblastdb
+[07:41:17] Determined makeblastdb version is 002015 from 'makeblastdb: 2.15.0+'
+[07:41:17] Looking for 'minced' - found /cm/shared/apps/mambaforge/envs/prokka/bin/minced
+[07:41:18] Determined minced version is 004002 from 'minced 0.4.2'
+[07:41:18] Looking for 'parallel' - found /cm/shared/apps/mambaforge/envs/prokka/bin/parallel
+[07:41:18] Determined parallel version is 20240522 from 'GNU parallel 20240522'
+[07:41:18] Looking for 'prodigal' - found /cm/shared/apps/mambaforge/envs/prokka/bin/prodigal
+[07:41:18] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[07:41:18] Looking for 'prokka-genbank_to_fasta_db' - found /cm/shared/apps/mambaforge/envs/prokka/bin/prokka-genbank_to_fasta_db
+[07:41:18] Looking for 'sed' - found /cm/shared/apps/mambaforge/envs/R.4.2.2/bin/sed
+[07:41:18] Looking for 'tbl2asn' - found /cm/shared/apps/mambaforge/envs/prokka/bin/tbl2asn
+[07:41:18] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[07:41:18] Using genetic code table 1.
+[07:41:18] Loading and checking input file: KX894508.fasta
+[07:41:18] Wrote 1 contigs totalling 150562 bp.
+[07:41:18] Predicting tRNAs and tmRNAs
+[07:41:18] Running: aragorn -l -gc1  -w PROKKA\/KX894508\.fna
+[07:41:18] Found 0 tRNAs
+[07:41:18] Disabling rRNA search: --kingdom=Viruses or --norrna=0
+[07:41:18] Skipping ncRNA search, enable with --rfam if desired.
+[07:41:18] Total of 0 tRNA + rRNA features
+[07:41:18] Searching for CRISPR repeats
+[07:41:19] Found 0 CRISPRs
+[07:41:19] Predicting coding sequences
+[07:41:19] Contigs total 150562 bp, so using single mode
+[07:41:19] Running: prodigal -i PROKKA\/KX894508\.fna -c -m -g 1 -p single -f sco -q
+[07:41:19] Found 156 CDS
+[07:41:19] Connecting features back to sequences
+[07:41:19] Skipping genus-specific proteins as can't see /cm/shared/apps/mambaforge/envs/prokka/db/Genus
+[07:41:19] Annotating CDS, please be patient.
+[07:41:19] Will use 8 CPUs for similarity searching.
+[07:41:19] There are still 156 unannotated CDS left (started with 156)
+[07:41:19] Will use blast to search against /cm/shared/apps/mambaforge/envs/prokka/db/kingdom/Viruses/sprot with 8 CPUs
+[07:41:19] Running: cat PROKKA\/KX894508\.sprot\.tmp\.1256497\.faa | parallel --gnu --plain -j 8 --block 3010 --recstart '>' --pipe blastp -query - -db /cm/shared/apps/mambaforge/envs/prokka/db/kingdom/Viruses/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > PROKKA\/KX894508\.sprot\.tmp\.1256497\.blast 2> /dev/null
+[07:41:20] Modify product: Protein J1 homolog => Protein J1 
+[07:41:20] Modify product: Probable dual specificity protein phosphatase H1 homolog => putative dual specificity protein phosphatase H1 
+[07:41:20] Modify product: Probable FAD-linked sulfhydryl oxidase E10 => putative FAD-linked sulfhydryl oxidase E10
+[07:41:20] Modify product: Viral interleukin-10 homolog => Viral interleukin-10 
+[07:41:20] Cleaned 4 /product names
+[07:41:20] Deleting unwanted file: PROKKA/KX894508.sprot.tmp.1256497.faa
+[07:41:20] Deleting unwanted file: PROKKA/KX894508.sprot.tmp.1256497.blast
+[07:41:20] Labelling remaining 56 proteins as 'hypothetical protein'
+[07:41:20] Possible /pseudo 'Ankyrin repeat domain-containing protein M-T5' at gnl|Prokka|KCBEBCIG_1 position 142115
+[07:41:20] Found 34 unique /gene codes.
+[07:41:20] Fixed 2 duplicate /gene - KBTB1_1 KBTB1_2
+[07:41:20] Fixed 1 colliding /gene names.
+[07:41:20] Adding /locus_tag identifiers
+[07:41:20] Assigned 156 locus_tags to CDS and RNA features.
+[07:41:20] Writing outputs to PROKKA/
+[07:41:20] Generating annotation statistics file
+[07:41:20] Generating Genbank and Sequin files
+[07:41:20] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z PROKKA\/KX894508\.err -i PROKKA\/KX894508\.fsa 2> /dev/null
+[07:41:20] Deleting unwanted file: PROKKA/errorsummary.val
+[07:41:20] Deleting unwanted file: PROKKA/KX894508.dr
+[07:41:20] Deleting unwanted file: PROKKA/KX894508.fixedproducts
+[07:41:20] Deleting unwanted file: PROKKA/KX894508.ecn
+[07:41:20] Deleting unwanted file: PROKKA/KX894508.val
+[07:41:20] Repairing broken .GBK output that tbl2asn produces...
+[07:41:20] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < PROKKA\/KX894508\.gbf > PROKKA\/KX894508\.gbk
+[07:41:20] Deleting unwanted file: PROKKA/KX894508.gbf
+[07:41:20] Output files:
+[07:41:20] PROKKA/KX894508.gff
+[07:41:20] PROKKA/KX894508.tbl
+[07:41:20] PROKKA/KX894508.err
+[07:41:20] PROKKA/KX894508.fna
+[07:41:20] PROKKA/KX894508.fsa
+[07:41:20] PROKKA/KX894508.tsv
+[07:41:20] PROKKA/KX894508.txt
+[07:41:20] PROKKA/KX894508.ffn
+[07:41:20] PROKKA/KX894508.gbk
+[07:41:20] PROKKA/KX894508.log
+[07:41:20] PROKKA/KX894508.sqn
+[07:41:20] PROKKA/KX894508.faa
+[07:41:20] Annotation finished successfully.
+[07:41:20] Walltime used: 0.07 minutes
+[07:41:20] If you use this result please cite the Prokka paper:
+[07:41:20] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[07:41:20] Type 'prokka --citation' for more details.
+[07:41:20] Thank you, come again.

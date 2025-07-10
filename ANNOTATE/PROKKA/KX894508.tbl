@@ -1,0 +1,1294 @@
+>Feature gnl|Prokka|KCBEBCIG_1
+463	648	gene
+			locus_tag	KCBEBCIG_00001
+463	648	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00001
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00001
+1089	790	gene
+			locus_tag	KCBEBCIG_00002
+1089	790	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00002
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00002
+2157	1435	gene
+			locus_tag	KCBEBCIG_00003
+2157	1435	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00003
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00003
+2452	2964	gene
+			gene	BCRF1
+			locus_tag	KCBEBCIG_00004
+2452	2964	CDS
+			gene	BCRF1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P03180
+			locus_tag	KCBEBCIG_00004
+			product	Viral interleukin-10 
+			protein_id	gnl|Prokka|KCBEBCIG_00004
+3670	2975	gene
+			locus_tag	KCBEBCIG_00005
+3670	2975	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00005
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00005
+4759	3692	gene
+			locus_tag	KCBEBCIG_00006
+4759	3692	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00006
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00006
+5669	4842	gene
+			locus_tag	KCBEBCIG_00007
+5669	4842	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24770
+			locus_tag	KCBEBCIG_00007
+			product	Soluble interferon gamma receptor B8
+			protein_id	gnl|Prokka|KCBEBCIG_00007
+6394	5702	gene
+			locus_tag	KCBEBCIG_00008
+6394	5702	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00008
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00008
+6936	6448	gene
+			locus_tag	KCBEBCIG_00009
+6936	6448	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00009
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00009
+8113	6980	gene
+			locus_tag	KCBEBCIG_00010
+8113	6980	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00010
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00010
+8854	8219	gene
+			locus_tag	KCBEBCIG_00011
+8854	8219	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00011
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00011
+9918	8893	gene
+			locus_tag	KCBEBCIG_00012
+9918	8893	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00012
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00012
+10247	9978	gene
+			locus_tag	KCBEBCIG_00013
+10247	9978	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P18378
+			locus_tag	KCBEBCIG_00013
+			product	Protein K3
+			protein_id	gnl|Prokka|KCBEBCIG_00013
+10719	10234	gene
+			locus_tag	KCBEBCIG_00014
+10719	10234	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00014
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00014
+11026	10757	gene
+			locus_tag	KCBEBCIG_00015
+11026	10757	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00015
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00015
+11547	11017	gene
+			locus_tag	KCBEBCIG_00016
+11547	11017	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00016
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00016
+12026	11586	gene
+			gene	DUT
+			locus_tag	KCBEBCIG_00017
+12026	11586	CDS
+			EC_number	3.6.1.23
+			gene	DUT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P17374
+			locus_tag	KCBEBCIG_00017
+			product	Deoxyuridine 5'-triphosphate nucleotidohydrolase
+			protein_id	gnl|Prokka|KCBEBCIG_00017
+12947	12075	gene
+			locus_tag	KCBEBCIG_00018
+12947	12075	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24357
+			locus_tag	KCBEBCIG_00018
+			product	Kelch repeat protein F3
+			protein_id	gnl|Prokka|KCBEBCIG_00018
+13786	12974	gene
+			locus_tag	KCBEBCIG_00019
+13786	12974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00019
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00019
+14816	13851	gene
+			gene	F4L
+			locus_tag	KCBEBCIG_00020
+14816	13851	CDS
+			EC_number	1.17.4.1
+			gene	F4L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20493
+			locus_tag	KCBEBCIG_00020
+			product	Ribonucleoside-diphosphate reductase small chain
+			protein_id	gnl|Prokka|KCBEBCIG_00020
+15117	14857	gene
+			locus_tag	KCBEBCIG_00021
+15117	14857	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00021
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00021
+15502	15158	gene
+			locus_tag	KCBEBCIG_00022
+15502	15158	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00022
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00022
+15951	15733	gene
+			locus_tag	KCBEBCIG_00023
+15951	15733	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00023
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00023
+16679	16029	gene
+			locus_tag	KCBEBCIG_00024
+16679	16029	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24361
+			locus_tag	KCBEBCIG_00024
+			product	Protein F9
+			protein_id	gnl|Prokka|KCBEBCIG_00024
+18000	16657	gene
+			gene	VPK2
+			locus_tag	KCBEBCIG_00025
+18000	16657	CDS
+			EC_number	2.7.11.1
+			gene	VPK2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q89121
+			locus_tag	KCBEBCIG_00025
+			product	Serine/threonine-protein kinase 2
+			protein_id	gnl|Prokka|KCBEBCIG_00025
+18496	18122	gene
+			locus_tag	KCBEBCIG_00026
+18496	18122	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00026
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00026
+18943	18620	gene
+			locus_tag	KCBEBCIG_00027
+18943	18620	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00027
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00027
+20868	18952	gene
+			locus_tag	KCBEBCIG_00028
+20868	18952	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q80HX6
+			locus_tag	KCBEBCIG_00028
+			product	Protein F12
+			protein_id	gnl|Prokka|KCBEBCIG_00028
+21987	20875	gene
+			locus_tag	KCBEBCIG_00029
+21987	20875	CDS
+			EC_number	3.1.1.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04021
+			locus_tag	KCBEBCIG_00029
+			product	Envelope phospholipase F13
+			protein_id	gnl|Prokka|KCBEBCIG_00029
+22160	22014	gene
+			locus_tag	KCBEBCIG_00030
+22160	22014	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00030
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00030
+22626	22189	gene
+			locus_tag	KCBEBCIG_00031
+22626	22189	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00031
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00031
+23362	22703	gene
+			locus_tag	KCBEBCIG_00032
+23362	22703	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00032
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00032
+23436	23750	gene
+			locus_tag	KCBEBCIG_00033
+23436	23750	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07396
+			locus_tag	KCBEBCIG_00033
+			product	Phosphoprotein F17
+			protein_id	gnl|Prokka|KCBEBCIG_00033
+25178	23754	gene
+			gene	PAPL
+			locus_tag	KCBEBCIG_00034
+25178	23754	CDS
+			EC_number	2.7.7.19
+			gene	PAPL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23371
+			locus_tag	KCBEBCIG_00034
+			product	Poly(A) polymerase catalytic subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00034
+27382	25175	gene
+			locus_tag	KCBEBCIG_00035
+27382	25175	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21604
+			locus_tag	KCBEBCIG_00035
+			product	Protein E2
+			protein_id	gnl|Prokka|KCBEBCIG_00035
+27927	27394	gene
+			gene	E3L
+			locus_tag	KCBEBCIG_00036
+27927	27394	CDS
+			gene	E3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21081
+			locus_tag	KCBEBCIG_00036
+			product	Protein E3
+			protein_id	gnl|Prokka|KCBEBCIG_00036
+28594	27989	gene
+			locus_tag	KCBEBCIG_00037
+28594	27989	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00037
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00037
+28677	29801	gene
+			locus_tag	KCBEBCIG_00038
+28677	29801	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00038
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00038
+29810	31510	gene
+			locus_tag	KCBEBCIG_00039
+29810	31510	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21607
+			locus_tag	KCBEBCIG_00039
+			product	Protein E6
+			protein_id	gnl|Prokka|KCBEBCIG_00039
+31517	32317	gene
+			locus_tag	KCBEBCIG_00040
+31517	32317	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23372
+			locus_tag	KCBEBCIG_00040
+			product	Protein E8
+			protein_id	gnl|Prokka|KCBEBCIG_00040
+35346	32314	gene
+			gene	POL
+			locus_tag	KCBEBCIG_00041
+35346	32314	CDS
+			EC_number	2.7.7.7
+			gene	POL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20509
+			locus_tag	KCBEBCIG_00041
+			product	DNA polymerase
+			protein_id	gnl|Prokka|KCBEBCIG_00041
+35380	35667	gene
+			locus_tag	KCBEBCIG_00042
+35380	35667	CDS
+			EC_number	1.8.3.2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21050
+			locus_tag	KCBEBCIG_00042
+			product	putative FAD-linked sulfhydryl oxidase E10
+			protein_id	gnl|Prokka|KCBEBCIG_00042
+36056	35664	gene
+			locus_tag	KCBEBCIG_00043
+36056	35664	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSU0
+			locus_tag	KCBEBCIG_00043
+			product	Protein E11
+			protein_id	gnl|Prokka|KCBEBCIG_00043
+38097	36043	gene
+			locus_tag	KCBEBCIG_00044
+38097	36043	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00044
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00044
+39147	38203	gene
+			locus_tag	KCBEBCIG_00045
+39147	38203	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16714
+			locus_tag	KCBEBCIG_00045
+			product	Telomere-binding protein I1
+			protein_id	gnl|Prokka|KCBEBCIG_00045
+39372	39154	gene
+			locus_tag	KCBEBCIG_00046
+39372	39154	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00046
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00046
+40203	39373	gene
+			gene	I3L
+			locus_tag	KCBEBCIG_00047
+40203	39373	CDS
+			gene	I3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20499
+			locus_tag	KCBEBCIG_00047
+			product	Protein I3
+			protein_id	gnl|Prokka|KCBEBCIG_00047
+40484	40248	gene
+			locus_tag	KCBEBCIG_00048
+40484	40248	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12924
+			locus_tag	KCBEBCIG_00048
+			product	Protein I5
+			protein_id	gnl|Prokka|KCBEBCIG_00048
+41686	40502	gene
+			locus_tag	KCBEBCIG_00049
+41686	40502	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68462
+			locus_tag	KCBEBCIG_00049
+			product	Telomere-binding protein I6
+			protein_id	gnl|Prokka|KCBEBCIG_00049
+42980	41679	gene
+			locus_tag	KCBEBCIG_00050
+42980	41679	CDS
+			EC_number	3.4.22.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12926
+			locus_tag	KCBEBCIG_00050
+			product	Core protease I7
+			protein_id	gnl|Prokka|KCBEBCIG_00050
+42986	45016	gene
+			gene	NPH2
+			locus_tag	KCBEBCIG_00051
+42986	45016	CDS
+			EC_number	3.6.4.13
+			gene	NPH2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9Q927
+			locus_tag	KCBEBCIG_00051
+			product	RNA helicase NPH-II
+			protein_id	gnl|Prokka|KCBEBCIG_00051
+46803	45013	gene
+			locus_tag	KCBEBCIG_00052
+46803	45013	CDS
+			EC_number	3.4.24.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16713
+			locus_tag	KCBEBCIG_00052
+			product	Metalloendopeptidase G1
+			protein_id	gnl|Prokka|KCBEBCIG_00052
+47045	46800	gene
+			locus_tag	KCBEBCIG_00053
+47045	46800	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68458
+			locus_tag	KCBEBCIG_00053
+			product	Protein G3
+			protein_id	gnl|Prokka|KCBEBCIG_00053
+47126	47794	gene
+			locus_tag	KCBEBCIG_00054
+47126	47794	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68456
+			locus_tag	KCBEBCIG_00054
+			product	Late transcription elongation factor G2
+			protein_id	gnl|Prokka|KCBEBCIG_00054
+48138	47758	gene
+			locus_tag	KCBEBCIG_00055
+48138	47758	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68460
+			locus_tag	KCBEBCIG_00055
+			product	Glutaredoxin-2
+			protein_id	gnl|Prokka|KCBEBCIG_00055
+48141	49454	gene
+			gene	G5R
+			locus_tag	KCBEBCIG_00056
+48141	49454	CDS
+			EC_number	3.1.-.-
+			gene	G5R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSS6
+			locus_tag	KCBEBCIG_00056
+			product	Putative nuclease G5
+			protein_id	gnl|Prokka|KCBEBCIG_00056
+49455	49646	gene
+			gene	RPO7
+			locus_tag	KCBEBCIG_00057
+49455	49646	CDS
+			EC_number	2.7.7.6
+			gene	RPO7
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9DHQ8
+			locus_tag	KCBEBCIG_00057
+			product	DNA-directed RNA polymerase 7 kDa subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00057
+49646	50170	gene
+			locus_tag	KCBEBCIG_00058
+49646	50170	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00058
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00058
+51305	50184	gene
+			locus_tag	KCBEBCIG_00059
+51305	50184	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68716
+			locus_tag	KCBEBCIG_00059
+			product	Assembly protein G7
+			protein_id	gnl|Prokka|KCBEBCIG_00059
+51335	52117	gene
+			gene	VLTF1
+			locus_tag	KCBEBCIG_00060
+51335	52117	CDS
+			gene	VLTF1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68613
+			locus_tag	KCBEBCIG_00060
+			product	Late transcription factor 1
+			protein_id	gnl|Prokka|KCBEBCIG_00060
+52144	53154	gene
+			locus_tag	KCBEBCIG_00061
+52144	53154	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07611
+			locus_tag	KCBEBCIG_00061
+			product	Myristoylated protein G9
+			protein_id	gnl|Prokka|KCBEBCIG_00061
+53155	53892	gene
+			gene	L1R
+			locus_tag	KCBEBCIG_00062
+53155	53892	CDS
+			gene	L1R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20540
+			locus_tag	KCBEBCIG_00062
+			product	Protein L1
+			protein_id	gnl|Prokka|KCBEBCIG_00062
+53930	54208	gene
+			locus_tag	KCBEBCIG_00063
+53930	54208	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07613
+			locus_tag	KCBEBCIG_00063
+			product	Protein L2
+			protein_id	gnl|Prokka|KCBEBCIG_00063
+55174	54218	gene
+			locus_tag	KCBEBCIG_00064
+55174	54218	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07614
+			locus_tag	KCBEBCIG_00064
+			product	Protein L3
+			protein_id	gnl|Prokka|KCBEBCIG_00064
+55199	55960	gene
+			gene	L4R
+			locus_tag	KCBEBCIG_00065
+55199	55960	CDS
+			gene	L4R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20981
+			locus_tag	KCBEBCIG_00065
+			product	Core protein VP8
+			protein_id	gnl|Prokka|KCBEBCIG_00065
+55976	56371	gene
+			locus_tag	KCBEBCIG_00066
+55976	56371	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68623
+			locus_tag	KCBEBCIG_00066
+			product	Protein L5
+			protein_id	gnl|Prokka|KCBEBCIG_00066
+56328	56771	gene
+			locus_tag	KCBEBCIG_00067
+56328	56771	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P19746
+			locus_tag	KCBEBCIG_00067
+			product	Protein J1 
+			protein_id	gnl|Prokka|KCBEBCIG_00067
+56799	57332	gene
+			gene	TK
+			locus_tag	KCBEBCIG_00068
+56799	57332	CDS
+			EC_number	2.7.1.21
+			gene	TK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O57203
+			locus_tag	KCBEBCIG_00068
+			product	Thymidine kinase
+			protein_id	gnl|Prokka|KCBEBCIG_00068
+57405	57998	gene
+			locus_tag	KCBEBCIG_00069
+57405	57998	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00069
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00069
+58072	59058	gene
+			gene	PAPS
+			locus_tag	KCBEBCIG_00070
+58072	59058	CDS
+			EC_number	2.1.1.57
+			gene	PAPS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07617
+			locus_tag	KCBEBCIG_00070
+			product	Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase
+			protein_id	gnl|Prokka|KCBEBCIG_00070
+59937	59536	gene
+			locus_tag	KCBEBCIG_00071
+59937	59536	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07618
+			locus_tag	KCBEBCIG_00071
+			product	Protein J5
+			protein_id	gnl|Prokka|KCBEBCIG_00071
+60023	63880	gene
+			locus_tag	KCBEBCIG_00072
+60023	63880	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00072
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00072
+64400	63885	gene
+			locus_tag	KCBEBCIG_00073
+64400	63885	CDS
+			EC_number	3.1.3.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q85297
+			locus_tag	KCBEBCIG_00073
+			product	putative dual specificity protein phosphatase H1 
+			protein_id	gnl|Prokka|KCBEBCIG_00073
+64416	64988	gene
+			locus_tag	KCBEBCIG_00074
+64416	64988	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08583
+			locus_tag	KCBEBCIG_00074
+			product	Protein H2
+			protein_id	gnl|Prokka|KCBEBCIG_00074
+65953	64985	gene
+			gene	H3L
+			locus_tag	KCBEBCIG_00075
+65953	64985	CDS
+			gene	H3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20497
+			locus_tag	KCBEBCIG_00075
+			product	Envelope protein H3
+			protein_id	gnl|Prokka|KCBEBCIG_00075
+68379	65983	gene
+			locus_tag	KCBEBCIG_00076
+68379	65983	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68439
+			locus_tag	KCBEBCIG_00076
+			product	RNA polymerase-associated transcription-specificity factor RAP94
+			protein_id	gnl|Prokka|KCBEBCIG_00076
+68523	69194	gene
+			locus_tag	KCBEBCIG_00077
+68523	69194	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07242
+			locus_tag	KCBEBCIG_00077
+			product	Late transcription elongation factor H5
+			protein_id	gnl|Prokka|KCBEBCIG_00077
+69236	70189	gene
+			gene	TOP1
+			locus_tag	KCBEBCIG_00078
+69236	70189	CDS
+			EC_number	5.6.2.1
+			gene	TOP1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68698
+			locus_tag	KCBEBCIG_00078
+			product	DNA topoisomerase 1B
+			protein_id	gnl|Prokka|KCBEBCIG_00078
+70209	70652	gene
+			gene	H7R
+			locus_tag	KCBEBCIG_00079
+70209	70652	CDS
+			gene	H7R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DON8
+			locus_tag	KCBEBCIG_00079
+			product	Late protein H7
+			protein_id	gnl|Prokka|KCBEBCIG_00079
+70683	73211	gene
+			locus_tag	KCBEBCIG_00080
+70683	73211	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04298
+			locus_tag	KCBEBCIG_00080
+			product	mRNA-capping enzyme catalytic subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00080
+73640	73173	gene
+			gene	D4L
+			locus_tag	KCBEBCIG_00081
+73640	73173	CDS
+			gene	D4L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25951
+			locus_tag	KCBEBCIG_00081
+			product	Core protein D4
+			protein_id	gnl|Prokka|KCBEBCIG_00081
+73642	74379	gene
+			locus_tag	KCBEBCIG_00082
+73642	74379	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8V3L7
+			locus_tag	KCBEBCIG_00082
+			product	27 kDa core protein
+			protein_id	gnl|Prokka|KCBEBCIG_00082
+74376	75032	gene
+			gene	UNG
+			locus_tag	KCBEBCIG_00083
+74376	75032	CDS
+			EC_number	3.2.2.27
+			gene	UNG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32941
+			locus_tag	KCBEBCIG_00083
+			product	Uracil-DNA glycosylase
+			protein_id	gnl|Prokka|KCBEBCIG_00083
+75075	77435	gene
+			locus_tag	KCBEBCIG_00084
+75075	77435	CDS
+			EC_number	3.6.4.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04305
+			locus_tag	KCBEBCIG_00084
+			product	Primase D5
+			protein_id	gnl|Prokka|KCBEBCIG_00084
+77432	79339	gene
+			gene	VETFS
+			locus_tag	KCBEBCIG_00085
+77432	79339	CDS
+			EC_number	3.6.4.-
+			gene	VETFS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04308
+			locus_tag	KCBEBCIG_00085
+			product	Early transcription factor 70 kDa subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00085
+79364	79855	gene
+			locus_tag	KCBEBCIG_00086
+79364	79855	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSY0
+			locus_tag	KCBEBCIG_00086
+			product	DNA-directed RNA polymerase 18 kDa subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00086
+79896	80537	gene
+			gene	D9R
+			locus_tag	KCBEBCIG_00087
+79896	80537	CDS
+			EC_number	3.1.3.-
+			gene	D9R
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32098
+			locus_tag	KCBEBCIG_00087
+			product	mRNA-decapping protein D9
+			protein_id	gnl|Prokka|KCBEBCIG_00087
+80537	81298	gene
+			locus_tag	KCBEBCIG_00088
+80537	81298	CDS
+			EC_number	3.1.3.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32097
+			locus_tag	KCBEBCIG_00088
+			product	mRNA-decapping protein D10
+			protein_id	gnl|Prokka|KCBEBCIG_00088
+83211	81304	gene
+			gene	NPH1
+			locus_tag	KCBEBCIG_00089
+83211	81304	CDS
+			EC_number	3.6.1.15
+			gene	NPH1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05807
+			locus_tag	KCBEBCIG_00089
+			product	Nucleoside triphosphatase I
+			protein_id	gnl|Prokka|KCBEBCIG_00089
+84101	83238	gene
+			locus_tag	KCBEBCIG_00090
+84101	83238	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04318
+			locus_tag	KCBEBCIG_00090
+			product	mRNA-capping enzyme regulatory subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00090
+85791	84142	gene
+			locus_tag	KCBEBCIG_00091
+85791	84142	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68440
+			locus_tag	KCBEBCIG_00091
+			product	Scaffold protein D13
+			protein_id	gnl|Prokka|KCBEBCIG_00091
+86270	85818	gene
+			gene	VLTF2
+			locus_tag	KCBEBCIG_00092
+86270	85818	CDS
+			gene	VLTF2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07610
+			locus_tag	KCBEBCIG_00092
+			product	Viral late gene transcription factor 2
+			protein_id	gnl|Prokka|KCBEBCIG_00092
+86983	86300	gene
+			gene	VLTF3
+			locus_tag	KCBEBCIG_00093
+86983	86300	CDS
+			gene	VLTF3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOT6
+			locus_tag	KCBEBCIG_00093
+			product	Viral late gene transcription factor 3
+			protein_id	gnl|Prokka|KCBEBCIG_00093
+87222	86995	gene
+			locus_tag	KCBEBCIG_00094
+87222	86995	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0CK20
+			locus_tag	KCBEBCIG_00094
+			product	Protein A2.5
+			protein_id	gnl|Prokka|KCBEBCIG_00094
+89216	87231	gene
+			locus_tag	KCBEBCIG_00095
+89216	87231	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P06440
+			locus_tag	KCBEBCIG_00095
+			product	Major core protein 4b
+			protein_id	gnl|Prokka|KCBEBCIG_00095
+89826	89341	gene
+			locus_tag	KCBEBCIG_00096
+89826	89341	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00096
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00096
+89867	90376	gene
+			locus_tag	KCBEBCIG_00097
+89867	90376	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68611
+			locus_tag	KCBEBCIG_00097
+			product	DNA-directed RNA polymerase 19 kDa subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00097
+91500	90373	gene
+			gene	A6L
+			locus_tag	KCBEBCIG_00098
+91500	90373	CDS
+			gene	A6L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20985
+			locus_tag	KCBEBCIG_00098
+			product	Protein A6
+			protein_id	gnl|Prokka|KCBEBCIG_00098
+93665	91521	gene
+			gene	VETFL
+			locus_tag	KCBEBCIG_00099
+93665	91521	CDS
+			gene	VETFL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20636
+			locus_tag	KCBEBCIG_00099
+			product	Early transcription factor 82 kDa subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00099
+93722	94594	gene
+			gene	VITF3S
+			locus_tag	KCBEBCIG_00100
+93722	94594	CDS
+			gene	VITF3S
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DSQ0
+			locus_tag	KCBEBCIG_00100
+			product	Intermediate transcription factor 3 small subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00100
+94854	94618	gene
+			locus_tag	KCBEBCIG_00101
+94854	94618	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O57222
+			locus_tag	KCBEBCIG_00101
+			product	Virion membrane protein A9
+			protein_id	gnl|Prokka|KCBEBCIG_00101
+97569	94855	gene
+			locus_tag	KCBEBCIG_00102
+97569	94855	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16715
+			locus_tag	KCBEBCIG_00102
+			product	Major core protein 4a precursor
+			protein_id	gnl|Prokka|KCBEBCIG_00102
+97584	98537	gene
+			locus_tag	KCBEBCIG_00103
+97584	98537	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOQ8
+			locus_tag	KCBEBCIG_00103
+			product	Protein A11
+			protein_id	gnl|Prokka|KCBEBCIG_00103
+99106	98534	gene
+			locus_tag	KCBEBCIG_00104
+99106	98534	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DOL0
+			locus_tag	KCBEBCIG_00104
+			product	25 kDa core protein A12L
+			protein_id	gnl|Prokka|KCBEBCIG_00104
+99375	99172	gene
+			locus_tag	KCBEBCIG_00105
+99375	99172	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00105
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00105
+99744	99457	gene
+			locus_tag	KCBEBCIG_00106
+99744	99457	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q76ZQ3
+			locus_tag	KCBEBCIG_00106
+			product	Virion membrane protein A14
+			protein_id	gnl|Prokka|KCBEBCIG_00106
+100199	99912	gene
+			locus_tag	KCBEBCIG_00107
+100199	99912	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68718
+			locus_tag	KCBEBCIG_00107
+			product	Core protein A15
+			protein_id	gnl|Prokka|KCBEBCIG_00107
+101316	100183	gene
+			locus_tag	KCBEBCIG_00108
+101316	100183	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O93122
+			locus_tag	KCBEBCIG_00108
+			product	Virion membrane protein A16
+			protein_id	gnl|Prokka|KCBEBCIG_00108
+101922	101332	gene
+			locus_tag	KCBEBCIG_00109
+101922	101332	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68593
+			locus_tag	KCBEBCIG_00109
+			product	Virion membrane protein A17 precursor
+			protein_id	gnl|Prokka|KCBEBCIG_00109
+101937	103379	gene
+			locus_tag	KCBEBCIG_00110
+101937	103379	CDS
+			EC_number	3.6.4.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16712
+			locus_tag	KCBEBCIG_00110
+			product	Transcript termination protein A18
+			protein_id	gnl|Prokka|KCBEBCIG_00110
+103584	103360	gene
+			locus_tag	KCBEBCIG_00111
+103584	103360	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68714
+			locus_tag	KCBEBCIG_00111
+			product	Protein A19
+			protein_id	gnl|Prokka|KCBEBCIG_00111
+103743	103585	gene
+			locus_tag	KCBEBCIG_00112
+103743	103585	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00112
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00112
+103931	105223	gene
+			locus_tag	KCBEBCIG_00113
+103931	105223	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68710
+			locus_tag	KCBEBCIG_00113
+			product	DNA polymerase processivity factor component A20
+			protein_id	gnl|Prokka|KCBEBCIG_00113
+105192	105698	gene
+			locus_tag	KCBEBCIG_00114
+105192	105698	CDS
+			EC_number	3.1.-.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q80HV3
+			locus_tag	KCBEBCIG_00114
+			product	Resolvase A22
+			protein_id	gnl|Prokka|KCBEBCIG_00114
+105723	106880	gene
+			gene	VITF3L
+			locus_tag	KCBEBCIG_00115
+105723	106880	CDS
+			gene	VITF3L
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20998
+			locus_tag	KCBEBCIG_00115
+			product	Intermediate transcription factor 3 large subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00115
+106911	110381	gene
+			locus_tag	KCBEBCIG_00116
+106911	110381	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q76ZP7
+			locus_tag	KCBEBCIG_00116
+			product	DNA-directed RNA polymerase 133 kDa polypeptide
+			protein_id	gnl|Prokka|KCBEBCIG_00116
+110841	110395	gene
+			locus_tag	KCBEBCIG_00117
+110841	110395	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00117
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00117
+111264	110842	gene
+			locus_tag	KCBEBCIG_00118
+111264	110842	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68633
+			locus_tag	KCBEBCIG_00118
+			product	Envelope protein A28
+			protein_id	gnl|Prokka|KCBEBCIG_00118
+112176	111265	gene
+			locus_tag	KCBEBCIG_00119
+112176	111265	CDS
+			EC_number	2.7.7.6
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24757
+			locus_tag	KCBEBCIG_00119
+			product	DNA-directed RNA polymerase 35 kDa subunit
+			protein_id	gnl|Prokka|KCBEBCIG_00119
+112369	112145	gene
+			locus_tag	KCBEBCIG_00120
+112369	112145	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00120
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00120
+112522	112397	gene
+			locus_tag	KCBEBCIG_00121
+112522	112397	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00121
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00121
+113312	112548	gene
+			locus_tag	KCBEBCIG_00122
+113312	112548	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68615
+			locus_tag	KCBEBCIG_00122
+			product	Protein A32
+			protein_id	gnl|Prokka|KCBEBCIG_00122
+113444	114034	gene
+			locus_tag	KCBEBCIG_00123
+113444	114034	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DON2
+			locus_tag	KCBEBCIG_00123
+			product	Protein A33
+			protein_id	gnl|Prokka|KCBEBCIG_00123
+114067	114582	gene
+			locus_tag	KCBEBCIG_00124
+114067	114582	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24761
+			locus_tag	KCBEBCIG_00124
+			product	Protein A34
+			protein_id	gnl|Prokka|KCBEBCIG_00124
+114610	115185	gene
+			locus_tag	KCBEBCIG_00125
+114610	115185	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21058
+			locus_tag	KCBEBCIG_00125
+			product	Protein A35
+			protein_id	gnl|Prokka|KCBEBCIG_00125
+115222	116088	gene
+			locus_tag	KCBEBCIG_00126
+115222	116088	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00126
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00126
+116147	116692	gene
+			locus_tag	KCBEBCIG_00127
+116147	116692	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00127
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00127
+116703	117524	gene
+			locus_tag	KCBEBCIG_00128
+116703	117524	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00128
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00128
+118433	117528	gene
+			locus_tag	KCBEBCIG_00129
+118433	117528	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00129
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00129
+118531	118902	gene
+			locus_tag	KCBEBCIG_00130
+118531	118902	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00130
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00130
+118971	119216	gene
+			locus_tag	KCBEBCIG_00131
+118971	119216	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00131
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00131
+119272	119757	gene
+			locus_tag	KCBEBCIG_00132
+119272	119757	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00132
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00132
+119792	120322	gene
+			locus_tag	KCBEBCIG_00133
+119792	120322	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00133
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00133
+120358	122031	gene
+			gene	LIG
+			locus_tag	KCBEBCIG_00134
+120358	122031	CDS
+			EC_number	6.5.1.1
+			gene	LIG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16272
+			locus_tag	KCBEBCIG_00134
+			product	DNA ligase
+			protein_id	gnl|Prokka|KCBEBCIG_00134
+122306	128263	gene
+			locus_tag	KCBEBCIG_00135
+122306	128263	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00135
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00135
+128333	129415	gene
+			locus_tag	KCBEBCIG_00136
+128333	129415	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25213
+			locus_tag	KCBEBCIG_00136
+			product	Soluble interferon alpha/beta receptor B18
+			protein_id	gnl|Prokka|KCBEBCIG_00136
+129463	129924	gene
+			locus_tag	KCBEBCIG_00137
+129463	129924	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00137
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00137
+129990	130997	gene
+			locus_tag	KCBEBCIG_00138
+129990	130997	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00138
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00138
+131027	131587	gene
+			locus_tag	KCBEBCIG_00139
+131027	131587	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00139
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00139
+131626	132543	gene
+			gene	VPK1
+			locus_tag	KCBEBCIG_00140
+131626	132543	CDS
+			EC_number	2.7.11.1
+			gene	VPK1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16913
+			locus_tag	KCBEBCIG_00140
+			product	B1 kinase
+			protein_id	gnl|Prokka|KCBEBCIG_00140
+132575	133297	gene
+			locus_tag	KCBEBCIG_00141
+132575	133297	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00141
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00141
+133346	134020	gene
+			locus_tag	KCBEBCIG_00142
+133346	134020	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00142
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00142
+134022	134426	gene
+			locus_tag	KCBEBCIG_00143
+134022	134426	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00143
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00143
+134463	135371	gene
+			locus_tag	KCBEBCIG_00144
+134463	135371	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00144
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00144
+135541	137208	gene
+			gene	KBTB1_1
+			locus_tag	KCBEBCIG_00145
+135541	137208	CDS
+			gene	KBTB1_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24768
+			locus_tag	KCBEBCIG_00145
+			product	Kelch repeat and BTB domain-containing protein A55
+			protein_id	gnl|Prokka|KCBEBCIG_00145
+137232	139136	gene
+			locus_tag	KCBEBCIG_00146
+137232	139136	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00146
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00146
+139265	140506	gene
+			locus_tag	KCBEBCIG_00147
+139265	140506	CDS
+			EC_number	3.1.1.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P04021
+			locus_tag	KCBEBCIG_00147
+			product	Envelope phospholipase F13
+			protein_id	gnl|Prokka|KCBEBCIG_00147
+140571	142067	gene
+			locus_tag	KCBEBCIG_00148
+140571	142067	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83730
+			locus_tag	KCBEBCIG_00148
+			product	Ankyrin repeat domain-containing protein M-T5
+			protein_id	gnl|Prokka|KCBEBCIG_00148
+142115	143458	gene
+			locus_tag	KCBEBCIG_00149
+142115	143458	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83730
+			locus_tag	KCBEBCIG_00149
+			product	Ankyrin repeat domain-containing protein M-T5
+			protein_id	gnl|Prokka|KCBEBCIG_00149
+143479	144492	gene
+			gene	SERP2
+			locus_tag	KCBEBCIG_00150
+143479	144492	CDS
+			gene	SERP2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P68565
+			locus_tag	KCBEBCIG_00150
+			product	Serine proteinase inhibitor 2
+			protein_id	gnl|Prokka|KCBEBCIG_00150
+144531	145016	gene
+			locus_tag	KCBEBCIG_00151
+144531	145016	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00151
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00151
+145058	146713	gene
+			gene	KBTB1_2
+			locus_tag	KCBEBCIG_00152
+145058	146713	CDS
+			gene	KBTB1_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P24768
+			locus_tag	KCBEBCIG_00152
+			product	Kelch repeat and BTB domain-containing protein A55
+			protein_id	gnl|Prokka|KCBEBCIG_00152
+146779	148248	gene
+			locus_tag	KCBEBCIG_00153
+146779	148248	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83730
+			locus_tag	KCBEBCIG_00153
+			product	Ankyrin repeat domain-containing protein M-T5
+			protein_id	gnl|Prokka|KCBEBCIG_00153
+148293	148568	gene
+			locus_tag	KCBEBCIG_00154
+148293	148568	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00154
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00154
+148638	149360	gene
+			locus_tag	KCBEBCIG_00155
+148638	149360	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00155
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00155
+149706	150005	gene
+			locus_tag	KCBEBCIG_00156
+149706	150005	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	KCBEBCIG_00156
+			product	hypothetical protein
+			protein_id	gnl|Prokka|KCBEBCIG_00156
