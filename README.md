@@ -64,15 +64,15 @@ We can run on a ssRNA test dataset - 15 porcine respiratory coronavirus genomes 
 
 We can investigate 414 Rift Valley fever virus (RVFV) S segment sequences:
 
-   nextflow run ../main.nf --config template.RVFV.S.yml --reference /ephemeral/downing/PVG/CODE_RVFV_S/test_genomes.S.fa
+   nextflow run ../main.nf --config template.RVFV.S.yml --reference test_genomes.S.fa
 
 We can investigate 302 Rift Valley fever virus (RVFV) M segment sequences:
 
-   nextflow run ../main.nf --config template.RVFV.M.yml --reference /ephemeral/downing/PVG/CODE_RVFV_M/test_genomes.M.fa 
+   nextflow run ../main.nf --config template.RVFV.M.yml --reference test_genomes.M.fa 
 
 We can investigate 306 Rift Valley fever virus (RVFV) L segment sequences:
 
-   nextflow run ../main.nf --config template.RVFV.L.yml  --reference /ephemeral/downing/PVG/CODE_RVFV_L/test_genomes.L.fa
+   nextflow run ../main.nf --config template.RVFV.L.yml  --reference test_genomes.L.fa
 
 
 ## Module selection
