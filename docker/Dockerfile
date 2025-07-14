@@ -86,6 +86,8 @@ RUN wget https://github.com/vgteam/vg/releases/download/v1.64.1/vg && chmod +x v
 RUN apt-get install graphviz -y
 RUN apt-get install mafft -y
 RUN apt-get install samtools -y
+RUN apt-get install -y gffread
+
 
 
 
