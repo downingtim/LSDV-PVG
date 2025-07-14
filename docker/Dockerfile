@@ -85,6 +85,8 @@ RUN apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-e
 RUN apt-get install -y gffread
 RUN apt-get install mafft -y
 RUN apt-get install samtools -y
+RUN apt-get install -y gffread
+
 
 
 
