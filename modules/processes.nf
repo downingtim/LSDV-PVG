@@ -178,17 +178,20 @@ process ODGI {
     cpus 1
 
     input:
-    path gfa 
+    path gfa
 
     output:
-    path "out.og", emit:ogfile 
+    path "out.og", emit: ogfile
     path "odgi.stats.txt"
+	stdout emit: refid
+
     publishDir "results/odgi", mode: "copy"
 
     script:
     """
-    odgi build -g ${gfa} -o out.og 
-    odgi stats -m -i out.og -S > odgi.stats.txt 
+    odgi build -g ${gfa} -o out.og
+    odgi stats -m -i out.og -S > odgi.stats.txt
+    odgi paths -i out.og -L | head -n 1|tr -d '\n' 
     """
 }
 
@@ -669,43 +672,78 @@ process SUMMARIZE {
     """
 }
 
-process ANNOTATE {
-    tag {"annotate"}
-    label 'annotate'
-    container "pangenome/odgi:1726671973"
-    containerOptions = '--entrypoint ""'
+process Extract_Ref{
+    tag {"Extract reference"}
+    label "Extract_reference"
+    container "chandanatpi/panalayze_env:3.0" 
+    publishDir "results/annotate", mode: "copy"
 
     input:
-    path ogfile
+    val refid
     path refFasta
+    
+    output:
+    path "reference.annotate.fasta"
+
+    script:
+    """
+    samtools faidx ${refFasta} ${refid} > reference.annotate.fasta
+    """
+}
+
+process PROKKA{
+    tag {"Prokka"}
+    label 'Prokka'
+    container "staphb/prokka:latest"
+    publishDir "results/prokka", mode: "copy"
+
+    input:
+    val refid
+    path annotate_ref_fasta
+
+    output:
+    path "PROKKA"
+    path "annotation.gff",emit:prokkagff
+
+
+    script:
+    """
+    prokka --kingdom Viruses --gffver 3 --usegenus --outdir PROKKA --prefix ${refid} ${annotate_ref_fasta} --force --compliant
+    #REFERENCE_ID=${refid}
+    #prokka --kingdom Viruses --gffver 3 --usegenus --outdir PROKKA --prefix \${REFERENCE_ID} ${annotate_ref_fasta} --force --compliant
+    cp "PROKKA/${refid}.gff" annotation.gff
+    """
+}
+
+process ANNOTATE {
+    tag {"annotate"}
+    label "Extract_reference"
+    container "pangenome/odgi:1726671973"
+    containerOptions = '--entrypoint ""'
+    publishDir "results/bandage", mode: "copy"
+
+    input:
+    val refid
+    path prokkagff
+    path ogfile
 
     output:
     path "PVG_annotation.csv"
 
-    publishDir "results/bandage", mode: "copy"
 
     script:
     """
-    # need to ensure samtools, prokka and gffread are in the PATH
-    REFERENCE_ID=\$(odgi paths -i ${ogfile} -L | head -n 1)
-    samtools faidx ${refFasta} \${REFERENCE_ID} > \${REFERENCE_ID}.fasta
-    REFERENCE_FASTA="\${REFERENCE_ID}.fasta"
-
-    prokka --kingdom Viruses --gffver 3 --usegenus --outdir PROKKA --prefix \${REFERENCE_ID} \${REFERENCE_FASTA} --force --compliant
-
-    INPUT_GFF="PROKKA/\${REFERENCE_ID}.gff"
-    CLEAN_GFF="\${REFERENCE_ID}_clean.gff"
+    INPUT_GFF="${prokkagff}"
     ANNOTATION_CSV="PVG_annotation.csv"
 
     string1=\$(grep "sequence-region" "\$INPUT_GFF" | awk '{print \$2}')
-    sed "s/\${string1}/\${REFERENCE_ID}/g" "\$INPUT_GFF" | sed 's/^>//' > "\$CLEAN_GFF"
+    sed "s/\${string1}/${refid}/g" "\$INPUT_GFF" | sed 's/^>//' > clean.gff 
 
-    CLEAN_GTF="\${REFERENCE_ID}_clean.gtf" # Convert GFF to GTF format
-    gffread -E "\$CLEAN_GFF" -T -o "\$CLEAN_GTF"
+    gffread -E  clean.gff -T -o clean.gtf 
 
-    PREP_GTF="\${REFERENCE_ID}.prep.gtf" # intermediate
+    PREP_GTF="${refid}.prep.gtf" # intermediate
     # Process GTF to extract gene names or simplified gene numbers
-    grep -P "transcript\\t" "\$CLEAN_GTF" | while IFS=\$'\\t' read -r col1 col2 col3 col4 col5 col6 col7 col8 col9; do
+    grep -P "transcript\\t"  clean.gtf | while IFS=\$'\\t' read -r col1 col2 col3 col4 col5 col6 col7 col8 col9; do
         # Extract gene_name if it exists
         gene_name=\$(echo "\$col9" | grep -oP 'gene_name "\\K[^"]+')
 

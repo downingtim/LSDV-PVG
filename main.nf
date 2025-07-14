@@ -17,7 +17,7 @@ nextflow.enable.dsl = 2
 Modules
 #==============================================
 */
-include { DOWNLOAD; ALIGN; TREE; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; PATH_FROM_GFA;VCF_FROM_GFA;VCF_PROCESS; GETBASES; VIZ2; HEAPS; HEAPS_Visualize; PAVS; PAVS_plot; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; Bandage;BANDAGE_view; GFAstat; SUMMARIZE; ANNOTATE; } from './modules/processes.nf'
+include { DOWNLOAD; ALIGN; TREE; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; PATH_FROM_GFA;VCF_FROM_GFA;VCF_PROCESS; GETBASES; VIZ2; HEAPS; HEAPS_Visualize; PAVS; PAVS_plot; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; Bandage;BANDAGE_view; GFAstat; SUMMARIZE; Extract_Ref; PROKKA; ANNOTATE } from './modules/processes.nf'
 /*
 #==============================================
 Modules
@@ -56,8 +56,10 @@ workflow Main {
             odgiOut = ODGI(pvgOut.gfa)
 
 	    if (params.annotate){
-	    	    ANNOTATE(odgiOut.ogfile, fastaCh)
-            	    annotation_csv = ANNOTATE.out
+                annotation_reference = Extract_Ref(odgiOut.refid,fastaCh)
+                prokka_out = PROKKA(odgiOut.refid,annotation_reference)
+                ANNOTATE (odgiOut.refid,prokka_out.prokkagff,odgiOut.ogfile)
+            	 //   annotation_csv = ANNOTATE.out
 	     }
 
 	    if (params.viz2) {
