@@ -17,7 +17,7 @@ nextflow.enable.dsl = 2
 Modules
 #==============================================
 */
-include { DOWNLOAD; ALIGN; TREE; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; PATH_FROM_GFA;VCF_FROM_GFA;VCF_PROCESS; GETBASES; VIZ2; HEAPS; HEAPS_Visualize; PAVS; PAVS_plot; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; Bandage;BANDAGE_view; GFAstat; SUMMARIZE; Extract_Ref; PROKKA; ANNOTATE } from './modules/processes.nf'
+include { DOWNLOAD; ALIGN; TREE; MAKE_PVG; VIZ1; ODGI; OPENNESS_PANACUS; OPENNESS_PANGROWTH; PATH_FROM_GFA;VCF_FROM_GFA;VCF_PROCESS; GETBASES; VIZ2; HEAPS; HEAPS_Visualize; PAVS; PAVS_plot; WARAGRAPH; COMMUNITIES; PANAROO; BUSCO; PAFGNOSTIC; Bandage;BANDAGE_view; GFAstat; SUMMARIZE; Extract_Ref; PROKKA; Clean_GTF; Annotate_Position  } from './modules/processes.nf'
 /*
 #==============================================
 Modules
@@ -56,10 +56,11 @@ workflow Main {
             odgiOut = ODGI(pvgOut.gfa)
 
 	    if (params.annotate){
-                annotation_reference = Extract_Ref(odgiOut.refid,fastaCh)
-                prokka_out = PROKKA(odgiOut.refid,annotation_reference)
-                ANNOTATE (odgiOut.refid,prokka_out.prokkagff,odgiOut.ogfile)
-            	 //   annotation_csv = ANNOTATE.out
+				Annotate(odgiOut.refid,odgiOut.ogfile,fastaCh)
+                //annotation_reference = Extract_Ref(odgiOut.refid,fastaCh)
+                //prokka_out = PROKKA(odgiOut.refid,annotation_reference)
+                //cleaned_gtf = Clean_GTF (odgiOut.refid,prokka_out.prokkagff,odgiOut.ogfile) 
+				//Annotate_Position(odgiOut.ogfile,cleaned_gtf)
 	     }
 
 	    if (params.viz2) {
@@ -116,6 +117,19 @@ workflow GetVCF(){
     VCF_PROCESS(gfapath,gfavariants,gfa)
 }
 
+workflow Annotate(){
+    take:
+		refid
+		ogfile
+		fastaCh
+
+	main: 
+		annotation_reference = Extract_Ref(refid,fastaCh)
+		prokka_out = PROKKA(refid,annotation_reference)
+		cleaned_gtf = Clean_GTF (refid,prokka_out.prokkagff,ogfile) 
+		Annotate_Position(ogfile,cleaned_gtf)
+}
+
 workflow Summary{
     template_ch = Channel.fromPath("template.tex") 
     SUMMARIZE(template_ch)
@@ -125,3 +139,4 @@ workflow {
     if(params.summary) {Summary()}
     else {Main()}
 }
+

@@ -715,11 +715,10 @@ process PROKKA{
     """
 }
 
-process ANNOTATE {
+process Clean_GTF {
     tag {"annotate"}
     label "Extract_reference"
-    container "pangenome/odgi:1726671973"
-    containerOptions = '--entrypoint ""'
+    container "chandanatpi/panalayze_env:3.0"
     publishDir "results/bandage", mode: "copy"
 
     input:
@@ -728,49 +727,61 @@ process ANNOTATE {
     path ogfile
 
     output:
+    path "${refid}.prep.gtf"
+
+	script:
+	"""
+	string1=\$(grep "sequence-region" ${prokkagff} | awk '{print \$2}')
+	sed "s/\${string1}/${refid}/g" ${prokkagff} | sed 's/^>//' > clean.gff
+
+	gffread -E  clean.gff -T -o clean.gtf 2>/dev/null
+	# Process GTF to extract gene names or simplified gene numbers
+	grep -P "transcript\\t" clean.gtf |while IFS=\$'\\t' read -r col1 col2 col3 col4 col5 col6 col7 col8 col9;
+	do  
+		# Extract gene_name if it exists
+		gene_name=\$(echo "\$col9" | grep -oP 'gene_name "\\K[^"]+' ||true)
+		
+		if [ -n "\$gene_name" ]; then
+			# Use gene_name if available
+			annotation="\$gene_name"
+		else
+			# Extract gene_id and convert to simplified format
+			gene_id=\$(echo "\$col9" | grep -oP 'gene_id "\\K[^"]+' ||true)
+			# Extract the number part after the last underscore
+			gene_num=\$(echo "\$gene_id" | sed 's/.*_//')
+			annotation="gene_\$gene_num"
+		fi
+		
+		# Output in GTF format with simplified annotation
+		echo -e "\$col1\\t\$col2\\t\$col3\\t\$col4\\t\$col5\\t\$col6\\t\$col7\\t\$col8\\ttranscript_id \\"\$annotation\\"; gene_id \\"\$annotation\\""
+    done > ${refid}.prep.gtf
+	"""
+}
+
+process Annotate_Position {
+    tag {"Annotate_Position"}
+    label "Annotate_Position"
+    container "pangenome/odgi:1726671973"
+    containerOptions = '--entrypoint ""'
+    publishDir "results/bandage", mode: "copy"
+
+    input:
+    path ogfile
+    path infile
+
+    output:
     path "PVG_annotation.csv"
 
 
-    script:
-    """
-    INPUT_GFF="${prokkagff}"
-    ANNOTATION_CSV="PVG_annotation.csv"
+	"""
+    odgi position -i ${ogfile} -E ${infile} > PVG_annotation.csv
 
-    string1=\$(grep "sequence-region" "\$INPUT_GFF" | awk '{print \$2}')
-    sed "s/\${string1}/${refid}/g" "\$INPUT_GFF" | sed 's/^>//' > clean.gff 
-
-    gffread -E  clean.gff -T -o clean.gtf 
-
-    PREP_GTF="${refid}.prep.gtf" # intermediate
-    # Process GTF to extract gene names or simplified gene numbers
-    grep -P "transcript\\t"  clean.gtf | while IFS=\$'\\t' read -r col1 col2 col3 col4 col5 col6 col7 col8 col9; do
-        # Extract gene_name if it exists
-        gene_name=\$(echo "\$col9" | grep -oP 'gene_name "\\K[^"]+')
-
-        if [ -n "\$gene_name" ]; then
-            # Use gene_name if available
-            annotation="\$gene_name"
-        else
-            # Extract gene_id and convert to simplified format
-            gene_id=\$(echo "\$col9" | grep -oP 'gene_id "\\K[^"]+')
-            # Extract the number part after the last underscore
-            gene_num=\$(echo "\$gene_id" | sed 's/.*_//')
-            annotation="gene_\$gene_num"
-        fi
-
-        # Output in GTF format with simplified annotation
-        echo -e "\$col1\\t\$col2\\t\$col3\\t\$col4\\t\$col5\\t\$col6\\t\$col7\\t\$col8\\ttranscript_id \\"\$annotation\\"; gene_id \\"\$annotation\\""
-    done > "\$PREP_GTF"
-
-    # Map positions to PVG nodes
-    odgi position -i ${ogfile} -E "\$PREP_GTF" > "\$ANNOTATION_CSV"
-
-    echo "Output a PVG annotation CSV: \$ANNOTATION_CSV with"
-    echo " \$(wc -l < "\$ANNOTATION_CSV") annotation entries"
+    echo "Output a PVG annotation CSV: PVG_annotation.csv with"
+    echo " \$(wc -l < PVG_annotation.csv) annotation entries"
     echo
     echo "To view the annotated PVG in Bandage:"
     echo "1. Launch Bandage and load the PVG in GFA format"
     echo "2. Draw the PVG in Bandage"
-    echo "3. Load the annotation CSV: \$ANNOTATION_CSV"
+    echo "3. Load the annotation CSV: PVG_annotation.csv"
     """
 }
