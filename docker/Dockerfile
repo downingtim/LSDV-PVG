@@ -82,7 +82,8 @@ COPY bin.docker/parseGB.py /bin
 COPY bin.docker/plot_hist.py /bin
 RUN apt-get install ncbi-entrez-direct -y
 RUN apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra -y
-RUN apt-get install -y gffread
+RUN wget https://github.com/vgteam/vg/releases/download/v1.64.1/vg && chmod +x vg && mv vg /bin/vg
+RUN apt-get install graphviz -y
 RUN apt-get install mafft -y
 RUN apt-get install samtools -y
 RUN apt-get install -y gffread
