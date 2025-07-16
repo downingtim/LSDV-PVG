@@ -43,6 +43,7 @@ process DOWNLOAD {
 }
 
 process ALIGN {
+    container "chandanatpi/panalayze_env:3.0"
     cpus { Math.min(params.cpus as int, 8) }
     
     input:
