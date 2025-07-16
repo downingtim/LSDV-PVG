@@ -1,0 +1,312 @@
+KX894508	prokka	transcript	463	648	.	+	.	transcript_id "KCBEBCIG_00001_gene"; gene_id "KCBEBCIG_00001_gene"
+KX894508	prokka	CDS	463	648	.	+	0	transcript_id "KCBEBCIG_00001_gene";
+KX894508	prokka	transcript	790	1089	.	-	.	transcript_id "KCBEBCIG_00002_gene"; gene_id "KCBEBCIG_00002_gene"
+KX894508	prokka	CDS	790	1089	.	-	0	transcript_id "KCBEBCIG_00002_gene";
+KX894508	prokka	transcript	1435	2157	.	-	.	transcript_id "KCBEBCIG_00003_gene"; gene_id "KCBEBCIG_00003_gene"
+KX894508	prokka	CDS	1435	2157	.	-	0	transcript_id "KCBEBCIG_00003_gene";
+KX894508	prokka	transcript	2452	2964	.	+	.	transcript_id "KCBEBCIG_00004_gene"; gene_id "KCBEBCIG_00004_gene"; gene_name "BCRF1"
+KX894508	prokka	CDS	2452	2964	.	+	0	transcript_id "KCBEBCIG_00004_gene"; gene_name "BCRF1";
+KX894508	prokka	transcript	2975	3670	.	-	.	transcript_id "KCBEBCIG_00005_gene"; gene_id "KCBEBCIG_00005_gene"
+KX894508	prokka	CDS	2975	3670	.	-	0	transcript_id "KCBEBCIG_00005_gene";
+KX894508	prokka	transcript	3692	4759	.	-	.	transcript_id "KCBEBCIG_00006_gene"; gene_id "KCBEBCIG_00006_gene"
+KX894508	prokka	CDS	3692	4759	.	-	0	transcript_id "KCBEBCIG_00006_gene";
+KX894508	prokka	transcript	4842	5669	.	-	.	transcript_id "KCBEBCIG_00007_gene"; gene_id "KCBEBCIG_00007_gene"
+KX894508	prokka	CDS	4842	5669	.	-	0	transcript_id "KCBEBCIG_00007_gene";
+KX894508	prokka	transcript	5702	6394	.	-	.	transcript_id "KCBEBCIG_00008_gene"; gene_id "KCBEBCIG_00008_gene"
+KX894508	prokka	CDS	5702	6394	.	-	0	transcript_id "KCBEBCIG_00008_gene";
+KX894508	prokka	transcript	6448	6936	.	-	.	transcript_id "KCBEBCIG_00009_gene"; gene_id "KCBEBCIG_00009_gene"
+KX894508	prokka	CDS	6448	6936	.	-	0	transcript_id "KCBEBCIG_00009_gene";
+KX894508	prokka	transcript	6980	8113	.	-	.	transcript_id "KCBEBCIG_00010_gene"; gene_id "KCBEBCIG_00010_gene"
+KX894508	prokka	CDS	6980	8113	.	-	0	transcript_id "KCBEBCIG_00010_gene";
+KX894508	prokka	transcript	8219	8854	.	-	.	transcript_id "KCBEBCIG_00011_gene"; gene_id "KCBEBCIG_00011_gene"
+KX894508	prokka	CDS	8219	8854	.	-	0	transcript_id "KCBEBCIG_00011_gene";
+KX894508	prokka	transcript	8893	9918	.	-	.	transcript_id "KCBEBCIG_00012_gene"; gene_id "KCBEBCIG_00012_gene"
+KX894508	prokka	CDS	8893	9918	.	-	0	transcript_id "KCBEBCIG_00012_gene";
+KX894508	prokka	transcript	9978	10247	.	-	.	transcript_id "KCBEBCIG_00013_gene"; gene_id "KCBEBCIG_00013_gene"
+KX894508	prokka	CDS	9978	10247	.	-	0	transcript_id "KCBEBCIG_00013_gene";
+KX894508	prokka	transcript	10234	10719	.	-	.	transcript_id "KCBEBCIG_00014_gene"; gene_id "KCBEBCIG_00014_gene"
+KX894508	prokka	CDS	10234	10719	.	-	0	transcript_id "KCBEBCIG_00014_gene";
+KX894508	prokka	transcript	10757	11026	.	-	.	transcript_id "KCBEBCIG_00015_gene"; gene_id "KCBEBCIG_00015_gene"
+KX894508	prokka	CDS	10757	11026	.	-	0	transcript_id "KCBEBCIG_00015_gene";
+KX894508	prokka	transcript	11017	11547	.	-	.	transcript_id "KCBEBCIG_00016_gene"; gene_id "KCBEBCIG_00016_gene"
+KX894508	prokka	CDS	11017	11547	.	-	0	transcript_id "KCBEBCIG_00016_gene";
+KX894508	prokka	transcript	11586	12026	.	-	.	transcript_id "KCBEBCIG_00017_gene"; gene_id "KCBEBCIG_00017_gene"; gene_name "DUT"
+KX894508	prokka	CDS	11586	12026	.	-	0	transcript_id "KCBEBCIG_00017_gene"; gene_name "DUT";
+KX894508	prokka	transcript	12075	12947	.	-	.	transcript_id "KCBEBCIG_00018_gene"; gene_id "KCBEBCIG_00018_gene"
+KX894508	prokka	CDS	12075	12947	.	-	0	transcript_id "KCBEBCIG_00018_gene";
+KX894508	prokka	transcript	12974	13786	.	-	.	transcript_id "KCBEBCIG_00019_gene"; gene_id "KCBEBCIG_00019_gene"
+KX894508	prokka	CDS	12974	13786	.	-	0	transcript_id "KCBEBCIG_00019_gene";
+KX894508	prokka	transcript	13851	14816	.	-	.	transcript_id "KCBEBCIG_00020_gene"; gene_id "KCBEBCIG_00020_gene"; gene_name "F4L"
+KX894508	prokka	CDS	13851	14816	.	-	0	transcript_id "KCBEBCIG_00020_gene"; gene_name "F4L";
+KX894508	prokka	transcript	14857	15117	.	-	.	transcript_id "KCBEBCIG_00021_gene"; gene_id "KCBEBCIG_00021_gene"
+KX894508	prokka	CDS	14857	15117	.	-	0	transcript_id "KCBEBCIG_00021_gene";
+KX894508	prokka	transcript	15158	15502	.	-	.	transcript_id "KCBEBCIG_00022_gene"; gene_id "KCBEBCIG_00022_gene"
+KX894508	prokka	CDS	15158	15502	.	-	0	transcript_id "KCBEBCIG_00022_gene";
+KX894508	prokka	transcript	15733	15951	.	-	.	transcript_id "KCBEBCIG_00023_gene"; gene_id "KCBEBCIG_00023_gene"
+KX894508	prokka	CDS	15733	15951	.	-	0	transcript_id "KCBEBCIG_00023_gene";
+KX894508	prokka	transcript	16029	16679	.	-	.	transcript_id "KCBEBCIG_00024_gene"; gene_id "KCBEBCIG_00024_gene"
+KX894508	prokka	CDS	16029	16679	.	-	0	transcript_id "KCBEBCIG_00024_gene";
+KX894508	prokka	transcript	16657	18000	.	-	.	transcript_id "KCBEBCIG_00025_gene"; gene_id "KCBEBCIG_00025_gene"; gene_name "VPK2"
+KX894508	prokka	CDS	16657	18000	.	-	0	transcript_id "KCBEBCIG_00025_gene"; gene_name "VPK2";
+KX894508	prokka	transcript	18122	18496	.	-	.	transcript_id "KCBEBCIG_00026_gene"; gene_id "KCBEBCIG_00026_gene"
+KX894508	prokka	CDS	18122	18496	.	-	0	transcript_id "KCBEBCIG_00026_gene";
+KX894508	prokka	transcript	18620	18943	.	-	.	transcript_id "KCBEBCIG_00027_gene"; gene_id "KCBEBCIG_00027_gene"
+KX894508	prokka	CDS	18620	18943	.	-	0	transcript_id "KCBEBCIG_00027_gene";
+KX894508	prokka	transcript	18952	20868	.	-	.	transcript_id "KCBEBCIG_00028_gene"; gene_id "KCBEBCIG_00028_gene"
+KX894508	prokka	CDS	18952	20868	.	-	0	transcript_id "KCBEBCIG_00028_gene";
+KX894508	prokka	transcript	20875	21987	.	-	.	transcript_id "KCBEBCIG_00029_gene"; gene_id "KCBEBCIG_00029_gene"
+KX894508	prokka	CDS	20875	21987	.	-	0	transcript_id "KCBEBCIG_00029_gene";
+KX894508	prokka	transcript	22014	22160	.	-	.	transcript_id "KCBEBCIG_00030_gene"; gene_id "KCBEBCIG_00030_gene"
+KX894508	prokka	CDS	22014	22160	.	-	0	transcript_id "KCBEBCIG_00030_gene";
+KX894508	prokka	transcript	22189	22626	.	-	.	transcript_id "KCBEBCIG_00031_gene"; gene_id "KCBEBCIG_00031_gene"
+KX894508	prokka	CDS	22189	22626	.	-	0	transcript_id "KCBEBCIG_00031_gene";
+KX894508	prokka	transcript	22703	23362	.	-	.	transcript_id "KCBEBCIG_00032_gene"; gene_id "KCBEBCIG_00032_gene"
+KX894508	prokka	CDS	22703	23362	.	-	0	transcript_id "KCBEBCIG_00032_gene";
+KX894508	prokka	transcript	23436	23750	.	+	.	transcript_id "KCBEBCIG_00033_gene"; gene_id "KCBEBCIG_00033_gene"
+KX894508	prokka	CDS	23436	23750	.	+	0	transcript_id "KCBEBCIG_00033_gene";
+KX894508	prokka	transcript	23754	25178	.	-	.	transcript_id "KCBEBCIG_00034_gene"; gene_id "KCBEBCIG_00034_gene"; gene_name "PAPL"
+KX894508	prokka	CDS	23754	25178	.	-	0	transcript_id "KCBEBCIG_00034_gene"; gene_name "PAPL";
+KX894508	prokka	transcript	25175	27382	.	-	.	transcript_id "KCBEBCIG_00035_gene"; gene_id "KCBEBCIG_00035_gene"
+KX894508	prokka	CDS	25175	27382	.	-	0	transcript_id "KCBEBCIG_00035_gene";
+KX894508	prokka	transcript	27394	27927	.	-	.	transcript_id "KCBEBCIG_00036_gene"; gene_id "KCBEBCIG_00036_gene"; gene_name "E3L"
+KX894508	prokka	CDS	27394	27927	.	-	0	transcript_id "KCBEBCIG_00036_gene"; gene_name "E3L";
+KX894508	prokka	transcript	27989	28594	.	-	.	transcript_id "KCBEBCIG_00037_gene"; gene_id "KCBEBCIG_00037_gene"
+KX894508	prokka	CDS	27989	28594	.	-	0	transcript_id "KCBEBCIG_00037_gene";
+KX894508	prokka	transcript	28677	29801	.	+	.	transcript_id "KCBEBCIG_00038_gene"; gene_id "KCBEBCIG_00038_gene"
+KX894508	prokka	CDS	28677	29801	.	+	0	transcript_id "KCBEBCIG_00038_gene";
+KX894508	prokka	transcript	29810	31510	.	+	.	transcript_id "KCBEBCIG_00039_gene"; gene_id "KCBEBCIG_00039_gene"
+KX894508	prokka	CDS	29810	31510	.	+	0	transcript_id "KCBEBCIG_00039_gene";
+KX894508	prokka	transcript	31517	32317	.	+	.	transcript_id "KCBEBCIG_00040_gene"; gene_id "KCBEBCIG_00040_gene"
+KX894508	prokka	CDS	31517	32317	.	+	0	transcript_id "KCBEBCIG_00040_gene";
+KX894508	prokka	transcript	32314	35346	.	-	.	transcript_id "KCBEBCIG_00041_gene"; gene_id "KCBEBCIG_00041_gene"; gene_name "POL"
+KX894508	prokka	CDS	32314	35346	.	-	0	transcript_id "KCBEBCIG_00041_gene"; gene_name "POL";
+KX894508	prokka	transcript	35380	35667	.	+	.	transcript_id "KCBEBCIG_00042_gene"; gene_id "KCBEBCIG_00042_gene"
+KX894508	prokka	CDS	35380	35667	.	+	0	transcript_id "KCBEBCIG_00042_gene";
+KX894508	prokka	transcript	35664	36056	.	-	.	transcript_id "KCBEBCIG_00043_gene"; gene_id "KCBEBCIG_00043_gene"
+KX894508	prokka	CDS	35664	36056	.	-	0	transcript_id "KCBEBCIG_00043_gene";
+KX894508	prokka	transcript	36043	38097	.	-	.	transcript_id "KCBEBCIG_00044_gene"; gene_id "KCBEBCIG_00044_gene"
+KX894508	prokka	CDS	36043	38097	.	-	0	transcript_id "KCBEBCIG_00044_gene";
+KX894508	prokka	transcript	38203	39147	.	-	.	transcript_id "KCBEBCIG_00045_gene"; gene_id "KCBEBCIG_00045_gene"
+KX894508	prokka	CDS	38203	39147	.	-	0	transcript_id "KCBEBCIG_00045_gene";
+KX894508	prokka	transcript	39154	39372	.	-	.	transcript_id "KCBEBCIG_00046_gene"; gene_id "KCBEBCIG_00046_gene"
+KX894508	prokka	CDS	39154	39372	.	-	0	transcript_id "KCBEBCIG_00046_gene";
+KX894508	prokka	transcript	39373	40203	.	-	.	transcript_id "KCBEBCIG_00047_gene"; gene_id "KCBEBCIG_00047_gene"; gene_name "I3L"
+KX894508	prokka	CDS	39373	40203	.	-	0	transcript_id "KCBEBCIG_00047_gene"; gene_name "I3L";
+KX894508	prokka	transcript	40248	40484	.	-	.	transcript_id "KCBEBCIG_00048_gene"; gene_id "KCBEBCIG_00048_gene"
+KX894508	prokka	CDS	40248	40484	.	-	0	transcript_id "KCBEBCIG_00048_gene";
+KX894508	prokka	transcript	40502	41686	.	-	.	transcript_id "KCBEBCIG_00049_gene"; gene_id "KCBEBCIG_00049_gene"
+KX894508	prokka	CDS	40502	41686	.	-	0	transcript_id "KCBEBCIG_00049_gene";
+KX894508	prokka	transcript	41679	42980	.	-	.	transcript_id "KCBEBCIG_00050_gene"; gene_id "KCBEBCIG_00050_gene"
+KX894508	prokka	CDS	41679	42980	.	-	0	transcript_id "KCBEBCIG_00050_gene";
+KX894508	prokka	transcript	42986	45016	.	+	.	transcript_id "KCBEBCIG_00051_gene"; gene_id "KCBEBCIG_00051_gene"; gene_name "NPH2"
+KX894508	prokka	CDS	42986	45016	.	+	0	transcript_id "KCBEBCIG_00051_gene"; gene_name "NPH2";
+KX894508	prokka	transcript	45013	46803	.	-	.	transcript_id "KCBEBCIG_00052_gene"; gene_id "KCBEBCIG_00052_gene"
+KX894508	prokka	CDS	45013	46803	.	-	0	transcript_id "KCBEBCIG_00052_gene";
+KX894508	prokka	transcript	46800	47045	.	-	.	transcript_id "KCBEBCIG_00053_gene"; gene_id "KCBEBCIG_00053_gene"
+KX894508	prokka	CDS	46800	47045	.	-	0	transcript_id "KCBEBCIG_00053_gene";
+KX894508	prokka	transcript	47126	47794	.	+	.	transcript_id "KCBEBCIG_00054_gene"; gene_id "KCBEBCIG_00054_gene"
+KX894508	prokka	CDS	47126	47794	.	+	0	transcript_id "KCBEBCIG_00054_gene";
+KX894508	prokka	transcript	47758	48138	.	-	.	transcript_id "KCBEBCIG_00055_gene"; gene_id "KCBEBCIG_00055_gene"
+KX894508	prokka	CDS	47758	48138	.	-	0	transcript_id "KCBEBCIG_00055_gene";
+KX894508	prokka	transcript	48141	49454	.	+	.	transcript_id "KCBEBCIG_00056_gene"; gene_id "KCBEBCIG_00056_gene"; gene_name "G5R"
+KX894508	prokka	CDS	48141	49454	.	+	0	transcript_id "KCBEBCIG_00056_gene"; gene_name "G5R";
+KX894508	prokka	transcript	49455	49646	.	+	.	transcript_id "KCBEBCIG_00057_gene"; gene_id "KCBEBCIG_00057_gene"; gene_name "RPO7"
+KX894508	prokka	CDS	49455	49646	.	+	0	transcript_id "KCBEBCIG_00057_gene"; gene_name "RPO7";
+KX894508	prokka	transcript	49646	50170	.	+	.	transcript_id "KCBEBCIG_00058_gene"; gene_id "KCBEBCIG_00058_gene"
+KX894508	prokka	CDS	49646	50170	.	+	0	transcript_id "KCBEBCIG_00058_gene";
+KX894508	prokka	transcript	50184	51305	.	-	.	transcript_id "KCBEBCIG_00059_gene"; gene_id "KCBEBCIG_00059_gene"
+KX894508	prokka	CDS	50184	51305	.	-	0	transcript_id "KCBEBCIG_00059_gene";
+KX894508	prokka	transcript	51335	52117	.	+	.	transcript_id "KCBEBCIG_00060_gene"; gene_id "KCBEBCIG_00060_gene"; gene_name "VLTF1"
+KX894508	prokka	CDS	51335	52117	.	+	0	transcript_id "KCBEBCIG_00060_gene"; gene_name "VLTF1";
+KX894508	prokka	transcript	52144	53154	.	+	.	transcript_id "KCBEBCIG_00061_gene"; gene_id "KCBEBCIG_00061_gene"
+KX894508	prokka	CDS	52144	53154	.	+	0	transcript_id "KCBEBCIG_00061_gene";
+KX894508	prokka	transcript	53155	53892	.	+	.	transcript_id "KCBEBCIG_00062_gene"; gene_id "KCBEBCIG_00062_gene"; gene_name "L1R"
+KX894508	prokka	CDS	53155	53892	.	+	0	transcript_id "KCBEBCIG_00062_gene"; gene_name "L1R";
+KX894508	prokka	transcript	53930	54208	.	+	.	transcript_id "KCBEBCIG_00063_gene"; gene_id "KCBEBCIG_00063_gene"
+KX894508	prokka	CDS	53930	54208	.	+	0	transcript_id "KCBEBCIG_00063_gene";
+KX894508	prokka	transcript	54218	55174	.	-	.	transcript_id "KCBEBCIG_00064_gene"; gene_id "KCBEBCIG_00064_gene"
+KX894508	prokka	CDS	54218	55174	.	-	0	transcript_id "KCBEBCIG_00064_gene";
+KX894508	prokka	transcript	55199	55960	.	+	.	transcript_id "KCBEBCIG_00065_gene"; gene_id "KCBEBCIG_00065_gene"; gene_name "L4R"
+KX894508	prokka	CDS	55199	55960	.	+	0	transcript_id "KCBEBCIG_00065_gene"; gene_name "L4R";
+KX894508	prokka	transcript	55976	56371	.	+	.	transcript_id "KCBEBCIG_00066_gene"; gene_id "KCBEBCIG_00066_gene"
+KX894508	prokka	CDS	55976	56371	.	+	0	transcript_id "KCBEBCIG_00066_gene";
+KX894508	prokka	transcript	56328	56771	.	+	.	transcript_id "KCBEBCIG_00067_gene"; gene_id "KCBEBCIG_00067_gene"
+KX894508	prokka	CDS	56328	56771	.	+	0	transcript_id "KCBEBCIG_00067_gene";
+KX894508	prokka	transcript	56799	57332	.	+	.	transcript_id "KCBEBCIG_00068_gene"; gene_id "KCBEBCIG_00068_gene"; gene_name "TK"
+KX894508	prokka	CDS	56799	57332	.	+	0	transcript_id "KCBEBCIG_00068_gene"; gene_name "TK";
+KX894508	prokka	transcript	57405	57998	.	+	.	transcript_id "KCBEBCIG_00069_gene"; gene_id "KCBEBCIG_00069_gene"
+KX894508	prokka	CDS	57405	57998	.	+	0	transcript_id "KCBEBCIG_00069_gene";
+KX894508	prokka	transcript	58072	59058	.	+	.	transcript_id "KCBEBCIG_00070_gene"; gene_id "KCBEBCIG_00070_gene"; gene_name "PAPS"
+KX894508	prokka	CDS	58072	59058	.	+	0	transcript_id "KCBEBCIG_00070_gene"; gene_name "PAPS";
+KX894508	prokka	transcript	59536	59937	.	-	.	transcript_id "KCBEBCIG_00071_gene"; gene_id "KCBEBCIG_00071_gene"
+KX894508	prokka	CDS	59536	59937	.	-	0	transcript_id "KCBEBCIG_00071_gene";
+KX894508	prokka	transcript	60023	63880	.	+	.	transcript_id "KCBEBCIG_00072_gene"; gene_id "KCBEBCIG_00072_gene"
+KX894508	prokka	CDS	60023	63880	.	+	0	transcript_id "KCBEBCIG_00072_gene";
+KX894508	prokka	transcript	63885	64400	.	-	.	transcript_id "KCBEBCIG_00073_gene"; gene_id "KCBEBCIG_00073_gene"
+KX894508	prokka	CDS	63885	64400	.	-	0	transcript_id "KCBEBCIG_00073_gene";
+KX894508	prokka	transcript	64416	64988	.	+	.	transcript_id "KCBEBCIG_00074_gene"; gene_id "KCBEBCIG_00074_gene"
+KX894508	prokka	CDS	64416	64988	.	+	0	transcript_id "KCBEBCIG_00074_gene";
+KX894508	prokka	transcript	64985	65953	.	-	.	transcript_id "KCBEBCIG_00075_gene"; gene_id "KCBEBCIG_00075_gene"; gene_name "H3L"
+KX894508	prokka	CDS	64985	65953	.	-	0	transcript_id "KCBEBCIG_00075_gene"; gene_name "H3L";
+KX894508	prokka	transcript	65983	68379	.	-	.	transcript_id "KCBEBCIG_00076_gene"; gene_id "KCBEBCIG_00076_gene"
+KX894508	prokka	CDS	65983	68379	.	-	0	transcript_id "KCBEBCIG_00076_gene";
+KX894508	prokka	transcript	68523	69194	.	+	.	transcript_id "KCBEBCIG_00077_gene"; gene_id "KCBEBCIG_00077_gene"
+KX894508	prokka	CDS	68523	69194	.	+	0	transcript_id "KCBEBCIG_00077_gene";
+KX894508	prokka	transcript	69236	70189	.	+	.	transcript_id "KCBEBCIG_00078_gene"; gene_id "KCBEBCIG_00078_gene"; gene_name "TOP1"
+KX894508	prokka	CDS	69236	70189	.	+	0	transcript_id "KCBEBCIG_00078_gene"; gene_name "TOP1";
+KX894508	prokka	transcript	70209	70652	.	+	.	transcript_id "KCBEBCIG_00079_gene"; gene_id "KCBEBCIG_00079_gene"; gene_name "H7R"
+KX894508	prokka	CDS	70209	70652	.	+	0	transcript_id "KCBEBCIG_00079_gene"; gene_name "H7R";
+KX894508	prokka	transcript	70683	73211	.	+	.	transcript_id "KCBEBCIG_00080_gene"; gene_id "KCBEBCIG_00080_gene"
+KX894508	prokka	CDS	70683	73211	.	+	0	transcript_id "KCBEBCIG_00080_gene";
+KX894508	prokka	transcript	73173	73640	.	-	.	transcript_id "KCBEBCIG_00081_gene"; gene_id "KCBEBCIG_00081_gene"; gene_name "D4L"
+KX894508	prokka	CDS	73173	73640	.	-	0	transcript_id "KCBEBCIG_00081_gene"; gene_name "D4L";
+KX894508	prokka	transcript	73642	74379	.	+	.	transcript_id "KCBEBCIG_00082_gene"; gene_id "KCBEBCIG_00082_gene"
+KX894508	prokka	CDS	73642	74379	.	+	0	transcript_id "KCBEBCIG_00082_gene";
+KX894508	prokka	transcript	74376	75032	.	+	.	transcript_id "KCBEBCIG_00083_gene"; gene_id "KCBEBCIG_00083_gene"; gene_name "UNG"
+KX894508	prokka	CDS	74376	75032	.	+	0	transcript_id "KCBEBCIG_00083_gene"; gene_name "UNG";
+KX894508	prokka	transcript	75075	77435	.	+	.	transcript_id "KCBEBCIG_00084_gene"; gene_id "KCBEBCIG_00084_gene"
+KX894508	prokka	CDS	75075	77435	.	+	0	transcript_id "KCBEBCIG_00084_gene";
+KX894508	prokka	transcript	77432	79339	.	+	.	transcript_id "KCBEBCIG_00085_gene"; gene_id "KCBEBCIG_00085_gene"; gene_name "VETFS"
+KX894508	prokka	CDS	77432	79339	.	+	0	transcript_id "KCBEBCIG_00085_gene"; gene_name "VETFS";
+KX894508	prokka	transcript	79364	79855	.	+	.	transcript_id "KCBEBCIG_00086_gene"; gene_id "KCBEBCIG_00086_gene"
+KX894508	prokka	CDS	79364	79855	.	+	0	transcript_id "KCBEBCIG_00086_gene";
+KX894508	prokka	transcript	79896	80537	.	+	.	transcript_id "KCBEBCIG_00087_gene"; gene_id "KCBEBCIG_00087_gene"; gene_name "D9R"
+KX894508	prokka	CDS	79896	80537	.	+	0	transcript_id "KCBEBCIG_00087_gene"; gene_name "D9R";
+KX894508	prokka	transcript	80537	81298	.	+	.	transcript_id "KCBEBCIG_00088_gene"; gene_id "KCBEBCIG_00088_gene"
+KX894508	prokka	CDS	80537	81298	.	+	0	transcript_id "KCBEBCIG_00088_gene";
+KX894508	prokka	transcript	81304	83211	.	-	.	transcript_id "KCBEBCIG_00089_gene"; gene_id "KCBEBCIG_00089_gene"; gene_name "NPH1"
+KX894508	prokka	CDS	81304	83211	.	-	0	transcript_id "KCBEBCIG_00089_gene"; gene_name "NPH1";
+KX894508	prokka	transcript	83238	84101	.	-	.	transcript_id "KCBEBCIG_00090_gene"; gene_id "KCBEBCIG_00090_gene"
+KX894508	prokka	CDS	83238	84101	.	-	0	transcript_id "KCBEBCIG_00090_gene";
+KX894508	prokka	transcript	84142	85791	.	-	.	transcript_id "KCBEBCIG_00091_gene"; gene_id "KCBEBCIG_00091_gene"
+KX894508	prokka	CDS	84142	85791	.	-	0	transcript_id "KCBEBCIG_00091_gene";
+KX894508	prokka	transcript	85818	86270	.	-	.	transcript_id "KCBEBCIG_00092_gene"; gene_id "KCBEBCIG_00092_gene"; gene_name "VLTF2"
+KX894508	prokka	CDS	85818	86270	.	-	0	transcript_id "KCBEBCIG_00092_gene"; gene_name "VLTF2";
+KX894508	prokka	transcript	86300	86983	.	-	.	transcript_id "KCBEBCIG_00093_gene"; gene_id "KCBEBCIG_00093_gene"; gene_name "VLTF3"
+KX894508	prokka	CDS	86300	86983	.	-	0	transcript_id "KCBEBCIG_00093_gene"; gene_name "VLTF3";
+KX894508	prokka	transcript	86995	87222	.	-	.	transcript_id "KCBEBCIG_00094_gene"; gene_id "KCBEBCIG_00094_gene"
+KX894508	prokka	CDS	86995	87222	.	-	0	transcript_id "KCBEBCIG_00094_gene";
+KX894508	prokka	transcript	87231	89216	.	-	.	transcript_id "KCBEBCIG_00095_gene"; gene_id "KCBEBCIG_00095_gene"
+KX894508	prokka	CDS	87231	89216	.	-	0	transcript_id "KCBEBCIG_00095_gene";
+KX894508	prokka	transcript	89341	89826	.	-	.	transcript_id "KCBEBCIG_00096_gene"; gene_id "KCBEBCIG_00096_gene"
+KX894508	prokka	CDS	89341	89826	.	-	0	transcript_id "KCBEBCIG_00096_gene";
+KX894508	prokka	transcript	89867	90376	.	+	.	transcript_id "KCBEBCIG_00097_gene"; gene_id "KCBEBCIG_00097_gene"
+KX894508	prokka	CDS	89867	90376	.	+	0	transcript_id "KCBEBCIG_00097_gene";
+KX894508	prokka	transcript	90373	91500	.	-	.	transcript_id "KCBEBCIG_00098_gene"; gene_id "KCBEBCIG_00098_gene"; gene_name "A6L"
+KX894508	prokka	CDS	90373	91500	.	-	0	transcript_id "KCBEBCIG_00098_gene"; gene_name "A6L";
+KX894508	prokka	transcript	91521	93665	.	-	.	transcript_id "KCBEBCIG_00099_gene"; gene_id "KCBEBCIG_00099_gene"; gene_name "VETFL"
+KX894508	prokka	CDS	91521	93665	.	-	0	transcript_id "KCBEBCIG_00099_gene"; gene_name "VETFL";
+KX894508	prokka	transcript	93722	94594	.	+	.	transcript_id "KCBEBCIG_00100_gene"; gene_id "KCBEBCIG_00100_gene"; gene_name "VITF3S"
+KX894508	prokka	CDS	93722	94594	.	+	0	transcript_id "KCBEBCIG_00100_gene"; gene_name "VITF3S";
+KX894508	prokka	transcript	94618	94854	.	-	.	transcript_id "KCBEBCIG_00101_gene"; gene_id "KCBEBCIG_00101_gene"
+KX894508	prokka	CDS	94618	94854	.	-	0	transcript_id "KCBEBCIG_00101_gene";
+KX894508	prokka	transcript	94855	97569	.	-	.	transcript_id "KCBEBCIG_00102_gene"; gene_id "KCBEBCIG_00102_gene"
+KX894508	prokka	CDS	94855	97569	.	-	0	transcript_id "KCBEBCIG_00102_gene";
+KX894508	prokka	transcript	97584	98537	.	+	.	transcript_id "KCBEBCIG_00103_gene"; gene_id "KCBEBCIG_00103_gene"
+KX894508	prokka	CDS	97584	98537	.	+	0	transcript_id "KCBEBCIG_00103_gene";
+KX894508	prokka	transcript	98534	99106	.	-	.	transcript_id "KCBEBCIG_00104_gene"; gene_id "KCBEBCIG_00104_gene"
+KX894508	prokka	CDS	98534	99106	.	-	0	transcript_id "KCBEBCIG_00104_gene";
+KX894508	prokka	transcript	99172	99375	.	-	.	transcript_id "KCBEBCIG_00105_gene"; gene_id "KCBEBCIG_00105_gene"
+KX894508	prokka	CDS	99172	99375	.	-	0	transcript_id "KCBEBCIG_00105_gene";
+KX894508	prokka	transcript	99457	99744	.	-	.	transcript_id "KCBEBCIG_00106_gene"; gene_id "KCBEBCIG_00106_gene"
+KX894508	prokka	CDS	99457	99744	.	-	0	transcript_id "KCBEBCIG_00106_gene";
+KX894508	prokka	transcript	99912	100199	.	-	.	transcript_id "KCBEBCIG_00107_gene"; gene_id "KCBEBCIG_00107_gene"
+KX894508	prokka	CDS	99912	100199	.	-	0	transcript_id "KCBEBCIG_00107_gene";
+KX894508	prokka	transcript	100183	101316	.	-	.	transcript_id "KCBEBCIG_00108_gene"; gene_id "KCBEBCIG_00108_gene"
+KX894508	prokka	CDS	100183	101316	.	-	0	transcript_id "KCBEBCIG_00108_gene";
+KX894508	prokka	transcript	101332	101922	.	-	.	transcript_id "KCBEBCIG_00109_gene"; gene_id "KCBEBCIG_00109_gene"
+KX894508	prokka	CDS	101332	101922	.	-	0	transcript_id "KCBEBCIG_00109_gene";
+KX894508	prokka	transcript	101937	103379	.	+	.	transcript_id "KCBEBCIG_00110_gene"; gene_id "KCBEBCIG_00110_gene"
+KX894508	prokka	CDS	101937	103379	.	+	0	transcript_id "KCBEBCIG_00110_gene";
+KX894508	prokka	transcript	103360	103584	.	-	.	transcript_id "KCBEBCIG_00111_gene"; gene_id "KCBEBCIG_00111_gene"
+KX894508	prokka	CDS	103360	103584	.	-	0	transcript_id "KCBEBCIG_00111_gene";
+KX894508	prokka	transcript	103585	103743	.	-	.	transcript_id "KCBEBCIG_00112_gene"; gene_id "KCBEBCIG_00112_gene"
+KX894508	prokka	CDS	103585	103743	.	-	0	transcript_id "KCBEBCIG_00112_gene";
+KX894508	prokka	transcript	103931	105223	.	+	.	transcript_id "KCBEBCIG_00113_gene"; gene_id "KCBEBCIG_00113_gene"
+KX894508	prokka	CDS	103931	105223	.	+	0	transcript_id "KCBEBCIG_00113_gene";
+KX894508	prokka	transcript	105192	105698	.	+	.	transcript_id "KCBEBCIG_00114_gene"; gene_id "KCBEBCIG_00114_gene"
+KX894508	prokka	CDS	105192	105698	.	+	0	transcript_id "KCBEBCIG_00114_gene";
+KX894508	prokka	transcript	105723	106880	.	+	.	transcript_id "KCBEBCIG_00115_gene"; gene_id "KCBEBCIG_00115_gene"; gene_name "VITF3L"
+KX894508	prokka	CDS	105723	106880	.	+	0	transcript_id "KCBEBCIG_00115_gene"; gene_name "VITF3L";
+KX894508	prokka	transcript	106911	110381	.	+	.	transcript_id "KCBEBCIG_00116_gene"; gene_id "KCBEBCIG_00116_gene"
+KX894508	prokka	CDS	106911	110381	.	+	0	transcript_id "KCBEBCIG_00116_gene";
+KX894508	prokka	transcript	110395	110841	.	-	.	transcript_id "KCBEBCIG_00117_gene"; gene_id "KCBEBCIG_00117_gene"
+KX894508	prokka	CDS	110395	110841	.	-	0	transcript_id "KCBEBCIG_00117_gene";
+KX894508	prokka	transcript	110842	111264	.	-	.	transcript_id "KCBEBCIG_00118_gene"; gene_id "KCBEBCIG_00118_gene"
+KX894508	prokka	CDS	110842	111264	.	-	0	transcript_id "KCBEBCIG_00118_gene";
+KX894508	prokka	transcript	111265	112176	.	-	.	transcript_id "KCBEBCIG_00119_gene"; gene_id "KCBEBCIG_00119_gene"
+KX894508	prokka	CDS	111265	112176	.	-	0	transcript_id "KCBEBCIG_00119_gene";
+KX894508	prokka	transcript	112145	112369	.	-	.	transcript_id "KCBEBCIG_00120_gene"; gene_id "KCBEBCIG_00120_gene"
+KX894508	prokka	CDS	112145	112369	.	-	0	transcript_id "KCBEBCIG_00120_gene";
+KX894508	prokka	transcript	112397	112522	.	-	.	transcript_id "KCBEBCIG_00121_gene"; gene_id "KCBEBCIG_00121_gene"
+KX894508	prokka	CDS	112397	112522	.	-	0	transcript_id "KCBEBCIG_00121_gene";
+KX894508	prokka	transcript	112548	113312	.	-	.	transcript_id "KCBEBCIG_00122_gene"; gene_id "KCBEBCIG_00122_gene"
+KX894508	prokka	CDS	112548	113312	.	-	0	transcript_id "KCBEBCIG_00122_gene";
+KX894508	prokka	transcript	113444	114034	.	+	.	transcript_id "KCBEBCIG_00123_gene"; gene_id "KCBEBCIG_00123_gene"
+KX894508	prokka	CDS	113444	114034	.	+	0	transcript_id "KCBEBCIG_00123_gene";
+KX894508	prokka	transcript	114067	114582	.	+	.	transcript_id "KCBEBCIG_00124_gene"; gene_id "KCBEBCIG_00124_gene"
+KX894508	prokka	CDS	114067	114582	.	+	0	transcript_id "KCBEBCIG_00124_gene";
+KX894508	prokka	transcript	114610	115185	.	+	.	transcript_id "KCBEBCIG_00125_gene"; gene_id "KCBEBCIG_00125_gene"
+KX894508	prokka	CDS	114610	115185	.	+	0	transcript_id "KCBEBCIG_00125_gene";
+KX894508	prokka	transcript	115222	116088	.	+	.	transcript_id "KCBEBCIG_00126_gene"; gene_id "KCBEBCIG_00126_gene"
+KX894508	prokka	CDS	115222	116088	.	+	0	transcript_id "KCBEBCIG_00126_gene";
+KX894508	prokka	transcript	116147	116692	.	+	.	transcript_id "KCBEBCIG_00127_gene"; gene_id "KCBEBCIG_00127_gene"
+KX894508	prokka	CDS	116147	116692	.	+	0	transcript_id "KCBEBCIG_00127_gene";
+KX894508	prokka	transcript	116703	117524	.	+	.	transcript_id "KCBEBCIG_00128_gene"; gene_id "KCBEBCIG_00128_gene"
+KX894508	prokka	CDS	116703	117524	.	+	0	transcript_id "KCBEBCIG_00128_gene";
+KX894508	prokka	transcript	117528	118433	.	-	.	transcript_id "KCBEBCIG_00129_gene"; gene_id "KCBEBCIG_00129_gene"
+KX894508	prokka	CDS	117528	118433	.	-	0	transcript_id "KCBEBCIG_00129_gene";
+KX894508	prokka	transcript	118531	118902	.	+	.	transcript_id "KCBEBCIG_00130_gene"; gene_id "KCBEBCIG_00130_gene"
+KX894508	prokka	CDS	118531	118902	.	+	0	transcript_id "KCBEBCIG_00130_gene";
+KX894508	prokka	transcript	118971	119216	.	+	.	transcript_id "KCBEBCIG_00131_gene"; gene_id "KCBEBCIG_00131_gene"
+KX894508	prokka	CDS	118971	119216	.	+	0	transcript_id "KCBEBCIG_00131_gene";
+KX894508	prokka	transcript	119272	119757	.	+	.	transcript_id "KCBEBCIG_00132_gene"; gene_id "KCBEBCIG_00132_gene"
+KX894508	prokka	CDS	119272	119757	.	+	0	transcript_id "KCBEBCIG_00132_gene";
+KX894508	prokka	transcript	119792	120322	.	+	.	transcript_id "KCBEBCIG_00133_gene"; gene_id "KCBEBCIG_00133_gene"
+KX894508	prokka	CDS	119792	120322	.	+	0	transcript_id "KCBEBCIG_00133_gene";
+KX894508	prokka	transcript	120358	122031	.	+	.	transcript_id "KCBEBCIG_00134_gene"; gene_id "KCBEBCIG_00134_gene"; gene_name "LIG"
+KX894508	prokka	CDS	120358	122031	.	+	0	transcript_id "KCBEBCIG_00134_gene"; gene_name "LIG";
+KX894508	prokka	transcript	122306	128263	.	+	.	transcript_id "KCBEBCIG_00135_gene"; gene_id "KCBEBCIG_00135_gene"
+KX894508	prokka	CDS	122306	128263	.	+	0	transcript_id "KCBEBCIG_00135_gene";
+KX894508	prokka	transcript	128333	129415	.	+	.	transcript_id "KCBEBCIG_00136_gene"; gene_id "KCBEBCIG_00136_gene"
+KX894508	prokka	CDS	128333	129415	.	+	0	transcript_id "KCBEBCIG_00136_gene";
+KX894508	prokka	transcript	129463	129924	.	+	.	transcript_id "KCBEBCIG_00137_gene"; gene_id "KCBEBCIG_00137_gene"
+KX894508	prokka	CDS	129463	129924	.	+	0	transcript_id "KCBEBCIG_00137_gene";
+KX894508	prokka	transcript	129990	130997	.	+	.	transcript_id "KCBEBCIG_00138_gene"; gene_id "KCBEBCIG_00138_gene"
+KX894508	prokka	CDS	129990	130997	.	+	0	transcript_id "KCBEBCIG_00138_gene";
+KX894508	prokka	transcript	131027	131587	.	+	.	transcript_id "KCBEBCIG_00139_gene"; gene_id "KCBEBCIG_00139_gene"
+KX894508	prokka	CDS	131027	131587	.	+	0	transcript_id "KCBEBCIG_00139_gene";
+KX894508	prokka	transcript	131626	132543	.	+	.	transcript_id "KCBEBCIG_00140_gene"; gene_id "KCBEBCIG_00140_gene"; gene_name "VPK1"
+KX894508	prokka	CDS	131626	132543	.	+	0	transcript_id "KCBEBCIG_00140_gene"; gene_name "VPK1";
+KX894508	prokka	transcript	132575	133297	.	+	.	transcript_id "KCBEBCIG_00141_gene"; gene_id "KCBEBCIG_00141_gene"
+KX894508	prokka	CDS	132575	133297	.	+	0	transcript_id "KCBEBCIG_00141_gene";
+KX894508	prokka	transcript	133346	134020	.	+	.	transcript_id "KCBEBCIG_00142_gene"; gene_id "KCBEBCIG_00142_gene"
+KX894508	prokka	CDS	133346	134020	.	+	0	transcript_id "KCBEBCIG_00142_gene";
+KX894508	prokka	transcript	134022	134426	.	+	.	transcript_id "KCBEBCIG_00143_gene"; gene_id "KCBEBCIG_00143_gene"
+KX894508	prokka	CDS	134022	134426	.	+	0	transcript_id "KCBEBCIG_00143_gene";
+KX894508	prokka	transcript	134463	135371	.	+	.	transcript_id "KCBEBCIG_00144_gene"; gene_id "KCBEBCIG_00144_gene"
+KX894508	prokka	CDS	134463	135371	.	+	0	transcript_id "KCBEBCIG_00144_gene";
+KX894508	prokka	transcript	135541	137208	.	+	.	transcript_id "KCBEBCIG_00145_gene"; gene_id "KCBEBCIG_00145_gene"; gene_name "KBTB1_1"
+KX894508	prokka	CDS	135541	137208	.	+	0	transcript_id "KCBEBCIG_00145_gene"; gene_name "KBTB1_1";
+KX894508	prokka	transcript	137232	139136	.	+	.	transcript_id "KCBEBCIG_00146_gene"; gene_id "KCBEBCIG_00146_gene"
+KX894508	prokka	CDS	137232	139136	.	+	0	transcript_id "KCBEBCIG_00146_gene";
+KX894508	prokka	transcript	139265	140506	.	+	.	transcript_id "KCBEBCIG_00147_gene"; gene_id "KCBEBCIG_00147_gene"
+KX894508	prokka	CDS	139265	140506	.	+	0	transcript_id "KCBEBCIG_00147_gene";
+KX894508	prokka	transcript	140571	142067	.	+	.	transcript_id "KCBEBCIG_00148_gene"; gene_id "KCBEBCIG_00148_gene"
+KX894508	prokka	CDS	140571	142067	.	+	0	transcript_id "KCBEBCIG_00148_gene";
+KX894508	prokka	transcript	142115	143458	.	+	.	transcript_id "KCBEBCIG_00149_gene"; gene_id "KCBEBCIG_00149_gene"
+KX894508	prokka	CDS	142115	143458	.	+	0	transcript_id "KCBEBCIG_00149_gene";
+KX894508	prokka	transcript	143479	144492	.	+	.	transcript_id "KCBEBCIG_00150_gene"; gene_id "KCBEBCIG_00150_gene"; gene_name "SERP2"
+KX894508	prokka	CDS	143479	144492	.	+	0	transcript_id "KCBEBCIG_00150_gene"; gene_name "SERP2";
+KX894508	prokka	transcript	144531	145016	.	+	.	transcript_id "KCBEBCIG_00151_gene"; gene_id "KCBEBCIG_00151_gene"
+KX894508	prokka	CDS	144531	145016	.	+	0	transcript_id "KCBEBCIG_00151_gene";
+KX894508	prokka	transcript	145058	146713	.	+	.	transcript_id "KCBEBCIG_00152_gene"; gene_id "KCBEBCIG_00152_gene"; gene_name "KBTB1_2"
+KX894508	prokka	CDS	145058	146713	.	+	0	transcript_id "KCBEBCIG_00152_gene"; gene_name "KBTB1_2";
+KX894508	prokka	transcript	146779	148248	.	+	.	transcript_id "KCBEBCIG_00153_gene"; gene_id "KCBEBCIG_00153_gene"
+KX894508	prokka	CDS	146779	148248	.	+	0	transcript_id "KCBEBCIG_00153_gene";
+KX894508	prokka	transcript	148293	148568	.	+	.	transcript_id "KCBEBCIG_00154_gene"; gene_id "KCBEBCIG_00154_gene"
+KX894508	prokka	CDS	148293	148568	.	+	0	transcript_id "KCBEBCIG_00154_gene";
+KX894508	prokka	transcript	148638	149360	.	+	.	transcript_id "KCBEBCIG_00155_gene"; gene_id "KCBEBCIG_00155_gene"
+KX894508	prokka	CDS	148638	149360	.	+	0	transcript_id "KCBEBCIG_00155_gene";
+KX894508	prokka	transcript	149706	150005	.	+	.	transcript_id "KCBEBCIG_00156_gene"; gene_id "KCBEBCIG_00156_gene"
+KX894508	prokka	CDS	149706	150005	.	+	0	transcript_id "KCBEBCIG_00156_gene";
