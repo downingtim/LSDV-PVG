@@ -81,7 +81,7 @@ process TREE{
 }
 
 process MAKE_PVG {
-    container 'chandanatpi/tpi:pggb'
+    container 'chandanatpi/tpi:pggbV01'
     cache 'lenient'
     tag {"index reference FASTA"}
     label 'pvg'
@@ -96,24 +96,30 @@ process MAKE_PVG {
 
     script:
     """
-    # create Blast indexes for self-self blast
-    # makeblastdb -dbtype nucl -in ${refFasta} -out ${workflow.projectDir}/BLAST/fasta.db 
-    # blastall -p blastn -d ${workflow.projectDir}/BLAST/fasta.db -i ${refFasta} -e 1.0 -outfmt 6 > self-blast.out
+    REFERENCE="${refFasta}"
+    # The second argument is a primer sequence; set via params.primer_sequence for reproducibility
+    preprocess.py \${REFERENCE} "TTTTTTT" 1500 > processed.fa
+    if [ -s trim.bed ]; 
+    then
+       REFERENCE="processed.fa" 
+    fi
+    echo \${REFERENCE}
+
     
-    # SAMtools index
-    bgzip ${refFasta}
-    samtools faidx ${refFasta}.gz > ${refFasta}.gz.fai
-
-    # run PGGB - you need to specify the number of haplotypes in number
-    pggb -i ${refFasta}.gz -m -S -o . -t ${task.cpus} -p 90 -s ${params.seed} -n ${params.haplotypes}
+    bgzip \${REFERENCE}
+    samtools faidx \${REFERENCE}.gz
+    # run PGGB - you need to specify the number of haplotypes as an integer using the 'params.haplotypes' parameter.
+    pggb -i \${REFERENCE}.gz -m -S -o . -t ${task.cpus} -p 90 -s ${params.seed} -n ${params.haplotypes}
     mv *.gfa pggb.gfa
-    # if issues, remove CURRENT/ in ${workflow.projectDir}  before re-running 
-
-    # run pangenome in nf-core - don't work as reliably as PGGB, so best avoided
-    # nextflow run nf-core/pangenome --input ${refFasta}.gz --n_haplotypes number --outdir \
-    #   ${workflow.projectDir}/CURRENT  --communities  --wfmash_segment_length 1000
-    #odgi stats -m -i ${workflow.projectDir}/CURRENT/FINAL_ODGI/${refFasta}.gz.squeeze.og -S > ${workflow.projectDir}/odgi.stats.txt 
-
+    if [ -s trim.bed ]; 
+    then
+        odgi build -g pggb.gfa -o pggb.og 
+        odgi chop -i pggb.og -c 1 -o chopped.og
+        odgi extract -i chopped.og -b trim.bed -o filtered.og
+        odgi unchop -i filtered.og -o unchopped.og
+        odgi view -i unchopped.og -g > pggb.gfa 
+        awk '{print "s%" \$1 ":" \$2 "-" \$3 "%" \$1 "%g"}' trim.bed |sed -i -f - pggb.gfa
+    fi
     """
 }
 
@@ -535,7 +541,7 @@ process BANDAGE_view {
 
 
 process COMMUNITIES {
-    container 'chandanatpi/tpi:pggb'
+    container 'chandanatpi/tpi:pggbV01'
     input:
     path communities_genome
     
@@ -621,7 +627,7 @@ process BUSCO {
 }
 
 process PAFGNOSTIC {
-    container 'chandanatpi/tpi:pggb'
+    container 'chandanatpi/tpi:pggbV01'
     input:
     path paf_file 
 
