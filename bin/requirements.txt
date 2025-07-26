@@ -1,0 +1,8 @@
+Bio==1.7.1
+biopython==1.84
+matplotlib==3.7.1
+numpy==1.24.3
+pandas==2.2.3
+python_igraph==0.11.8
+scipy==1.15.1
+seaborn==0.13.2
