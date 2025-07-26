@@ -1,3 +1,0 @@
-#Rscript ~/bin/scanR_deps.R $PWD > packages.txt
-#edit packages to be a table with vim
-awk '{print "R -e \"remotes::install_version('\''" $1 "'\'', version='\''" $2 "'\'', repos='\''http://cran.us.r-project.org'\'')\"  && \\"}' packages.txt
