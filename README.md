@@ -8,21 +8,21 @@
 
 Panalyze can make and analyse [pangenome variation graphs (PVGs)](https://doi.org/10.1093/bioinformatics/btac743). This was mainly designed with virus genomes in mind. It takes in a FASTA file of related sequences and constructs a PVG from them using [PGGB](https://github.com/pangenome/pggb). It visualises the PVG using [VG](https://github.com/vgteam/vg) and [ODGI](https://github.com/pangenome/odgi), and summarises it numerically using [GFAtools](https://github.com/lh3/gfatools) and ODGI. It calculates PVG openness using [Panacus](https://github.com/marschall-lab/panacus), [Pangrowth](https://peercommunityjournal.org/item/10.24072/pcjournal.415.pdf) and ODGI's heaps function. It gets the sample genome sizes and allocates them into communities (ie, groups) based on similarity. It identifies mutations in the form of VCFs using GFAutil and gets presence-absence variants (PAVs). It has a range of optional functions, like downloading a query to create the input FASTA, and using the [BUSCO database](https://busco.ezlab.org/) to quantify the numbers of genes in the samples of interest.
 
-You can read our preprint [here](https://biorxiv.org) and some ideas behind this [here](https://arxiv.org/abs/2412.05096). Panalyze works in a [Docker](https://www.docker.com/resources/what-container) container and runs in [NextFlow](https://www.nextflow.io/).
+You can read our preprint [here](https://www.biorxiv.org/content/10.1101/2025.04.10.646565) and some ideas behind this [here](https://arxiv.org/abs/2412.05096). Panalyze works in a [Docker](https://www.docker.com/resources/what-container) container and runs in [NextFlow](https://www.nextflow.io/).
 
 ## Installation
 
 Clone the directory
 
-    git clone https://github.com/downingtim/LSDV-PVG/
+    git clone https://github.com/downingtim/Panalyze/
 
 Go to the folder
 
-    cd LSDV-PVG
+    cd Panalyze
 
 Run in Nextflow given a template YML file and an example FASTA file. You may need to activate docker and R to ensure it works smoothly. You need Java version 11+ as well.
 
-For example, we can examine a smnall set of goatpox virus (GTPV) genomes, this took 21 minutes / 17.3 CPU hours to run:
+For example, we can examine a small set of goatpox virus (GTPV) genomes:
 
     nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
@@ -32,11 +32,11 @@ In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) sero
 
 We can examine a set of 441 foot-and-mouth virus (FMDV) serotype O genomes:
 
-   nextflow run ../main.nf --config template.FMDV.O.yml --reference /ephemeral/downing/PVG/FMDV_O/FMDV_O.fa
+   nextflow run ../main.nf --config template.FMDV.O.yml --reference FMDV_O.fa
 
 We can examine a set of 18 foot-and-mouth virus (FMDV) serotype C genomes:
 
-   nextflow run ../main.nf --config template.FMDV.C.yml --reference /ephemeral/downing/PVG/FMDV_C/FMDV_C.fa
+   nextflow run ../main.nf --config template.FMDV.C.yml --reference  FMDV_C.fa
 
 We can take 121 lumpy skin disease virus (LSDV) genomes:
 
@@ -54,7 +54,7 @@ We can take 132 lumpy skin disease virus (LSDV) genomes but just 8.9 Kb spanning
 
     nextflow run main.nf --config template.LSDV.135kb.yml --reference test_genomes.LSDV.135kb.fa
 
-We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing) to be downloaded based on the qtext in the template file:
+We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing) to be downloaded based on the text in the template file:
 
     nextflow run main.nf --config template.GTPV.all.yml 
 
@@ -62,17 +62,21 @@ We can run on a ssRNA test dataset - 15 porcine respiratory coronavirus genomes 
 
     nextflow run main.nf --config template.PRCV.all.yml
 
+We can investigate 2,398 mpox genomes:
+
+   nextflow run main.nf --config template.mpox.yml --reference mpox.pansn.fa
+
 We can investigate 414 Rift Valley fever virus (RVFV) S segment sequences:
 
-   nextflow run ../main.nf --config template.RVFV.S.yml --reference test_genomes.S.fa
+   nextflow run main.nf --config template.RVFV.S.yml --reference test_genomes.S.fa
 
 We can investigate 302 Rift Valley fever virus (RVFV) M segment sequences:
 
-   nextflow run ../main.nf --config template.RVFV.M.yml --reference test_genomes.M.fa 
+   nextflow run main.nf --config template.RVFV.M.yml --reference test_genomes.M.fa 
 
 We can investigate 306 Rift Valley fever virus (RVFV) L segment sequences:
 
-   nextflow run ../main.nf --config template.RVFV.L.yml  --reference test_genomes.L.fa
+   nextflow run main.nf --config template.RVFV.L.yml  --reference test_genomes.L.fa
 
 
 ## Module selection
