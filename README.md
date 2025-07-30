@@ -26,6 +26,11 @@ For example, we can examine a small set of goatpox virus (GTPV) genomes:
 
     nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
 
+Note that for your own samples, you will need to remove special characters in your sample names. In addition, to ensure compatibility with other pangenome graph tools, please adhere to the [PanSN-spec: Pangenome Sequence Naming](https://github.com/pangenome/PanSN-spec) guidance, which basically means adding a hash and a digit onto the end of the sample names.
+
+
+## Examples ## 
+
 In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) serotype A genomes:
 
     nextflow run main.nf --config template.FMDV.A.yml --reference test_genomes.FMDV.A.fa
