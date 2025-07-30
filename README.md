@@ -32,11 +32,11 @@ In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) sero
 
 We can examine a set of 441 foot-and-mouth virus (FMDV) serotype O genomes:
 
-   nextflow run ../main.nf --config template.FMDV.O.yml --reference test_genomes.FMDV.O.fa
+    nextflow run ../main.nf --config template.FMDV.O.yml --reference test_genomes.FMDV.O.fa
 
 We can examine a set of 18 foot-and-mouth virus (FMDV) serotype C genomes:
 
-   nextflow run ../main.nf --config template.FMDV.C.yml --reference  test_genomes.FMDV.C.fa
+    nextflow run ../main.nf --config template.FMDV.C.yml --reference  test_genomes.FMDV.C.fa
 
 We can take 121 lumpy skin disease virus (LSDV) genomes:
 
