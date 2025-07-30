@@ -164,7 +164,10 @@ vvvvThe modules folder contains the processes, which are called by main.nf. Thes
 ### [20] GFAstat: (core)
     [i]    Compute key PVG metrics with GFAstats  -> results/gfastat/gfa.stats.txt
     [ii]   Get the genome lengths -> results/gfastat/genome.lengths.txt
-### [21] BUSCO: (optional)
+### [20] Annotate_Position: (core)
+    [i]    Use ODGI to map PVG nodes to annotation data
+    [ii]   Provide instructions on using Bandage
+### [22] BUSCO: (optional)
      [i]   Use Busco to count the number of BUSCO genes present.
 
 ## Dependencies
@@ -189,6 +192,8 @@ Panalyze is based on the following tools and scripts. If you use the Docker vers
 16. Bgzip
 17. SAMtools
 18. Mash
+19. Gffread
+20. Prokka
 
 ## Credits
 
