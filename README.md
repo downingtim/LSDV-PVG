@@ -32,11 +32,11 @@ In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) sero
 
 We can examine a set of 441 foot-and-mouth virus (FMDV) serotype O genomes:
 
-   nextflow run ../main.nf --config template.FMDV.O.yml --reference FMDV_O.fa
+   nextflow run ../main.nf --config template.FMDV.O.yml --reference test_genomes.FMDV.O.fa
 
 We can examine a set of 18 foot-and-mouth virus (FMDV) serotype C genomes:
 
-   nextflow run ../main.nf --config template.FMDV.C.yml --reference  FMDV_C.fa
+   nextflow run ../main.nf --config template.FMDV.C.yml --reference  test_genomes.FMDV.C.fa
 
 We can take 121 lumpy skin disease virus (LSDV) genomes:
 
@@ -50,7 +50,7 @@ We can take 132 lumpy skin disease virus (LSDV) genomes but just 7.5 Kb spanning
 
     nextflow run main.nf --config template.LSDV.10kb.yml --reference test_genomes.LSDV.10kb.fa
 
-We can take 132 lumpy skin disease virus (LSDV) genomes but just 8.9 Kb spanning 135-144 Kb of their aligned genomes:
+We can take 132 lumpy skin disease virus (LSDV) genomes but just 5 Kb spanning 135-140 Kb of their aligned genomes:
 
     nextflow run main.nf --config template.LSDV.135kb.yml --reference test_genomes.LSDV.135kb.fa
 
@@ -58,13 +58,13 @@ We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing
 
     nextflow run main.nf --config template.GTPV.all.yml 
 
-We can run on a ssRNA test dataset - 15 porcine respiratory coronavirus genomes (at the time of writing) to be downloaded (during testing:
+We can run on a ssRNA test dataset - 15 porcine respiratory coronavirus genomes to be downloaded:
 
     nextflow run main.nf --config template.PRCV.all.yml
 
-We can investigate 2,398 mpox genomes:
+We can investigate 2,358 mpox genomes:
 
-   nextflow run main.nf --config template.mpox.yml --reference mpox.pansn.fa
+   nextflow run main.nf --config template.MPOX.yml --reference test_genomes.mpox.fa
 
 We can investigate 414 Rift Valley fever virus (RVFV) S segment sequences:
 
