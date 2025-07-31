@@ -3,11 +3,11 @@ PROCESS:
   executor: slurm
   cpus: 40 
 VIRUS:
-  name : lumpy skin disease virus 
-  filter : lumpy skin disease virus, LSDV, lumpy skin disease, LSD
+  name : rift valley fever virus S segment, rvfv 
+  filter : rift valley fever virus, rvfv
   busco_clade : "poxviridae_odb10" #If this is present BUSCO analysis will be done
-  haplotypes : 121
-  genome_length : 149000   # minimum expected genome size
+  haplotypes : 414
+  genome_length : 1690   # minimum expected genome size
 MODULES:   # Setting the module value to 0 will switch off the module in the pipeline
   download : 1
   align : 1
@@ -24,6 +24,6 @@ MODULES:   # Setting the module value to 0 will switch off the module in the pip
   heaps : 1
   pavs : 1
   getvcf : 1
-  busco : 1
+  busco : 0
   openness_pangrowth : 1
   communities : 1

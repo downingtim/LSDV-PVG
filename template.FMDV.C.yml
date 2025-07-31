@@ -3,11 +3,11 @@ PROCESS:
   executor: slurm
   cpus: 40 
 VIRUS:
-  name : lumpy skin disease virus 
-  filter : lumpy skin disease virus, LSDV, lumpy skin disease, LSD
-  busco_clade : "poxviridae_odb10" #If this is present BUSCO analysis will be done
-  haplotypes : 121
-  genome_length : 149000   # minimum expected genome size
+  name : foot-and-mouth disease virus
+  filter : foot-and-mouth disease virus, serotype C, FMDV
+  genomes : "test_genomes.FMDV.C.fa"
+  haplotypes : 18
+  genome_length : 8000
 MODULES:   # Setting the module value to 0 will switch off the module in the pipeline
   download : 1
   align : 1
@@ -20,10 +20,10 @@ MODULES:   # Setting the module value to 0 will switch off the module in the pip
   odgi : 1
   openness_panacus : 1
   getbases : 1
-  viz2 : 1
+  viz2 : 0
   heaps : 1
-  pavs : 1
+  pavs : 0
   getvcf : 1
-  busco : 1
+  busco : 0
   openness_pangrowth : 1
   communities : 1
