@@ -542,6 +542,7 @@ process BANDAGE_view {
 
 process COMMUNITIES {
     container 'chandanatpi/tpi:pggbV01'
+    cpus { Math.min(params.cpus as int, 44) }
     input:
     path communities_genome
     
@@ -554,13 +555,31 @@ process COMMUNITIES {
 
     script:
     """
+    REFERENCE="${communities_genome}"
+    SEGSIZE=""
+    preprocess.py \${REFERENCE} "NNNNNNN" 1500 > processed.fa
+    if [ -s trim.bed ]; 
+    then
+       REFERENCE="processed.fa" 
+       SEGSIZE="-s ${params.seed}"
+    fi
+
+    echo \${REFERENCE}
+    bgzip -@ 4 \${REFERENCE}
+    samtools faidx \${REFERENCE}.gz # index
 
     bgzip -@ 4 ${communities_genome}
     samtools faidx ${communities_genome}.gz # index
 
     # Community detection based on p/w alignments based on 90% ID at mash level with 6
     # mappings per segment, using k-mer of 19 and window of 67
-    wfmash ${communities_genome}.gz -p 90 -n 6 -t 44 -m > genomes.mapping.paf
+    if [ -s trim.bed ]; 
+    then
+        wfmash \${REFERENCE}.gz -p 90 -n 6 \${SEGSIZE}  -t ${task.cpus} -m > genomes.mapping.tmp
+        editpaf.py genomes.mapping.tmp trim.bed > genomes.mapping.paf
+    else
+        wfmash \${REFERENCE}.gz -p 90 -n 6 \${SEGSIZE}  -t ${task.cpus} -m > genomes.mapping.paf
+    fi
 
     # Convert PAF mappings into a network:
     paf2net.py -p genomes.mapping.paf

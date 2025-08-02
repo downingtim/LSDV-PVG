@@ -1,2 +1,3 @@
 FROM chandanatpi/tpi:pggb
 COPY bin.docker/preprocess.py /bin/
+COPY bin.docker/editpaf.py /bin/

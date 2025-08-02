@@ -8,3 +8,4 @@ COPY bin.docker/mash /usr/local/bin
 RUN ln -s /opt/venv/bin/python /usr/bin
 ENV PYTHONPATH="/opt/venv/lib/python3.11/site-packages:$PYTHONPATH"
 COPY bin.docker/preprocess.py /bin/
+COPY bin.docker/editpaf.py /bin/
