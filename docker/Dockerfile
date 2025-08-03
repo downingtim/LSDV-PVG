@@ -60,7 +60,6 @@ COPY bin.docker/tree.R /bin/
 COPY bin.docker/plot_variation_map.R /bin/
 COPY bin.docker/plot_SNP_density.R /bin/
 COPY bin.docker/visualisation.R /bin/
-COPY bin.docker/plot_pavs.R /bin/
 COPY bin.docker/annotate.R /bin/
 COPY bin.docker/view_gml.R /bin/
 COPY bin.docker/panaroo_viz.R /bin/
@@ -87,6 +86,8 @@ RUN apt-get install graphviz -y
 RUN apt-get install mafft -y
 RUN apt-get install samtools -y
 RUN apt-get install -y gffread
+COPY bin.docker/plot_pavs.R /bin/
+COPY bin.docker/plot_pavs.R /usr/bin/
 
 
 
