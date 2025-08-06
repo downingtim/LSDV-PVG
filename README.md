@@ -24,7 +24,7 @@ Run in Nextflow given a template YML file and an example FASTA file. You may nee
 
 For example, we can examine a small set of goatpox virus (GTPV) genomes:
 
-    nextflow run main.nf --config template.GTPV.yml --reference test_genomes.GTPV.fa
+    nextflow run main.nf --config templates/template.GTPV.yml --reference test_data/test_genomes.GTPV.fa
 
 Note that for your own samples, you will need to remove special characters in your sample names. In addition, to ensure compatibility with other pangenome graph tools, please adhere to the [PanSN-spec: Pangenome Sequence Naming](https://github.com/pangenome/PanSN-spec) guidance, which basically means adding a hash and a digit onto the end of the sample names.
 
@@ -33,55 +33,55 @@ Note that for your own samples, you will need to remove special characters in yo
 
 In another example, we can examine a set of 142 foot-and-mouth virus (FMDV) serotype A genomes:
 
-    nextflow run main.nf --config template.FMDV.A.yml --reference test_genomes.FMDV.A.fa
+    nextflow run main.nf --config templates/template.FMDV.A.yml --reference test_data/test_genomes.FMDV.A.fa
 
 We can examine a set of 441 foot-and-mouth virus (FMDV) serotype O genomes:
 
-    nextflow run main.nf --config template.FMDV.O.yml --reference test_genomes.FMDV.O.fa
+    nextflow run main.nf --config templates/template.FMDV.O.yml --reference test_data/test_genomes.FMDV.O.fa
 
 We can examine a set of 18 foot-and-mouth virus (FMDV) serotype C genomes:
 
-    nextflow run main.nf --config template.FMDV.C.yml --reference  test_genomes.FMDV.C.fa
+    nextflow run main.nf --config templates/template.FMDV.C.yml --reference test_data/test_genomes.FMDV.C.fa
 
 We can take 121 lumpy skin disease virus (LSDV) genomes:
 
-    nextflow run main.nf --config template.LSDV.yml --reference test_genomes.LSDV.fa
+    nextflow run main.nf --config templates/template.LSDV.yml --reference test_data/test_genomes.LSDV.fa
 
 We can take 31 sheeppoxvirus (SPPV) genomes:
 
-    nextflow run main.nf --config template.SPPV.yml --reference test_genomes.SPPV.fa  
+    nextflow run main.nf --config templates/template.SPPV.yml --reference test_data/test_genomes.SPPV.fa  
 
 We can take 132 lumpy skin disease virus (LSDV) genomes but just 7.5 Kb spanning 2.5-10 Kb of their aligned genomes:
 
-    nextflow run main.nf --config template.LSDV.10kb.yml --reference test_genomes.LSDV.10kb.fa
+    nextflow run main.nf --config templates/template.LSDV.10kb.yml --reference test_data/test_genomes.LSDV.10kb.fa
 
 We can take 132 lumpy skin disease virus (LSDV) genomes but just 5 Kb spanning 135-140 Kb of their aligned genomes:
 
-    nextflow run main.nf --config template.LSDV.135kb.yml --reference test_genomes.LSDV.135kb.fa
+    nextflow run main.nf --config templates/template.LSDV.135kb.yml --reference test_data/test_genomes.LSDV.135kb.fa
 
 We can run on a large DNA test dataset - 13 GTPV genomes (at the time of writing) to be downloaded based on the text in the template file:
 
-    nextflow run main.nf --config template.GTPV.all.yml 
+    nextflow run main.nf --config templates/template.GTPV.all.yml 
 
 We can run on a ssRNA test dataset - 15 porcine respiratory coronavirus genomes to be downloaded:
 
-    nextflow run main.nf --config template.PRCV.all.yml
+    nextflow run main.nf --config templates/template.PRCV.all.yml
 
 We can investigate 2,358 mpox genomes:
 
-    nextflow run main.nf --config template.MPOX.yml --reference test_genomes.mpox.fa
+    nextflow run main.nf --config templates/template.MPOX.yml --reference test_data/test_genomes.mpox.fa
 
 We can investigate 414 Rift Valley fever virus (RVFV) S segment sequences:
 
-    nextflow run main.nf --config template.RVFV.S.yml --reference test_genomes.S.fa
+    nextflow run main.nf --config templates/template.RVFV.S.yml --reference test_data/test_genomes.S.fa
 
 We can investigate 302 Rift Valley fever virus (RVFV) M segment sequences:
 
-    nextflow run main.nf --config template.RVFV.M.yml --reference test_genomes.M.fa 
+    nextflow run main.nf --config templates/template.RVFV.M.yml --reference test_data/test_genomes.M.fa 
 
 We can investigate 306 Rift Valley fever virus (RVFV) L segment sequences:
 
-    nextflow run main.nf --config template.RVFV.L.yml  --reference test_genomes.L.fa
+    nextflow run main.nf --config templates/template.RVFV.L.yml  --reference test_data/test_genomes.L.fa
 
 
 ## Module selection
