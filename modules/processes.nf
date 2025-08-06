@@ -634,6 +634,7 @@ process BUSCO {
     path (refFasta)
 
     output:
+    path "BUSCO/*BUSCO*"
     publishDir "results/busco", mode: "copy"
 
     script:
