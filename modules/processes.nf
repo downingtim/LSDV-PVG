@@ -566,9 +566,6 @@ process COMMUNITIES {
     bgzip -@ 4 \${REFERENCE}
     samtools faidx \${REFERENCE}.gz # index
 
-    bgzip -@ 4 ${communities_genome}
-    samtools faidx ${communities_genome}.gz # index
-
     # Community detection based on p/w alignments based on 90% ID at mash level with 6
     # mappings per segment, using k-mer of 19 and window of 67
     if [ -s trim.bed ]; 
@@ -586,7 +583,7 @@ process COMMUNITIES {
     net2communities.py -e genomes.mapping.paf.edges.list.txt -w genomes.mapping.paf.edges.weights.txt -n genomes.mapping.paf.vertices.id2name.txt --plot
 
     # mash-based partitioning
-    mash dist ${communities_genome}.gz ${communities_genome}.gz -s 10000 -i > genomes.distances.tsv
+    mash dist \${REFERENCE}.gz \${REFERENCE}.gz -s 10000 -i > genomes.distances.tsv
 
     # get distances
     mash2net.py -m genomes.distances.tsv
