@@ -6,7 +6,7 @@ VIRUS:
   name : sheeppoxvirus, sppv
   filter : sheeppoxvirus, sppv
   busco_clade : "poxviridae_odb10" #If this is present BUSCO analysis will be done
-  haplotypes : 31
+  haplotypes : 29
   genome_length : 149000   # minimum expected genome size
 MODULES:   # Setting the module value to 0 will switch off the module in the pipeline
   download : 1

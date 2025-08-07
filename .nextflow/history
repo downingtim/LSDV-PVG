@@ -1,0 +1,5 @@
+2025-08-07 12:54:30	23m 37s	suspicious_shaw	OK	51d5eb9c3a532277034b66703bc8ba33	b2fe37f8-c18e-4459-9b54-04a21002f28b	nextflow run main.nf --config templates/template.GTPV.all.yml
+2025-08-07 13:22:20	5m 54s	tiny_jepsen	ERR	51d5eb9c3a532277034b66703bc8ba33	38405c1f-d2de-4e96-a6cf-63a2b9b34fa7	nextflow run main.nf --config templates/template.GTPV.all.yml
+2025-08-07 13:28:18	27s	loving_galileo	ERR	51d5eb9c3a532277034b66703bc8ba33	b5a8a6f6-5734-45dc-a3b8-beb1b222aea0	nextflow run main.nf --config templates/template.SPPV.s.yml --reference SPPV.fa
+2025-08-07 13:34:59	26.8s	fabulous_mestorf	ERR	51d5eb9c3a532277034b66703bc8ba33	353bc853-4ff3-47cc-868a-47225d91992e	nextflow run main.nf --config templates/template.SPPV.s.yml --reference /mnt/lustre/RDS-live/downing/LSDV/results_SPPV/SPPV.30.fa
+2025-08-07 13:36:07	6m 32s	prickly_allen	ERR	51d5eb9c3a532277034b66703bc8ba33	3817399d-b593-4d0a-95e5-f9797d2187c8	nextflow run main.nf --config templates/template.SPPV.s.yml --reference /mnt/lustre/RDS-live/downing/LSDV/results_SPPV/SPPV.30.fa
